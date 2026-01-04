@@ -5,7 +5,7 @@ and objectives. This ensures comprehensive coverage for certification study.
 
 ## Input
 
-Provide the following before the book content:
+Provide the following before the source content:
 
 ```
 Certification: {cert_name} ({cert_code})
@@ -14,7 +14,21 @@ Domains:
 - Domain {id}: {name} ({weight}%)
   - {objective_id}: {objective_text}
   ...
+
+Sources:
+- books/{book-slug}/source.md
+- books/{another-book}/source.md
 ```
+
+## Multi-source synthesis
+
+When multiple sources are provided, synthesize content across all sources:
+
+- Combine unique concepts from all sources into unified bullet points
+- When sources provide different explanations, keep both with attribution
+- Prefer more detailed or exam-focused explanations
+- Merge scenario tables, deduplicating identical rows
+- Combine gotchas from all sources
 
 ## Extraction goals
 
@@ -96,10 +110,10 @@ Status values:
 ## Instructions for use
 
 1. Read the certification objectives carefully
-2. Read the full book source
-3. Extract content for each objective in domain-weight order
-4. Be explicit: if the book doesn't cover an objective, say so
-5. Target 4000-6000 words total
+2. Read all source files provided
+3. Extract and synthesize content for each objective in domain-weight order
+4. Be explicit: if no source covers an objective, say so
+5. Target 4000-6000 words total (scale up for multiple sources)
 6. Complete the coverage matrix last
 
 ## Quality check

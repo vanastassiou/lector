@@ -44,6 +44,27 @@ fi
 
 echo "Found ${#BOOKS[@]} mapped books"
 
+# Check for unified summary first (new workflow)
+UNIFIED_SUMMARY="$CERT_DIR/summary.md"
+if [[ -f "$UNIFIED_SUMMARY" ]]; then
+    echo "Using unified summary: $UNIFIED_SUMMARY"
+    cp "$UNIFIED_SUMMARY" "$OUTPUT_FILE"
+
+    # Report
+    echo ""
+    echo "Created: $OUTPUT_FILE"
+    WORDS=$(word_count "$OUTPUT_FILE")
+    echo "Size: ~$WORDS words (~$(estimate_tokens "$OUTPUT_FILE") tokens)"
+    check_context_size "$OUTPUT_FILE"
+    echo ""
+    echo "To use:"
+    echo "  Claude.ai: Create a Project, upload $OUTPUT_FILE"
+    echo "  Claude Code: Add to CLAUDE.md: @${OUTPUT_FILE#$PROJECT_ROOT/}"
+    exit 0
+fi
+
+echo "No unified summary found, assembling from per-objective extracts..."
+
 # Build study guide
 cat > "$OUTPUT_FILE" << EOF
 # $CERT_NAME Study Guide
