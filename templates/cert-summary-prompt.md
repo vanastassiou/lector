@@ -25,10 +25,28 @@ Sources:
 When multiple sources are provided, synthesize content across all sources:
 
 - Combine unique concepts from all sources into unified bullet points
-- When sources provide different explanations, keep both with attribution
-- Prefer more detailed or exam-focused explanations
 - Merge scenario tables, deduplicating identical rows
 - Combine gotchas from all sources
+- Prefer more detailed or exam-focused explanations
+
+When sources provide significantly different perspectives on the same topic, group
+them under a single subsection header with source-specific subheaders:
+
+```markdown
+#### Key concepts
+
+##### {Source 1 title}
+
+- Concept from source 1
+
+##### {Source 2 title}
+
+- Different perspective from source 2
+```
+
+Do NOT create duplicate subsection headers like "Key concepts" and
+"Key concepts (Source 2)". Keep one `####` header per subsection type, with
+`#####` subheaders for source attribution when needed.
 
 ## Extraction goals
 
@@ -38,6 +56,15 @@ When multiple sources are provided, synthesize content across all sources:
 - Flag objectives with weak or missing coverage
 
 ## Output structure
+
+### Header hierarchy
+
+Use this exact header structure:
+
+- `##` for domain headers with weight: `## Domain 1: Governance (26%)`
+- `###` for objective headers: `### 1.1: Collect and review...`
+- `####` for subsections: `#### Key concepts`, `#### Common scenarios`, `#### Gotchas`
+- `#####` for source-specific content when sources differ significantly
 
 ### Formatting conventions
 
@@ -65,19 +92,19 @@ Repeat for each domain, ordered by weight (highest first):
 
 ### {objective_id}: {objective_text}
 
-**Key concepts**
+#### Key concepts
 
 - **Term**: Definition
   - Supporting detail
   - Related concept
 
-**Exam scenarios**
+#### Exam scenarios
 
 | When | Do | Because |
 | ---- | -- | ------- |
 | [situation] | [action] | [reasoning] |
 
-**Gotchas**
+#### Gotchas
 
 - **Common trap**: Correct understanding
 ```

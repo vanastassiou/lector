@@ -9,630 +9,857 @@ extracted from 2 source books.
 
 <!-- toc -->
 
-- [Domain 1: Governance](#domain-1-governance)
+- [Domain 1: Governance (26%)](#domain-1-governance-26%25)
   * [1.1: Collect and review information about business and IT environments](#11-collect-and-review-information-about-business-and-it-environments)
-- [Key concepts](#key-concepts)
-- [Common scenarios](#common-scenarios)
-- [Gotchas](#gotchas)
-- [Limits and defaults](#limits-and-defaults)
-- [Related topics](#related-topics)
-- [Key concepts (Doshi)](#key-concepts-doshi)
-- [Common scenarios (Doshi)](#common-scenarios-doshi)
-- [Gotchas (Doshi)](#gotchas-doshi)
-- [Limits and defaults (Doshi)](#limits-and-defaults-doshi)
-- [Related topics (Doshi)](#related-topics-doshi)
+    + [Key concepts](#key-concepts)
+    + [Key activities](#key-activities)
+    + [Common scenarios](#common-scenarios)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide)
+    + [Gotchas](#gotchas)
+    + [Limits and defaults](#limits-and-defaults)
+    + [Related topics](#related-topics)
   * [1.2: Identify potential or realized impacts of IT risk on business objectives](#12-identify-potential-or-realized-impacts-of-it-risk-on-business-objectives)
-- [Key concepts](#key-concepts-1)
-- [Common scenarios](#common-scenarios-1)
-- [Gotchas](#gotchas-1)
-- [Limits and defaults](#limits-and-defaults-1)
-- [Related topics](#related-topics-1)
-- [Key concepts (Doshi)](#key-concepts-doshi-1)
-- [Impact categories](#impact-categories)
-- [Quantifying impact](#quantifying-impact)
-- [Common scenarios (Doshi)](#common-scenarios-doshi-1)
-- [Gotchas (Doshi)](#gotchas-doshi-1)
-- [Risk register contents](#risk-register-contents)
-- [Related topics (Doshi)](#related-topics-doshi-1)
+    + [Key concepts](#key-concepts-1)
+    + [Common scenarios](#common-scenarios-1)
+    + [Gotchas](#gotchas-1)
+    + [Limits and defaults](#limits-and-defaults-1)
+    + [Related topics](#related-topics-1)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-1)
+    + [Impact categories](#impact-categories)
+    + [Quantifying impact](#quantifying-impact)
+    + [Risk register contents](#risk-register-contents)
   * [1.3: Identify threats and vulnerabilities to people, processes, and technology](#13-identify-threats-and-vulnerabilities-to-people-processes-and-technology)
-- [Key concepts](#key-concepts-2)
-- [Threats by asset category](#threats-by-asset-category)
+    + [Key concepts](#key-concepts-2)
+    + [Threats by asset category](#threats-by-asset-category)
   * [People](#people)
   * [Processes](#processes)
   * [Technology](#technology)
-- [Common scenarios](#common-scenarios-2)
-- [Gotchas](#gotchas-2)
-- [Vulnerability sources](#vulnerability-sources)
-- [Threat modeling methods](#threat-modeling-methods)
-- [Related topics](#related-topics-2)
-- [Key concepts (Doshi)](#key-concepts-doshi-2)
-- [Common scenarios (Doshi)](#common-scenarios-doshi-2)
-- [Gotchas (Doshi)](#gotchas-doshi-2)
-- [Threat and vulnerability assessment](#threat-and-vulnerability-assessment)
-- [Threat modelling](#threat-modelling)
-- [Misuse case modelling](#misuse-case-modelling)
-- [Vulnerability assessment](#vulnerability-assessment)
-- [People-related threats and vulnerabilities](#people-related-threats-and-vulnerabilities)
-- [Process-related vulnerabilities](#process-related-vulnerabilities)
-- [Technology-related vulnerabilities](#technology-related-vulnerabilities)
-- [Related topics (Doshi)](#related-topics-doshi-2)
+    + [Common scenarios](#common-scenarios-2)
+      - [Doshi Review Manual](#doshi-review-manual)
+    + [Gotchas](#gotchas-2)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-2)
+      - [Doshi Review Manual](#doshi-review-manual-1)
+    + [Vulnerability sources](#vulnerability-sources)
+    + [Threat modeling methods](#threat-modeling-methods)
+    + [Related topics](#related-topics-2)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-3)
+      - [Doshi Review Manual](#doshi-review-manual-2)
+    + [Key concepts (Doshi)](#key-concepts-doshi)
+    + [Threat and vulnerability assessment](#threat-and-vulnerability-assessment)
+    + [Threat modelling](#threat-modelling)
+    + [Misuse case modelling](#misuse-case-modelling)
+    + [Vulnerability assessment](#vulnerability-assessment)
+    + [People-related threats and vulnerabilities](#people-related-threats-and-vulnerabilities)
+    + [Process-related vulnerabilities](#process-related-vulnerabilities)
+    + [Technology-related vulnerabilities](#technology-related-vulnerabilities)
   * [1.4: Evaluate threats, vulnerabilities, and risk to identify IT risk scenarios](#14-evaluate-threats-vulnerabilities-and-risk-to-identify-it-risk-scenarios)
-- [Key concepts](#key-concepts-3)
-- [Threat modeling methods](#threat-modeling-methods-1)
+    + [Key concepts](#key-concepts-3)
+    + [Threat modeling methods](#threat-modeling-methods-1)
   * [STRIDE security mapping](#stride-security-mapping)
-- [Common scenarios](#common-scenarios-3)
-- [Gotchas](#gotchas-3)
-- [Vulnerability identification sources](#vulnerability-identification-sources)
-- [Risk assessment approaches](#risk-assessment-approaches)
-- [Related topics](#related-topics-3)
-- [Key concepts (Doshi)](#key-concepts-doshi-3)
-- [Common scenarios (Doshi)](#common-scenarios-doshi-3)
-- [Gotchas (Doshi)](#gotchas-doshi-3)
-- [Risk scenario development](#risk-scenario-development)
+    + [Common scenarios](#common-scenarios-3)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-4)
+      - [Doshi Review Manual](#doshi-review-manual-3)
+    + [Gotchas](#gotchas-3)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-5)
+      - [Doshi Review Manual](#doshi-review-manual-4)
+    + [Vulnerability identification sources](#vulnerability-identification-sources)
+    + [Risk assessment approaches](#risk-assessment-approaches)
+    + [Related topics](#related-topics-3)
+    + [Key concepts (Doshi)](#key-concepts-doshi-1)
+    + [Risk scenario development](#risk-scenario-development)
   * [Risk scenario components](#risk-scenario-components)
-- [Limits and defaults](#limits-and-defaults-2)
-- [Related topics (Doshi)](#related-topics-doshi-3)
+    + [Limits and defaults](#limits-and-defaults-2)
+    + [Related topics (Doshi)](#related-topics-doshi)
   * [1.5: Establish and maintain IT risk register integrated with enterprise risk profile](#15-establish-and-maintain-it-risk-register-integrated-with-enterprise-risk-profile)
-- [Key concepts](#key-concepts-4)
-- [Common scenarios](#common-scenarios-4)
-- [Gotchas](#gotchas-4)
-- [Limits and defaults](#limits-and-defaults-3)
-- [Related topics](#related-topics-4)
-- [Key concepts (Doshi)](#key-concepts-doshi-4)
-- [Common scenarios (Doshi)](#common-scenarios-doshi-4)
-- [Gotchas (Doshi)](#gotchas-doshi-4)
-- [Risk register contents](#risk-register-contents-1)
-- [Risk profile change triggers](#risk-profile-change-triggers)
-- [Related topics (Doshi)](#related-topics-doshi-4)
+    + [Key concepts](#key-concepts-4)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-6)
+      - [Doshi Review Manual](#doshi-review-manual-5)
+    + [Common scenarios](#common-scenarios-4)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-7)
+      - [Doshi Review Manual](#doshi-review-manual-6)
+    + [Gotchas](#gotchas-4)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-8)
+      - [Doshi Review Manual](#doshi-review-manual-7)
+    + [Limits and defaults](#limits-and-defaults-3)
+    + [Related topics](#related-topics-4)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-9)
+      - [Doshi Review Manual](#doshi-review-manual-8)
+    + [Risk register contents](#risk-register-contents-1)
+    + [Risk profile change triggers](#risk-profile-change-triggers)
   * [1.6: Facilitate identification of risk appetite and tolerance by key stakeholders](#16-facilitate-identification-of-risk-appetite-and-tolerance-by-key-stakeholders)
-- [Key concepts](#key-concepts-5)
-- [Key stakeholder roles](#key-stakeholder-roles)
-- [Common scenarios](#common-scenarios-5)
-- [Gotchas](#gotchas-5)
-- [Facilitation process](#facilitation-process)
-- [Documentation requirements](#documentation-requirements)
-- [Related topics](#related-topics-5)
-- [Key concepts (Doshi)](#key-concepts-doshi-5)
-- [Stakeholder responsibilities](#stakeholder-responsibilities)
-- [Common scenarios (Doshi)](#common-scenarios-doshi-5)
-- [Gotchas (Doshi)](#gotchas-doshi-5)
-- [Benefits of defining capacity, appetite, and tolerance](#benefits-of-defining-capacity-appetite-and-tolerance)
-- [Limits and defaults](#limits-and-defaults-4)
-- [Related topics (Doshi)](#related-topics-doshi-5)
+    + [Key concepts](#key-concepts-5)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-10)
+      - [Doshi Review Manual](#doshi-review-manual-9)
+    + [Key stakeholder roles](#key-stakeholder-roles)
+    + [Common scenarios](#common-scenarios-5)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-11)
+      - [Doshi Review Manual](#doshi-review-manual-10)
+    + [Gotchas](#gotchas-5)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-12)
+      - [Doshi Review Manual](#doshi-review-manual-11)
+    + [Facilitation process](#facilitation-process)
+    + [Documentation requirements](#documentation-requirements)
+    + [Related topics](#related-topics-5)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-13)
+      - [Doshi Review Manual](#doshi-review-manual-12)
+    + [Stakeholder responsibilities](#stakeholder-responsibilities)
+    + [Benefits of defining capacity, appetite, and tolerance](#benefits-of-defining-capacity-appetite-and-tolerance)
+    + [Limits and defaults](#limits-and-defaults-4)
   * [1.7: Promote a risk-aware culture aligned with enterprise risk management](#17-promote-a-risk-aware-culture-aligned-with-enterprise-risk-management)
-- [Key concepts](#key-concepts-6)
-- [Common scenarios](#common-scenarios-6)
-- [Gotchas](#gotchas-6)
-- [Limits and defaults](#limits-and-defaults-5)
-- [Related topics](#related-topics-6)
-- [Key concepts (Doshi)](#key-concepts-doshi-6)
-- [Common scenarios (Doshi)](#common-scenarios-doshi-6)
-- [Gotchas (Doshi)](#gotchas-doshi-6)
-- [Limits and defaults (Doshi)](#limits-and-defaults-doshi-1)
-- [Related topics (Doshi)](#related-topics-doshi-6)
+    + [Key concepts](#key-concepts-6)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-14)
+      - [Doshi Review Manual](#doshi-review-manual-13)
+    + [Common scenarios](#common-scenarios-6)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-15)
+      - [Doshi Review Manual](#doshi-review-manual-14)
+    + [Gotchas](#gotchas-6)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-16)
+      - [Doshi Review Manual](#doshi-review-manual-15)
+    + [Limits and defaults](#limits-and-defaults-5)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-17)
+      - [Doshi Review Manual](#doshi-review-manual-16)
+    + [Related topics](#related-topics-6)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-18)
+      - [Doshi Review Manual](#doshi-review-manual-17)
 - [Domain 2: Risk Assessment](#domain-2-risk-assessment)
   * [2.1: Collect and analyze documentation about internal and external environments](#21-collect-and-analyze-documentation-about-internal-and-external-environments)
-- [Key concepts](#key-concepts-7)
-- [Common scenarios](#common-scenarios-7)
-- [Gotchas](#gotchas-7)
-- [Limits and defaults](#limits-and-defaults-6)
-- [Related topics](#related-topics-7)
-- [Key concepts (Doshi)](#key-concepts-doshi-7)
-- [Common scenarios (Doshi)](#common-scenarios-doshi-7)
-- [Gotchas (Doshi)](#gotchas-doshi-7)
-- [Internal environment documentation](#internal-environment-documentation)
-- [External environment considerations](#external-environment-considerations)
-- [Information gathering methods](#information-gathering-methods)
-- [Related topics (Doshi)](#related-topics-doshi-7)
+    + [Key concepts](#key-concepts-7)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-19)
+      - [Doshi Review Manual](#doshi-review-manual-18)
+    + [Common scenarios](#common-scenarios-7)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-20)
+      - [Doshi Review Manual](#doshi-review-manual-19)
+    + [Gotchas](#gotchas-7)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-21)
+      - [Doshi Review Manual](#doshi-review-manual-20)
+    + [Limits and defaults](#limits-and-defaults-6)
+    + [Related topics](#related-topics-7)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-22)
+      - [Doshi Review Manual](#doshi-review-manual-21)
+    + [Internal environment documentation](#internal-environment-documentation)
+    + [External environment considerations](#external-environment-considerations)
+    + [Information gathering methods](#information-gathering-methods)
   * [2.2: Identify potential risks and vulnerabilities affecting organization](#22-identify-potential-risks-and-vulnerabilities-affecting-organization)
-- [Key concepts](#key-concepts-8)
-- [Common scenarios](#common-scenarios-8)
-- [Gotchas](#gotchas-8)
-- [Tools for identifying vulnerabilities](#tools-for-identifying-vulnerabilities)
-- [Risk assessment techniques](#risk-assessment-techniques)
-- [Threat modeling methods](#threat-modeling-methods-2)
-- [Related topics](#related-topics-8)
-- [Key concepts (Doshi)](#key-concepts-doshi-8)
-- [Risk identification methods](#risk-identification-methods)
-- [Common scenarios (Doshi)](#common-scenarios-doshi-8)
-- [Gotchas (Doshi)](#gotchas-doshi-8)
-- [Limits and defaults](#limits-and-defaults-7)
-- [Related topics (Doshi)](#related-topics-doshi-8)
+    + [Key concepts](#key-concepts-8)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-23)
+      - [Doshi Review Manual](#doshi-review-manual-22)
+    + [Common scenarios](#common-scenarios-8)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-24)
+      - [Doshi Review Manual](#doshi-review-manual-23)
+    + [Gotchas](#gotchas-8)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-25)
+      - [Doshi Review Manual](#doshi-review-manual-24)
+    + [Tools for identifying vulnerabilities](#tools-for-identifying-vulnerabilities)
+    + [Risk assessment techniques](#risk-assessment-techniques)
+    + [Threat modeling methods](#threat-modeling-methods-2)
+    + [Related topics](#related-topics-8)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-26)
+      - [Doshi Review Manual](#doshi-review-manual-25)
+    + [Risk identification methods](#risk-identification-methods)
+    + [Limits and defaults](#limits-and-defaults-7)
   * [2.3: Develop IT risk scenarios based on available data](#23-develop-it-risk-scenarios-based-on-available-data)
-- [Key concepts](#key-concepts-9)
-- [Common scenarios](#common-scenarios-9)
-- [Data sources for scenario development](#data-sources-for-scenario-development)
-- [Gotchas](#gotchas-9)
-- [Risk analysis methodologies for scenarios](#risk-analysis-methodologies-for-scenarios)
-- [Risk assessment techniques supporting scenarios](#risk-assessment-techniques-supporting-scenarios)
-- [Related topics](#related-topics-9)
-- [Key concepts (Doshi)](#key-concepts-doshi-9)
-- [Data sources for scenario development (Doshi)](#data-sources-for-scenario-development-doshi)
-- [Common scenarios (Doshi)](#common-scenarios-doshi-9)
-- [Gotchas (Doshi)](#gotchas-doshi-9)
-- [Limits and defaults](#limits-and-defaults-8)
-- [Benefits of risk scenarios](#benefits-of-risk-scenarios)
-- [Related topics (Doshi)](#related-topics-doshi-9)
+    + [Key concepts](#key-concepts-9)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-27)
+      - [Doshi Review Manual](#doshi-review-manual-26)
+    + [Common scenarios](#common-scenarios-9)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-28)
+      - [Doshi Review Manual](#doshi-review-manual-27)
+    + [Data sources for scenario development](#data-sources-for-scenario-development)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-29)
+      - [Doshi Review Manual](#doshi-review-manual-28)
+    + [Gotchas](#gotchas-9)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-30)
+      - [Doshi Review Manual](#doshi-review-manual-29)
+    + [Risk analysis methodologies for scenarios](#risk-analysis-methodologies-for-scenarios)
+    + [Risk assessment techniques supporting scenarios](#risk-assessment-techniques-supporting-scenarios)
+    + [Related topics](#related-topics-9)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-31)
+      - [Doshi Review Manual](#doshi-review-manual-30)
+    + [Limits and defaults](#limits-and-defaults-8)
+    + [Benefits of risk scenarios](#benefits-of-risk-scenarios)
   * [2.4: Identify key stakeholders for IT risk scenarios to establish accountability](#24-identify-key-stakeholders-for-it-risk-scenarios-to-establish-accountability)
-- [Key concepts](#key-concepts-10)
-- [Common scenarios](#common-scenarios-10)
-- [Gotchas](#gotchas-10)
-- [Limits and defaults](#limits-and-defaults-9)
-- [Related topics](#related-topics-10)
-- [Key concepts (Doshi)](#key-concepts-doshi-10)
-- [Common scenarios (Doshi)](#common-scenarios-doshi-10)
-- [Gotchas (Doshi)](#gotchas-doshi-10)
-- [Limits and defaults (Doshi)](#limits-and-defaults-doshi-2)
-- [Related topics (Doshi)](#related-topics-doshi-10)
+    + [Key concepts](#key-concepts-10)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-32)
+      - [Doshi Review Manual](#doshi-review-manual-31)
+    + [Common scenarios](#common-scenarios-10)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-33)
+      - [Doshi Review Manual](#doshi-review-manual-32)
+    + [Gotchas](#gotchas-10)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-34)
+      - [Doshi Review Manual](#doshi-review-manual-33)
+    + [Limits and defaults](#limits-and-defaults-9)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-35)
+      - [Doshi Review Manual](#doshi-review-manual-34)
+    + [Related topics](#related-topics-10)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-36)
+      - [Doshi Review Manual](#doshi-review-manual-35)
   * [2.5: Create and maintain IT risk register with recognized risk scenarios](#25-create-and-maintain-it-risk-register-with-recognized-risk-scenarios)
-- [Key concepts](#key-concepts-11)
-- [Common scenarios](#common-scenarios-11)
-- [Gotchas](#gotchas-11)
-- [Limits and defaults](#limits-and-defaults-10)
-- [Types of risk in register](#types-of-risk-in-register)
-- [Related topics](#related-topics-11)
-- [Key concepts (Doshi)](#key-concepts-doshi-11)
-- [Common scenarios (Doshi)](#common-scenarios-doshi-11)
-- [Gotchas (Doshi)](#gotchas-doshi-11)
-- [Limits and defaults (Doshi)](#limits-and-defaults-doshi-3)
-- [Related topics (Doshi)](#related-topics-doshi-11)
+    + [Key concepts](#key-concepts-11)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-37)
+      - [Doshi Review Manual](#doshi-review-manual-36)
+    + [Common scenarios](#common-scenarios-11)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-38)
+      - [Doshi Review Manual](#doshi-review-manual-37)
+    + [Gotchas](#gotchas-11)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-39)
+      - [Doshi Review Manual](#doshi-review-manual-38)
+    + [Limits and defaults](#limits-and-defaults-10)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-40)
+      - [Doshi Review Manual](#doshi-review-manual-39)
+    + [Types of risk in register](#types-of-risk-in-register)
+    + [Related topics](#related-topics-11)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-41)
+      - [Doshi Review Manual](#doshi-review-manual-40)
   * [2.6: Determine risk appetite and tolerance aligned with business objectives](#26-determine-risk-appetite-and-tolerance-aligned-with-business-objectives)
-- [Key concepts](#key-concepts-12)
-- [Common scenarios](#common-scenarios-12)
-- [Gotchas](#gotchas-12)
-- [Limits and defaults](#limits-and-defaults-11)
-- [Related topics](#related-topics-12)
-- [Key concepts (Doshi)](#key-concepts-doshi-12)
-- [Relationship hierarchy](#relationship-hierarchy)
-- [Alignment with business objectives](#alignment-with-business-objectives)
-- [Determining compliance with risk appetite](#determining-compliance-with-risk-appetite)
-- [Common scenarios (Doshi)](#common-scenarios-doshi-12)
-- [Factors affecting risk appetite](#factors-affecting-risk-appetite)
-- [Risk culture relationship](#risk-culture-relationship)
-- [Periodic review requirements](#periodic-review-requirements)
-- [Benefits of defining appetite and tolerance](#benefits-of-defining-appetite-and-tolerance)
-- [Gotchas (Doshi)](#gotchas-doshi-12)
-- [Limits and defaults (Doshi)](#limits-and-defaults-doshi-4)
-- [Related topics (Doshi)](#related-topics-doshi-12)
+    + [Key concepts](#key-concepts-12)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-42)
+      - [Doshi Review Manual](#doshi-review-manual-41)
+    + [Common scenarios](#common-scenarios-12)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-43)
+      - [Doshi Review Manual](#doshi-review-manual-42)
+    + [Gotchas](#gotchas-12)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-44)
+      - [Doshi Review Manual](#doshi-review-manual-43)
+    + [Limits and defaults](#limits-and-defaults-11)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-45)
+      - [Doshi Review Manual](#doshi-review-manual-44)
+    + [Related topics](#related-topics-12)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-46)
+      - [Doshi Review Manual](#doshi-review-manual-45)
+    + [Relationship hierarchy](#relationship-hierarchy)
+    + [Alignment with business objectives](#alignment-with-business-objectives)
+    + [Determining compliance with risk appetite](#determining-compliance-with-risk-appetite)
+    + [Factors affecting risk appetite](#factors-affecting-risk-appetite)
+    + [Risk culture relationship](#risk-culture-relationship)
+    + [Periodic review requirements](#periodic-review-requirements)
+    + [Benefits of defining appetite and tolerance](#benefits-of-defining-appetite-and-tolerance)
   * [2.7: Collaborate on risk awareness program and training for stakeholders](#27-collaborate-on-risk-awareness-program-and-training-for-stakeholders)
-- [Key concepts](#key-concepts-13)
-- [Common scenarios](#common-scenarios-13)
-- [Gotchas](#gotchas-13)
-- [Key indicators for awareness programs](#key-indicators-for-awareness-programs)
-- [Training program objectives](#training-program-objectives)
-- [Related topics](#related-topics-13)
-- [Key concepts (Doshi)](#key-concepts-doshi-13)
-- [Common scenarios (Doshi)](#common-scenarios-doshi-13)
-- [Gotchas (Doshi)](#gotchas-doshi-13)
-- [Limits and defaults](#limits-and-defaults-12)
-- [Related topics (Doshi)](#related-topics-doshi-13)
+    + [Key concepts](#key-concepts-13)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-47)
+      - [Doshi Review Manual](#doshi-review-manual-46)
+    + [Common scenarios](#common-scenarios-13)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-48)
+      - [Doshi Review Manual](#doshi-review-manual-47)
+    + [Gotchas](#gotchas-13)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-49)
+      - [Doshi Review Manual](#doshi-review-manual-48)
+    + [Key indicators for awareness programs](#key-indicators-for-awareness-programs)
+    + [Training program objectives](#training-program-objectives)
+    + [Related topics](#related-topics-13)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-50)
+      - [Doshi Review Manual](#doshi-review-manual-49)
 - [Domain 3: Risk Response and Reporting](#domain-3-risk-response-and-reporting)
+    + [Limits and defaults](#limits-and-defaults-12)
   * [3.1: Consult with risk owners to align risk responses with organizational objectives](#31-consult-with-risk-owners-to-align-risk-responses-with-organizational-objectives)
-- [Key concepts](#key-concepts-14)
-- [Common scenarios](#common-scenarios-14)
-- [Gotchas](#gotchas-14)
-- [Limits and defaults](#limits-and-defaults-13)
-- [Related topics](#related-topics-14)
-- [Key concepts (Doshi)](#key-concepts-doshi-14)
-- [Common scenarios (Doshi)](#common-scenarios-doshi-14)
-- [Gotchas (Doshi)](#gotchas-doshi-14)
-- [Limits and defaults (Doshi)](#limits-and-defaults-doshi-5)
-- [Related topics (Doshi)](#related-topics-doshi-14)
+    + [Key concepts](#key-concepts-14)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-51)
+      - [Doshi Review Manual](#doshi-review-manual-50)
+    + [Common scenarios](#common-scenarios-14)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-52)
+      - [Doshi Review Manual](#doshi-review-manual-51)
+    + [Gotchas](#gotchas-14)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-53)
+      - [Doshi Review Manual](#doshi-review-manual-52)
+    + [Limits and defaults](#limits-and-defaults-13)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-54)
+      - [Doshi Review Manual](#doshi-review-manual-53)
+    + [Related topics](#related-topics-14)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-55)
+      - [Doshi Review Manual](#doshi-review-manual-54)
   * [3.2: Assist risk owners in developing risk action plans](#32-assist-risk-owners-in-developing-risk-action-plans)
-- [Key concepts](#key-concepts-15)
-- [Common scenarios](#common-scenarios-15)
-- [Gotchas](#gotchas-15)
-- [Limits and defaults](#limits-and-defaults-14)
-- [Related topics](#related-topics-15)
-- [Key concepts (Doshi)](#key-concepts-doshi-15)
-- [Common scenarios (Doshi)](#common-scenarios-doshi-15)
-- [Gotchas (Doshi)](#gotchas-doshi-15)
-- [Limits and defaults (Doshi)](#limits-and-defaults-doshi-6)
-- [Related topics (Doshi)](#related-topics-doshi-15)
+    + [Key concepts](#key-concepts-15)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-56)
+      - [Doshi Review Manual](#doshi-review-manual-55)
+    + [Common scenarios](#common-scenarios-15)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-57)
+      - [Doshi Review Manual](#doshi-review-manual-56)
+    + [Gotchas](#gotchas-15)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-58)
+      - [Doshi Review Manual](#doshi-review-manual-57)
+    + [Limits and defaults](#limits-and-defaults-14)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-59)
+      - [Doshi Review Manual](#doshi-review-manual-58)
+    + [Related topics](#related-topics-15)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-60)
+      - [Doshi Review Manual](#doshi-review-manual-59)
   * [3.3: Advise on design and deployment of mitigating controls](#33-advise-on-design-and-deployment-of-mitigating-controls)
-- [Key concepts](#key-concepts-16)
-- [Control categories](#control-categories)
-- [Control implementation techniques](#control-implementation-techniques)
-- [Common scenarios](#common-scenarios-16)
-- [Post-implementation review](#post-implementation-review)
-- [Control testing best practices](#control-testing-best-practices)
-- [Gotchas](#gotchas-16)
-- [Related topics](#related-topics-16)
-- [Key concepts (Doshi)](#key-concepts-doshi-16)
-- [Control categories (Doshi)](#control-categories-doshi)
-- [Common scenarios (Doshi)](#common-scenarios-doshi-16)
-- [Control implementation methods](#control-implementation-methods)
-- [Failure modes](#failure-modes)
-- [Gotchas (Doshi)](#gotchas-doshi-16)
-- [Limits and defaults](#limits-and-defaults-15)
-- [Related topics (Doshi)](#related-topics-doshi-16)
+    + [Key concepts](#key-concepts-16)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-61)
+      - [Doshi Review Manual](#doshi-review-manual-60)
+    + [Control categories](#control-categories)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-62)
+      - [Doshi Review Manual](#doshi-review-manual-61)
+    + [Control implementation techniques](#control-implementation-techniques)
+    + [Common scenarios](#common-scenarios-16)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-63)
+      - [Doshi Review Manual](#doshi-review-manual-62)
+    + [Post-implementation review](#post-implementation-review)
+    + [Control testing best practices](#control-testing-best-practices)
+    + [Gotchas](#gotchas-16)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-64)
+      - [Doshi Review Manual](#doshi-review-manual-63)
+    + [Related topics](#related-topics-16)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-65)
+      - [Doshi Review Manual](#doshi-review-manual-64)
+    + [Control implementation methods](#control-implementation-methods)
+    + [Failure modes](#failure-modes)
+    + [Limits and defaults](#limits-and-defaults-15)
   * [3.4: Establish accountability by assigning control ownership](#34-establish-accountability-by-assigning-control-ownership)
-- [Key concepts](#key-concepts-17)
-- [Common scenarios](#common-scenarios-17)
-- [Gotchas](#gotchas-17)
-- [Limits and defaults](#limits-and-defaults-16)
-- [Related topics](#related-topics-17)
-- [Key concepts (Doshi)](#key-concepts-doshi-17)
-- [Common scenarios (Doshi)](#common-scenarios-doshi-17)
-- [Gotchas (Doshi)](#gotchas-doshi-17)
-- [Limits and defaults (Doshi)](#limits-and-defaults-doshi-7)
-- [Related topics (Doshi)](#related-topics-doshi-17)
+    + [Key concepts](#key-concepts-17)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-66)
+      - [Doshi Review Manual](#doshi-review-manual-65)
+    + [Common scenarios](#common-scenarios-17)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-67)
+      - [Doshi Review Manual](#doshi-review-manual-66)
+    + [Gotchas](#gotchas-17)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-68)
+      - [Doshi Review Manual](#doshi-review-manual-67)
+    + [Limits and defaults](#limits-and-defaults-16)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-69)
+      - [Doshi Review Manual](#doshi-review-manual-68)
+    + [Related topics](#related-topics-17)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-70)
+      - [Doshi Review Manual](#doshi-review-manual-69)
   * [3.5: Support control owners in establishing procedures and documentation](#35-support-control-owners-in-establishing-procedures-and-documentation)
-- [Key concepts](#key-concepts-18)
-- [Common scenarios](#common-scenarios-18)
-- [Gotchas](#gotchas-18)
-- [Limits and defaults](#limits-and-defaults-17)
-- [Related topics](#related-topics-18)
-- [Key concepts (Doshi)](#key-concepts-doshi-18)
-- [Common scenarios (Doshi)](#common-scenarios-doshi-18)
-- [Gotchas (Doshi)](#gotchas-doshi-18)
-- [Limits and defaults (Doshi)](#limits-and-defaults-doshi-8)
-- [Related topics (Doshi)](#related-topics-doshi-18)
-- [Exam focus](#exam-focus)
+    + [Key concepts](#key-concepts-18)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-71)
+      - [Doshi Review Manual](#doshi-review-manual-70)
+    + [Common scenarios](#common-scenarios-18)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-72)
+      - [Doshi Review Manual](#doshi-review-manual-71)
+    + [Gotchas](#gotchas-18)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-73)
+      - [Doshi Review Manual](#doshi-review-manual-72)
+    + [Limits and defaults](#limits-and-defaults-17)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-74)
+      - [Doshi Review Manual](#doshi-review-manual-73)
+    + [Related topics](#related-topics-18)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-75)
+      - [Doshi Review Manual](#doshi-review-manual-74)
+    + [Exam focus](#exam-focus)
   * [3.6: Update risk register to reflect changes in risk profile](#36-update-risk-register-to-reflect-changes-in-risk-profile)
-- [Key concepts](#key-concepts-19)
-- [Factors triggering risk profile changes](#factors-triggering-risk-profile-changes)
-- [Common scenarios](#common-scenarios-19)
-- [Gotchas](#gotchas-19)
-- [Minimum risk register fields](#minimum-risk-register-fields)
-- [Related topics](#related-topics-19)
-- [Key concepts (Doshi)](#key-concepts-doshi-19)
-- [Common scenarios (Doshi)](#common-scenarios-doshi-19)
-- [Gotchas (Doshi)](#gotchas-doshi-19)
-- [Limits and defaults](#limits-and-defaults-18)
-- [Related topics (Doshi)](#related-topics-doshi-19)
+    + [Key concepts](#key-concepts-19)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-76)
+      - [Doshi Review Manual](#doshi-review-manual-75)
+    + [Factors triggering risk profile changes](#factors-triggering-risk-profile-changes)
+    + [Common scenarios](#common-scenarios-19)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-77)
+      - [Doshi Review Manual](#doshi-review-manual-76)
+    + [Gotchas](#gotchas-19)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-78)
+      - [Doshi Review Manual](#doshi-review-manual-77)
+    + [Minimum risk register fields](#minimum-risk-register-fields)
+    + [Related topics](#related-topics-19)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-79)
+      - [Doshi Review Manual](#doshi-review-manual-78)
+    + [Limits and defaults](#limits-and-defaults-18)
   * [3.7: Verify risk responses executed per approved action plans](#37-verify-risk-responses-executed-per-approved-action-plans)
-- [Key concepts](#key-concepts-20)
-- [Common scenarios](#common-scenarios-20)
-- [Gotchas](#gotchas-20)
-- [Verification techniques](#verification-techniques)
-- [Key indicators for verification](#key-indicators-for-verification)
-- [Reporting verified responses](#reporting-verified-responses)
-- [Related topics](#related-topics-20)
-- [Key concepts (Doshi)](#key-concepts-doshi-20)
-- [Common scenarios (Doshi)](#common-scenarios-doshi-20)
-- [Gotchas (Doshi)](#gotchas-doshi-20)
-- [Limits and defaults](#limits-and-defaults-19)
-- [Related topics (Doshi)](#related-topics-doshi-20)
+    + [Key concepts](#key-concepts-20)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-80)
+      - [Doshi Review Manual](#doshi-review-manual-79)
+    + [Common scenarios](#common-scenarios-20)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-81)
+      - [Doshi Review Manual](#doshi-review-manual-80)
+    + [Gotchas](#gotchas-20)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-82)
+      - [Doshi Review Manual](#doshi-review-manual-81)
+    + [Verification techniques](#verification-techniques)
+    + [Key indicators for verification](#key-indicators-for-verification)
+    + [Reporting verified responses](#reporting-verified-responses)
+    + [Related topics](#related-topics-20)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-83)
+      - [Doshi Review Manual](#doshi-review-manual-82)
+    + [Limits and defaults](#limits-and-defaults-19)
   * [3.8: Establish Key Risk Indicators (KRIs) and thresholds for monitoring](#38-establish-key-risk-indicators-kris-and-thresholds-for-monitoring)
-- [Key concepts](#key-concepts-21)
-- [Common scenarios](#common-scenarios-21)
-- [Gotchas](#gotchas-21)
-- [Limits and defaults](#limits-and-defaults-20)
-- [Related topics](#related-topics-21)
-- [Key concepts (Doshi)](#key-concepts-doshi-21)
-- [SMART criteria for KRI selection](#smart-criteria-for-kri-selection)
-- [KRI design priorities](#kri-design-priorities)
-- [Common scenarios (Doshi)](#common-scenarios-doshi-21)
-- [KRI threshold example](#kri-threshold-example)
-- [Gotchas (Doshi)](#gotchas-doshi-21)
-- [Advantages of KRIs](#advantages-of-kris)
-- [Reporting and monitoring responsibilities](#reporting-and-monitoring-responsibilities)
-- [Related topics (Doshi)](#related-topics-doshi-21)
+    + [Key concepts](#key-concepts-21)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-84)
+      - [Doshi Review Manual](#doshi-review-manual-83)
+    + [Common scenarios](#common-scenarios-21)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-85)
+      - [Doshi Review Manual](#doshi-review-manual-84)
+    + [Gotchas](#gotchas-21)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-86)
+      - [Doshi Review Manual](#doshi-review-manual-85)
+    + [Limits and defaults](#limits-and-defaults-20)
+    + [Related topics](#related-topics-21)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-87)
+      - [Doshi Review Manual](#doshi-review-manual-86)
+    + [SMART criteria for KRI selection](#smart-criteria-for-kri-selection)
+    + [KRI design priorities](#kri-design-priorities)
+    + [KRI threshold example](#kri-threshold-example)
+    + [Advantages of KRIs](#advantages-of-kris)
+    + [Reporting and monitoring responsibilities](#reporting-and-monitoring-responsibilities)
   * [3.9: Monitor and assess KRIs to detect IT risk profile shifts](#39-monitor-and-assess-kris-to-detect-it-risk-profile-shifts)
-- [Key concepts](#key-concepts-22)
-- [Common scenarios](#common-scenarios-22)
-- [Gotchas](#gotchas-22)
-- [Reporting formats for KRI monitoring](#reporting-formats-for-kri-monitoring)
-- [Control assessment techniques](#control-assessment-techniques)
-- [Related topics](#related-topics-22)
-- [Key concepts (Doshi)](#key-concepts-doshi-22)
-- [Common scenarios (Doshi)](#common-scenarios-doshi-22)
-- [Gotchas (Doshi)](#gotchas-doshi-22)
-- [SMART criteria for KRI selection](#smart-criteria-for-kri-selection-1)
-- [KRI design priorities](#kri-design-priorities-1)
-- [Examples of KRIs](#examples-of-kris)
-- [KRI reporting](#kri-reporting)
-- [Advantages of KRIs](#advantages-of-kris-1)
-- [Related topics (Doshi)](#related-topics-doshi-22)
+    + [Key concepts](#key-concepts-22)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-88)
+      - [Doshi Review Manual](#doshi-review-manual-87)
+    + [Common scenarios](#common-scenarios-22)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-89)
+      - [Doshi Review Manual](#doshi-review-manual-88)
+    + [Gotchas](#gotchas-22)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-90)
+      - [Doshi Review Manual](#doshi-review-manual-89)
+    + [Reporting formats for KRI monitoring](#reporting-formats-for-kri-monitoring)
+    + [Control assessment techniques](#control-assessment-techniques)
+    + [Related topics](#related-topics-22)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-91)
+      - [Doshi Review Manual](#doshi-review-manual-90)
+    + [SMART criteria for KRI selection](#smart-criteria-for-kri-selection-1)
+    + [KRI design priorities](#kri-design-priorities-1)
+    + [Examples of KRIs](#examples-of-kris)
+    + [KRI reporting](#kri-reporting)
+    + [Advantages of KRIs](#advantages-of-kris-1)
   * [3.10: Report IT risk profile changes and trends to management](#310-report-it-risk-profile-changes-and-trends-to-management)
-- [Key concepts](#key-concepts-23)
-- [Reporting formats](#reporting-formats)
-- [Reporting considerations](#reporting-considerations)
-- [Common scenarios](#common-scenarios-23)
-- [Gotchas](#gotchas-23)
-- [Reporting cadence](#reporting-cadence)
-- [Related topics](#related-topics-23)
-- [Key concepts (Doshi)](#key-concepts-doshi-23)
-- [Common scenarios (Doshi)](#common-scenarios-doshi-23)
-- [Gotchas (Doshi)](#gotchas-doshi-23)
-- [Factors driving risk profile changes](#factors-driving-risk-profile-changes)
-- [Reporting formats (Doshi)](#reporting-formats-doshi)
-- [Related topics (Doshi)](#related-topics-doshi-23)
+    + [Key concepts](#key-concepts-23)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-92)
+      - [Doshi Review Manual](#doshi-review-manual-91)
+    + [Reporting formats](#reporting-formats)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-93)
+      - [Doshi Review Manual](#doshi-review-manual-92)
+    + [Reporting considerations](#reporting-considerations)
+    + [Common scenarios](#common-scenarios-23)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-94)
+      - [Doshi Review Manual](#doshi-review-manual-93)
+    + [Gotchas](#gotchas-23)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-95)
+      - [Doshi Review Manual](#doshi-review-manual-94)
+    + [Reporting cadence](#reporting-cadence)
+    + [Related topics](#related-topics-23)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-96)
+      - [Doshi Review Manual](#doshi-review-manual-95)
+    + [Factors driving risk profile changes](#factors-driving-risk-profile-changes)
   * [3.11: Facilitate identification of KPIs for control performance assessment](#311-facilitate-identification-of-kpis-for-control-performance-assessment)
-- [Key concepts](#key-concepts-24)
-- [Common scenarios](#common-scenarios-24)
-- [Gotchas](#gotchas-24)
-- [Control assessment techniques for KPI validation](#control-assessment-techniques-for-kpi-validation)
-- [Reporting formats for KPIs](#reporting-formats-for-kpis)
-- [Related topics](#related-topics-24)
-- [Key concepts (Doshi)](#key-concepts-doshi-24)
-- [Common scenarios (Doshi)](#common-scenarios-doshi-24)
-- [Gotchas (Doshi)](#gotchas-doshi-24)
-- [Limits and defaults](#limits-and-defaults-21)
-- [KPI examples by domain](#kpi-examples-by-domain)
-- [KCI examples](#kci-examples)
-- [Related topics (Doshi)](#related-topics-doshi-24)
+    + [Key concepts](#key-concepts-24)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-97)
+      - [Doshi Review Manual](#doshi-review-manual-96)
+    + [Common scenarios](#common-scenarios-24)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-98)
+      - [Doshi Review Manual](#doshi-review-manual-97)
+    + [Gotchas](#gotchas-24)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-99)
+      - [Doshi Review Manual](#doshi-review-manual-98)
+    + [Control assessment techniques for KPI validation](#control-assessment-techniques-for-kpi-validation)
+    + [Reporting formats for KPIs](#reporting-formats-for-kpis)
+    + [Related topics](#related-topics-24)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-100)
+      - [Doshi Review Manual](#doshi-review-manual-99)
+    + [Limits and defaults](#limits-and-defaults-21)
+    + [KPI examples by domain](#kpi-examples-by-domain)
+    + [KCI examples](#kci-examples)
   * [3.12: Monitor and evaluate KPIs to measure control efficiency](#312-monitor-and-evaluate-kpis-to-measure-control-efficiency)
-- [Key concepts](#key-concepts-25)
-- [Common scenarios](#common-scenarios-25)
-- [Gotchas](#gotchas-25)
-- [SMART metrics for selecting key indicators](#smart-metrics-for-selecting-key-indicators)
-- [Control assessment techniques](#control-assessment-techniques-1)
-- [Reporting formats](#reporting-formats-1)
-- [Related topics](#related-topics-25)
-- [Key concepts (Doshi)](#key-concepts-doshi-25)
-- [SMART characteristics of good KPIs](#smart-characteristics-of-good-kpis)
-- [Common scenarios (Doshi)](#common-scenarios-doshi-25)
-- [Control monitoring and reporting](#control-monitoring-and-reporting)
-- [Gotchas (Doshi)](#gotchas-doshi-25)
-- [Limits and defaults](#limits-and-defaults-22)
-- [Related topics (Doshi)](#related-topics-doshi-25)
+    + [Key concepts](#key-concepts-25)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-101)
+      - [Doshi Review Manual](#doshi-review-manual-100)
+    + [Common scenarios](#common-scenarios-25)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-102)
+      - [Doshi Review Manual](#doshi-review-manual-101)
+    + [Gotchas](#gotchas-25)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-103)
+      - [Doshi Review Manual](#doshi-review-manual-102)
+    + [SMART metrics for selecting key indicators](#smart-metrics-for-selecting-key-indicators)
+    + [Control assessment techniques](#control-assessment-techniques-1)
+    + [Reporting formats](#reporting-formats-1)
+    + [Related topics](#related-topics-25)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-104)
+      - [Doshi Review Manual](#doshi-review-manual-103)
+    + [SMART characteristics of good KPIs](#smart-characteristics-of-good-kpis)
+    + [Control monitoring and reporting](#control-monitoring-and-reporting)
+    + [Limits and defaults](#limits-and-defaults-22)
   * [3.13: Review control assessment findings for effectiveness](#313-review-control-assessment-findings-for-effectiveness)
-- [Key concepts](#key-concepts-26)
-- [Common scenarios](#common-scenarios-26)
-- [Control assessment techniques](#control-assessment-techniques-2)
-- [Gotchas](#gotchas-26)
-- [Managing assessment findings](#managing-assessment-findings)
-- [Reporting considerations](#reporting-considerations-1)
-- [Related topics](#related-topics-26)
-- [Key concepts (Doshi)](#key-concepts-doshi-26)
-- [Common scenarios (Doshi)](#common-scenarios-doshi-26)
-- [Gotchas (Doshi)](#gotchas-doshi-26)
-- [Limits and defaults](#limits-and-defaults-23)
-- [Related topics (Doshi)](#related-topics-doshi-26)
+    + [Key concepts](#key-concepts-26)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-105)
+      - [Doshi Review Manual](#doshi-review-manual-104)
+    + [Common scenarios](#common-scenarios-26)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-106)
+      - [Doshi Review Manual](#doshi-review-manual-105)
+    + [Control assessment techniques](#control-assessment-techniques-2)
+    + [Gotchas](#gotchas-26)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-107)
+      - [Doshi Review Manual](#doshi-review-manual-106)
+    + [Managing assessment findings](#managing-assessment-findings)
+    + [Reporting considerations](#reporting-considerations-1)
+    + [Related topics](#related-topics-26)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-108)
+      - [Doshi Review Manual](#doshi-review-manual-107)
+    + [Limits and defaults](#limits-and-defaults-23)
   * [3.14: Report on risk profile, control performance, and trends to stakeholders](#314-report-on-risk-profile-control-performance-and-trends-to-stakeholders)
-- [Key concepts](#key-concepts-27)
-- [Common scenarios](#common-scenarios-27)
-- [Gotchas](#gotchas-27)
-- [Reporting formats](#reporting-formats-2)
-- [Related topics](#related-topics-27)
-- [Key concepts (Doshi)](#key-concepts-doshi-27)
-- [Common scenarios (Doshi)](#common-scenarios-doshi-27)
-- [Gotchas (Doshi)](#gotchas-doshi-27)
-- [Limits and defaults](#limits-and-defaults-24)
-- [Related topics (Doshi)](#related-topics-doshi-27)
+    + [Key concepts](#key-concepts-27)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-109)
+      - [Doshi Review Manual](#doshi-review-manual-108)
+    + [Common scenarios](#common-scenarios-27)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-110)
+      - [Doshi Review Manual](#doshi-review-manual-109)
+    + [Gotchas](#gotchas-27)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-111)
+      - [Doshi Review Manual](#doshi-review-manual-110)
+    + [Reporting formats](#reporting-formats-2)
+    + [Related topics](#related-topics-27)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-112)
+      - [Doshi Review Manual](#doshi-review-manual-111)
 - [Domain 4: Information Technology and Security](#domain-4-information-technology-and-security)
+    + [Limits and defaults](#limits-and-defaults-24)
   * [4.1: Enterprise architecture and IT operations management](#41-enterprise-architecture-and-it-operations-management)
-- [Key concepts](#key-concepts-28)
-- [Common scenarios](#common-scenarios-28)
-- [Gotchas](#gotchas-28)
-- [Limits and defaults](#limits-and-defaults-25)
-- [Related topics](#related-topics-28)
-- [Key concepts (Doshi)](#key-concepts-doshi-28)
-- [Common scenarios (Doshi)](#common-scenarios-doshi-28)
-- [Gotchas (Doshi)](#gotchas-doshi-28)
-- [Limits and defaults (Doshi)](#limits-and-defaults-doshi-9)
-- [Related topics (Doshi)](#related-topics-doshi-28)
+    + [Key concepts](#key-concepts-28)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-113)
+      - [Doshi Review Manual](#doshi-review-manual-112)
+    + [Common scenarios](#common-scenarios-28)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-114)
+      - [Doshi Review Manual](#doshi-review-manual-113)
+    + [Gotchas](#gotchas-28)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-115)
+      - [Doshi Review Manual](#doshi-review-manual-114)
+    + [Limits and defaults](#limits-and-defaults-25)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-116)
+      - [Doshi Review Manual](#doshi-review-manual-115)
+    + [Related topics](#related-topics-28)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-117)
+      - [Doshi Review Manual](#doshi-review-manual-116)
   * [4.2: Project and program management principles](#42-project-and-program-management-principles)
-- [Key concepts](#key-concepts-29)
-- [Common scenarios](#common-scenarios-29)
-- [Gotchas](#gotchas-29)
-- [Limits and defaults](#limits-and-defaults-26)
-- [Related topics](#related-topics-29)
-- [Key concepts (Doshi)](#key-concepts-doshi-29)
-- [SDLC models](#sdlc-models)
-- [SDLC phases](#sdlc-phases)
-- [Success factors for effective project management](#success-factors-for-effective-project-management)
-- [Project risks](#project-risks)
-- [Risk assessment considerations](#risk-assessment-considerations)
-- [Project management tools](#project-management-tools)
-- [Project closeout](#project-closeout)
-- [Changeover techniques](#changeover-techniques)
-- [Common scenarios (Doshi)](#common-scenarios-doshi-29)
-- [Gotchas (Doshi)](#gotchas-doshi-29)
-- [Limits and defaults (Doshi)](#limits-and-defaults-doshi-10)
-- [Related topics (Doshi)](#related-topics-doshi-29)
+    + [Key concepts](#key-concepts-29)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-118)
+      - [Doshi Review Manual](#doshi-review-manual-117)
+    + [Common scenarios](#common-scenarios-29)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-119)
+      - [Doshi Review Manual](#doshi-review-manual-118)
+    + [Gotchas](#gotchas-29)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-120)
+      - [Doshi Review Manual](#doshi-review-manual-119)
+    + [Limits and defaults](#limits-and-defaults-26)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-121)
+      - [Doshi Review Manual](#doshi-review-manual-120)
+    + [Related topics](#related-topics-29)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-122)
+      - [Doshi Review Manual](#doshi-review-manual-121)
+    + [SDLC models](#sdlc-models)
+    + [SDLC phases](#sdlc-phases)
+    + [Success factors for effective project management](#success-factors-for-effective-project-management)
+    + [Project risks](#project-risks)
+    + [Risk assessment considerations](#risk-assessment-considerations)
+    + [Project management tools](#project-management-tools)
+    + [Project closeout](#project-closeout)
+    + [Changeover techniques](#changeover-techniques)
   * [4.3: Disaster recovery and business continuity management](#43-disaster-recovery-and-business-continuity-management)
-- [Key concepts](#key-concepts-30)
-- [Common scenarios](#common-scenarios-30)
-- [Gotchas](#gotchas-30)
-- [Limits and defaults](#limits-and-defaults-27)
-- [Related topics](#related-topics-30)
-- [Key concepts (Doshi)](#key-concepts-doshi-30)
-- [Recovery site types](#recovery-site-types)
-- [BCP phases](#bcp-phases)
-- [BCP content requirements](#bcp-content-requirements)
-- [RTO and RPO relationships](#rto-and-rpo-relationships)
-- [Common scenarios (Doshi)](#common-scenarios-doshi-30)
-- [Gotchas (Doshi)](#gotchas-doshi-30)
-- [Limits and defaults (Doshi)](#limits-and-defaults-doshi-11)
-- [BIA objectives](#bia-objectives)
-- [Cost factors in BIA](#cost-factors-in-bia)
-- [Related topics (Doshi)](#related-topics-doshi-30)
+    + [Key concepts](#key-concepts-30)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-123)
+      - [Doshi Review Manual](#doshi-review-manual-122)
+    + [Common scenarios](#common-scenarios-30)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-124)
+      - [Doshi Review Manual](#doshi-review-manual-123)
+    + [Gotchas](#gotchas-30)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-125)
+      - [Doshi Review Manual](#doshi-review-manual-124)
+    + [Limits and defaults](#limits-and-defaults-27)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-126)
+      - [Doshi Review Manual](#doshi-review-manual-125)
+    + [Related topics](#related-topics-30)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-127)
+      - [Doshi Review Manual](#doshi-review-manual-126)
+    + [Recovery site types](#recovery-site-types)
+    + [BCP phases](#bcp-phases)
+    + [BCP content requirements](#bcp-content-requirements)
+    + [RTO and RPO relationships](#rto-and-rpo-relationships)
+    + [BIA objectives](#bia-objectives)
+    + [Cost factors in BIA](#cost-factors-in-bia)
   * [4.4: Data lifecycle management and data protection](#44-data-lifecycle-management-and-data-protection)
-- [Key concepts](#key-concepts-31)
-- [Common scenarios](#common-scenarios-31)
-- [Gotchas](#gotchas-31)
-- [Limits and defaults](#limits-and-defaults-28)
-- [Related topics](#related-topics-31)
-- [Key concepts (Doshi)](#key-concepts-doshi-31)
-- [Common scenarios (Doshi)](#common-scenarios-doshi-31)
-- [Gotchas (Doshi)](#gotchas-doshi-31)
-- [Limits and defaults (Doshi)](#limits-and-defaults-doshi-12)
-- [Related topics (Doshi)](#related-topics-doshi-31)
+    + [Key concepts](#key-concepts-31)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-128)
+      - [Doshi Review Manual](#doshi-review-manual-127)
+    + [Common scenarios](#common-scenarios-31)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-129)
+      - [Doshi Review Manual](#doshi-review-manual-128)
+    + [Gotchas](#gotchas-31)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-130)
+      - [Doshi Review Manual](#doshi-review-manual-129)
+    + [Limits and defaults](#limits-and-defaults-28)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-131)
+      - [Doshi Review Manual](#doshi-review-manual-130)
+    + [Related topics](#related-topics-31)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-132)
+      - [Doshi Review Manual](#doshi-review-manual-131)
   * [4.5: System development life cycle (SDLC) and change management](#45-system-development-life-cycle-sdlc-and-change-management)
-- [Key concepts](#key-concepts-32)
-- [Common scenarios](#common-scenarios-32)
-- [Gotchas](#gotchas-32)
-- [Limits and defaults](#limits-and-defaults-29)
-- [Related topics](#related-topics-32)
-- [Key concepts (Doshi)](#key-concepts-doshi-32)
-- [Common scenarios (Doshi)](#common-scenarios-doshi-32)
-- [Gotchas (Doshi)](#gotchas-doshi-32)
-- [Limits and defaults (Doshi)](#limits-and-defaults-doshi-13)
-- [Related topics (Doshi)](#related-topics-doshi-32)
+    + [Key concepts](#key-concepts-32)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-133)
+      - [Doshi Review Manual](#doshi-review-manual-132)
+    + [Common scenarios](#common-scenarios-32)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-134)
+      - [Doshi Review Manual](#doshi-review-manual-133)
+    + [Gotchas](#gotchas-32)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-135)
+      - [Doshi Review Manual](#doshi-review-manual-134)
+    + [Limits and defaults](#limits-and-defaults-29)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-136)
+      - [Doshi Review Manual](#doshi-review-manual-135)
+    + [Related topics](#related-topics-32)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-137)
+      - [Doshi Review Manual](#doshi-review-manual-136)
   * [4.6: Emerging technologies (AI/LLM, quantum computing, Zero Trust)](#46-emerging-technologies-aillm-quantum-computing-zero-trust)
-- [Key concepts](#key-concepts-33)
-- [Common scenarios](#common-scenarios-33)
-- [Gotchas](#gotchas-33)
-- [Limits and defaults](#limits-and-defaults-30)
-- [Related topics](#related-topics-33)
-- [Exam-critical points](#exam-critical-points)
-- [Key concepts (Doshi)](#key-concepts-doshi-33)
-- [Common scenarios (Doshi)](#common-scenarios-doshi-33)
-- [Gotchas (Doshi)](#gotchas-doshi-33)
-- [Limits and defaults (Doshi)](#limits-and-defaults-doshi-14)
-- [Related topics (Doshi)](#related-topics-doshi-33)
+    + [Key concepts](#key-concepts-33)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-138)
+      - [Doshi Review Manual](#doshi-review-manual-137)
+    + [Common scenarios](#common-scenarios-33)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-139)
+      - [Doshi Review Manual](#doshi-review-manual-138)
+    + [Gotchas](#gotchas-33)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-140)
+      - [Doshi Review Manual](#doshi-review-manual-139)
+    + [Limits and defaults](#limits-and-defaults-30)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-141)
+      - [Doshi Review Manual](#doshi-review-manual-140)
+    + [Related topics](#related-topics-33)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-142)
+      - [Doshi Review Manual](#doshi-review-manual-141)
+    + [Exam-critical points](#exam-critical-points)
   * [4.7: Information security frameworks and standards](#47-information-security-frameworks-and-standards)
-- [Key concepts](#key-concepts-34)
-- [Common scenarios](#common-scenarios-34)
-- [Gotchas](#gotchas-34)
-- [Limits and defaults](#limits-and-defaults-31)
-- [Related topics](#related-topics-34)
-- [Key concepts (Doshi)](#key-concepts-doshi-34)
-- [Widely recognized standards and frameworks](#widely-recognized-standards-and-frameworks)
-- [Common scenarios (Doshi)](#common-scenarios-doshi-34)
-- [Gotchas (Doshi)](#gotchas-doshi-34)
-- [Limits and defaults (Doshi)](#limits-and-defaults-doshi-15)
-- [Related topics (Doshi)](#related-topics-doshi-34)
+    + [Key concepts](#key-concepts-34)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-143)
+      - [Doshi Review Manual](#doshi-review-manual-142)
+    + [Common scenarios](#common-scenarios-34)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-144)
+      - [Doshi Review Manual](#doshi-review-manual-143)
+    + [Gotchas](#gotchas-34)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-145)
+      - [Doshi Review Manual](#doshi-review-manual-144)
+    + [Limits and defaults](#limits-and-defaults-31)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-146)
+      - [Doshi Review Manual](#doshi-review-manual-145)
+    + [Related topics](#related-topics-34)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-147)
+      - [Doshi Review Manual](#doshi-review-manual-146)
+    + [Widely recognized standards and frameworks](#widely-recognized-standards-and-frameworks)
   * [4.8: Security awareness training programs](#48-security-awareness-training-programs)
-- [Key concepts](#key-concepts-35)
-- [Common scenarios](#common-scenarios-35)
-- [Gotchas](#gotchas-35)
-- [Limits and defaults](#limits-and-defaults-32)
-- [Related topics](#related-topics-35)
-- [Key concepts (Doshi)](#key-concepts-doshi-35)
-- [Common scenarios (Doshi)](#common-scenarios-doshi-35)
-- [Gotchas (Doshi)](#gotchas-doshi-35)
-- [Limits and defaults (Doshi)](#limits-and-defaults-doshi-16)
-- [Related topics (Doshi)](#related-topics-doshi-35)
+    + [Key concepts](#key-concepts-35)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-148)
+      - [Doshi Review Manual](#doshi-review-manual-147)
+    + [Common scenarios](#common-scenarios-35)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-149)
+      - [Doshi Review Manual](#doshi-review-manual-148)
+    + [Gotchas](#gotchas-35)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-150)
+      - [Doshi Review Manual](#doshi-review-manual-149)
+    + [Limits and defaults](#limits-and-defaults-32)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-151)
+      - [Doshi Review Manual](#doshi-review-manual-150)
+    + [Related topics](#related-topics-35)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-152)
+      - [Doshi Review Manual](#doshi-review-manual-151)
   * [4.9: Authentication, encryption, and access control principles](#49-authentication-encryption-and-access-control-principles)
-- [Key concepts](#key-concepts-36)
-- [Common scenarios](#common-scenarios-36)
-- [Gotchas](#gotchas-36)
-- [Limits and defaults](#limits-and-defaults-33)
-- [Related topics](#related-topics-36)
-- [Key concepts (Doshi)](#key-concepts-doshi-36)
-- [Common scenarios (Doshi)](#common-scenarios-doshi-36)
-- [Gotchas (Doshi)](#gotchas-doshi-36)
-- [Limits and defaults (Doshi)](#limits-and-defaults-doshi-17)
-- [Related topics (Doshi)](#related-topics-doshi-36)
+    + [Key concepts](#key-concepts-36)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-153)
+      - [Doshi Review Manual](#doshi-review-manual-152)
+    + [Common scenarios](#common-scenarios-36)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-154)
+      - [Doshi Review Manual](#doshi-review-manual-153)
+    + [Gotchas](#gotchas-36)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-155)
+      - [Doshi Review Manual](#doshi-review-manual-154)
+    + [Limits and defaults](#limits-and-defaults-33)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-156)
+      - [Doshi Review Manual](#doshi-review-manual-155)
+    + [Related topics](#related-topics-36)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-157)
+      - [Doshi Review Manual](#doshi-review-manual-156)
   * [4.10: Network security (firewalls, IDS/IPS, VPN, cloud security)](#410-network-security-firewalls-idsips-vpn-cloud-security)
-- [Key concepts](#key-concepts-37)
-- [Common scenarios](#common-scenarios-37)
-- [Gotchas](#gotchas-37)
-- [Limits and defaults](#limits-and-defaults-34)
-- [Related topics](#related-topics-37)
-- [Key concepts (Doshi)](#key-concepts-doshi-37)
-- [Common scenarios (Doshi)](#common-scenarios-doshi-37)
-- [Gotchas (Doshi)](#gotchas-doshi-37)
-- [Limits and defaults (Doshi)](#limits-and-defaults-doshi-18)
-- [Related topics (Doshi)](#related-topics-doshi-37)
+    + [Key concepts](#key-concepts-37)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-158)
+      - [Doshi Review Manual](#doshi-review-manual-157)
+    + [Common scenarios](#common-scenarios-37)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-159)
+      - [Doshi Review Manual](#doshi-review-manual-158)
+    + [Gotchas](#gotchas-37)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-160)
+      - [Doshi Review Manual](#doshi-review-manual-159)
+    + [Limits and defaults](#limits-and-defaults-34)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-161)
+      - [Doshi Review Manual](#doshi-review-manual-160)
+    + [Related topics](#related-topics-37)
+      - [CRISC All-in-One Exam Guide](#crisc-all-in-one-exam-guide-162)
+      - [Doshi Review Manual](#doshi-review-manual-161)
 
 <!-- tocstop -->
 
-## Domain 1: Governance
-
-**Weight: 26%**
+## Domain 1: Governance (26%)
 
 ### 1.1: Collect and review information about business and IT environments
-## Key concepts
+#### Key concepts
 
-- **Governance of Enterprise IT (GEIT)**: Leverages technology to support and
-  optimize enterprise needs
+- **Governance of Enterprise IT (GEIT)** (also **Enterprise governance of IT (EGIT)**): The process of managing IT activities
+  - Board of Directors holds primary responsibility
+  - Implemented through leadership, organizational structures, policies, and performance monitoring
+  - Leverages technology to support and optimize enterprise needs
   - Addresses applicable laws, regulations, and compliance
-  - Ensures IT investments align with business objectives
-  - Promotes stakeholder value generation
-  - Value generated through: benefit realization, risk optimization, resource
-    optimization
+  - Ensures IT investments align with business objectives and that IT risks are addressed
+  - Helps generate value for stakeholders by:
+    - Achieving benefits
+    - Optimizing risks
+    - Optimizing resourcse
 
-- **Enterprise Architecture (EA)**: Foundation for running any business
-  effectively
-  - **Business architecture**: Captures how the business operates; defines
-    processes in organizational context
-  - **Application architecture**: Defines software solutions enabling business
-    objectives
-  - **Data architecture**: Models for working with different data sources and
-    formats
-  - **Technology architecture**: Underlying infrastructure (hardware, software,
-    networks, storage) needed to run business applications
+- **Enterprise Architecture (EA)**: Foundation for effecitvely running a business
+  - **Business architecture**
+    - Captures how the business operates
+    - Defines processes in context of org
+  - **Application architecture**: Defines software that enables business objectives
+  - **Data architecture**: Models that facilitate working with different data sources and formats
+  - **Technology architecture**: Underlying infrastructure needed to run business applications
   - Common frameworks: TOGAF, Zachman, DODAF, FEAF, SABSA
 
 - **Risk Profile**: Overall risk exposure of the organization
-  - Enterprise factors: regulations, technology changes, business objectives,
-    mergers and acquisitions, competitors
-  - IT risk factors: emerging threats, malicious actors, incidents, privacy
-    frameworks, new/acquired assets, supply chain risks
-  - Requires actionable Key Risk Indicators (KRIs) for monitoring
+  - Enterprise factors
+    - Regulations
+    - Technology changes
+    - Business objectives
+    - Mergers and acquisitions
+    - Competitors
+  - IT risk factors
+    - Emerging threats
+    - Malicious actors
+    - Incidents
+    - Privacy frameworks
+    - New/acquired assets supply chain risks
+  - Need to define actionable Key Risk Indicators (KRIs) to monitor risks
 
 - **Risk Appetite, Tolerance, and Capacity**:
-  - **Risk appetite**: Amount of risk willing to accept to achieve objectives
-  - **Risk tolerance**: Acceptable variation from risk appetite
+  - **Risk appetite**: Amount of risk org is willing to accept to achieve objectives
+  - **Risk tolerance**: Acceptable amount of variation from risk appetite
   - **Risk capacity**: Maximum risk before threatening organizational existence
   - Hierarchy: appetite ≤ tolerance < capacity
 
-- **Organizational structure**: Defines roles, responsibilities, and
-  accountability
-  - Board of directors provides oversight and direction
-  - Management executes and implements governance decisions
-  - IT risk manager must understand Enterprise Risk Management (ERM) structure
-  - RACI model assigns roles for projects
+- **Organizational structure**: Defines roles, responsibilities, and accountability
+  - Board of directors: oversight and direction
+  - Management: execute and implement governance decisions
+  - IT risk manager: understand Enterprise Risk Management (ERM) structure
+  - RACI model: assign roles for projects
 
 - **RACI Model**: Tool for determining project responsibilities
-  - **Responsible**: Individual/team performing the work
-  - **Accountable**: Provides resources; answerable for success
-  - **Consulted**: Subject matter experts and business process owners
+  - **Responsible**: Who does the work
+  - **Accountable**: Who provides resources to do the work and is answerable for success
+  - **Consulted**: Subject matter experts, business process owners
   - **Informed**: Stakeholders affected by success or failure
 
-- **Organizational culture**: Determines behavior toward risk management
-  - **Vulnerable**: Response only after risk materializes
-  - **Reactive**: Response based on complaints or compliance requirements
-  - **Compliant**: Responsibilities defined; driven by external requirements
-  - **Proactive**: Senior management informed; provides sponsorship
-  - **Resilient**: Clear accountability; risk management in everything
+- **Organizational culture**: Determines behaviour toward risk management
+  1. **Vulnerable**: Responds after risk materializes; indifferent to complaints/compliance
+  2. **Reactive**: Responds to complaints or compliance requirements
+  3. **Compliant**: Defines responsibilities but still driven by external requirements
+  4. **Proactive**: Senior management is informed and sponsors risk management activity
+  5. **Resilient**: Risk management is baked into all processes with clear accountability
 
 - **Organizational assets**: Anything providing value to the organization
-  - **People**: Greatest asset; vulnerable to loss of key expertise
+  - **People**: Greatest asset; org is vulnerable to loss of key expertise
   - **Technology**: Outdated systems increase malware and patch risk
-  - **Data**: Requires classification; controls proportional to value
+  - **Data**: Requires classification before deciding on which controls to apply (proportional to value)
   - **Intellectual property**: Trademarks, copyrights, patents, trade secrets
 
 - **Policy documentation hierarchy**: Translates strategy into action
   - **Policies**: High-level management intent (business decisions)
-  - **Standards**: Mandatory requirements satisfying control objectives
-  - **Procedures**: Documented steps for specific tasks (SOPs)
-  - **Guidelines**: Recommended practices allowing discretion
+  - **Standards**: Mandatory requirements that satisfy security control objectives
+  - **Procedures**: Documented steps for specific tasks (SOPs, runbooks)
+  - **Guidelines**: Recommended practices that permit discretion
 
-## Common scenarios
+- **Business and IT alignment**
+  - IT activities must align with business objectives to deliver value
+    - Risk consultant should verify IT and business requirements are integrated and moving in the same direction
+  - A strategic IT plan must contain a clear statement of IT's vision and mission
+  - IT can add value only when IT strategies align with business strategy
 
-| Scenario | Correct approach | Why |
+- **Organizational assets**: Includes people, technology, data, intellectual property, and business processes
+  - Risk management's prime objective: safeguard these assets
+  - Asset valuation considers
+    - Reputational loss
+    - Third-party impact
+    - Business continuity
+    - Monetary loss
+    - Contract breaches
+    - Competitive advantage loss
+
+- **Risk culture**: Values, beliefs, and attitudes about risk held by the  organization
+  - Determines which risk management methodology to choose
+  - Risk appetite depends on culture and predisposition toward risk taking
+  - In a mature culture, employees:
+    - Recognize risk
+    - Discuss it openly
+    - Collaborate to resolve
+
+#### Key activities
+
+- **First step in understanding strategic IT risk**: Discuss with senior executives to understand business strategy/goals
+  - Provides insight into expectations and dependencies from IT
+  - Reveals potential risks
+
+- **Business process review**: Evaluates how effective/efficient processes are in achieving objectives
+  - Identifies process issues, gathers improvement information, reviews project progress
+  - Business process owners provide the best feedback on IT system effectiveness
+    - They understand system functionalities and links to business objectives
+
+- **Documentation review before risk assessment**
+  - Purpose: understand current business processes
+  - To do a good job, risk assessor must:
+    - Understand business objectives, processes, and environment
+    - Thoroughly understand business processes and technology in scope
+
+- **Review organizational charts**
+  - Primary purpose: understanding individials' roles, responsibilities, and authorities
+  - Helps determine how to properly segregate functions
+
+
+#### Common scenarios
+
+##### CRISC All-in-One Exam Guide
+| Scenario/activity | Correct approach | Why |
 | -------- | ---------------- | --- |
 | New risk manager joining organization | Understand culture and sponsorship first | Culture determines how risk management will be received |
 | Assessing IT risk for first time | Identify and inventory assets | "You can't protect what you don't know exists" |
 | Determining control requirements | Classify data and value assets | Controls should be proportional to asset value |
 | Building risk program without support | Obtain senior management sponsorship | Without sponsorship, budget and legitimacy are insufficient |
-| Multiple stakeholders with unclear roles | Implement RACI matrix | Clarifies responsibilities with varying priorities |
+| Multiple stakeholders have unclear roles | Implement RACI matrix | Clarifies responsibilities with varying priorities |
+| IT governance effectiveness unclear | Ensure stakeholder involvement | Addressing stakeholder needs drives IT governance success |
 | Major IT investment | Risk practitioners provide accurate, timely information | Enables well-informed decisions with due diligence |
 | Aligning risk with business objectives | Maintain active leadership communication | Risk supports business, not the reverse |
+| Determining if IT supports business objectives | Interview business process owners | They understand system functionalities and linkage to objectives; unbiased viewpoint |
+| Understanding strategic IT risk | Discuss with senior executives first | Provides view of expectations, dependencies, and potential risks |
+| Reviewing documentation before risk assessment | Focus on understanding current business processes | Assessment effective only with awareness of objectives, processes, environment |
+| Reviewing organizational chart | Identify roles, responsibilities, authority | Determines proper segregation of functions |
 
-## Gotchas
+#### Gotchas
 
-- **Governance versus management**: Governance provides oversight and risk
-  optimization for stakeholders. Management implements goals set by governance.
-  They are not the same.
+- **Governance versus management**
+  - Governance provides oversight and risk optimization for stakeholders
+  - Management implements goals set by governance
 
-- **Risk tolerance versus risk capacity**: Often confused. Operating within
-  tolerance is manageable with compensating controls. Exceeding capacity
-  threatens organizational existence.
+- **Risk tolerance versus risk capacity**
+  - Can operate within risk tolerance using compensating controls
+  - Cannot exceedi capacity without threatening organizational existence
 
-- **Policies versus technology**: Policies are business decisions, not
-  technical ones. Technology determines how policies are implemented.
+- **Policies versus technology**
+  - Policies are business decisions
+  - Technology determines how policies are implemented
 
-- **Risk management alignment**: Align risk management with business objectives,
-  not vice versa. Risk exists to support business.
+- **Risk management alignment**
+  - Align risk management with business objectives, not vice versa
 
-- **Culture trumps training**: No amount of training works if risk culture is
-  not communicated from the top and exhibited by leadership.
+- **Culture trumps training**: Risk culture is must be communicated from the top and exhibited by leadership
 
-- **Cost of controls**: Control implementation costs should never exceed asset
-  value. A $1,000 lock on a $500 bicycle makes no sense.
+- **Cost of controls**: Control costs should never exceed asset value
 
-- **Exception management**: Policy deviations acceptable when enabling business
-  objectives. Require explicit business process owner approval and central
-  logging.
+- **Exception management**
+  - OK to deviate from policy when enabling business objectives
+  - Must have  explicit business process owner approval and central logging.
 
-## Limits and defaults
+- **Senior management vs. process owners**
+  - Eenior executives understand strategic risk and goals
+  - Business process owners assess IT system effectiveness in meeting goals
+
+- **First step**: always gather info about current and future business environment
+
+- **Purpose of documentation review**: Understand business processes and objectives
+
+- **Risk culture vs. industry practices**
+  - Risk culture determines which risk management methodology selection to select
+  - Industry practices or cost-benefit analyses are not factors
+
+- **Centralized vs. decentralized governance**
+  - Centralized: more consistent, better resource use
+  - Decentralized: better local alignment and faster turnaround
+
+#### Limits and defaults
 
 | Item | Value | Notes |
 | ---- | ----- | ----- |
@@ -642,8 +869,12 @@ extracted from 2 source books.
 | Exception review | Annual | Remove unnecessary policy exceptions |
 | Risk acceptance ceiling | Risk capacity | May exceed appetite/tolerance but never capacity |
 | Data disposal standard | NIST 800-88 | Industry-standard media sanitization |
+| Information security policy review | Annual minimum | Required to address new and emerging risks |
+| IT governance responsibility | Board of Directors | Primary, not delegated |
+| Risk management sign-off | Senior Management | Final approval authority |
+| Risk program execution | Mid-level management | Centrally located with operational understanding |
 
-## Related topics
+#### Related topics
 
 - **Three lines of defense (3LoD)**: First line (operational management owns
   risk), second line (risk/compliance oversight), third line (audit/assurance)
@@ -656,132 +887,32 @@ extracted from 2 source books.
   into unified enterprise view
 - **Capability Maturity Model (CMM)**: Assesses process maturity from ad hoc
   practices to optimized processes (5 levels)
-## Key concepts (Doshi)
-
-- **Business and IT alignment**: IT activities must align with business objectives
-  to deliver value. The risk practitioner should verify that IT and business
-  requirements are integrated and moving in the same direction.
-  - A strategic IT plan must contain a clear statement of IT's vision and mission
-  - IT can add value only when IT strategies align with business strategy
-
-- **Enterprise governance of IT (EGIT)**: Process for monitoring and controlling
-  IT activities. Ensures IT provides added value and that IT risks are addressed.
-  - Board of Directors holds primary responsibility for EGIT
-  - Implemented through leadership, organizational structures, policies, and
-    performance monitoring
-
-- **First step in understanding strategic IT risk**: Discuss with senior
-  executives to understand the business strategy and goals. This provides insight
-  into expectations and dependencies from IT, revealing potential risks.
-
-- **Business process review**: Evaluates effectiveness and efficiency of
-  processes in achieving objectives.
-  - Purpose: identify process issues, gather improvement information, review
-    project progress
-  - Business process owners provide the best feedback on IT system effectiveness
-  - They understand system functionalities and linkage to business objectives
-
-- **Documentation review before risk assessment**: Primary purpose is to
-  understand current business processes.
-  - Risk assessment is effective only when the assessor understands business
-    objectives, processes, and environment
-  - Reviewer should have thorough understanding of business processes and
-    technology under scope
-
-- **Organizational chart review**: Primary purpose is understanding roles,
-  responsibilities, and authority of individuals. Helps determine proper
-  segregation of functions.
-
-- **Organizational assets**: Includes people, technology, data, intellectual
-  property, and business processes.
-  - Risk management's prime objective is safeguarding these assets
-  - Asset valuation considers: reputational loss, third-party impact, business
-    continuity, monetary loss, contract breaches, competitive advantage loss
-
-- **Risk culture**: Values, beliefs, and attitudes about risk held by the
-  organization.
-  - Determines risk management methodology selection
-  - Risk appetite depends on culture and predisposition toward risk taking
-  - Mature culture: employees recognize risk, discuss it openly, collaborate to
-    resolve
-
-## Common scenarios (Doshi)
-
-| Scenario | Correct approach | Why |
-| -------- | ---------------- | --- |
-| Determine if IT supports business objectives | Interview business process owners | They understand system functionalities and linkage to objectives; unbiased viewpoint |
-| Understand strategic IT risk | Discuss with senior executives first | Provides view of expectations, dependencies, and potential risks |
-| Review documentation before risk assessment | Focus on understanding current business processes | Assessment effective only with awareness of objectives, processes, environment |
-| Review organizational chart | Identify roles, responsibilities, authority | Determines proper segregation of functions |
-| IT governance effectiveness unclear | Ensure stakeholder involvement | Addressing stakeholder needs drives IT governance success |
-
-## Gotchas (Doshi)
-
-- **Senior management vs. process owners**: Interview senior executives to
-  understand strategic risk and goals; interview business process owners to
-  assess IT system effectiveness
-
-- **First step confusion**: First step in risk identification is information
-  gathering about current and future business environment, not risk ranking or
-  threat identification
-
-- **Documentation review purpose**: Not primarily for finding gaps or determining
-  cost, but for understanding business processes and objectives
-
-- **Risk culture vs. industry practices**: Risk management methodology selection
-  depends primarily on the organization's risk culture, not industry practices or
-  cost-benefit analysis
-
-- **Centralized vs. decentralized governance**: Centralized provides more
-  consistency and resource optimization; decentralized provides better local
-  alignment and faster turnaround
-
-## Limits and defaults (Doshi)
-
-| Item | Value | Notes |
-| ---- | ----- | ----- |
-| Information security policy review | Annual minimum | Required to address new and emerging risks |
-| IT governance responsibility | Board of Directors | Primary, not delegated |
-| Risk management sign-off | Senior Management | Final approval authority |
-| Risk program execution | Mid-level management | Centrally located with operational understanding |
-
-## Related topics (Doshi)
-
-- **1.2 Organizational goals and strategy**: Understanding business objectives is
+- **Organizational goals and strategy**: Understanding business objectives is
   prerequisite to collecting environment information
-- **1.4 Organization structure**: Organizational chart review supports
+- **Organization structure**: Organizational chart review supports
   understanding of roles and responsibilities
-- **1.5 Organization culture**: Risk culture affects how information is gathered
+- **Organization culture**: Risk culture affects how information is gathered
   and communicated
-- **1.7 Business process review**: Core method for collecting business
+- **Business process review**: Core method for collecting business
   environment information
-- **1.8 Organizational assets**: Asset identification is key outcome of
+- **Organizational assets**: Asset identification is key outcome of
   environment review
 
 ### 1.2: Identify potential or realized impacts of IT risk on business objectives
-## Key concepts
+#### Key concepts
 
-- **IT risk categories**: IT risk impacts business objectives through three primary
-  channels:
-  - IT value enablement risk: delivered projects fail to create expected value,
-    causing loss of shareholder value and missed opportunities
-  - IT program and project delivery risk: projects not delivered as agreed, leading
-    to strategic misalignment with stakeholders
-  - IT operations and service delivery risk: services fail to meet SLAs, disrupting
-    business operations
+- **IT risk categories**: IT risk affects business objectives through:
+  - IT value enablement risk: delivered projects fail to create expected value, causing loss of shareholder value and missed opportunities
+  - IT program and project delivery risk: projects not delivered as agreed, leading to strategic misalignment with stakeholders
+  - IT operations and service delivery risk: services fail to meet SLAs, disrupting business operations
 
-- **Risk measurement principle**: IT risk must be measured by its impact on IT
-  services and the business operations those services support
+- **Risk measurement principle**: IT risk must be measured by its impact on IT services and the business operations those services support
   - IT risk is a subset of enterprise risk
-  - Impact assessment considers effects on confidentiality, integrity, and
-    availability
+  - Impact assessment considers effects on confidentiality, integrity, and availability
 
-- **Impact on business objectives**: Risk management efforts must align with business
-  objectives to obtain senior management sponsorship
-  - Steering committees with cross-functional participants focus on high-risk areas
-    that adversely impact business objectives
-  - Risk scenarios in top-down assessments are developed for events that directly
-    impact business goals
+- **Impact on business objectives**: Risk management efforts must align with business objectives to obtain senior management sponsorship
+  - Steering committees with cross-functional participants focus on high-risk areas that adversely impact business objectives
+  - Risk scenarios in top-down assessments are developed for events that directly impact business goals
 
 - **Tangible vs. intangible impacts**: IT risks affect both asset types:
   - Tangible: equipment, physical media, infrastructure
@@ -793,30 +924,52 @@ extracted from 2 source books.
   - Strategic risk, operational risk, compliance risk, reputational risk, market risk,
     credit risk, environmental risk
 
-## Common scenarios
+- **Risk formula**: Risk = Probability × Impact (zero probability or impact = zero risk)
+- **Risk event**: Any unexpected occurrence that can negatively affect org goals
+  - E.g. new regulatory requirements, loss of key personnel, natural disasters, ransomware attacks
+- **Business Impact Analysis (BIA)**: Process to determine which business processes are critical by analyzing how disruption of each process affects org's ability to achieve goals
+  - Examines risk, incidents, and interdependencies to determine impact on org goals
+- **Impact assessment**: Process to determine how to classify information assets in relation to org goals
+  - Evaluates criticality and sensitivity for each
+- **Risk scenario**: Visualization of a possible event that can harm business goals
+  - Used to imagine what could go wrong and identify hurdles
 
-| Scenario | Correct approach | Why |
+#### Common scenarios
+
+| Scenario/action | Correct approach | Why |
 | -------- | ---------------- | --- |
 | Data leakage via email causing reputational damage | Trace through risk lifecycle: identify, categorize, assess impact, respond, report, monitor | Links IT control failure to business impact |
 | New EHR system implementation | Top-down: BoD reviews strategic/revenue impact; bottom-up: departments assess operational impact | Combines strategic and operational impact views |
 | Vendor fails to meet SLA | Assess cascading effects on dependent business processes | Third-party risk translates to service delivery risk |
 | Key resource leaves organization | Evaluate talent risk impact on knowledge continuity and business operations | People are organizational assets; loss creates operational gaps |
+| Valuing assets for risk assessment | Use replacement cost | Replacement cost gives realistic impact assessment; acquisition cost does not reflect current value |
+| Determining criticality for BIA | Consult business process owners | Process owners possess most relevant information about impact of disruption |
+| Assessing impact with no probability data | Use qualitative assessment | Qualitative methods evaluate impact through scenarios when quantitative data unavailable |
+| IT not aligned with business objectives | Investment in IT has no value | IT activities that don't support business objectives create risk without corresponding benefit |
 
-## Gotchas
+#### Gotchas
 
-- **IT risk is not isolated**: IT risk impacts enterprise-level objectives and must be
-  communicated in business terms, not technical jargon
-- **Impact is not just financial**: Includes regulatory penalties, reputational damage,
-  operational disruption, and loss of competitive advantage
-- **Realized vs. potential**: A realized risk is one that has materialized and caused
-  actual loss; potential risk requires assessment of likelihood and impact before
-  occurrence
-- **BIA vs. risk assessment**: BIA focuses on recovery priorities after disruption;
-  risk assessment identifies threats and impacts before they materialize
-- **Risk ownership confusion**: Without a designated risk owner, impacts may go
-  unnoticed; the risk owner bears accountability for realized losses
+- **IT risk is not isolated**: it affects org objectives, must be communicated in business terms
+- **Impact is not just financial**
+  - Regulatory penalties
+  - Reputational damage
+  - Operational disruption
+  - Loss of competitive advantage
+- **Realized vs. potential**
+  - Realized: has materialized and caused actual loss
+  - Potential: needs assessment of likelihood and impact
+- **BIA vs. risk assessment**
+  - BIA: recovery priorities after disruption
+  - Risk assessment: threats and impacts before they materialize
+- **Risk ownership confusion**: Risk owner is responsible for managing impact and bears accountability for realized losses
+- **Probability without impact is zero risk**
+- **Individual low-risk aggregation**: Multiple low-level risks exploited simultaneously may have major combined impact
+  - Risk aggregation evaluates combined value of low risks
+- **Acquisition cost vs business value**
+  - A $100 website that generates $1000 annual revenue has $1000 impact if it breaks
+- **Period of downtime determines severity** (not the cause of the disruption)
 
-## Limits and defaults
+#### Limits and defaults
 
 | Item | Value | Notes |
 | ---- | ----- | ----- |
@@ -825,44 +978,24 @@ extracted from 2 source books.
 | Risk register contents | Threat, vulnerability, likelihood, impact, inherent risk, controls, residual risk, owner | Minimum required fields |
 | Corrective action plan (CAP) | Owner, timeline, remediation actions | Required when risk cannot be immediately remediated |
 
-## Related topics
+#### Related topics
 
-- **Business Impact Analysis (BIA)**: Determines RPO, RTO, and MTD to quantify
-  acceptable downtime and data loss -- directly measures impact tolerance
-- **Risk register**: Documents identified risks with impact ratings and owners;
-  central record for tracking realized and potential impacts
-- **Qualitative vs. quantitative analysis**: Qualitative uses High/Medium/Low impact
-  ratings; quantitative assigns monetary values to potential losses
-- **Risk response strategies**: Mitigate, accept, transfer, or avoid -- selection
-  depends on impact severity relative to risk appetite
-- **Top-down and bottom-up assessment**: Top-down captures strategic impacts to
-  business objectives; bottom-up captures operational and process-level impacts
-## Key concepts (Doshi)
+##### CRISC All-in-One Exam Guide
+- **Business Impact Analysis (BIA)**: Determines RPO, RTO, and MTD to quantify acceptable downtime and data loss -- directly measures impact tolerance
+- **Risk register**: Documents identified risks with impact ratings and owners; central record for tracking realized and potential impacts
+- **Qualitative vs. quantitative analysis**: Qualitative uses High/Medium/Low impact ratings; quantitative assigns monetary values to potential losses
+- **Risk response strategies**: Mitigate, accept, transfer, or avoid -- selection  depends on impact severity relative to risk appetite
+- **Top-down and bottom-up assessment**: Top-down captures strategic impacts to business objectives; bottom-up captures operational and process-level impacts
+- **Enterprise Risk Management (ERM)**: Structured process for managing risks that can adversely impact business objectives. Ensures standardized, consistent risk management across the organization.
+- **Risk appetite alignment**: Risk appetite should align with business objectives so resources are directed toward high-risk areas that impact objectives.
+- **CIA Principle**: Impacts on Confidentiality, Integrity, and Availability provide framework for assessing IT risk impact on business operations.
+- **Key Risk Indicators (KRI)**: Metrics used to monitor changes in risk profile over time. Changes indicate potential or realized impacts requiring response.
 
-- **Risk formula**: Risk = Probability × Impact. Both elements must be present
-  to constitute a risk event. An event with zero probability or zero impact
-  results in zero risk.
-- **Risk event**: Any unforeseen or unexpected occurrence that can adversely
-  impact the goals or objectives of the organization. Examples include new
-  regulatory requirements, loss of key personnel, natural disasters, and
-  ransomware attacks.
-- **Business Impact Analysis (BIA)**: Process to determine critical business
-  processes by analyzing the impact of disruption on each process. BIA
-  examines risk, incidents, and interdependencies to determine impact on
-  organizational goals.
-- **Impact assessment**: Primary basis for determining classification of
-  information assets; evaluates criticality and sensitivity of assets in
-  achieving business objectives.
-- **Risk scenario**: Visualization of a possible event that can have adverse
-  impact on business objectives. Used to imagine what could go wrong and
-  identify hurdles to achieving business objectives.
-
-## Impact categories
+#### Impact categories
 
 - **Reputational loss**: Damage to organization's standing with stakeholders
 - **Legal and regulatory noncompliance**: Penalties, fines, enforcement actions
-- **Third-party and business partner impact**: Contractual breaches, supply
-  chain disruption
+- **Third-party and business partner impact**: Contractual breaches, supply chain disruption
 - **Business continuity impact**: Disruption to critical operations
 - **Monetary loss**: Direct financial costs from incidents
 - **Breach of contracts**: Failure to meet contractual obligations
@@ -870,7 +1003,7 @@ extracted from 2 source books.
   competitive disadvantage
 - **Legal costs**: Litigation, regulatory proceedings
 
-## Quantifying impact
+#### Quantifying impact
 
 - **Single Loss Expectancy (SLE)**: Loss per incident occurrence
 - **Annual Loss Expectancy (ALE)**: ARO × SLE, calculates expected monetary
@@ -882,30 +1015,7 @@ extracted from 2 source books.
 - **Downtime cost**: Includes drop in sales, cost of idle resources, interest
   cost, and recovery costs
 
-## Common scenarios (Doshi)
-
-| Scenario | Correct approach | Why |
-| -------- | ---------------- | --- |
-| Valuing assets for risk assessment | Use replacement cost | Replacement cost gives realistic impact assessment; acquisition cost does not reflect current value |
-| Determining criticality for BIA | Consult business process owners | Process owners possess most relevant information about impact of disruption |
-| Assessing impact with no probability data | Use qualitative assessment | Qualitative methods evaluate impact through scenarios when quantitative data unavailable |
-| IT not aligned with business objectives | Investment in IT has no value | IT activities that don't support business objectives create risk without corresponding benefit |
-
-## Gotchas (Doshi)
-
-- **Probability without impact is zero risk**: Equipment worth $1000 with 0%
-  probability of damage = 0 risk. Equipment worth $100 with 50% probability =
-  $50 risk. The cheaper asset may carry higher risk.
-- **Individual low-risk aggregation**: Multiple low-level risks exploited
-  simultaneously may have major combined impact. Risk aggregation evaluates
-  combined value of low risks.
-- **Acquisition cost vs business value**: A website costing $100 that generates
-  $1000 revenue annually has $1000 impact if malfunctioned, not $100.
-- **Period of downtime determines severity**: The primary criteria to determine
-  severity of service disruption is the duration the system remains down, not
-  the cause of the disruption.
-
-## Risk register contents
+#### Risk register contents
 
 | Item | Value | Notes |
 | ---- | ----- | ----- |
@@ -916,21 +1026,8 @@ extracted from 2 source books.
 | Status | Current mitigation state | In progress, complete, pending |
 | Risk owner | Assigned individual | Business process owner |
 
-## Related topics (Doshi)
-
-- **Enterprise Risk Management (ERM)**: Structured process for managing risks
-  that can adversely impact business objectives. Ensures standardized,
-  consistent risk management across the organization.
-- **Risk appetite alignment**: Risk appetite should align with business
-  objectives so resources are directed toward high-risk areas that impact
-  objectives.
-- **CIA Principle**: Impacts on Confidentiality, Integrity, and Availability
-  provide framework for assessing IT risk impact on business operations.
-- **Key Risk Indicators (KRI)**: Metrics used to monitor changes in risk profile
-  over time. Changes indicate potential or realized impacts requiring response.
-
 ### 1.3: Identify threats and vulnerabilities to people, processes, and technology
-## Key concepts
+#### Key concepts
 
 - **Threat**: Anything (human, malicious code, bot, natural disaster) that could
   impact an asset and cause harm. Threats employ threat actors to exploit
@@ -949,7 +1046,7 @@ extracted from 2 source books.
 - **Threat vector**: The path or route an adversary uses to gain access to the
   target (e.g., phishing emails, malicious websites, infected attachments).
 
-## Threats by asset category
+#### Threats by asset category
 
 ### People
 
@@ -987,7 +1084,7 @@ extracted from 2 source books.
 - **Malware**: Viruses spread through infected files, malicious websites, or
   email attachments.
 
-## Common scenarios
+#### Common scenarios
 
 | Scenario | Correct approach | Why |
 | -------- | ---------------- | --- |
@@ -996,8 +1093,17 @@ extracted from 2 source books.
 | Cloud infrastructure expanding rapidly | Implement periodic configuration scans; establish baseline configurations | Multiple engineers creating infrastructure increases misconfiguration risk |
 | Employees falling for phishing | Implement security awareness training within 30 days of onboarding, annually thereafter | Training is more effective than technical controls against social engineering |
 
-## Gotchas
+##### Doshi Review Manual
+| Scenario | Correct approach | Why |
+| -------- | ---------------- | --- |
+| Startup gains popularity, attracting hackers | Classify as emerging threat | External factor beyond organizational control; requires senior management notification |
+| Missing input validation in web application | Identify as vulnerability | Weakness in control allowing SQL injection or other attacks; can be remediated |
+| Alerted to organization on cyber-criminal target list | Inform senior management first | Need-to-know basis; senior managers have authority for preventive action |
+| Printer stores copies on built-in hard disk | Conduct risk assessment | Evaluate disclosure risk before determining appropriate response |
 
+#### Gotchas
+
+##### CRISC All-in-One Exam Guide
 - **Threats vs. vulnerabilities**: Threats cannot be controlled; vulnerabilities
   can be. Risk managers focus mitigation efforts on vulnerabilities, not
   eliminating threats.
@@ -1009,7 +1115,18 @@ extracted from 2 source books.
 - **Zero-day vs. known vulnerabilities**: Risk managers must monitor industry
   advisories (NIST, CISA) for both emerging threats and known vulnerabilities.
 
-## Vulnerability sources
+##### Doshi Review Manual
+- **Threat vs. vulnerability confusion**: ISACA frequently tests this distinction
+  - Threats are external forces we protect against (earthquakes, hackers, malware)
+  - Vulnerabilities are internal weaknesses we can control (weak coding, poor access controls)
+
+- **First step in risk identification**: Gather information about current and future environment, not immediately identifying vulnerabilities or reviewing audit reports
+
+- **Configuration management**: Most vulnerable IT area from a security perspective due to misconfiguration and untimely OS updates
+
+- **Threat analysis frequency**: Conduct enterprise-wide threat analysis annually to address new and emerging threats
+
+#### Vulnerability sources
 
 | Source | Purpose |
 | ------ | ------- |
@@ -1023,7 +1140,7 @@ extracted from 2 source books.
 | Industry advisories (NIST, CISA) | Stay current on recent threats and vulnerabilities |
 | Vendor security bulletins | Monitor product-specific security issues |
 
-## Threat modeling methods
+#### Threat modeling methods
 
 | Method | Focus |
 | ------ | ----- |
@@ -1035,8 +1152,9 @@ extracted from 2 source books.
 | Trike | Security audit framework using risk-management approach |
 | SDL (SD3+C) | Secure by Design, Default, Deployment, and Communication |
 
-## Related topics
+#### Related topics
 
+##### CRISC All-in-One Exam Guide
 - **IT risk identification**: First step of IT risk management; document threats
   to people, processes, and technologies per enterprise risk appetite.
 - **Vulnerability management program (VMP)**: Prioritize, track, and fix
@@ -1047,7 +1165,14 @@ extracted from 2 source books.
 - **Threat landscape**: Constantly changing; risk management must be ongoing.
   The "perfect" solution addressing all threats and vulnerabilities does not
   exist.
-## Key concepts (Doshi)
+
+##### Doshi Review Manual
+- **Risk scenarios**: Primary technique for identifying threats and vulnerabilities
+- **Risk register**: Contains potential threats used in developing risk scenarios
+- **Control deficiency analysis**: Identifies gaps in existing security measures
+- **Risk assessment**: Foundation for setting up information security infrastructure
+
+#### Key concepts (Doshi)
 
 - **Threat**: Any element that can cause harm to organizational assets
   - Can exploit vulnerabilities intentionally or accidentally
@@ -1068,28 +1193,7 @@ extracted from 2 source books.
   - Requires both likelihood of occurrence and potential impact
   - Examples: new regulatory requirements, loss of key personnel, natural disasters, ransomware attacks
 
-## Common scenarios (Doshi)
-
-| Scenario | Correct approach | Why |
-| -------- | ---------------- | --- |
-| Startup gains popularity, attracting hackers | Classify as emerging threat | External factor beyond organizational control; requires senior management notification |
-| Missing input validation in web application | Identify as vulnerability | Weakness in control allowing SQL injection or other attacks; can be remediated |
-| Alerted to organization on cyber-criminal target list | Inform senior management first | Need-to-know basis; senior managers have authority for preventive action |
-| Printer stores copies on built-in hard disk | Conduct risk assessment | Evaluate disclosure risk before determining appropriate response |
-
-## Gotchas (Doshi)
-
-- **Threat vs. vulnerability confusion**: ISACA frequently tests this distinction
-  - Threats are external forces we protect against (earthquakes, hackers, malware)
-  - Vulnerabilities are internal weaknesses we can control (weak coding, poor access controls)
-
-- **First step in risk identification**: Gather information about current and future environment, not immediately identifying vulnerabilities or reviewing audit reports
-
-- **Configuration management**: Most vulnerable IT area from a security perspective due to misconfiguration and untimely OS updates
-
-- **Threat analysis frequency**: Conduct enterprise-wide threat analysis annually to address new and emerging threats
-
-## Threat and vulnerability assessment
+#### Threat and vulnerability assessment
 
 - **Purpose**: Detect threats and vulnerabilities impacting the business
 - **Primary tool**: Risk scenarios estimate likelihood and impact of probable events
@@ -1100,55 +1204,48 @@ extracted from 2 source books.
   - Asset (IT infrastructure, reputation, data)
   - Time (immediate vs. long-term impact)
 
-## Threat modelling
+#### Threat modelling
 
 - Uses same methods and techniques as attackers (technical and non-technical)
 - Purpose: Design adequate controls to address all possible threats
 - Objective: Build defense-in-depth system controls
 - Example: "Ping of death" attack analysis
 
-## Misuse case modelling
+#### Misuse case modelling
 
 - Analyzes major errors, mistakes, and events impacting system functionality
 - Objective: Ensure system resilience against errors and misuse
 - Attackers can misuse ICMP, NTP, or DNS services to attack systems
 - Example: Attacker changes ICMP packet size to disable target system
 
-## Vulnerability assessment
+#### Vulnerability assessment
 
 - **When to perform penetration tests**: Periodically and when major infrastructure changes occur
 - **Best method for Internet-facing systems**: Penetration testing
 - **Reviewing risk and control analysis results**: Assesses gaps between current and desired states
 
-## People-related threats and vulnerabilities
+#### People-related threats and vulnerabilities
 
 - **Insider threats**: Role-based access controls (RBAC) most effective countermeasure
 - **Loss of key personnel**: Recognized risk event requiring contingency planning
 - **Lack of awareness**: Periodic training and awareness sessions reduce risk
 - **Ethical behavior**: Promoted through training, evaluation, and attestation
 
-## Process-related vulnerabilities
+#### Process-related vulnerabilities
 
 - **Configuration management**: Most susceptible to introducing vulnerabilities
 - **Incident management**: Improper processes create exposure
 - **Business process alignment**: Lack of alignment between technology and business creates risk
 
-## Technology-related vulnerabilities
+#### Technology-related vulnerabilities
 
 - **Missing input validation**: Enables SQL injection and other web attacks
 - **Weak access controls**: Allows unauthorized access to systems and data
 - **Missing anti-virus**: Leaves systems exposed to malware
 - **Outdated systems**: Failure to update OS code creates high risk
 
-## Related topics (Doshi)
-
-- **Risk scenarios**: Primary technique for identifying threats and vulnerabilities
-- **Risk register**: Contains potential threats used in developing risk scenarios
-- **Control deficiency analysis**: Identifies gaps in existing security measures
-- **Risk assessment**: Foundation for setting up information security infrastructure
-
 ### 1.4: Evaluate threats, vulnerabilities, and risk to identify IT risk scenarios
-## Key concepts
+#### Key concepts
 
 - **Threat**: Anything (human, malicious code, bot, natural disaster) that could
   impact an asset and cause harm
@@ -1176,7 +1273,7 @@ extracted from 2 source books.
     teams)
   - Best practice: combine both approaches
 
-## Threat modeling methods
+#### Threat modeling methods
 
 | Method | Purpose |
 | ------ | ------- |
@@ -1199,8 +1296,9 @@ extracted from 2 source books.
 | Denial of Service | Availability |
 | Elevation of Privilege | Authorization |
 
-## Common scenarios
+#### Common scenarios
 
+##### CRISC All-in-One Exam Guide
 | Scenario | Correct approach | Why |
 | -------- | ---------------- | --- |
 | New vulnerability published in NVD | Check organizational impact, prioritize by CVSS score, implement controls | Proactive response reduces exposure window |
@@ -1208,8 +1306,19 @@ extracted from 2 source books.
 | Multiple critical vulnerabilities discovered | Prioritize Critical and High first; use threat and vulnerability analysis | Resources are limited; focus on greatest risk |
 | Starting a risk assessment program | Begin with qualitative assessment, graduate to hybrid or quantitative | Qualitative is faster to implement; quantitative requires historical data |
 
-## Gotchas
+##### Doshi Review Manual
+| Scenario | Correct approach | Why |
+| -------- | ---------------- | --- |
+| Allow employees to identify risks anonymously | Delphi technique | Enables anonymous polling and private information gathering |
+| Determine probability and likelihood of events during threat/vulnerability assessment | Use risk scenarios | Scenarios estimate likelihood and impact of probable events |
+| Detect vulnerabilities in internet-facing systems | Penetration testing | Tests actual exploitability of external attack surface |
+| Assess IS risk | Analyze current threats associated with information systems | Provides current exposure level rather than historical data |
+| Understand potential impact of law/regulations on business | Compliance-oriented business impact analysis (BIA) | Identifies all compliance requirements and their business impacts |
+| Critical data subcontracted by vendor | Review subcontracting process | Subcontracting increases risk due to loss of control |
 
+#### Gotchas
+
+##### CRISC All-in-One Exam Guide
 - **Threat vs. vulnerability confusion**: Threats cannot be controlled; focus
   controls on vulnerabilities
 - **Threat modeling timing**: Perform during design phase of SDLC, not during
@@ -1219,7 +1328,29 @@ extracted from 2 source books.
 - **Vulnerability identification sources**: Risk assessments are a valid source
   of vulnerabilities despite historically being considered non-technical
 
-## Vulnerability identification sources
+##### Doshi Review Manual
+- **Threat vs. vulnerability confusion**: Threats are external forces we protect
+  against (not controllable); vulnerabilities are internal weaknesses
+  (controllable)
+
+- **First step in risk identification**: Gather information about current and
+  future environment - not identifying vulnerabilities or reviewing audit
+  reports
+
+- **Hackers targeting a popular startup**: This is an emerging threat, not an
+  emerging vulnerability or impact
+
+- **Risk scenarios are not used in all assessments**: They are specifically used
+  in threat and vulnerability assessment, not IT audit, gap assessment, or
+  general security assessment
+
+- **Penetration testing timing**: Best performed after infrastructure changes,
+  not on a fixed schedule or after an attack attempt
+
+- **Configuration management**: Most vulnerable process because
+  misconfiguration and failure to update OS code correctly pose very high risk
+
+#### Vulnerability identification sources
 
 | Source | Description |
 | ------ | ----------- |
@@ -1233,7 +1364,7 @@ extracted from 2 source books.
 | Industry advisories | NIST, CISA publications on recent threats |
 | Vendor bulletins | Security feeds from technology vendors |
 
-## Risk assessment approaches
+#### Risk assessment approaches
 
 | Approach | Characteristics |
 | -------- | --------------- |
@@ -1241,7 +1372,7 @@ extracted from 2 source books.
 | Quantitative | Objective; calculates monetary value at risk; requires historical data; more expensive |
 | Hybrid (semiquantitative) | Combines both; assigns numeric scores (1-5) to likelihood and impact; result ranges 1-25 |
 
-## Related topics
+#### Related topics
 
 - Risk register: Repository for documenting identified risk scenarios
 - Vulnerability management program (VMP): Prioritize, track, and remediate
@@ -1250,7 +1381,7 @@ extracted from 2 source books.
   quantification
 - Control design: Implement controls to limit probability of threat exploiting
   vulnerability
-## Key concepts (Doshi)
+#### Key concepts (Doshi)
 
 - **Threat**: Any factor that can cause harm to organizational assets
   - Can be internal or external to the organization
@@ -1284,41 +1415,7 @@ extracted from 2 source books.
   - Objective: ensure system resilience against errors and misuse
   - Attackers may misuse ICMP, NTP, or DNS services for attacks
 
-## Common scenarios (Doshi)
-
-| Scenario | Correct approach | Why |
-| -------- | ---------------- | --- |
-| Allow employees to identify risks anonymously | Delphi technique | Enables anonymous polling and private information gathering |
-| Determine probability and likelihood of events during threat/vulnerability assessment | Use risk scenarios | Scenarios estimate likelihood and impact of probable events |
-| Detect vulnerabilities in internet-facing systems | Penetration testing | Tests actual exploitability of external attack surface |
-| Assess IS risk | Analyze current threats associated with information systems | Provides current exposure level rather than historical data |
-| Understand potential impact of law/regulations on business | Compliance-oriented business impact analysis (BIA) | Identifies all compliance requirements and their business impacts |
-| Critical data subcontracted by vendor | Review subcontracting process | Subcontracting increases risk due to loss of control |
-
-## Gotchas (Doshi)
-
-- **Threat vs. vulnerability confusion**: Threats are external forces we protect
-  against (not controllable); vulnerabilities are internal weaknesses
-  (controllable)
-
-- **First step in risk identification**: Gather information about current and
-  future environment - not identifying vulnerabilities or reviewing audit
-  reports
-
-- **Hackers targeting a popular startup**: This is an emerging threat, not an
-  emerging vulnerability or impact
-
-- **Risk scenarios are not used in all assessments**: They are specifically used
-  in threat and vulnerability assessment, not IT audit, gap assessment, or
-  general security assessment
-
-- **Penetration testing timing**: Best performed after infrastructure changes,
-  not on a fixed schedule or after an attack attempt
-
-- **Configuration management**: Most vulnerable process because
-  misconfiguration and failure to update OS code correctly pose very high risk
-
-## Risk scenario development
+#### Risk scenario development
 
 | Approach | Perspective | Focus | Scope |
 | -------- | ----------- | ----- | ----- |
@@ -1336,7 +1433,7 @@ extracted from 2 source books.
 | Asset | Impacted resource: IT infrastructure, reputation, data |
 | Time | Impact timeframe: immediate vs. long-term |
 
-## Limits and defaults
+#### Limits and defaults
 
 | Item | Value | Notes |
 | ---- | ----- | ----- |
@@ -1345,7 +1442,7 @@ extracted from 2 source books.
 | Risk identification first step | Information gathering | Before vulnerability identification |
 | Risk scenario first step | Identify risk factors | Before developing scenarios |
 
-## Related topics (Doshi)
+#### Related topics (Doshi)
 
 - Risk register: Documents identified risks; serves as source for potential
   threats when developing risk scenarios
@@ -1357,8 +1454,9 @@ extracted from 2 source books.
   security controls in outsourcing contracts
 
 ### 1.5: Establish and maintain IT risk register integrated with enterprise risk profile
-## Key concepts
+#### Key concepts
 
+##### CRISC All-in-One Exam Guide
 - **Risk register**: A central repository documenting all identified risks from
   risk assessments. Can be a sophisticated SaaS tool or a spreadsheet. Serves
   as the single source of truth for organizational risk tracking.
@@ -1404,61 +1502,7 @@ extracted from 2 source books.
   identified. Ideally separate from risk owner to maintain segregation of
   duties.
 
-## Common scenarios
-
-| Scenario | Correct approach | Why |
-| -------- | ---------------- | --- |
-| Risk impacts multiple business units | Assign owner who can provide budget, resources, and expertise | Single accountability enables effective remediation |
-| Risk cannot be immediately remediated | Create Corrective Action Plan (CAP) with owner, timeline, and actions | Ensures tracking and eventual resolution |
-| Same person as risk and control owner | Acceptable but should be avoided | Segregation of duties maintains oversight integrity |
-| New IT risk identified | Enter into risk register with all required fields and link to enterprise risk | Maintains integrated view of organizational risk |
-| Risk profile changes due to external factors | Update risk register and re-prioritize | Register must reflect current state |
-
-## Gotchas
-
-- **Risk register is not comprehensive**: A limitation of risk registers is
-  they may not capture all risks facing an organization. Emerging risks or
-  those not yet identified will be missing.
-
-- **Confusing BIA with risk assessment**: BIA identifies critical business
-  processes for recovery prioritization. Risk assessment identifies threats and
-  controls. Both feed the risk register but serve different purposes.
-
-- **Ignoring risk reporting phase**: Often overlooked but equally important.
-  Key findings must be communicated to stakeholders after the risk treatment
-  cycle completes.
-
-- **No designated risk owner**: Without a risk owner, accountability is lost
-  and risks go unnoticed. Every risk in the register must have an assigned
-  owner.
-
-- **Static risk register**: The register should be continuously updated when
-  technology, threats, or business objectives change. A stale register provides
-  false assurance.
-
-## Limits and defaults
-
-| Item | Value | Notes |
-| ---- | ----- | ----- |
-| Risk acceptance review | Annual minimum | Reassess asset value and current risk level |
-| KRIs | Actionable | Non-actionable KRIs provide no value to management |
-| Risk response strategies | 4 types | Mitigate, accept, transfer, avoid |
-| Control cost threshold | Less than effective risk | Cost of mitigation must not exceed risk value |
-
-## Related topics
-
-- **Risk appetite, tolerance, and capacity**: Define acceptable risk levels
-  that inform register thresholds and escalation criteria
-- **Key Risk Indicators (KRIs)**: Metrics derived from register data to monitor
-  and report on risk profile changes
-- **Three Lines of Defense**: First line owns risks, second line develops KRIs
-  and monitors, third line audits the process
-- **Inherent and residual risk**: Register tracks both states; residual =
-  inherent minus implemented controls
-- **RACI model**: Defines Responsible, Accountable, Consulted, and Informed
-  roles for risk management activities
-## Key concepts (Doshi)
-
+##### Doshi Review Manual
 - **Risk register**: Centralized inventory of all identified risks consolidating
   risk data for driving risk response and tracking risk status across the
   organization
@@ -1487,8 +1531,18 @@ extracted from 2 source books.
   - Risk register provides status of organization's current risk profile
   - Serves as the single source of truth for risk status
 
-## Common scenarios (Doshi)
+#### Common scenarios
 
+##### CRISC All-in-One Exam Guide
+| Scenario | Correct approach | Why |
+| -------- | ---------------- | --- |
+| Risk impacts multiple business units | Assign owner who can provide budget, resources, and expertise | Single accountability enables effective remediation |
+| Risk cannot be immediately remediated | Create Corrective Action Plan (CAP) with owner, timeline, and actions | Ensures tracking and eventual resolution |
+| Same person as risk and control owner | Acceptable but should be avoided | Segregation of duties maintains oversight integrity |
+| New IT risk identified | Enter into risk register with all required fields and link to enterprise risk | Maintains integrated view of organizational risk |
+| Risk profile changes due to external factors | Update risk register and re-prioritize | Register must reflect current state |
+
+##### Doshi Review Manual
 | Scenario | Correct approach | Why |
 | -------- | ---------------- | --- |
 | Identify changes in risk profile | Review the risk register | Risk register captures all profile changes and current status |
@@ -1498,8 +1552,30 @@ extracted from 2 source books.
 | Activity triggering new risk initiated | Add new risk to risk register | Capture risks when activities that trigger them begin |
 | Newly identified vulnerability | Discuss with owner/security manager, recommend addition to risk register | Proper escalation path ensures documented tracking |
 
-## Gotchas (Doshi)
+#### Gotchas
 
+##### CRISC All-in-One Exam Guide
+- **Risk register is not comprehensive**: A limitation of risk registers is
+  they may not capture all risks facing an organization. Emerging risks or
+  those not yet identified will be missing.
+
+- **Confusing BIA with risk assessment**: BIA identifies critical business
+  processes for recovery prioritization. Risk assessment identifies threats and
+  controls. Both feed the risk register but serve different purposes.
+
+- **Ignoring risk reporting phase**: Often overlooked but equally important.
+  Key findings must be communicated to stakeholders after the risk treatment
+  cycle completes.
+
+- **No designated risk owner**: Without a risk owner, accountability is lost
+  and risks go unnoticed. Every risk in the register must have an assigned
+  owner.
+
+- **Static risk register**: The register should be continuously updated when
+  technology, threats, or business objectives change. A stale register provides
+  false assurance.
+
+##### Doshi Review Manual
 - **Trap: Risk register captures all risks, not just high risks**: Document all
   identified risks regardless of severity level; prioritization happens after
   capture
@@ -1520,33 +1596,30 @@ extracted from 2 source books.
   Changes in profile from new tech, business processes, regulations, or market
   conditions should flow into register updates
 
-## Risk register contents
+#### Limits and defaults
 
-| Field | Purpose |
-| ----- | ------- |
-| Risk scenario | Description of the risk event |
-| Category | Classification of risk type |
-| Probability | Likelihood of occurrence |
-| Impact | Potential consequences |
-| Risk score | Calculated priority level |
-| Risk owner | Accountable senior official |
-| Risk treatment | Planned or implemented response |
-| Corrective actions | Steps taken to address the risk |
-| Residual risk | Remaining risk after treatment |
+| Item | Value | Notes |
+| ---- | ----- | ----- |
+| Risk acceptance review | Annual minimum | Reassess asset value and current risk level |
+| KRIs | Actionable | Non-actionable KRIs provide no value to management |
+| Risk response strategies | 4 types | Mitigate, accept, transfer, avoid |
+| Control cost threshold | Less than effective risk | Cost of mitigation must not exceed risk value |
 
-## Risk profile change triggers
+#### Related topics
 
-| Trigger | Risk register action |
-| ------- | -------------------- |
-| New technology implementation | Assess and add associated risks |
-| Business process changes | Update affected risk scenarios |
-| Regulatory requirement changes | Add compliance risks |
-| Market demand or customer changes | Update business impact assessments |
-| Competitor policy changes | Reassess competitive risks |
-| Cascading effects of minor changes | Review interdependencies |
+##### CRISC All-in-One Exam Guide
+- **Risk appetite, tolerance, and capacity**: Define acceptable risk levels
+  that inform register thresholds and escalation criteria
+- **Key Risk Indicators (KRIs)**: Metrics derived from register data to monitor
+  and report on risk profile changes
+- **Three Lines of Defense**: First line owns risks, second line develops KRIs
+  and monitors, third line audits the process
+- **Inherent and residual risk**: Register tracks both states; residual =
+  inherent minus implemented controls
+- **RACI model**: Defines Responsible, Accountable, Consulted, and Informed
+  roles for risk management activities
 
-## Related topics (Doshi)
-
+##### Doshi Review Manual
 - **Risk ownership**: Risk register documents the owner accountable for each
   risk; mapping risk to business process owners establishes ownership
 
@@ -1562,9 +1635,35 @@ extracted from 2 source books.
 - **Risk prioritization**: Register enables focusing on high-priority risks
   first (concentrate on 20 high risks before 50 medium or 100 low)
 
-### 1.6: Facilitate identification of risk appetite and tolerance by key stakeholders
-## Key concepts
+#### Risk register contents
 
+| Field | Purpose |
+| ----- | ------- |
+| Risk scenario | Description of the risk event |
+| Category | Classification of risk type |
+| Probability | Likelihood of occurrence |
+| Impact | Potential consequences |
+| Risk score | Calculated priority level |
+| Risk owner | Accountable senior official |
+| Risk treatment | Planned or implemented response |
+| Corrective actions | Steps taken to address the risk |
+| Residual risk | Remaining risk after treatment |
+
+#### Risk profile change triggers
+
+| Trigger | Risk register action |
+| ------- | -------------------- |
+| New technology implementation | Assess and add associated risks |
+| Business process changes | Update affected risk scenarios |
+| Regulatory requirement changes | Add compliance risks |
+| Market demand or customer changes | Update business impact assessments |
+| Competitor policy changes | Reassess competitive risks |
+| Cascading effects of minor changes | Review interdependencies |
+
+### 1.6: Facilitate identification of risk appetite and tolerance by key stakeholders
+#### Key concepts
+
+##### CRISC All-in-One Exam Guide
 - **Risk appetite**: The amount of risk an organization is willing to accept to
   achieve its objectives
   - Represents strategic-level risk acceptance boundaries
@@ -1593,76 +1692,7 @@ extracted from 2 source books.
   - IT risk profile: overall identified IT risk exposure including emerging
     threats, malicious actors, incidents, regulatory changes
 
-## Key stakeholder roles
-
-- **Board of directors**: Risk owners who set strategic direction and approve
-  risk appetite
-- **Senior management**: Risk practitioners who operationalize appetite into
-  policies
-- **Business owners**: First line of defense; own both business processes and
-  associated risks
-- **Risk manager**: Proposes risk responses to stakeholders and ensures
-  alignment with appetite
-- **Executive sponsors** (CRO, CISO, CFO, CEO): Provide program sponsorship and
-  wider organizational/industry perspective
-
-## Common scenarios
-
-| Scenario | Correct approach | Why |
-| -------- | ---------------- | --- |
-| Setting initial risk appetite | Obtain agreement from relevant stakeholders; translate into standards and policies | Ensures buy-in and operationalizes appetite into enforceable controls |
-| Risk exceeds appetite but within tolerance | Document compensating controls; obtain formal sign-off | Tolerance allows controlled deviation when properly managed |
-| Risk approaches capacity threshold | Escalate immediately to senior management | Breaching capacity threatens organizational existence |
-| Business conditions change | Regularly review and adjust appetite boundaries | Static appetite becomes misaligned with evolving objectives |
-| Risk acceptance request | Document risk owner, countermeasures, duration, executive sign-off | Formal process ensures accountability and stakeholder alignment |
-
-## Gotchas
-
-- **Tolerance and capacity are not interchangeable**: Practitioners often
-  conflate these terms; tolerance is acceptable variation, capacity is survival
-  threshold
-- **Risk acceptance can exceed appetite**: Acceptance may go beyond appetite
-  and tolerance but must never exceed capacity
-- **Appetite must align with business objectives**: High-risk areas providing
-  more value should receive more resources than low-risk, low-reward processes
-- **Senior management defines, not just approves**: Risk appetite and tolerance
-  must be defined, approved, and clearly communicated by senior management
-- **Exception process required**: Organizations need formal processes to review
-  and approve exceptions to stated appetite levels
-
-## Facilitation process
-
-1. Engage key stakeholders (board, executives, business owners)
-2. Define risk appetite aligned with business objectives
-3. Establish tolerance thresholds and capacity limits
-4. Translate appetite into policies, standards, and procedures
-5. Communicate framework across the organization
-6. Obtain buy-in from key stakeholders
-7. Implement formal exception and risk acceptance process
-8. Review and adjust boundaries as conditions change
-
-## Documentation requirements
-
-Risk acceptance documentation must include:
-- Risk owner (business owner) accepting the risk
-- Countermeasures to reduce risk in the future
-- Duration of risk acceptance
-- Final sign-off from executive team
-- Confirmation that all relevant teams and stakeholders are aligned
-
-## Related topics
-
-- **Three lines of defense**: Provides framework for risk ownership and
-  accountability; first line owns risk, second line provides oversight
-- **Risk register**: Must include risk owner and document appetite alignment
-- **KRIs**: Should be actionable and enable monitoring of risk against appetite
-  thresholds
-- **Risk response strategies**: Mitigation, acceptance, transfer, and avoidance
-  must align with stated appetite
-- **Enterprise risk management**: Risk appetite is foundational to the ERM
-  framework
-## Key concepts (Doshi)
-
+##### Doshi Review Manual
 - **Risk capacity**: Maximum risk an organization can afford to take. Represents
   the absolute upper limit based on available resources and constraints.
   - Always greater than both risk tolerance and risk appetite
@@ -1685,20 +1715,31 @@ Risk acceptance documentation must include:
   - Risk acceptance should stay within risk appetite
   - Risk acceptance must never exceed risk capacity
 
-## Stakeholder responsibilities
+#### Key stakeholder roles
 
-- **Senior management**: Accountable for approving risk appetite and tolerance
-  related to information security. Must define and formally approve both values.
+- **Board of directors**: Risk owners who set strategic direction and approve
+  risk appetite
+- **Senior management**: Risk practitioners who operationalize appetite into
+  policies
+- **Business owners**: First line of defense; own both business processes and
+  associated risks
+- **Risk manager**: Proposes risk responses to stakeholders and ensures
+  alignment with appetite
+- **Executive sponsors** (CRO, CISO, CFO, CEO): Provide program sponsorship and
+  wider organizational/industry perspective
 
-- **Risk owners (business process owners)**: Responsible for monitoring that
-  risk stays within tolerance levels. First line of defense in managing risks.
+#### Common scenarios
 
-- **Risk practitioners**: Facilitate identification by understanding business
-  processes, data flows, decision-making processes, and organizational culture.
-  Design controls based on appetite and tolerance levels.
+##### CRISC All-in-One Exam Guide
+| Scenario | Correct approach | Why |
+| -------- | ---------------- | --- |
+| Setting initial risk appetite | Obtain agreement from relevant stakeholders; translate into standards and policies | Ensures buy-in and operationalizes appetite into enforceable controls |
+| Risk exceeds appetite but within tolerance | Document compensating controls; obtain formal sign-off | Tolerance allows controlled deviation when properly managed |
+| Risk approaches capacity threshold | Escalate immediately to senior management | Breaching capacity threatens organizational existence |
+| Business conditions change | Regularly review and adjust appetite boundaries | Static appetite becomes misaligned with evolving objectives |
+| Risk acceptance request | Document risk owner, countermeasures, duration, executive sign-off | Formal process ensures accountability and stakeholder alignment |
 
-## Common scenarios (Doshi)
-
+##### Doshi Review Manual
 | Scenario | Correct approach | Why |
 | -------- | ---------------- | --- |
 | Aligning appetite with business objectives | Direct resources toward areas of low risk tolerance | Critical processes need more controls; ensures appropriate resource allocation |
@@ -1706,8 +1747,22 @@ Risk acceptance documentation must include:
 | Setting appetite for new initiative | Assess organizational culture and predisposition toward risk taking | Culture is the primary driver of appetite |
 | Reviewing existing appetite levels | Reassess when technology, structure, or strategy changes | External factors may invalidate prior assumptions |
 
-## Gotchas (Doshi)
+#### Gotchas
 
+##### CRISC All-in-One Exam Guide
+- **Tolerance and capacity are not interchangeable**: Practitioners often
+  conflate these terms; tolerance is acceptable variation, capacity is survival
+  threshold
+- **Risk acceptance can exceed appetite**: Acceptance may go beyond appetite
+  and tolerance but must never exceed capacity
+- **Appetite must align with business objectives**: High-risk areas providing
+  more value should receive more resources than low-risk, low-reward processes
+- **Senior management defines, not just approves**: Risk appetite and tolerance
+  must be defined, approved, and clearly communicated by senior management
+- **Exception process required**: Organizations need formal processes to review
+  and approve exceptions to stated appetite levels
+
+##### Doshi Review Manual
 - **Trap: Confusing tolerance with appetite**: Tolerance is the deviation
   allowed from appetite, not a synonym for it. Exam questions test this
   distinction.
@@ -1724,25 +1779,40 @@ Risk acceptance documentation must include:
   has authority to approve risk appetite and tolerance. Risk practitioners
   facilitate but do not decide.
 
-## Benefits of defining capacity, appetite, and tolerance
+#### Facilitation process
 
-- Provides evidence of risk-based decision-making processes
-- Helps understand how each component of the enterprise contributes to overall
-  risk profile
-- Enables prioritization and approval of risk response
-- Identifies specific areas where risk response is warranted
-- Risks with low appetite are addressed immediately
+1. Engage key stakeholders (board, executives, business owners)
+2. Define risk appetite aligned with business objectives
+3. Establish tolerance thresholds and capacity limits
+4. Translate appetite into policies, standards, and procedures
+5. Communicate framework across the organization
+6. Obtain buy-in from key stakeholders
+7. Implement formal exception and risk acceptance process
+8. Review and adjust boundaries as conditions change
 
-## Limits and defaults
+#### Documentation requirements
 
-| Item | Value | Notes |
-| ---- | ----- | ----- |
-| Approval authority | Senior management | Must formally define and approve |
-| Review trigger | Technology, restructuring, strategy changes | Reassess risk portfolio when these occur |
-| Compliance measure | Residual risk vs acceptable risk | Residual risk within appetite = compliant |
+Risk acceptance documentation must include:
+- Risk owner (business owner) accepting the risk
+- Countermeasures to reduce risk in the future
+- Duration of risk acceptance
+- Final sign-off from executive team
+- Confirmation that all relevant teams and stakeholders are aligned
 
-## Related topics (Doshi)
+#### Related topics
 
+##### CRISC All-in-One Exam Guide
+- **Three lines of defense**: Provides framework for risk ownership and
+  accountability; first line owns risk, second line provides oversight
+- **Risk register**: Must include risk owner and document appetite alignment
+- **KRIs**: Should be actionable and enable monitoring of risk against appetite
+  thresholds
+- **Risk response strategies**: Mitigation, acceptance, transfer, and avoidance
+  must align with stated appetite
+- **Enterprise risk management**: Risk appetite is foundational to the ERM
+  framework
+
+##### Doshi Review Manual
 - **Risk culture**: Organizational values and attitudes toward risk that drive
   appetite determination. Poor risk culture shows gaps between documented
   appetite and actual behavior.
@@ -1760,9 +1830,39 @@ Risk acceptance documentation must include:
 - **Risk response prioritization**: Appetite and tolerance are deciding factors
   for which risks to address first and how to allocate resources.
 
-### 1.7: Promote a risk-aware culture aligned with enterprise risk management
-## Key concepts
+#### Stakeholder responsibilities
 
+- **Senior management**: Accountable for approving risk appetite and tolerance
+  related to information security. Must define and formally approve both values.
+
+- **Risk owners (business process owners)**: Responsible for monitoring that
+  risk stays within tolerance levels. First line of defense in managing risks.
+
+- **Risk practitioners**: Facilitate identification by understanding business
+  processes, data flows, decision-making processes, and organizational culture.
+  Design controls based on appetite and tolerance levels.
+
+#### Benefits of defining capacity, appetite, and tolerance
+
+- Provides evidence of risk-based decision-making processes
+- Helps understand how each component of the enterprise contributes to overall
+  risk profile
+- Enables prioritization and approval of risk response
+- Identifies specific areas where risk response is warranted
+- Risks with low appetite are addressed immediately
+
+#### Limits and defaults
+
+| Item | Value | Notes |
+| ---- | ----- | ----- |
+| Approval authority | Senior management | Must formally define and approve |
+| Review trigger | Technology, restructuring, strategy changes | Reassess risk portfolio when these occur |
+| Compliance measure | Residual risk vs acceptable risk | Residual risk within appetite = compliant |
+
+### 1.7: Promote a risk-aware culture aligned with enterprise risk management
+#### Key concepts
+
+##### CRISC All-in-One Exam Guide
 - **Risk-aware culture**: A common set of practices and processes, supported by
   enabling technologies, that improves decision-making and performance through
   an integrated view of how well an organization manages its unique set of
@@ -1801,63 +1901,7 @@ Risk acceptance documentation must include:
     compliance)
   - Third LoD: Independent assurance (internal/external audit)
 
-## Common scenarios
-
-| Scenario | Correct approach | Why |
-| -------- | ---------------- | --- |
-| New risk manager joining organization | Understand organizational culture before drafting risk strategy | Culture determines how risk initiatives will be received and adopted |
-| Leadership does not prioritize risk | Escalate to demonstrate business impact; seek executive sponsorship | Without leadership buy-in, risk programs fail regardless of technical merit |
-| Employees bypass security controls | Address through awareness training and leadership modeling, not just technical controls | Culture change requires visible leadership commitment |
-| Annual ethics training completed but no behavior change | Integrate ethics into daily operations rather than check-the-box compliance | Ethics must be inherent in culture, not a yearly seminar |
-| Determining risk appetite | Align with business objectives; translate into standards and policies | Risk appetite must support value creation while containing risk within acceptable boundaries |
-
-## Gotchas
-
-- **Risk tolerance vs risk capacity**: Risk tolerance allows slight deviation
-  from acceptable risk levels; risk capacity is the maximum risk before
-  organizational existence is threatened. Both must always be less than risk
-  capacity.
-
-- **Accountability vs responsibility**: Senior management is accountable for
-  risk culture and classification; operational staff are responsible for
-  execution. Exam questions distinguish between who is accountable (owns the
-  outcome) versus who is responsible (performs the work).
-
-- **Policies are business decisions, not technical ones**: Technology determines
-  how policies are implemented, but policy creation is a governance function
-  driven by business objectives.
-
-- **KRIs must be actionable**: Key Risk Indicators reported to stakeholders
-  must enable decision-making. Non-actionable KRIs provide no value to senior
-  management.
-
-- **Ethics and culture are inseparable**: Ethics is not a check-the-box
-  function. Good ethics must be an organization's cultural way of life, modeled
-  from the top.
-
-## Limits and defaults
-
-| Item | Value | Notes |
-| ---- | ----- | ----- |
-| Security awareness training frequency | Within 30 days of onboarding, then annually | Minimum cadence for maintaining risk-aware behavior |
-| Risk assessment frequency | At least annually | May be quarterly based on risk culture and requirements |
-| Risk acceptance review | Annual minimum | All documented exceptions must be revisited |
-| Risk capacity threshold | Organization-specific | Exceeding capacity threatens continued existence |
-
-## Related topics
-
-- **Security awareness training**: Critical component for promoting risk-aware
-  culture; educates employees on identifying and mitigating security risks
-- **ISACA Code of Professional Ethics**: Sets conduct expectations for CRISC
-  holders, including supporting professional education of stakeholders
-- **Policy documentation hierarchy**: Policies, standards, procedures, and
-  guidelines form the framework through which risk culture is operationalized
-- **Risk appetite alignment**: Must be agreed upon with stakeholders and
-  translated into enforceable standards and policies
-- **RACI model**: Tool for determining roles and responsibilities across
-  stakeholders with varying priorities in the ERM program
-## Key concepts (Doshi)
-
+##### Doshi Review Manual
 - **Risk culture**: Values, beliefs, knowledge, attitudes and understanding about
   risk shared by an organization. Reflects senior management's tendency to
   embrace, cautiously accept, or avoid risk.
@@ -1888,8 +1932,18 @@ Risk acceptance documentation must include:
   activity, informed decisions by senior management, greater stakeholder
   awareness, and transparency to external parties.
 
-## Common scenarios (Doshi)
+#### Common scenarios
 
+##### CRISC All-in-One Exam Guide
+| Scenario | Correct approach | Why |
+| -------- | ---------------- | --- |
+| New risk manager joining organization | Understand organizational culture before drafting risk strategy | Culture determines how risk initiatives will be received and adopted |
+| Leadership does not prioritize risk | Escalate to demonstrate business impact; seek executive sponsorship | Without leadership buy-in, risk programs fail regardless of technical merit |
+| Employees bypass security controls | Address through awareness training and leadership modeling, not just technical controls | Culture change requires visible leadership commitment |
+| Annual ethics training completed but no behavior change | Integrate ethics into daily operations rather than check-the-box compliance | Ethics must be inherent in culture, not a yearly seminar |
+| Determining risk appetite | Align with business objectives; translate into standards and policies | Risk appetite must support value creation while containing risk within acceptable boundaries |
+
+##### Doshi Review Manual
 | Scenario | Correct approach | Why |
 | -------- | ---------------- | --- |
 | Selecting risk management methodology | Assess organization's risk culture first | Risk-prone vs risk-averse organizations require different methodologies |
@@ -1898,8 +1952,32 @@ Risk acceptance documentation must include:
 | New employee onboarding | Include security awareness before system access | Awareness must precede access to establish proper behavior |
 | Improving security culture | Conduct frequent awareness campaigns | Gradual, repeated training changes organizational behavior |
 
-## Gotchas (Doshi)
+#### Gotchas
 
+##### CRISC All-in-One Exam Guide
+- **Risk tolerance vs risk capacity**: Risk tolerance allows slight deviation
+  from acceptable risk levels; risk capacity is the maximum risk before
+  organizational existence is threatened. Both must always be less than risk
+  capacity.
+
+- **Accountability vs responsibility**: Senior management is accountable for
+  risk culture and classification; operational staff are responsible for
+  execution. Exam questions distinguish between who is accountable (owns the
+  outcome) versus who is responsible (performs the work).
+
+- **Policies are business decisions, not technical ones**: Technology determines
+  how policies are implemented, but policy creation is a governance function
+  driven by business objectives.
+
+- **KRIs must be actionable**: Key Risk Indicators reported to stakeholders
+  must enable decision-making. Non-actionable KRIs provide no value to senior
+  management.
+
+- **Ethics and culture are inseparable**: Ethics is not a check-the-box
+  function. Good ethics must be an organization's cultural way of life, modeled
+  from the top.
+
+##### Doshi Review Manual
 - **Risk culture vs risk appetite**: Risk culture describes attitudes and values;
   risk appetite is the specific level of risk the organization is willing to accept.
   Culture influences appetite, not the reverse.
@@ -1918,16 +1996,38 @@ Risk acceptance documentation must include:
 - **Maturity indicator**: An organization's risk management maturity is determined
   by its risk culture and awareness level, not by the sophistication of its tools.
 
-## Limits and defaults (Doshi)
+#### Limits and defaults
 
+##### CRISC All-in-One Exam Guide
+| Item | Value | Notes |
+| ---- | ----- | ----- |
+| Security awareness training frequency | Within 30 days of onboarding, then annually | Minimum cadence for maintaining risk-aware behavior |
+| Risk assessment frequency | At least annually | May be quarterly based on risk culture and requirements |
+| Risk acceptance review | Annual minimum | All documented exceptions must be revisited |
+| Risk capacity threshold | Organization-specific | Exceeding capacity threatens continued existence |
+
+##### Doshi Review Manual
 | Item | Value | Notes |
 | ---- | ----- | ----- |
 | Capability maturity model (CMM) | 0-5 scale | Common method to measure risk management maturity |
 | Primary awareness method | Customized training per audience | System developers need secure coding; operators need function-specific training |
 | Awareness effectiveness metric | Incident reports from staff | Increase indicates higher awareness, not more incidents |
 
-## Related topics (Doshi)
+#### Related topics
 
+##### CRISC All-in-One Exam Guide
+- **Security awareness training**: Critical component for promoting risk-aware
+  culture; educates employees on identifying and mitigating security risks
+- **ISACA Code of Professional Ethics**: Sets conduct expectations for CRISC
+  holders, including supporting professional education of stakeholders
+- **Policy documentation hierarchy**: Policies, standards, procedures, and
+  guidelines form the framework through which risk culture is operationalized
+- **Risk appetite alignment**: Must be agreed upon with stakeholders and
+  translated into enforceable standards and policies
+- **RACI model**: Tool for determining roles and responsibilities across
+  stakeholders with varying priorities in the ERM program
+
+##### Doshi Review Manual
 - **Risk appetite and tolerance (1.12)**: Risk culture directly influences appetite
   setting; culture determines how aggressively the organization pursues risk
 - **Policies and standards (1.6)**: Risk culture shapes policy content and
@@ -1944,8 +2044,9 @@ Risk acceptance documentation must include:
 **Weight: 22%**
 
 ### 2.1: Collect and analyze documentation about internal and external environments
-## Key concepts
+#### Key concepts
 
+##### CRISC All-in-One Exam Guide
 - **IT risk identification**: First step in the risk management life cycle.
   Requires understanding the technologies used in the organization and the
   development, acquisition, implementation, integration, and sunset processes
@@ -1970,57 +2071,7 @@ Risk acceptance documentation must include:
   cascaded to department and organization level. Captures granular
   process-related risks but requires complex coordination.
 
-## Common scenarios
-
-| Scenario | Correct approach | Why |
-| -------- | ---------------- | --- |
-| New EHR system implementation | Collect Board of Directors revenue reviews, Ethics & Compliance regulatory reports, senior management performance data, security reports | Multiple stakeholder perspectives ensure comprehensive risk identification across strategic, regulatory, and operational dimensions |
-| Disagreement between business manager and security manager on vendor risk | Escalate to senior management with documented pros and cons for final input and risk acceptance | Major vendor decisions require executive judgment when risk assessment results are contested |
-| First risk assessment at organization | Start with qualitative methodology, leverage industry risk catalogs to baseline | Quantitative techniques like FAIR require historical data and mature processes; checklists and qualitative ratings enable rapid program initiation |
-| Assessing supplier-related risks | Review NIST SP 800-161 for supply chain guidance, identify vendor risk management strategy, assess fourth-party risks | Supply chain risks extend beyond direct vendors to their dependencies |
-
-## Gotchas
-
-- **Risk register is not optional**: All identified risks must be entered into a
-  risk register. Minimum fields: threats, vulnerabilities, likelihood, impact,
-  inherent risk, current controls, residual risk, countermeasures, risk owner.
-- **Both approaches needed**: Best results require combining top-down and
-  bottom-up risk assessment. Neither alone provides complete coverage.
-- **Culture trumps process**: Senior management sponsorship and organizational
-  culture toward risk are the primary determinants of risk management program
-  success. Documentation quality follows cultural commitment.
-- **Policies are business decisions**: Technology determines how policies are
-  implemented, not what they require. Policy documentation (policies, standards,
-  procedures, guidelines) forms the foundation for control implementation.
-- **Asset identification precedes protection**: "You can't protect what you
-  don't know exists." Asset inventories covering people, technology, data, and
-  intellectual property are prerequisites for meaningful risk assessment.
-
-## Limits and defaults
-
-| Item | Value | Notes |
-| ---- | ----- | ----- |
-| Risk assessment frequency | At least annually | More frequent (quarterly) assessments acceptable; many regulations require periodic assessment but do not specify frequency |
-| Policy review cycle | Annually or after major change | Major business process or infrastructure changes trigger review |
-| Exception review | Annually | Logged exceptions should be reviewed to remove those no longer required |
-| CRISC Domain 2 weight | 20% | Approximately 30 questions on the exam |
-
-## Related topics
-
-- **Three Lines of Defense**: Establishes accountability structure for risk
-  management; first line (operations), second line (risk management/compliance),
-  third line (internal audit)
-- **Business Impact Analysis (BIA)**: Identifies critical business processes and
-  recovery priorities (RPO, RTO, MTD); complements risk assessment by focusing
-  on recovery rather than threat identification
-- **Threat modeling**: PASTA, STRIDE, and other methodologies for systematic
-  threat identification; informs external environment analysis
-- **RACI model**: Defines Responsible, Accountable, Consulted, Informed roles;
-  essential for documenting risk management responsibilities
-- **Industry frameworks**: NIST SP 800-30/37/161, ISO 27005, ISO 31000, OCTAVE,
-  FAIR provide structured approaches to documentation and analysis
-## Key concepts (Doshi)
-
+##### Doshi Review Manual
 - **Documentation review purpose**: The primary reason for reviewing documentation before starting a risk assessment is to understand current business processes, objectives, and environment. Risk assessment is effective only when the assessor understands the organization's context.
 
 - **First step in risk identification**: Gathering information about current and future business environment is the initial step in any risk identification process. This precedes determining threats, vulnerabilities, or risk appetite.
@@ -2047,8 +2098,17 @@ Risk acceptance documentation must include:
   - Loss of competitive advantage
   - Legal costs
 
-## Common scenarios (Doshi)
+#### Common scenarios
 
+##### CRISC All-in-One Exam Guide
+| Scenario | Correct approach | Why |
+| -------- | ---------------- | --- |
+| New EHR system implementation | Collect Board of Directors revenue reviews, Ethics & Compliance regulatory reports, senior management performance data, security reports | Multiple stakeholder perspectives ensure comprehensive risk identification across strategic, regulatory, and operational dimensions |
+| Disagreement between business manager and security manager on vendor risk | Escalate to senior management with documented pros and cons for final input and risk acceptance | Major vendor decisions require executive judgment when risk assessment results are contested |
+| First risk assessment at organization | Start with qualitative methodology, leverage industry risk catalogs to baseline | Quantitative techniques like FAIR require historical data and mature processes; checklists and qualitative ratings enable rapid program initiation |
+| Assessing supplier-related risks | Review NIST SP 800-161 for supply chain guidance, identify vendor risk management strategy, assess fourth-party risks | Supply chain risks extend beyond direct vendors to their dependencies |
+
+##### Doshi Review Manual
 | Scenario | Correct approach | Why |
 | -------- | ---------------- | --- |
 | External team begins risk assessment | Review documentation first to understand business processes | Assessment is ineffective without understanding business context |
@@ -2058,8 +2118,25 @@ Risk acceptance documentation must include:
 | Understanding compliance impact on objectives | Compliance-oriented BIA | Identifies all compliance requirements and their business impact |
 | Third-party outsourcing to foreign country | Consider laws and regulations first | Origin country laws may not be enforceable abroad |
 
-## Gotchas (Doshi)
+#### Gotchas
 
+##### CRISC All-in-One Exam Guide
+- **Risk register is not optional**: All identified risks must be entered into a
+  risk register. Minimum fields: threats, vulnerabilities, likelihood, impact,
+  inherent risk, current controls, residual risk, countermeasures, risk owner.
+- **Both approaches needed**: Best results require combining top-down and
+  bottom-up risk assessment. Neither alone provides complete coverage.
+- **Culture trumps process**: Senior management sponsorship and organizational
+  culture toward risk are the primary determinants of risk management program
+  success. Documentation quality follows cultural commitment.
+- **Policies are business decisions**: Technology determines how policies are
+  implemented, not what they require. Policy documentation (policies, standards,
+  procedures, guidelines) forms the foundation for control implementation.
+- **Asset identification precedes protection**: "You can't protect what you
+  don't know exists." Asset inventories covering people, technology, data, and
+  intellectual property are prerequisites for meaningful risk assessment.
+
+##### Doshi Review Manual
 - **Documentation review vs. gap analysis**: Documentation review aims to understand business processes, not to identify documentation gaps. The purpose is context, not completeness assessment.
 
 - **Internal audit reports vs. risk register**: For tracking risk profile changes, use the risk register rather than internal audit reports. Audit reports are point-in-time; risk registers maintain ongoing risk status.
@@ -2070,7 +2147,39 @@ Risk acceptance documentation must include:
 
 - **Senior management accountability**: Accountability for IT system risk resides with senior management, not IT department, end users, or risk management department. Others support implementation.
 
-## Internal environment documentation
+#### Limits and defaults
+
+| Item | Value | Notes |
+| ---- | ----- | ----- |
+| Risk assessment frequency | At least annually | More frequent (quarterly) assessments acceptable; many regulations require periodic assessment but do not specify frequency |
+| Policy review cycle | Annually or after major change | Major business process or infrastructure changes trigger review |
+| Exception review | Annually | Logged exceptions should be reviewed to remove those no longer required |
+| CRISC Domain 2 weight | 20% | Approximately 30 questions on the exam |
+
+#### Related topics
+
+##### CRISC All-in-One Exam Guide
+- **Three Lines of Defense**: Establishes accountability structure for risk
+  management; first line (operations), second line (risk management/compliance),
+  third line (internal audit)
+- **Business Impact Analysis (BIA)**: Identifies critical business processes and
+  recovery priorities (RPO, RTO, MTD); complements risk assessment by focusing
+  on recovery rather than threat identification
+- **Threat modeling**: PASTA, STRIDE, and other methodologies for systematic
+  threat identification; informs external environment analysis
+- **RACI model**: Defines Responsible, Accountable, Consulted, Informed roles;
+  essential for documenting risk management responsibilities
+- **Industry frameworks**: NIST SP 800-30/37/161, ISO 27005, ISO 31000, OCTAVE,
+  FAIR provide structured approaches to documentation and analysis
+
+##### Doshi Review Manual
+- **Risk register**: Central repository documenting identified risks, updated from risk identification through monitoring phases
+- **Threat modelling**: Uses attacker techniques to design adequate controls; threats are external and uncontrollable
+- **Vulnerability analysis**: Identifies weaknesses in protection efforts that can be controlled
+- **Risk profile**: Overall risk status derived from risk register analysis
+- **Enterprise risk management (ERM)**: Framework integrating business environment context with risk activities
+
+#### Internal environment documentation
 
 | Document type | Purpose | Key review points |
 | ------------- | ------- | ----------------- |
@@ -2082,7 +2191,7 @@ Risk acceptance documentation must include:
 | Data classification policy | Define protection levels by asset class | Categories, protection requirements, roles |
 | Data retention policy | Define retention periods | Business requirements, legal/contractual requirements |
 
-## External environment considerations
+#### External environment considerations
 
 | Factor | Risk consideration |
 | ------ | ------------------ |
@@ -2093,7 +2202,7 @@ Risk acceptance documentation must include:
 | Technology changes | Obsolescence risk, new vulnerabilities |
 | Market conditions | Business process flexibility requirements |
 
-## Information gathering methods
+#### Information gathering methods
 
 - **Delphi technique**: Allows anonymous risk identification through multiple questionnaire rounds with expert consensus building
 - **Brainstorming/structured interviews**: Gather information through meetings with individuals or small groups
@@ -2101,17 +2210,10 @@ Risk acceptance documentation must include:
 - **Business impact analysis (BIA)**: Determines critical processes and recovery strategies
 - **Compliance-oriented BIA**: Identifies compliance requirements and their impact on objectives
 
-## Related topics (Doshi)
-
-- **Risk register**: Central repository documenting identified risks, updated from risk identification through monitoring phases
-- **Threat modelling**: Uses attacker techniques to design adequate controls; threats are external and uncontrollable
-- **Vulnerability analysis**: Identifies weaknesses in protection efforts that can be controlled
-- **Risk profile**: Overall risk status derived from risk register analysis
-- **Enterprise risk management (ERM)**: Framework integrating business environment context with risk activities
-
 ### 2.2: Identify potential risks and vulnerabilities affecting organization
-## Key concepts
+#### Key concepts
 
+##### CRISC All-in-One Exam Guide
 - **Threat**: Anything (human, malicious code, natural disaster) that could
   impact an asset and adversely affect it, resulting in harm
   - Employs threat actors to exploit vulnerabilities
@@ -2138,80 +2240,7 @@ Risk acceptance documentation must include:
     objectives
   - Bottom-up: Identified by individuals/teams, cascaded upward
 
-## Common scenarios
-
-| Scenario | Correct approach | Why |
-| -------- | ---------------- | --- |
-| New technology implementation | Identify technology-specific risks during acquisition phase | Risks vary by technology; early identification enables proactive controls |
-| Data leakage incidents | Document as risk, categorize severity, assess controls | Pattern of events may reveal unidentified risk requiring mitigation |
-| Outdated operating systems | Log as issue to monitor | Not yet a materialized risk but requires tracking |
-| Multiple failed login attempts | Correlate events to identify incident pattern | Single event may be normal; pattern indicates attack |
-
-## Gotchas
-
-- **Threats cannot be eliminated**: Organizations can only implement controls
-  to limit the probability of exploitation; the threat landscape constantly
-  changes
-- **Issue vs event vs incident**: Issue is unmaterialized risk to monitor;
-  event is any observable occurrence; incident is an event with negative impact
-  on CIA triad
-- **Risk register limitations**: Does not provide comprehensive view of all
-  risks; may miss emerging risks or those not yet identified
-- **Quantitative vs qualitative timing**: FAIR (quantitative) is inappropriate
-  for first-time risk assessments; checklists are insufficient for mature
-  programs
-
-## Tools for identifying vulnerabilities
-
-| Tool/Source | Purpose | Notes |
-| ----------- | ------- | ----- |
-| Vulnerability assessment scans | Identify open vulnerabilities | Nessus, Qualys; use CVSS scoring |
-| Penetration tests | Surface security weaknesses | Required at least annually or after major changes |
-| Static analysis (SAST) | Find code-level vulnerabilities | Identifies logical issues before deployment |
-| Dynamic analysis (DAST) | Find runtime vulnerabilities | Tests running applications without source code |
-| Configuration checks | Detect misconfigurations | Critical for cloud environments with many engineers |
-| Risk assessments | Identify non-technical risks | Increasingly relevant with modern development practices |
-| Zero-day findings | Track unpatched vulnerabilities | Follow security researcher publications |
-| Industry advisories | Monitor external threats | NIST, CISA publish alerts |
-| Vendor security bulletins | Track product-specific risks | Subscribe to vendor notification feeds |
-
-## Risk assessment techniques
-
-| Technique | Use case |
-| --------- | -------- |
-| Brainstorming/interview | Gather broad range of potential risks from groups |
-| Delphi method | Build consensus among experts via iterative questionnaires |
-| Checklists | Baseline assessment for less mature programs |
-| FAIR | Quantitative analysis for mature risk programs |
-| Bow-tie analysis | Visualize links between causes, controls, consequences |
-| Fault tree analysis | Top-down examination of event causes |
-| Event tree analysis | Bottom-up probability assessment of outcomes |
-| OCTAVE | Self-directed assessment with business and IT teams |
-
-## Threat modeling methods
-
-| Method | Key characteristic |
-| ------ | ------------------ |
-| STRIDE | Categorizes threats: Spoofing, Tampering, Repudiation, Information Disclosure, DoS, Elevation of Privilege |
-| DREAD | Risk assessment factors: Damage, Reproducibility, Exploitability, Affected users, Discoverability |
-| PASTA | Seven-stage risk-centric methodology with stakeholder collaboration |
-| SDL | Secure by Design, Default, Deployment, and Communication |
-| OCTAVE | Focuses on organizational (not technological) risks |
-
-## Related topics
-
-- **Risk register**: Documents identified risks with threat, vulnerability,
-  likelihood, impact, inherent risk, current controls, residual risk, and owner
-- **Vulnerability management program (VMP)**: Prioritizes, tracks, and
-  remediates vulnerabilities based on severity
-- **CVSS**: Common Vulnerability Scoring System for quantifying vulnerabilities
-  (Critical, High, Medium, Low, Informational)
-- **Risk appetite and tolerance**: Identified risks must be evaluated against
-  organizational thresholds for prioritization
-- **Regulatory requirements**: GDPR, PCI DSS, HIPAA, SOX, and others mandate
-  formal risk assessments at minimum annually
-## Key concepts (Doshi)
-
+##### Doshi Review Manual
 - **Risk identification**: Process to recognize threats, vulnerabilities, assets,
   and controls of the organization
   - Primary objective: detect threats and vulnerabilities impacting the business
@@ -2237,7 +2266,123 @@ Risk acceptance documentation must include:
   - Provides potential threats for developing risk scenarios
   - Updated when risk profile changes; entries removed when no longer relevant
 
-## Risk identification methods
+#### Common scenarios
+
+##### CRISC All-in-One Exam Guide
+| Scenario | Correct approach | Why |
+| -------- | ---------------- | --- |
+| New technology implementation | Identify technology-specific risks during acquisition phase | Risks vary by technology; early identification enables proactive controls |
+| Data leakage incidents | Document as risk, categorize severity, assess controls | Pattern of events may reveal unidentified risk requiring mitigation |
+| Outdated operating systems | Log as issue to monitor | Not yet a materialized risk but requires tracking |
+| Multiple failed login attempts | Correlate events to identify incident pattern | Single event may be normal; pattern indicates attack |
+
+##### Doshi Review Manual
+| Scenario | Correct approach | Why |
+| -------- | ---------------- | --- |
+| Employees need anonymous risk input | Delphi technique | Preserves anonymity through facilitator |
+| Assessing business-level risk | Risk scenarios | Most effective for estimating frequency and impact |
+| New system implementation | Risk assessment before controls | Identifies risks before deciding mitigation |
+| Third-party alert about cyber threat | Inform senior management first | They have authority for preventive action |
+| Infrastructure modification | Perform penetration test | Changes introduce new exposures and vulnerabilities |
+| Offshore data transfer | Evaluate laws and regulations | Local laws may not be enforceable abroad |
+
+#### Gotchas
+
+##### CRISC All-in-One Exam Guide
+- **Threats cannot be eliminated**: Organizations can only implement controls
+  to limit the probability of exploitation; the threat landscape constantly
+  changes
+- **Issue vs event vs incident**: Issue is unmaterialized risk to monitor;
+  event is any observable occurrence; incident is an event with negative impact
+  on CIA triad
+- **Risk register limitations**: Does not provide comprehensive view of all
+  risks; may miss emerging risks or those not yet identified
+- **Quantitative vs qualitative timing**: FAIR (quantitative) is inappropriate
+  for first-time risk assessments; checklists are insufficient for mature
+  programs
+
+##### Doshi Review Manual
+- **Threat vs. vulnerability confusion**: ISACA frequently tests this
+  distinction. Threats are what you protect against (external); vulnerabilities
+  are weaknesses in protection (internal, controllable).
+
+- **First step in risk identification**: Always gather information about current
+  and future environment first, not immediately identify vulnerabilities or
+  determine risk appetite.
+
+- **Enterprise threat analysis timing**: Conduct annually to address new and
+  emerging threats, not only when attacks are detected.
+
+- **Emerging threat identification**: A startup becoming popular and attracting
+  hackers represents an emerging threat, not a vulnerability or environmental
+  factor.
+
+- **Subcontracting risk**: When vendors subcontract processing of critical data,
+  this increases risk because enterprise loses control over subcontractor
+  processes.
+
+- **Penetration testing timing**: Best performed after infrastructure changes,
+  which are most likely to introduce new vulnerabilities.
+
+#### Tools for identifying vulnerabilities
+
+| Tool/Source | Purpose | Notes |
+| ----------- | ------- | ----- |
+| Vulnerability assessment scans | Identify open vulnerabilities | Nessus, Qualys; use CVSS scoring |
+| Penetration tests | Surface security weaknesses | Required at least annually or after major changes |
+| Static analysis (SAST) | Find code-level vulnerabilities | Identifies logical issues before deployment |
+| Dynamic analysis (DAST) | Find runtime vulnerabilities | Tests running applications without source code |
+| Configuration checks | Detect misconfigurations | Critical for cloud environments with many engineers |
+| Risk assessments | Identify non-technical risks | Increasingly relevant with modern development practices |
+| Zero-day findings | Track unpatched vulnerabilities | Follow security researcher publications |
+| Industry advisories | Monitor external threats | NIST, CISA publish alerts |
+| Vendor security bulletins | Track product-specific risks | Subscribe to vendor notification feeds |
+
+#### Risk assessment techniques
+
+| Technique | Use case |
+| --------- | -------- |
+| Brainstorming/interview | Gather broad range of potential risks from groups |
+| Delphi method | Build consensus among experts via iterative questionnaires |
+| Checklists | Baseline assessment for less mature programs |
+| FAIR | Quantitative analysis for mature risk programs |
+| Bow-tie analysis | Visualize links between causes, controls, consequences |
+| Fault tree analysis | Top-down examination of event causes |
+| Event tree analysis | Bottom-up probability assessment of outcomes |
+| OCTAVE | Self-directed assessment with business and IT teams |
+
+#### Threat modeling methods
+
+| Method | Key characteristic |
+| ------ | ------------------ |
+| STRIDE | Categorizes threats: Spoofing, Tampering, Repudiation, Information Disclosure, DoS, Elevation of Privilege |
+| DREAD | Risk assessment factors: Damage, Reproducibility, Exploitability, Affected users, Discoverability |
+| PASTA | Seven-stage risk-centric methodology with stakeholder collaboration |
+| SDL | Secure by Design, Default, Deployment, and Communication |
+| OCTAVE | Focuses on organizational (not technological) risks |
+
+#### Related topics
+
+##### CRISC All-in-One Exam Guide
+- **Risk register**: Documents identified risks with threat, vulnerability,
+  likelihood, impact, inherent risk, current controls, residual risk, and owner
+- **Vulnerability management program (VMP)**: Prioritizes, tracks, and
+  remediates vulnerabilities based on severity
+- **CVSS**: Common Vulnerability Scoring System for quantifying vulnerabilities
+  (Critical, High, Medium, Low, Informational)
+- **Risk appetite and tolerance**: Identified risks must be evaluated against
+  organizational thresholds for prioritization
+- **Regulatory requirements**: GDPR, PCI DSS, HIPAA, SOX, and others mandate
+  formal risk assessments at minimum annually
+
+##### Doshi Review Manual
+- 2.1 Risk assessment methodology: Foundation for identification process
+- 2.3 Threat modelling and landscape: Detailed threat analysis techniques
+- 2.4 Vulnerability and control deficiency analysis: Deep dive into weaknesses
+- 2.5 Risk scenarios: Primary tool for risk identification and assessment
+- 2.8 Risk register: Central documentation for all identified risks
+
+#### Risk identification methods
 
 - **Delphi technique**: Anonymous risk identification through expert polling
   - Two or more rounds of questionnaires
@@ -2272,42 +2417,7 @@ Risk acceptance documentation must include:
   - Objective: ensure system resilience against errors and misuse
   - Examples: ICMP, NTP, DNS service abuse
 
-## Common scenarios (Doshi)
-
-| Scenario | Correct approach | Why |
-| -------- | ---------------- | --- |
-| Employees need anonymous risk input | Delphi technique | Preserves anonymity through facilitator |
-| Assessing business-level risk | Risk scenarios | Most effective for estimating frequency and impact |
-| New system implementation | Risk assessment before controls | Identifies risks before deciding mitigation |
-| Third-party alert about cyber threat | Inform senior management first | They have authority for preventive action |
-| Infrastructure modification | Perform penetration test | Changes introduce new exposures and vulnerabilities |
-| Offshore data transfer | Evaluate laws and regulations | Local laws may not be enforceable abroad |
-
-## Gotchas (Doshi)
-
-- **Threat vs. vulnerability confusion**: ISACA frequently tests this
-  distinction. Threats are what you protect against (external); vulnerabilities
-  are weaknesses in protection (internal, controllable).
-
-- **First step in risk identification**: Always gather information about current
-  and future environment first, not immediately identify vulnerabilities or
-  determine risk appetite.
-
-- **Enterprise threat analysis timing**: Conduct annually to address new and
-  emerging threats, not only when attacks are detected.
-
-- **Emerging threat identification**: A startup becoming popular and attracting
-  hackers represents an emerging threat, not a vulnerability or environmental
-  factor.
-
-- **Subcontracting risk**: When vendors subcontract processing of critical data,
-  this increases risk because enterprise loses control over subcontractor
-  processes.
-
-- **Penetration testing timing**: Best performed after infrastructure changes,
-  which are most likely to introduce new vulnerabilities.
-
-## Limits and defaults
+#### Limits and defaults
 
 | Item | Value | Notes |
 | ---- | ----- | ----- |
@@ -2316,20 +2426,13 @@ Risk acceptance documentation must include:
 | Risk removal from register | When irrelevant | Risk no longer applicable |
 | Risk addition to register | Activity initiation | When triggering activity begins |
 
-## Related topics (Doshi)
-
-- 2.1 Risk assessment methodology: Foundation for identification process
-- 2.3 Threat modelling and landscape: Detailed threat analysis techniques
-- 2.4 Vulnerability and control deficiency analysis: Deep dive into weaknesses
-- 2.5 Risk scenarios: Primary tool for risk identification and assessment
-- 2.8 Risk register: Central documentation for all identified risks
-
 ### 2.3: Develop IT risk scenarios based on available data
 
 Guide
 
-## Key concepts
+#### Key concepts
 
+##### CRISC All-in-One Exam Guide
 - **Risk scenario**: A structured description of a potential risk event that
   combines threat, vulnerability, asset, and impact into a coherent narrative
   for analysis and communication.
@@ -2369,92 +2472,7 @@ Guide
   - Management connects risks to KPIs
   - Organization evaluates regulatory and strategic alignment
 
-## Common scenarios
-
-| Scenario | Correct approach | Why |
-| -------- | ---------------- | --- |
-| New EHR system deployment | Combine top-down (board strategic view) and bottom-up (department operational risks) | Ensures both strategic alignment and operational detail |
-| Malware infection propagation | Map threat actor, threat vector (email/website), vulnerability (missing controls), and asset impact | Complete scenario enables targeted controls |
-| Control deficiency in access management | Implement compensating controls while addressing root cause | Mitigates immediate risk while planning remediation |
-| Mass login failures in short timeframe | Escalate from event to incident classification | Pattern indicates brute-force attack requiring response |
-
-## Data sources for scenario development
-
-- **Vulnerability assessment scans**: Tools like Nessus and Qualys surface open
-  vulnerabilities
-- **Penetration test findings**: Annual or post-change tests reveal
-  exploitable weaknesses
-- **Static analysis**: Code pipeline tools flag logical and security defects
-- **Dynamic analysis**: Runtime scanning identifies vulnerabilities during
-  execution
-- **Configuration checks**: Periodic scans detect misconfiguration issues in
-  cloud environments
-- **Risk assessments**: Historical assessments provide non-technical risk
-  context
-- **Threat modeling outputs**: STRIDE, DREAD, PASTA, and other frameworks
-  identify attack vectors
-- **Incident and event logs**: SIEM correlation reveals patterns from
-  historical data
-- **Industry risk catalogs**: Pre-built scenarios from standards bodies
-  baseline the assessment program
-
-## Gotchas
-
-- **Threat versus vulnerability confusion**: Threats are external and
-  uncontrollable; vulnerabilities are internal and can be addressed with
-  controls. Scenarios must distinguish both.
-
-- **Single approach limitation**: Using only top-down or bottom-up approaches
-  produces incomplete scenarios. Best practice combines both simultaneously.
-
-- **Event versus incident misclassification**: A single failed login is an
-  event; thousands of failed logins in seconds is an incident requiring
-  response. Scenarios must account for escalation thresholds.
-
-- **Ignoring qualitative input for quantitative models**: Quantitative methods
-  like FAIR require accurate historical data. Organizations without mature data
-  should use qualitative or hybrid approaches initially.
-
-- **Static scenarios**: The threat landscape changes continuously. Scenarios
-  require regular review and updates as threats, vulnerabilities, and business
-  context evolve.
-
-## Risk analysis methodologies for scenarios
-
-| Methodology | Characteristics | Best fit |
-| ----------- | --------------- | -------- |
-| Qualitative | Subjective, uses High/Medium/Low ratings, relies on experience | Organizations new to risk assessment |
-| Quantitative | Objective, provides monetary value at risk, requires historical data | Mature organizations with reliable data |
-| Semiquantitative/Hybrid | Combines qualitative ratings with numerical scales (1-5) | Bridging between approaches |
-
-## Risk assessment techniques supporting scenarios
-
-| Technique | Description |
-| --------- | ----------- |
-| Bow-tie analysis | Displays links between causes, controls, and consequences |
-| Brainstorming/Interview | Gathers potential risks from groups for ranking |
-| Cause and effect analysis | Groups contributing factors into categories |
-| Delphi method | Uses expert opinion through multiple questionnaire rounds |
-| FAIR | Establishes probabilities for frequency and magnitude of loss events |
-| Fault tree analysis | Examines possible means for an event to occur, top to bottom |
-| Event tree analysis | Assesses probability of different events resulting in outcomes |
-| Monte Carlo analysis | Uses repeated random sampling for quantitative risk analysis |
-| SWIFT | Uses structured brainstorming with prompts and guide words |
-
-## Related topics
-
-- **Risk register**: Repository where all developed scenarios are documented
-  with likelihood, impact, controls, and ownership
-- **Threat modeling**: Structured approach providing input data for scenario
-  development through methods like STRIDE, PASTA, and OCTAVE
-- **Business impact analysis**: Complements risk scenarios by quantifying
-  impact on business operations
-- **Key risk indicators**: Metrics that signal when scenario likelihood or
-  impact may be changing
-- **Key control indicators**: Measures of control effectiveness that indicate
-  potential risk scenario exposure
-## Key concepts (Doshi)
-
+##### Doshi Review Manual
 - **Risk scenario**: A visualization of a possible event that can have adverse
   impact on business objectives. Used to imagine what could go wrong and
   identify hurdles to achieving business goals.
@@ -2485,18 +2503,17 @@ Guide
 - **Best approach**: Combine both top-down and bottom-up approaches. They are
   complementary and should be used simultaneously.
 
-## Data sources for scenario development (Doshi)
+#### Common scenarios
 
-- **Risk register**: Primary source containing potential threats. The most
-  important information for developing scenarios is the documented potential
-  threats.
-- **Historical data**: Past incidents provide basis for scenarios. Using
-  representative and historical data is the most effective method to avoid
-  bias.
-- **Emerging risks**: New and evolving threats beyond past incidents
+##### CRISC All-in-One Exam Guide
+| Scenario | Correct approach | Why |
+| -------- | ---------------- | --- |
+| New EHR system deployment | Combine top-down (board strategic view) and bottom-up (department operational risks) | Ensures both strategic alignment and operational detail |
+| Malware infection propagation | Map threat actor, threat vector (email/website), vulnerability (missing controls), and asset impact | Complete scenario enables targeted controls |
+| Control deficiency in access management | Implement compensating controls while addressing root cause | Mitigates immediate risk while planning remediation |
+| Mass login failures in short timeframe | Escalate from event to incident classification | Pattern indicates brute-force attack requiring response |
 
-## Common scenarios (Doshi)
-
+##### Doshi Review Manual
 | Scenario | Correct approach | Why |
 | -------- | ---------------- | --- |
 | Developing scenarios for strategic risks | Top-down approach | Aligns with business objectives and senior management goals |
@@ -2505,8 +2522,59 @@ Guide
 | Ensuring unbiased scenarios | Use representative and historical data | Reduces subjectivity in probability estimates |
 | Estimating likelihood of events | Use risk scenarios | Scenario analysis examines possible futures and probabilities |
 
-## Gotchas (Doshi)
+#### Data sources for scenario development
 
+##### CRISC All-in-One Exam Guide
+- **Vulnerability assessment scans**: Tools like Nessus and Qualys surface open
+  vulnerabilities
+- **Penetration test findings**: Annual or post-change tests reveal
+  exploitable weaknesses
+- **Static analysis**: Code pipeline tools flag logical and security defects
+- **Dynamic analysis**: Runtime scanning identifies vulnerabilities during
+  execution
+- **Configuration checks**: Periodic scans detect misconfiguration issues in
+  cloud environments
+- **Risk assessments**: Historical assessments provide non-technical risk
+  context
+- **Threat modeling outputs**: STRIDE, DREAD, PASTA, and other frameworks
+  identify attack vectors
+- **Incident and event logs**: SIEM correlation reveals patterns from
+  historical data
+- **Industry risk catalogs**: Pre-built scenarios from standards bodies
+  baseline the assessment program
+
+##### Doshi Review Manual
+- **Risk register**: Primary source containing potential threats. The most
+  important information for developing scenarios is the documented potential
+  threats.
+- **Historical data**: Past incidents provide basis for scenarios. Using
+  representative and historical data is the most effective method to avoid
+  bias.
+- **Emerging risks**: New and evolving threats beyond past incidents
+
+#### Gotchas
+
+##### CRISC All-in-One Exam Guide
+- **Threat versus vulnerability confusion**: Threats are external and
+  uncontrollable; vulnerabilities are internal and can be addressed with
+  controls. Scenarios must distinguish both.
+
+- **Single approach limitation**: Using only top-down or bottom-up approaches
+  produces incomplete scenarios. Best practice combines both simultaneously.
+
+- **Event versus incident misclassification**: A single failed login is an
+  event; thousands of failed logins in seconds is an incident requiring
+  response. Scenarios must account for escalation thresholds.
+
+- **Ignoring qualitative input for quantitative models**: Quantitative methods
+  like FAIR require accurate historical data. Organizations without mature data
+  should use qualitative or hybrid approaches initially.
+
+- **Static scenarios**: The threat landscape changes continuously. Scenarios
+  require regular review and updates as threats, vulnerabilities, and business
+  context evolve.
+
+##### Doshi Review Manual
 - **Trap: Top-down OR bottom-up**: Always combine both approaches. Neither is
   sufficient alone. Exam may present options favoring one approach - choose the
   combination.
@@ -2524,25 +2592,43 @@ Guide
 - **First step confusion**: The first step in identification of risk scenarios
   is to identify the risk factors, not to create scenarios directly.
 
-## Limits and defaults
+#### Risk analysis methodologies for scenarios
 
-| Item | Value | Notes |
-| ---- | ----- | ----- |
-| Primary purpose of scenarios | Estimate frequency and impact | Enables risk assessment process |
-| Most effective assessment technique | Risk scenarios | Over risk-based audit, incident analysis, or response plans |
-| Key risk register input | Potential threats | Not risk owner, response plan, or reported incidents |
-| Scenario development approach | Combined top-down and bottom-up | Complementary methods |
+| Methodology | Characteristics | Best fit |
+| ----------- | --------------- | -------- |
+| Qualitative | Subjective, uses High/Medium/Low ratings, relies on experience | Organizations new to risk assessment |
+| Quantitative | Objective, provides monetary value at risk, requires historical data | Mature organizations with reliable data |
+| Semiquantitative/Hybrid | Combines qualitative ratings with numerical scales (1-5) | Bridging between approaches |
 
-## Benefits of risk scenarios
+#### Risk assessment techniques supporting scenarios
 
-- Easiest and most effective way to explain risk to business process owners
-- Involvement of process owners makes information gathering more relevant
-- Helps identify risks aligned with business objectives
-- Used in threat and vulnerability assessments to estimate likelihood and
-  impact
+| Technique | Description |
+| --------- | ----------- |
+| Bow-tie analysis | Displays links between causes, controls, and consequences |
+| Brainstorming/Interview | Gathers potential risks from groups for ranking |
+| Cause and effect analysis | Groups contributing factors into categories |
+| Delphi method | Uses expert opinion through multiple questionnaire rounds |
+| FAIR | Establishes probabilities for frequency and magnitude of loss events |
+| Fault tree analysis | Examines possible means for an event to occur, top to bottom |
+| Event tree analysis | Assesses probability of different events resulting in outcomes |
+| Monte Carlo analysis | Uses repeated random sampling for quantitative risk analysis |
+| SWIFT | Uses structured brainstorming with prompts and guide words |
 
-## Related topics (Doshi)
+#### Related topics
 
+##### CRISC All-in-One Exam Guide
+- **Risk register**: Repository where all developed scenarios are documented
+  with likelihood, impact, controls, and ownership
+- **Threat modeling**: Structured approach providing input data for scenario
+  development through methods like STRIDE, PASTA, and OCTAVE
+- **Business impact analysis**: Complements risk scenarios by quantifying
+  impact on business operations
+- **Key risk indicators**: Metrics that signal when scenario likelihood or
+  impact may be changing
+- **Key control indicators**: Measures of control effectiveness that indicate
+  potential risk scenario exposure
+
+##### Doshi Review Manual
 - **Risk register (2.8)**: Source of potential threats for scenario development;
   scenarios are documented back into the register with probability and impact
 - **Threat modeling (2.3)**: Threat-based approach identifies risks by
@@ -2552,9 +2638,27 @@ Guide
 - **Qualitative risk assessment**: Uses different scenarios with threats and
   impacts for comprehensive outcome
 
-### 2.4: Identify key stakeholders for IT risk scenarios to establish accountability
-## Key concepts
+#### Limits and defaults
 
+| Item | Value | Notes |
+| ---- | ----- | ----- |
+| Primary purpose of scenarios | Estimate frequency and impact | Enables risk assessment process |
+| Most effective assessment technique | Risk scenarios | Over risk-based audit, incident analysis, or response plans |
+| Key risk register input | Potential threats | Not risk owner, response plan, or reported incidents |
+| Scenario development approach | Combined top-down and bottom-up | Complementary methods |
+
+#### Benefits of risk scenarios
+
+- Easiest and most effective way to explain risk to business process owners
+- Involvement of process owners makes information gathering more relevant
+- Helps identify risks aligned with business objectives
+- Used in threat and vulnerability assessments to estimate likelihood and
+  impact
+
+### 2.4: Identify key stakeholders for IT risk scenarios to establish accountability
+#### Key concepts
+
+##### CRISC All-in-One Exam Guide
 - **Stakeholder**: An individual or group affected by or having influence over
   organizational risk decisions. Stakeholders include board members, senior
   executives, business owners, risk practitioners, and external parties such as
@@ -2588,68 +2692,7 @@ Guide
   - Third line (audit): provides independent assurance on first and second line
     effectiveness
 
-## Common scenarios
-
-| Scenario | Correct approach | Why |
-| -------- | ---------------- | --- |
-| Risk impacts multiple business units | Assign owner who controls budget and resources for remediation | Single point of accountability prevents gaps |
-| Risk owner and control owner are same person | Accept in small organizations but document segregation concern | Maintains visibility into potential conflict |
-| New risk identified during assessment | Record risk owner in register immediately | Ensures accountability from identification through response |
-| Business owner leaves organization | Reassign risk ownership before departure | Prevents orphaned risks without accountable party |
-| Stakeholders disagree on risk response | Escalate to accountable party (e.g., CISO, executive sponsor) | Accountable role has authority to decide |
-
-## Gotchas
-
-- **Confusing responsible with accountable**: Responsible parties perform the
-  work; accountable parties own outcomes and provide resources. A risk manager
-  is responsible for conducting assessments but the CISO is accountable for the
-  program's success.
-
-- **Multiple risk owners**: Each risk should have exactly one owner. When
-  multiple business units are affected, select the leader who can provide budget
-  and expertise for remediation.
-
-- **Skipping the Informed role**: Board members and executives may not be
-  directly involved but need visibility into risk status. Failing to keep them
-  informed undermines governance oversight.
-
-- **Orphan accounts analogy**: Just as database accounts without owners create
-  security gaps, risks without designated owners go unaddressed. The 3LoD
-  example of orphan accounts illustrates how accountability failures cascade
-  across all three lines.
-
-- **Governance vs. management confusion**: Governance (board/stakeholders) sets
-  direction and provides oversight. Management (risk practitioners) executes.
-  Stakeholder identification must respect this separation.
-
-## Limits and defaults
-
-| Item | Value | Notes |
-| ---- | ----- | ----- |
-| Risk owners per risk | 1 | Single point of accountability |
-| RACI accountable parties | 1 per activity | Only one person can be accountable |
-| Minimum stakeholder roles | 4 (RACI) | Responsible, Accountable, Consulted, Informed |
-| Lines of defense | 3 | Operational, Risk/Compliance, Audit |
-| Risk register required fields | Owner + Control owner | Both must be documented |
-
-## Related topics
-
-- **Risk register maintenance**: Stakeholder assignments are recorded in the
-  risk register along with threats, vulnerabilities, and response strategies.
-
-- **Three lines of defense**: Provides the structural framework for stakeholder
-  accountability across operational, oversight, and assurance functions.
-
-- **Risk appetite**: Stakeholders (board, executives) define acceptable risk
-  levels that guide response decisions.
-
-- **IT governance**: Establishes accountability for aligning IT investments with
-  business objectives and generating stakeholder value.
-
-- **Key Risk Indicators (KRIs)**: Second line develops KRIs and reports to
-  stakeholders; effectiveness depends on actionability and audience relevance.
-## Key concepts (Doshi)
-
+##### Doshi Review Manual
 - **Stakeholder identification**: Process of determining who has a vested
   interest in IT risk scenarios and who must be involved in managing those
   risks
@@ -2692,8 +2735,18 @@ Guide
   - Third line: Internal audit providing independent assurance
   - All three lines must have common goals and coordinated planning
 
-## Common scenarios (Doshi)
+#### Common scenarios
 
+##### CRISC All-in-One Exam Guide
+| Scenario | Correct approach | Why |
+| -------- | ---------------- | --- |
+| Risk impacts multiple business units | Assign owner who controls budget and resources for remediation | Single point of accountability prevents gaps |
+| Risk owner and control owner are same person | Accept in small organizations but document segregation concern | Maintains visibility into potential conflict |
+| New risk identified during assessment | Record risk owner in register immediately | Ensures accountability from identification through response |
+| Business owner leaves organization | Reassign risk ownership before departure | Prevents orphaned risks without accountable party |
+| Stakeholders disagree on risk response | Escalate to accountable party (e.g., CISO, executive sponsor) | Accountable role has authority to decide |
+
+##### Doshi Review Manual
 | Scenario | Correct approach | Why |
 | -------- | ---------------- | --- |
 | New IT risk identified | Notify business process owners first, even with incomplete information | They own the risk and determine response |
@@ -2703,8 +2756,32 @@ Guide
 | Unclear roles causing duplicate efforts | Implement three lines of defense model | Clarifies roles and responsibilities |
 | Risk findings challenged by process owners | Indicates misalignment between risk practices and business strategies | Process owners understand business context best |
 
-## Gotchas (Doshi)
+#### Gotchas
 
+##### CRISC All-in-One Exam Guide
+- **Confusing responsible with accountable**: Responsible parties perform the
+  work; accountable parties own outcomes and provide resources. A risk manager
+  is responsible for conducting assessments but the CISO is accountable for the
+  program's success.
+
+- **Multiple risk owners**: Each risk should have exactly one owner. When
+  multiple business units are affected, select the leader who can provide budget
+  and expertise for remediation.
+
+- **Skipping the Informed role**: Board members and executives may not be
+  directly involved but need visibility into risk status. Failing to keep them
+  informed undermines governance oversight.
+
+- **Orphan accounts analogy**: Just as database accounts without owners create
+  security gaps, risks without designated owners go unaddressed. The 3LoD
+  example of orphan accounts illustrates how accountability failures cascade
+  across all three lines.
+
+- **Governance vs. management confusion**: Governance (board/stakeholders) sets
+  direction and provides oversight. Management (risk practitioners) executes.
+  Stakeholder identification must respect this separation.
+
+##### Doshi Review Manual
 - **Group vs. individual accountability**: Assigning accountability to a
   department rather than a specific individual circumvents ownership and reduces
   effectiveness
@@ -2726,8 +2803,18 @@ Guide
 - **Users as stakeholders**: Users of IT services are generally the application
   owners and risk owners; CTO, CFO, and CRO support but do not own business risk
 
-## Limits and defaults (Doshi)
+#### Limits and defaults
 
+##### CRISC All-in-One Exam Guide
+| Item | Value | Notes |
+| ---- | ----- | ----- |
+| Risk owners per risk | 1 | Single point of accountability |
+| RACI accountable parties | 1 per activity | Only one person can be accountable |
+| Minimum stakeholder roles | 4 (RACI) | Responsible, Accountable, Consulted, Informed |
+| Lines of defense | 3 | Operational, Risk/Compliance, Audit |
+| Risk register required fields | Owner + Control owner | Both must be documented |
+
+##### Doshi Review Manual
 | Item | Value | Notes |
 | ---- | ----- | ----- |
 | Accountable parties | Single individual | Never assign accountability to a group |
@@ -2735,8 +2822,25 @@ Guide
 | First line communication | Business process owners | Primary recipients of risk monitoring results |
 | Audit trail purpose | Establish accountability | Captures transaction details to trace responsibility |
 
-## Related topics (Doshi)
+#### Related topics
 
+##### CRISC All-in-One Exam Guide
+- **Risk register maintenance**: Stakeholder assignments are recorded in the
+  risk register along with threats, vulnerabilities, and response strategies.
+
+- **Three lines of defense**: Provides the structural framework for stakeholder
+  accountability across operational, oversight, and assurance functions.
+
+- **Risk appetite**: Stakeholders (board, executives) define acceptable risk
+  levels that guide response decisions.
+
+- **IT governance**: Establishes accountability for aligning IT investments with
+  business objectives and generating stakeholder value.
+
+- **Key Risk Indicators (KRIs)**: Second line develops KRIs and reports to
+  stakeholders; effectiveness depends on actionability and audience relevance.
+
+##### Doshi Review Manual
 - **Risk register**: Documents risk ownership and serves as authoritative source
   for stakeholder identification per risk scenario
 - **Risk communication**: Open communication provides transparency to external
@@ -2747,8 +2851,9 @@ Guide
   determine appropriate response actions
 
 ### 2.5: Create and maintain IT risk register with recognized risk scenarios
-## Key concepts
+#### Key concepts
 
+##### CRISC All-in-One Exam Guide
 - **Risk register**: Central repository for documenting all identified risks
   from risk assessments. Can be a sophisticated SaaS tool or a simple
   spreadsheet.
@@ -2784,68 +2889,7 @@ Guide
   - Must include: owner, remediation timeline, specific corrective actions
   - Closed when remediation is implemented and risk marked as remediated
 
-## Common scenarios
-
-| Scenario | Correct approach | Why |
-| -------- | ---------------- | --- |
-| New risk identified in assessment | Enter into risk register with all required fields | Ensures tracking and accountability |
-| Risk impacts multiple business units | Assign owner who controls budget and resources | Single point of accountability needed |
-| Risk cannot be remediated immediately | Create CAP with owner, timeline, and actions | Documents commitment to future remediation |
-| Risk environment changes | Update risk register to reflect new likelihood/impact | Register must remain current |
-| Control owner unclear at assessment time | Note in register when identified | Control owner may emerge during implementation |
-
-## Gotchas
-
-- **Not all risks have equal priority**: Risk practitioner must dedicate time
-  to prioritize which risks require immediate remediation versus later review.
-  Discuss likelihood and impact with stakeholders during assessment.
-
-- **Risk register scope limitation**: A risk register does not provide a
-  comprehensive view of all organizational risks. Emerging risks or risks not
-  yet identified may be absent. Register may cover only specific projects or
-  initiatives.
-
-- **Confusing risk owner with control owner**: Risk owner is accountable for
-  the risk and approves response strategy. Control owner is responsible for
-  implementing and maintaining specific controls.
-
-- **Treating register as static**: The risk register must be a live document.
-  Failing to update when internal or external factors change leads to
-  inaccurate risk posture.
-
-- **Omitting countermeasures**: Register should include future countermeasures
-  that will reduce risk, not just current controls.
-
-## Limits and defaults
-
-| Item | Value | Notes |
-| ---- | ----- | ----- |
-| Minimum risk register fields | 8 | Threats, vulnerabilities, likelihood, impact, inherent risk, controls, residual risk, risk owner |
-| Risk owners per risk | 1 | Single point of accountability required |
-| CAP components | 3 | Owner, timeline, corrective actions |
-
-## Types of risk in register
-
-| Risk type | Definition | Use |
-| --------- | ---------- | --- |
-| Inherent risk | Risk level without considering controls | Baseline risk before mitigation |
-| Residual risk | Risk remaining after controls implemented | Inherent risk minus control effectiveness |
-| Current risk | Point-in-time risk at any given moment | Fluctuates based on threat landscape |
-
-Formula: `Residual Risk = Inherent Risk - Implemented Controls`
-
-## Related topics
-
-- **Risk assessment approaches**: Top-down and bottom-up methods inform which
-  scenarios enter the register
-- **Risk response strategies**: Mitigate, accept, transfer, avoid - documented
-  in register as risk treatment decisions
-- **Three lines of defense**: First line owns business risks, informs
-  accountability model for risk ownership
-- **Qualitative vs quantitative analysis**: Determines how likelihood and
-  impact values are expressed in the register
-## Key concepts (Doshi)
-
+##### Doshi Review Manual
 - **Risk register**: Centralized inventory that consolidates all identified risks
   in one place for driving risk response and tracking risk status across the
   organization
@@ -2875,8 +2919,18 @@ Formula: `Residual Risk = Inherent Risk - Implemented Controls`
   - Risk owner
   - Risk treatment
 
-## Common scenarios (Doshi)
+#### Common scenarios
 
+##### CRISC All-in-One Exam Guide
+| Scenario | Correct approach | Why |
+| -------- | ---------------- | --- |
+| New risk identified in assessment | Enter into risk register with all required fields | Ensures tracking and accountability |
+| Risk impacts multiple business units | Assign owner who controls budget and resources | Single point of accountability needed |
+| Risk cannot be remediated immediately | Create CAP with owner, timeline, and actions | Documents commitment to future remediation |
+| Risk environment changes | Update risk register to reflect new likelihood/impact | Register must remain current |
+| Control owner unclear at assessment time | Note in register when identified | Control owner may emerge during implementation |
+
+##### Doshi Review Manual
 | Scenario | Correct approach | Why |
 | -------- | ---------------- | --- |
 | Risk identified but not yet mitigated | Capture in risk register and track remediation status | All risks must be documented regardless of mitigation state |
@@ -2886,8 +2940,30 @@ Formula: `Residual Risk = Inherent Risk - Implemented Controls`
 | New risk needs to be added | Add when the activity that triggers the risk is initiated | Proactive registration before risk materializes |
 | Risk should be removed | Remove when risk is no longer relevant | Keeps register current and actionable |
 
-## Gotchas (Doshi)
+#### Gotchas
 
+##### CRISC All-in-One Exam Guide
+- **Not all risks have equal priority**: Risk practitioner must dedicate time
+  to prioritize which risks require immediate remediation versus later review.
+  Discuss likelihood and impact with stakeholders during assessment.
+
+- **Risk register scope limitation**: A risk register does not provide a
+  comprehensive view of all organizational risks. Emerging risks or risks not
+  yet identified may be absent. Register may cover only specific projects or
+  initiatives.
+
+- **Confusing risk owner with control owner**: Risk owner is accountable for
+  the risk and approves response strategy. Control owner is responsible for
+  implementing and maintaining specific controls.
+
+- **Treating register as static**: The risk register must be a live document.
+  Failing to update when internal or external factors change leads to
+  inaccurate risk posture.
+
+- **Omitting countermeasures**: Register should include future countermeasures
+  that will reduce risk, not just current controls.
+
+##### Doshi Review Manual
 - **Register purpose misconception**: Primary objective is driving risk
   response, not merely documenting or capturing risks; documentation is a
   secondary aspect
@@ -2908,8 +2984,16 @@ Formula: `Residual Risk = Inherent Risk - Implemented Controls`
   risk; they do not minimize risk response efforts or guarantee all risks are
   identified
 
-## Limits and defaults (Doshi)
+#### Limits and defaults
 
+##### CRISC All-in-One Exam Guide
+| Item | Value | Notes |
+| ---- | ----- | ----- |
+| Minimum risk register fields | 8 | Threats, vulnerabilities, likelihood, impact, inherent risk, controls, residual risk, risk owner |
+| Risk owners per risk | 1 | Single point of accountability required |
+| CAP components | 3 | Owner, timeline, corrective actions |
+
+##### Doshi Review Manual
 | Item | Value | Notes |
 | ---- | ----- | ----- |
 | Register initiation | Risk identification phase | Must begin during identification, not later phases |
@@ -2918,8 +3002,29 @@ Formula: `Residual Risk = Inherent Risk - Implemented Controls`
 | Bias prevention method | Representative and historical data | Ensures objectivity in scenario development |
 | First step in scenario identification | Identify risk factors | Before developing detailed scenarios |
 
-## Related topics (Doshi)
+#### Types of risk in register
 
+| Risk type | Definition | Use |
+| --------- | ---------- | --- |
+| Inherent risk | Risk level without considering controls | Baseline risk before mitigation |
+| Residual risk | Risk remaining after controls implemented | Inherent risk minus control effectiveness |
+| Current risk | Point-in-time risk at any given moment | Fluctuates based on threat landscape |
+
+Formula: `Residual Risk = Inherent Risk - Implemented Controls`
+
+#### Related topics
+
+##### CRISC All-in-One Exam Guide
+- **Risk assessment approaches**: Top-down and bottom-up methods inform which
+  scenarios enter the register
+- **Risk response strategies**: Mitigate, accept, transfer, avoid - documented
+  in register as risk treatment decisions
+- **Three lines of defense**: First line owns business risks, informs
+  accountability model for risk ownership
+- **Qualitative vs quantitative analysis**: Determines how likelihood and
+  impact values are expressed in the register
+
+##### Doshi Review Manual
 - Risk identification: Feeds the risk register with initial entries and
   potential threats
 - Risk prioritization: Register enables ranking of high, medium, and low risks
@@ -2932,8 +3037,9 @@ Formula: `Residual Risk = Inherent Risk - Implemented Controls`
   actions
 
 ### 2.6: Determine risk appetite and tolerance aligned with business objectives
-## Key concepts
+#### Key concepts
 
+##### CRISC All-in-One Exam Guide
 - **Risk appetite**: The amount of risk an organization is willing to accept
   to achieve its objectives
   - Set by the board of directors or senior management
@@ -2970,8 +3076,22 @@ Formula: `Residual Risk = Inherent Risk - Implemented Controls`
   - Risk management team develops strategies that align with this statement
   - Should not be ignored or contradicted by risk management approaches
 
-## Common scenarios
+##### Doshi Review Manual
+- **Risk capacity**: Maximum risk an organization can afford to take
+  - Always greater than tolerance and appetite
+  - Represents absolute upper limit of risk exposure
+- **Risk appetite**: Amount of risk an organization is willing to take
+  - Also referred to as acceptable risk
+  - Must never exceed risk capacity
+  - Defined and approved by senior management
+- **Risk tolerance**: Acceptable deviation from risk appetite
+  - Permissible variance above stated appetite level
+  - Always lower than risk capacity
+  - Can be equal to or greater than appetite
 
+#### Common scenarios
+
+##### CRISC All-in-One Exam Guide
 | Scenario | Correct approach | Why |
 | -------- | ---------------- | --- |
 | Board sets moderate risk appetite for higher returns | Develop risk mitigation strategies that align with stated appetite | Risk appetite statement guides acceptable risk levels |
@@ -2980,8 +3100,16 @@ Formula: `Residual Risk = Inherent Risk - Implemented Controls`
 | Business conditions change | Review and adjust risk appetite boundaries | Boundaries must align with current business objectives |
 | Third-party vendor data is not encrypted at rest | Perform cost-benefit analysis; accept if remediation cost exceeds potential loss | Risk acceptance requires business owner sign-off and compensating controls |
 
-## Gotchas
+##### Doshi Review Manual
+| Scenario | Correct approach | Why |
+| -------- | ---------------- | --- |
+| Critical application has high risk, organization has moderate appetite | Evaluate controls to mitigate risk | Bring risk within acceptable levels without changing appetite |
+| Lack of sufficient resources to treat risk | Define risk priorities to support resource allocation | Prioritization ensures critical risks are addressed first |
+| Risk exceeds tolerance | Address immediately through risk response | Risks exceeding tolerance require treatment |
 
+#### Gotchas
+
+##### CRISC All-in-One Exam Guide
 - **Risk tolerance and risk capacity are not interchangeable**: Tolerance is
   acceptable variation from appetite; capacity is the maximum the organization
   can survive
@@ -2999,16 +3127,35 @@ Formula: `Residual Risk = Inherent Risk - Implemented Controls`
 - **Ignoring the risk appetite statement is incorrect**: Risk management must
   align with the board's stated risk appetite
 
-## Limits and defaults
+##### Doshi Review Manual
+- **Tolerance vs appetite confusion**: Tolerance is the deviation allowed from
+  appetite, not a separate threshold
+- **Senior management role**: Only senior management approves risk appetite
+  and tolerance for information security
+- **Residual vs inherent risk**: Compliance is measured against residual risk
+  (after controls), not inherent risk
+- **Resource prioritization**: High-risk objectives aligned with appetite should
+  receive priority resources, not all objectives equally
 
+#### Limits and defaults
+
+##### CRISC All-in-One Exam Guide
 | Item | Value | Notes |
 | ---- | ----- | ----- |
 | Risk acceptance review frequency | Annual minimum | All exceptions should be revisited at least annually |
 | Risk appetite boundary review | With changing business conditions | Boundaries need regular adjustment or confirmation |
 | Risk capacity threshold | Never exceed | Exceeding threatens organizational existence |
 
-## Related topics
+##### Doshi Review Manual
+| Item | Value | Notes |
+| ---- | ----- | ----- |
+| Approval authority | Senior management | Enterprise-level appetite decisions |
+| Review frequency | Regular intervals | Triggered by strategy or environment changes |
+| Risk acceptance limit | Within appetite | Never exceed capacity |
 
+#### Related topics
+
+##### CRISC All-in-One Exam Guide
 - **Three lines of defense (3LoD)**: Framework for risk governance; risk
   appetite applies across all three lines
 - **Risk acceptance process**: Formal documentation of exceptions when risk
@@ -3021,21 +3168,15 @@ Formula: `Residual Risk = Inherent Risk - Implemented Controls`
   avoidance decisions informed by risk appetite
 - **Change advisory board (CAB)**: Verifies changes do not negatively affect
   risk profile
-## Key concepts (Doshi)
 
-- **Risk capacity**: Maximum risk an organization can afford to take
-  - Always greater than tolerance and appetite
-  - Represents absolute upper limit of risk exposure
-- **Risk appetite**: Amount of risk an organization is willing to take
-  - Also referred to as acceptable risk
-  - Must never exceed risk capacity
-  - Defined and approved by senior management
-- **Risk tolerance**: Acceptable deviation from risk appetite
-  - Permissible variance above stated appetite level
-  - Always lower than risk capacity
-  - Can be equal to or greater than appetite
+##### Doshi Review Manual
+- Risk assessment: Uses appetite/tolerance to evaluate risk levels
+- Risk response: Determined by comparing residual risk to appetite
+- Risk monitoring: Results communicated to risk owners who ensure tolerance
+  compliance
+- Risk culture: Primary factor in determining appropriate appetite levels
 
-## Relationship hierarchy
+#### Relationship hierarchy
 
 Risk capacity > Risk tolerance >= Risk appetite
 
@@ -3043,7 +3184,7 @@ Example: An investor has $1000 total savings (capacity), decides to invest up to
 $700 (appetite), but is willing to go up to $750 if markets are favorable
 (tolerance).
 
-## Alignment with business objectives
+#### Alignment with business objectives
 
 - **Purpose**: Ensures resources are directed toward areas of low risk tolerance
 - **Critical processes**: Require thorough monitoring and tighter controls
@@ -3052,22 +3193,14 @@ $700 (appetite), but is willing to go up to $750 if markets are favorable
 - **Control prioritization**: Build more controls where appetite and tolerance
   are low
 
-## Determining compliance with risk appetite
+#### Determining compliance with risk appetite
 
 - Compare residual risk against acceptable risk level
 - Residual risk must remain within risk appetite
 - If residual risk exceeds appetite, additional risk response is required
 - Compliance is achieved when residual risk <= acceptable risk
 
-## Common scenarios (Doshi)
-
-| Scenario | Correct approach | Why |
-| -------- | ---------------- | --- |
-| Critical application has high risk, organization has moderate appetite | Evaluate controls to mitigate risk | Bring risk within acceptable levels without changing appetite |
-| Lack of sufficient resources to treat risk | Define risk priorities to support resource allocation | Prioritization ensures critical risks are addressed first |
-| Risk exceeds tolerance | Address immediately through risk response | Risks exceeding tolerance require treatment |
-
-## Factors affecting risk appetite
+#### Factors affecting risk appetite
 
 - **Risk culture**: Organizational attitudes toward risk taking
   - Risk-prone organizations have higher appetite
@@ -3077,7 +3210,7 @@ $700 (appetite), but is willing to go up to $750 if markets are favorable
 - **Business complexity**: More complex operations may require different
   appetite levels
 
-## Risk culture relationship
+#### Risk culture relationship
 
 - Risk management methodology depends on organizational risk culture
 - Risk-prone vs risk-averse organizations require different approaches
@@ -3086,7 +3219,7 @@ $700 (appetite), but is willing to go up to $750 if markets are favorable
   - Blame-focused discussions instead of root cause analysis
 - Poor communication leads to acceptance of risk exceeding appetite
 
-## Periodic review requirements
+#### Periodic review requirements
 
 - Risk appetite and tolerance require regular review
 - Triggers for reassessment:
@@ -3095,43 +3228,17 @@ $700 (appetite), but is willing to go up to $750 if markets are favorable
   - Changes in business strategy
   - Shifts in risk portfolio
 
-## Benefits of defining appetite and tolerance
+#### Benefits of defining appetite and tolerance
 
 - Provides evidence of risk-based decision-making
 - Shows how each enterprise component contributes to overall risk profile
 - Supports prioritization and approval of risk response
 - Identifies specific areas requiring risk response
 
-## Gotchas (Doshi)
-
-- **Tolerance vs appetite confusion**: Tolerance is the deviation allowed from
-  appetite, not a separate threshold
-- **Senior management role**: Only senior management approves risk appetite
-  and tolerance for information security
-- **Residual vs inherent risk**: Compliance is measured against residual risk
-  (after controls), not inherent risk
-- **Resource prioritization**: High-risk objectives aligned with appetite should
-  receive priority resources, not all objectives equally
-
-## Limits and defaults (Doshi)
-
-| Item | Value | Notes |
-| ---- | ----- | ----- |
-| Approval authority | Senior management | Enterprise-level appetite decisions |
-| Review frequency | Regular intervals | Triggered by strategy or environment changes |
-| Risk acceptance limit | Within appetite | Never exceed capacity |
-
-## Related topics (Doshi)
-
-- Risk assessment: Uses appetite/tolerance to evaluate risk levels
-- Risk response: Determined by comparing residual risk to appetite
-- Risk monitoring: Results communicated to risk owners who ensure tolerance
-  compliance
-- Risk culture: Primary factor in determining appropriate appetite levels
-
 ### 2.7: Collaborate on risk awareness program and training for stakeholders
-## Key concepts
+#### Key concepts
 
+##### CRISC All-in-One Exam Guide
 - **Security awareness training**: A critical component of any cybersecurity
   strategy that educates employees on identifying and mitigating potential
   security risks and promotes a culture of security throughout the organization.
@@ -3165,71 +3272,7 @@ $700 (appetite), but is willing to go up to $750 if markets are favorable
   - Role-based and privileged user training in addition to general staff
     awareness training.
 
-## Common scenarios
-
-| Scenario | Correct approach | Why |
-| -------- | ---------------- | --- |
-| Employees falling for phishing attacks | Implement security awareness training focused on social engineering recognition | Social engineering exploits human behavior; training helps employees recognize and resist manipulation tactics |
-| New data classification policy rollout | Conduct security awareness training for employees | Ensures employees understand the policy and can implement it properly |
-| Mobile device risks in workforce | Combine MDM solution with security awareness training | Training alone is insufficient; technical controls plus awareness provide defense in depth |
-| Building security culture | Obtain senior management sponsorship and visible support | No amount of training works if risk emphasis is not communicated from the top |
-| Ensuring consistent security controls | Develop and enforce policies with training programs | Policies provide framework; training ensures understanding and consistent implementation |
-
-## Gotchas
-
-- **Training alone eliminates incidents**: Security awareness training reduces
-  risk but cannot eliminate all security incidents. The goal is risk reduction,
-  not elimination.
-
-- **Technical controls replace training**: The best protection against internal
-  threats is not tools or access restrictions but continuous education and
-  upskilling of employees.
-
-- **Risk manager determines all training content**: Business owners are the best
-  assessors of what is critical to their operations. Risk practitioners
-  collaborate with them to determine appropriate training content.
-
-- **One-size-fits-all reporting**: Different stakeholders need different
-  reporting formats. Tailor reports to the audience -- executives may need
-  dashboards while operational teams need detailed metrics.
-
-- **KRIs without actionability**: KRIs reported to stakeholders that are not
-  actionable provide little value to senior management. All indicators should
-  drive specific decisions or actions.
-
-## Key indicators for awareness programs
-
-| Indicator type | Definition | Example |
-| -------------- | ---------- | ------- |
-| KPI (Key Performance Indicator) | Measures control performance | Reduction in phishing emails after implementing new tool |
-| KRI (Key Risk Indicator) | Predicts risks that could breach thresholds | Group of employees not trained in security awareness and continuing to fall for phishing |
-| KCI (Key Control Indicator) | Measures effectiveness of controls | Lack of implemented controls to block phishing emails |
-
-## Training program objectives
-
-| Objective | Description |
-| --------- | ----------- |
-| Primary goal | Develop a security-conscious culture across the organization |
-| Risk reduction | Reduce the likelihood of data breaches and security incidents |
-| Social engineering defense | Help employees recognize and resist manipulation tactics |
-| Policy compliance | Ensure employees understand and can implement security policies |
-| Incident reporting | Enable employees to be proactive in reporting suspicious activities |
-
-## Related topics
-
-- **Organizational culture**: Risk culture maturity directly determines training
-  effectiveness and employee adoption of security practices.
-- **Three Lines of Defense**: Second LoD develops KRIs and keeps stakeholders
-  informed of threats; first LoD implements training within their business units.
-- **Risk reporting**: Dashboards, heat maps, and scorecards communicate training
-  effectiveness and risk posture to stakeholders.
-- **CISO responsibilities**: Ensuring all employees are trained on security
-  awareness and best practices is a core CISO function.
-- **Business continuity management**: Regular employee training and awareness
-  programs are essential components ensuring employees understand their roles
-  during disruptions.
-## Key concepts (Doshi)
-
+##### Doshi Review Manual
 - **Security awareness training**: Most important element of the information
   security program. Technical controls alone cannot address all security risks;
   behavioral aspects require continuous education.
@@ -3262,8 +3305,18 @@ $700 (appetite), but is willing to go up to $750 if markets are favorable
   - Consulted: Provides support (may be internal, external, or regulators)
   - Informed: Notified but not directly involved in execution
 
-## Common scenarios (Doshi)
+#### Common scenarios
 
+##### CRISC All-in-One Exam Guide
+| Scenario | Correct approach | Why |
+| -------- | ---------------- | --- |
+| Employees falling for phishing attacks | Implement security awareness training focused on social engineering recognition | Social engineering exploits human behavior; training helps employees recognize and resist manipulation tactics |
+| New data classification policy rollout | Conduct security awareness training for employees | Ensures employees understand the policy and can implement it properly |
+| Mobile device risks in workforce | Combine MDM solution with security awareness training | Training alone is insufficient; technical controls plus awareness provide defense in depth |
+| Building security culture | Obtain senior management sponsorship and visible support | No amount of training works if risk emphasis is not communicated from the top |
+| Ensuring consistent security controls | Develop and enforce policies with training programs | Policies provide framework; training ensures understanding and consistent implementation |
+
+##### Doshi Review Manual
 | Scenario | Correct approach | Why |
 | -------- | ---------------- | --- |
 | Heavy increase in malware attacks | Conduct regular awareness training on end user roles and responsibilities | Education enables quick detection and prevention |
@@ -3272,8 +3325,30 @@ $700 (appetite), but is willing to go up to $750 if markets are favorable
 | New employee onboarding | Complete training before data or system access | User must know secure handling before access |
 | Promoting password policy compliance | Frequent security awareness programs | Gradual buy-in from users; more effective than penalties |
 
-## Gotchas (Doshi)
+#### Gotchas
 
+##### CRISC All-in-One Exam Guide
+- **Training alone eliminates incidents**: Security awareness training reduces
+  risk but cannot eliminate all security incidents. The goal is risk reduction,
+  not elimination.
+
+- **Technical controls replace training**: The best protection against internal
+  threats is not tools or access restrictions but continuous education and
+  upskilling of employees.
+
+- **Risk manager determines all training content**: Business owners are the best
+  assessors of what is critical to their operations. Risk practitioners
+  collaborate with them to determine appropriate training content.
+
+- **One-size-fits-all reporting**: Different stakeholders need different
+  reporting formats. Tailor reports to the audience -- executives may need
+  dashboards while operational teams need detailed metrics.
+
+- **KRIs without actionability**: KRIs reported to stakeholders that are not
+  actionable provide little value to senior management. All indicators should
+  drive specific decisions or actions.
+
+##### Doshi Review Manual
 - **Increased incident reports indicate success, not failure**: More violation
   reports mean staff recognize and escalate issues. This is the best
   effectiveness metric.
@@ -3292,17 +3367,40 @@ $700 (appetite), but is willing to go up to $750 if markets are favorable
   - Blame-focused discussions instead of root cause analysis
   - Poor collaboration across the enterprise
 
-## Limits and defaults
+#### Key indicators for awareness programs
 
-| Item | Value | Notes |
-| ---- | ----- | ----- |
-| Training frequency | Continuous/periodic | Threats and vulnerabilities change over time |
-| Training owner | Information security department | Part of overall security program |
-| Key success metric | Increase in security violation reports | Indicates awareness and proactive reporting |
-| Ethics training scope | Employees monitoring user activity | Targeted, not organization-wide |
+| Indicator type | Definition | Example |
+| -------------- | ---------- | ------- |
+| KPI (Key Performance Indicator) | Measures control performance | Reduction in phishing emails after implementing new tool |
+| KRI (Key Risk Indicator) | Predicts risks that could breach thresholds | Group of employees not trained in security awareness and continuing to fall for phishing |
+| KCI (Key Control Indicator) | Measures effectiveness of controls | Lack of implemented controls to block phishing emails |
 
-## Related topics (Doshi)
+#### Training program objectives
 
+| Objective | Description |
+| --------- | ----------- |
+| Primary goal | Develop a security-conscious culture across the organization |
+| Risk reduction | Reduce the likelihood of data breaches and security incidents |
+| Social engineering defense | Help employees recognize and resist manipulation tactics |
+| Policy compliance | Ensure employees understand and can implement security policies |
+| Incident reporting | Enable employees to be proactive in reporting suspicious activities |
+
+#### Related topics
+
+##### CRISC All-in-One Exam Guide
+- **Organizational culture**: Risk culture maturity directly determines training
+  effectiveness and employee adoption of security practices.
+- **Three Lines of Defense**: Second LoD develops KRIs and keeps stakeholders
+  informed of threats; first LoD implements training within their business units.
+- **Risk reporting**: Dashboards, heat maps, and scorecards communicate training
+  effectiveness and risk posture to stakeholders.
+- **CISO responsibilities**: Ensuring all employees are trained on security
+  awareness and best practices is a core CISO function.
+- **Business continuity management**: Regular employee training and awareness
+  programs are essential components ensuring employees understand their roles
+  during disruptions.
+
+##### Doshi Review Manual
 - **Key Risk Indicators (KRIs)**: Installation of unlicensed software indicates
   need for additional training. KRIs help validate training effectiveness.
 - **Risk register**: Training gaps may appear as control weaknesses in risk
@@ -3322,9 +3420,19 @@ $700 (appetite), but is willing to go up to $750 if markets are favorable
 
 **Weight: 32%**
 
-### 3.1: Consult with risk owners to align risk responses with organizational objectives
-## Key concepts
+#### Limits and defaults
 
+| Item | Value | Notes |
+| ---- | ----- | ----- |
+| Training frequency | Continuous/periodic | Threats and vulnerabilities change over time |
+| Training owner | Information security department | Part of overall security program |
+| Key success metric | Increase in security violation reports | Indicates awareness and proactive reporting |
+| Ethics training scope | Employees monitoring user activity | Targeted, not organization-wide |
+
+### 3.1: Consult with risk owners to align risk responses with organizational objectives
+#### Key concepts
+
+##### CRISC All-in-One Exam Guide
 - **Risk owner**: Manager or executive responsible for a specific risk who can
   provide budget, resources, and authority to mandate risk responses. The
   business owner is typically the risk owner under the Three Lines of Defense
@@ -3349,67 +3457,7 @@ $700 (appetite), but is willing to go up to $750 if markets are favorable
 - **Return-on-investment thesis**: Business justification presented to senior
   management to support a proposed risk response strategy.
 
-## Common scenarios
-
-| Scenario | Correct approach | Why |
-| -------- | ---------------- | --- |
-| Risk impacts multiple business units | Assign single risk owner who can provide budget and expertise | Ensures clear accountability and decision authority |
-| Cost of remediation exceeds asset value | Consider risk acceptance with documented compensating controls | Control cost should not outweigh protected asset value |
-| Third-party vendor data not encrypted | Present cost-benefit analysis to business owner for acceptance decision | Allows informed risk-based decision aligned with objectives |
-| Risk response requires significant resources | Prepare business case with ROI thesis for senior management | Enables informed decision on resource allocation |
-| Risk exceeds risk appetite but within tolerance | Document exception with countermeasures and executive sign-off | Maintains governance while enabling business flexibility |
-
-## Gotchas
-
-- **Trap: Treating risk response as purely technical**: Risk response requires
-  stakeholder buy-in and alignment with business objectives, not just
-  implementing controls.
-
-- **Trap: Eliminating risk entirely**: The goal of risk response is not to
-  eliminate risk but to optimize it to acceptable levels where risk can become
-  opportunity.
-
-- **Trap: Risk tolerance equals risk capacity**: Risk tolerance is acceptable
-  deviation from appetite; risk capacity is the maximum risk before
-  organizational existence is threatened. Never exceed capacity.
-
-- **Trap: Single response strategy**: Different risks demand different
-  responses (mitigate, accept, transfer, avoid). A risk manager may combine
-  strategies for optimization.
-
-- **Trap: Same owner for risk and control**: While acceptable in smaller
-  organizations, this should be avoided to maintain segregation of duties.
-
-## Limits and defaults
-
-| Item | Value | Notes |
-| ---- | ----- | ----- |
-| Risk acceptance review | Annual minimum | Revisit original asset value and current risk level |
-| Risk register requirement | Single owner per risk | Each risk must have one accountable owner |
-| Risk exception documentation | Required fields | Risk owner, countermeasures, duration, executive sign-off |
-| Risk capacity boundary | Never exceed | Crossing risk capacity threatens organizational existence |
-
-## Related topics
-
-- **Risk response strategies**: Four strategies (mitigate, accept, transfer,
-  avoid) that risk owners must evaluate and approve for their risks.
-
-- **Three Lines of Defense**: Framework defining risk ownership where first
-  line (business owners) are ultimate risk owners, second line provides
-  oversight, and third line provides independent assurance.
-
-- **Risk appetite and tolerance**: Boundaries set by senior management that
-  constrain acceptable risk responses and guide risk owner decisions.
-
-- **Key Risk Indicators (KRIs)**: Metrics developed by second line of defense
-  to communicate credible threats to stakeholders and inform risk response
-  decisions.
-
-- **Control ownership**: Separate from risk ownership; the person implementing
-  or overseeing control effectiveness. Should be documented in risk register
-  when identified.
-## Key concepts (Doshi)
-
+##### Doshi Review Manual
 - **Risk ownership**: The assignment of accountability for managing a specific
   risk to a senior official with the authority to select and implement
   appropriate risk responses.
@@ -3443,8 +3491,18 @@ $700 (appetite), but is willing to go up to $750 if markets are favorable
   - Presentation should be tailored to the audience (e.g., dashboards for senior
     management)
 
-## Common scenarios (Doshi)
+#### Common scenarios
 
+##### CRISC All-in-One Exam Guide
+| Scenario | Correct approach | Why |
+| -------- | ---------------- | --- |
+| Risk impacts multiple business units | Assign single risk owner who can provide budget and expertise | Ensures clear accountability and decision authority |
+| Cost of remediation exceeds asset value | Consider risk acceptance with documented compensating controls | Control cost should not outweigh protected asset value |
+| Third-party vendor data not encrypted | Present cost-benefit analysis to business owner for acceptance decision | Allows informed risk-based decision aligned with objectives |
+| Risk response requires significant resources | Prepare business case with ROI thesis for senior management | Enables informed decision on resource allocation |
+| Risk exceeds risk appetite but within tolerance | Document exception with countermeasures and executive sign-off | Maintains governance while enabling business flexibility |
+
+##### Doshi Review Manual
 | Scenario | Correct approach | Why |
 | -------- | ---------------- | --- |
 | Multiple risk response alternatives exist | Conduct cost-benefit analysis and present options to risk owner | Risk owner must make informed decision based on organizational value |
@@ -3453,8 +3511,29 @@ $700 (appetite), but is willing to go up to $750 if markets are favorable
 | Determining if IT supports business objectives | Interview business process owners | They understand specific business requirements and whether IT serves them |
 | Risk exceeds tolerance level | Prepare risk treatment plan with detailed actions, timelines, and responsible parties | Risk owner needs actionable plan to bring risk within acceptable levels |
 
-## Gotchas (Doshi)
+#### Gotchas
 
+##### CRISC All-in-One Exam Guide
+- **Trap: Treating risk response as purely technical**: Risk response requires
+  stakeholder buy-in and alignment with business objectives, not just
+  implementing controls.
+
+- **Trap: Eliminating risk entirely**: The goal of risk response is not to
+  eliminate risk but to optimize it to acceptable levels where risk can become
+  opportunity.
+
+- **Trap: Risk tolerance equals risk capacity**: Risk tolerance is acceptable
+  deviation from appetite; risk capacity is the maximum risk before
+  organizational existence is threatened. Never exceed capacity.
+
+- **Trap: Single response strategy**: Different risks demand different
+  responses (mitigate, accept, transfer, avoid). A risk manager may combine
+  strategies for optimization.
+
+- **Trap: Same owner for risk and control**: While acceptable in smaller
+  organizations, this should be avoided to maintain segregation of duties.
+
+##### Doshi Review Manual
 - **Assigning risk to departments instead of individuals**: Allocating
   accountability to a department circumvents ownership. Always assign to a
   specific person.
@@ -3475,8 +3554,17 @@ $700 (appetite), but is willing to go up to $750 if markets are favorable
   practices are secondary. The primary criterion is whether the response
   supports organizational goals and objectives.
 
-## Limits and defaults (Doshi)
+#### Limits and defaults
 
+##### CRISC All-in-One Exam Guide
+| Item | Value | Notes |
+| ---- | ----- | ----- |
+| Risk acceptance review | Annual minimum | Revisit original asset value and current risk level |
+| Risk register requirement | Single owner per risk | Each risk must have one accountable owner |
+| Risk exception documentation | Required fields | Risk owner, countermeasures, duration, executive sign-off |
+| Risk capacity boundary | Never exceed | Crossing risk capacity threatens organizational existence |
+
+##### Doshi Review Manual
 | Item | Value | Notes |
 | ---- | ----- | ----- |
 | Ultimate accountability | Board of Directors | Senior management designs strategy; board oversees |
@@ -3484,8 +3572,28 @@ $700 (appetite), but is willing to go up to $750 if markets are favorable
 | Monitoring results communication | Risk owner (mandatory) | Other functions receive as secondary recipients |
 | Risk action plan contents | Start date, end date, responsible person, detailed action plan | Treat as a project with milestones |
 
-## Related topics (Doshi)
+#### Related topics
 
+##### CRISC All-in-One Exam Guide
+- **Risk response strategies**: Four strategies (mitigate, accept, transfer,
+  avoid) that risk owners must evaluate and approve for their risks.
+
+- **Three Lines of Defense**: Framework defining risk ownership where first
+  line (business owners) are ultimate risk owners, second line provides
+  oversight, and third line provides independent assurance.
+
+- **Risk appetite and tolerance**: Boundaries set by senior management that
+  constrain acceptable risk responses and guide risk owner decisions.
+
+- **Key Risk Indicators (KRIs)**: Metrics developed by second line of defense
+  to communicate credible threats to stakeholders and inform risk response
+  decisions.
+
+- **Control ownership**: Separate from risk ownership; the person implementing
+  or overseeing control effectiveness. Should be documented in risk register
+  when identified.
+
+##### Doshi Review Manual
 - **Risk register**: The documented inventory containing risk ownership details,
   treatment status, and the foundation for consultation between practitioners
   and owners.
@@ -3500,8 +3608,9 @@ $700 (appetite), but is willing to go up to $750 if markets are favorable
   accountability; risk owners are responsible for their assigned risks.
 
 ### 3.2: Assist risk owners in developing risk action plans
-## Key concepts
+#### Key concepts
 
+##### CRISC All-in-One Exam Guide
 - **Risk action plan**: A documented response strategy that outlines how an
   organization will address identified risks through specific controls,
   timelines, and accountable parties. Also referred to as a corrective action
@@ -3535,60 +3644,7 @@ $700 (appetite), but is willing to go up to $750 if markets are favorable
   immediately; must include an owner, timeline for remediation, and specific
   corrective actions.
 
-## Common scenarios
-
-| Scenario | Correct approach | Why |
-| -------- | ---------------- | --- |
-| Risk impacts multiple business units | Assign owner who can provide budget and expertise | Single accountability prevents gaps |
-| Cost of mitigation exceeds asset value | Document risk acceptance with management sign-off | Cost-benefit analysis drives response |
-| Critical vendor has control deficiencies | Create CAP with agreed timelines and senior management sign-off | Formalizes remediation commitment |
-| Risk cannot be addressed within tolerance | Propose risk avoidance to senior management | Last resort when other strategies fail |
-
-## Gotchas
-
-- **"Treat" is not a response strategy**: Risk response and risk treat are used
-  interchangeably in conversation, but only mitigate/accept/transfer/avoid are
-  formal response strategies.
-
-- **Response selection is not one-size-fits-all**: Organizations may combine
-  multiple strategies to optimize a single risk.
-
-- **Risk acceptance can exceed appetite but not capacity**: Accepting risk
-  above tolerance requires executive approval; exceeding capacity threatens
-  organizational existence.
-
-- **Reputational damage does not transfer**: Insurance or outsourcing provides
-  monetary indemnity, but reputational harm remains with the organization.
-
-- **Annual review is mandatory**: Accepted risks must be reassessed at least
-  annually to determine if the response remains appropriate.
-
-## Limits and defaults
-
-| Item | Value | Notes |
-| ---- | ----- | ----- |
-| Minimum CAP review frequency | Annual | Revisit accepted risks yearly |
-| Risk register required fields | Threat, vulnerability, likelihood, impact, inherent risk, controls, residual risk, countermeasures, owner | Minimum data elements |
-| Response selection factors | 11 | Category, cost, availability, skillsets, complexity, resources, alignment, compatibility, contractual, legal/regulatory requirements |
-
-## Related topics
-
-- **Cost-benefit analysis**: Required component of the business case for any
-  risk response; includes return-on-investment thesis.
-
-- **Risk register**: Central repository where risk owners, control owners,
-  response strategies, and CAPs are documented.
-
-- **Three lines of defense (3LoD)**: First line (business owners) are ultimate
-  risk owners; risk practitioners assist but do not own the risk.
-
-- **Risk optimization**: The goal of response is not elimination but
-  optimization to acceptable levels aligned with organizational strategy.
-
-- **Risk reporting**: Business case presentations to senior management must
-  clearly show risks and control implementation strategy to obtain approval.
-## Key concepts (Doshi)
-
+##### Doshi Review Manual
 - **Risk practitioner role**: Plays a consultative role in assisting risk owners
   with deciding and implementing risk treatment. Provides advice on
   technologies, policies, procedures, and control effectiveness. Ultimate
@@ -3618,8 +3674,17 @@ $700 (appetite), but is willing to go up to $750 if markets are favorable
   - Current level of risk
   - Industry and market forces
 
-## Common scenarios (Doshi)
+#### Common scenarios
 
+##### CRISC All-in-One Exam Guide
+| Scenario | Correct approach | Why |
+| -------- | ---------------- | --- |
+| Risk impacts multiple business units | Assign owner who can provide budget and expertise | Single accountability prevents gaps |
+| Cost of mitigation exceeds asset value | Document risk acceptance with management sign-off | Cost-benefit analysis drives response |
+| Critical vendor has control deficiencies | Create CAP with agreed timelines and senior management sign-off | Formalizes remediation commitment |
+| Risk cannot be addressed within tolerance | Propose risk avoidance to senior management | Last resort when other strategies fail |
+
+##### Doshi Review Manual
 | Scenario | Correct approach | Why |
 | -------- | ---------------- | --- |
 | Current risk exceeds risk appetite | Evaluate different risk response alternatives using cost-benefit analysis | Further response required to bring risk to acceptable level |
@@ -3628,8 +3693,27 @@ $700 (appetite), but is willing to go up to $750 if markets are favorable
 | Need to keep risk at acceptable level | Periodic review of controls per risk action plan | Regular review ensures ongoing control effectiveness |
 | Selecting between response options | Conduct cost-benefit analysis | Implementation cost must be justified by benefit realized |
 
-## Gotchas (Doshi)
+#### Gotchas
 
+##### CRISC All-in-One Exam Guide
+- **"Treat" is not a response strategy**: Risk response and risk treat are used
+  interchangeably in conversation, but only mitigate/accept/transfer/avoid are
+  formal response strategies.
+
+- **Response selection is not one-size-fits-all**: Organizations may combine
+  multiple strategies to optimize a single risk.
+
+- **Risk acceptance can exceed appetite but not capacity**: Accepting risk
+  above tolerance requires executive approval; exceeding capacity threatens
+  organizational existence.
+
+- **Reputational damage does not transfer**: Insurance or outsourcing provides
+  monetary indemnity, but reputational harm remains with the organization.
+
+- **Annual review is mandatory**: Accepted risks must be reassessed at least
+  annually to determine if the response remains appropriate.
+
+##### Doshi Review Manual
 - **Group assignment trap**: Assigning risk ownership to a department rather
   than an individual circumvents accountability. Always assign to a specific
   person.
@@ -3653,8 +3737,16 @@ $700 (appetite), but is willing to go up to $750 if markets are favorable
   overall project risk. Action plans should be managed as projects with proper
   milestone tracking.
 
-## Limits and defaults (Doshi)
+#### Limits and defaults
 
+##### CRISC All-in-One Exam Guide
+| Item | Value | Notes |
+| ---- | ----- | ----- |
+| Minimum CAP review frequency | Annual | Revisit accepted risks yearly |
+| Risk register required fields | Threat, vulnerability, likelihood, impact, inherent risk, controls, residual risk, countermeasures, owner | Minimum data elements |
+| Response selection factors | 11 | Category, cost, availability, skillsets, complexity, resources, alignment, compatibility, contractual, legal/regulatory requirements |
+
+##### Doshi Review Manual
 | Item | Value | Notes |
 | ---- | ----- | ----- |
 | Risk treatment plan scope | Risks exceeding tolerance | Not required for accepted, avoided, or transferred risks |
@@ -3662,8 +3754,25 @@ $700 (appetite), but is willing to go up to $750 if markets are favorable
 | Plan review frequency | Regular/periodic | Ensures controls remain effective |
 | Cost-benefit threshold | Benefit > Implementation cost | Control not justified if cost exceeds benefit |
 
-## Related topics (Doshi)
+#### Related topics
 
+##### CRISC All-in-One Exam Guide
+- **Cost-benefit analysis**: Required component of the business case for any
+  risk response; includes return-on-investment thesis.
+
+- **Risk register**: Central repository where risk owners, control owners,
+  response strategies, and CAPs are documented.
+
+- **Three lines of defense (3LoD)**: First line (business owners) are ultimate
+  risk owners; risk practitioners assist but do not own the risk.
+
+- **Risk optimization**: The goal of response is not elimination but
+  optimization to acceptable levels aligned with organizational strategy.
+
+- **Risk reporting**: Business case presentations to senior management must
+  clearly show risks and control implementation strategy to obtain approval.
+
+##### Doshi Review Manual
 - **Risk ownership (3.1)**: Establishes who is accountable for managing each
   risk and selecting appropriate responses
 - **Cost-benefit analysis (3.3)**: Primary technique for evaluating and
@@ -3676,8 +3785,9 @@ $700 (appetite), but is willing to go up to $750 if markets are favorable
   accountable for maintaining acceptable risk levels
 
 ### 3.3: Advise on design and deployment of mitigating controls
-## Key concepts
+#### Key concepts
 
+##### CRISC All-in-One Exam Guide
 - **Control**: A measure that reduces risk and improves organizational security
   posture. Can be technical (antivirus), physical (turnstile), or administrative
   (policy document).
@@ -3697,99 +3807,7 @@ $700 (appetite), but is willing to go up to $750 if markets are favorable
 - **Cost-benefit analysis**: Control implementation cost must not exceed asset
   value. A $1,000 lock on a $500 bicycle is inappropriate.
 
-## Control categories
-
-| Category     | Purpose                          | Example                                    |
-| ------------ | -------------------------------- | ------------------------------------------ |
-| Preventive   | Stop security violations         | Antivirus, firewall blocking traffic       |
-| Detective    | Identify policy violations       | IDS, audit logs, SIEM review               |
-| Corrective   | Fix issues after detection       | Backup restore, incident remediation       |
-| Deterrent    | Discourage malicious actors      | Security cameras, warning signs            |
-| Compensating | Cover weakness in other controls | Password rotation for shared accounts      |
-
-## Control implementation techniques
-
-| Technique | When to use                                     | Risk level |
-| --------- | ----------------------------------------------- | ---------- |
-| Parallel  | Business-critical systems requiring no downtime | Lowest     |
-| Phased    | Complex systems with independent modules        | Moderate   |
-| Abrupt    | Minor changes with easy rollback                | Highest    |
-
-- **Parallel changeover**: Old and new systems run simultaneously. Highest cost
-  but safest -- allows training, validates reliability, enables easy rollback.
-
-- **Phased changeover**: Gradual replacement of old system modules.
-  Cost-effective, reduces full outage risk, but requires maintaining separate
-  environments.
-
-- **Abrupt changeover**: Instant switch from old to new. Fast and cheap but
-  risky -- only appropriate when rollback is easy and impact is low.
-
-## Common scenarios
-
-| Scenario                             | Correct approach                               | Why                                                       |
-| ------------------------------------ | ---------------------------------------------- | --------------------------------------------------------- |
-| Single-person application management | Propose compensating controls (enhanced logs)  | Cannot implement segregation of duties                    |
-| Business-critical upgrade            | Recommend parallel changeover                  | Zero downtime requirement outweighs cost                  |
-| Modular system with no dependencies  | Recommend phased changeover                    | Cost-effective, independent modules reduce rollout risk   |
-| Minor non-critical change            | Abrupt changeover acceptable                   | Easy rollback, minimal business impact                    |
-| Control cost exceeds asset value     | Recommend risk acceptance instead of mitigation| Cost of control should not exceed cost of asset           |
-
-## Post-implementation review
-
-Risk practitioners must conduct post-implementation reviews regardless of
-success or failure. Key questions:
-
-- Did the project meet business objectives and user requirements?
-- Was it completed on time and within budget?
-- Were logical and business controls properly defined and implemented?
-- What went well and what could be improved?
-- Are dedicated resources available for continuous support?
-
-The review document should be treated as a living document and updated as new
-learnings emerge.
-
-## Control testing best practices
-
-- Never use production data for testing -- create synthetic data or mask
-  sensitive fields
-- Maintain complete separation between test and production environments
-- Use version control with approval workflows before code merge
-- Implement code freeze before production deployment
-- Restrict access to control who can push to production
-- Perform unit, system, integration, performance, stress, and functional tests
-- Conduct code reviews to find hardcoded secrets and logical errors
-
-Testing types:
-- **Progressive testing**: Starts from requirements, looks for flaws
-- **Regressive testing**: Works backward from expected results and known issues
-
-## Gotchas
-
-- **Control owner vs risk owner**: Both should be identified in the risk
-  register. Same person is acceptable but avoided to maintain segregation of
-  duties.
-
-- **Residual risk**: Risk mitigation does not eliminate risk -- it reduces risk
-  to an acceptable level. Residual risk always remains.
-
-- **Periodic review required**: Controls become outdated as threat landscape
-  changes. Continuous monitoring and benchmarking is required.
-
-- **Never skip CAB sign-off**: Final approval from Change Advisory Board
-  required before rolling out changes.
-
-## Related topics
-
-- **Risk response strategies**: Mitigate, accept, transfer, avoid --
-  understanding when each applies informs control selection
-- **Configuration management**: A preventative control ensuring baseline
-  configurations and approved software
-- **Change management**: Process controls ensuring tested changes with proper
-  approval workflows
-- **SIEM**: Detective control for log aggregation, analysis, and alerting
-## Key concepts (Doshi)
-
+##### Doshi Review Manual
 - **Proactive vs reactive controls**: Proactive controls (safeguards) prevent
   events from occurring; reactive controls (countermeasures) detect and recover
   after an incident
@@ -3818,8 +3836,18 @@ Testing types:
   - Must include Total Cost of Ownership (TCO) across control lifecycle
   - If benefit is less than implementation cost, control is not justified
 
-## Control categories (Doshi)
+#### Control categories
 
+##### CRISC All-in-One Exam Guide
+| Category     | Purpose                          | Example                                    |
+| ------------ | -------------------------------- | ------------------------------------------ |
+| Preventive   | Stop security violations         | Antivirus, firewall blocking traffic       |
+| Detective    | Identify policy violations       | IDS, audit logs, SIEM review               |
+| Corrective   | Fix issues after detection       | Backup restore, incident remediation       |
+| Deterrent    | Discourage malicious actors      | Security cameras, warning signs            |
+| Compensating | Cover weakness in other controls | Password rotation for shared accounts      |
+
+##### Doshi Review Manual
 | Category     | Objective                           | Examples                                        |
 | ------------ | ----------------------------------- | ----------------------------------------------- |
 | Preventive   | Stop event from occurring           | Access controls, firewalls, segregation of      |
@@ -3839,8 +3867,36 @@ Testing types:
 |                  | intervention                             |                                      |
 | Physical         | Control physical movement and access     | Guards, locks, fences, CCTV          |
 
-## Common scenarios (Doshi)
+#### Control implementation techniques
 
+| Technique | When to use                                     | Risk level |
+| --------- | ----------------------------------------------- | ---------- |
+| Parallel  | Business-critical systems requiring no downtime | Lowest     |
+| Phased    | Complex systems with independent modules        | Moderate   |
+| Abrupt    | Minor changes with easy rollback                | Highest    |
+
+- **Parallel changeover**: Old and new systems run simultaneously. Highest cost
+  but safest -- allows training, validates reliability, enables easy rollback.
+
+- **Phased changeover**: Gradual replacement of old system modules.
+  Cost-effective, reduces full outage risk, but requires maintaining separate
+  environments.
+
+- **Abrupt changeover**: Instant switch from old to new. Fast and cheap but
+  risky -- only appropriate when rollback is easy and impact is low.
+
+#### Common scenarios
+
+##### CRISC All-in-One Exam Guide
+| Scenario                             | Correct approach                               | Why                                                       |
+| ------------------------------------ | ---------------------------------------------- | --------------------------------------------------------- |
+| Single-person application management | Propose compensating controls (enhanced logs)  | Cannot implement segregation of duties                    |
+| Business-critical upgrade            | Recommend parallel changeover                  | Zero downtime requirement outweighs cost                  |
+| Modular system with no dependencies  | Recommend phased changeover                    | Cost-effective, independent modules reduce rollout risk   |
+| Minor non-critical change            | Abrupt changeover acceptable                   | Easy rollback, minimal business impact                    |
+| Control cost exceeds asset value     | Recommend risk acceptance instead of mitigation| Cost of control should not exceed cost of asset           |
+
+##### Doshi Review Manual
 | Scenario                                     | Correct approach                        | Why                                           |
 | -------------------------------------------- | --------------------------------------- | --------------------------------------------- |
 | Control cost exceeds risk event cost         | Accept the risk                         | Unjustifiable control lowers ROI              |
@@ -3850,7 +3906,88 @@ Testing types:
 | Small organization cannot segregate duties   | Transaction log monitoring              | Compensatory control provides oversight       |
 | Temporary staff access                       | Auto-expiring access with need-to-know  | Limits exposure and removes stale access      |
 
-## Control implementation methods
+#### Post-implementation review
+
+Risk practitioners must conduct post-implementation reviews regardless of
+success or failure. Key questions:
+
+- Did the project meet business objectives and user requirements?
+- Was it completed on time and within budget?
+- Were logical and business controls properly defined and implemented?
+- What went well and what could be improved?
+- Are dedicated resources available for continuous support?
+
+The review document should be treated as a living document and updated as new
+learnings emerge.
+
+#### Control testing best practices
+
+- Never use production data for testing -- create synthetic data or mask
+  sensitive fields
+- Maintain complete separation between test and production environments
+- Use version control with approval workflows before code merge
+- Implement code freeze before production deployment
+- Restrict access to control who can push to production
+- Perform unit, system, integration, performance, stress, and functional tests
+- Conduct code reviews to find hardcoded secrets and logical errors
+
+Testing types:
+- **Progressive testing**: Starts from requirements, looks for flaws
+- **Regressive testing**: Works backward from expected results and known issues
+
+#### Gotchas
+
+##### CRISC All-in-One Exam Guide
+- **Control owner vs risk owner**: Both should be identified in the risk
+  register. Same person is acceptable but avoided to maintain segregation of
+  duties.
+
+- **Residual risk**: Risk mitigation does not eliminate risk -- it reduces risk
+  to an acceptable level. Residual risk always remains.
+
+- **Periodic review required**: Controls become outdated as threat landscape
+  changes. Continuous monitoring and benchmarking is required.
+
+- **Never skip CAB sign-off**: Final approval from Change Advisory Board
+  required before rolling out changes.
+
+##### Doshi Review Manual
+- **Stakeholder requirements over technical specifications**: Technical
+  requirements and security budget are secondary to addressing stakeholder needs
+
+- **Residual risk is the measure**: Effective controls reduce residual risk to
+  acceptable levels; if residual risk is unchanged, the control is ineffective
+
+- **Control objectives before control cost**: To identify control deficiencies,
+  review defined control objectives first, not cost or current state
+
+- **Optimum control level**: Balance between control effectiveness and control
+  cost; control is optimum when cost is less than perceived risk
+
+- **Continuous monitoring placement**: Deploy where risk is highest (high
+  impact and frequency incidents), not everywhere
+
+#### Related topics
+
+##### CRISC All-in-One Exam Guide
+- **Risk response strategies**: Mitigate, accept, transfer, avoid --
+  understanding when each applies informs control selection
+- **Configuration management**: A preventative control ensuring baseline
+  configurations and approved software
+- **Change management**: Process controls ensuring tested changes with proper
+  approval workflows
+- **SIEM**: Detective control for log aggregation, analysis, and alerting
+
+##### Doshi Review Manual
+- **Risk register**: Documents all implemented controls and risk status; update
+  when controls change
+- **Post-implementation review**: Validates control met objectives and analyzes
+  return on investment
+- **Key Control Indicators (KCIs)**: Metrics that measure control effectiveness
+- **Control monitoring**: Balance between control effectiveness and cost at
+  optimum level
+
+#### Control implementation methods
 
 - **Parallel changeover**: Run old and new systems simultaneously
   - Lowest risk; validates new system before discontinuing old
@@ -3868,7 +4005,7 @@ Testing types:
   - Enables rollback to prior system if migration fails
   - Organization must verify rollback capability before starting
 
-## Failure modes
+#### Failure modes
 
 - **Fail open**: System remains accessible when control fails
   - Risk: confidentiality and integrity may be compromised
@@ -3878,24 +4015,7 @@ Testing types:
   - Risk: availability may be compromised
   - Exception: never prevent emergency exit (human safety first)
 
-## Gotchas (Doshi)
-
-- **Stakeholder requirements over technical specifications**: Technical
-  requirements and security budget are secondary to addressing stakeholder needs
-
-- **Residual risk is the measure**: Effective controls reduce residual risk to
-  acceptable levels; if residual risk is unchanged, the control is ineffective
-
-- **Control objectives before control cost**: To identify control deficiencies,
-  review defined control objectives first, not cost or current state
-
-- **Optimum control level**: Balance between control effectiveness and control
-  cost; control is optimum when cost is less than perceived risk
-
-- **Continuous monitoring placement**: Deploy where risk is highest (high
-  impact and frequency incidents), not everywhere
-
-## Limits and defaults
+#### Limits and defaults
 
 | Item                               | Value                             | Notes                                   |
 | ---------------------------------- | --------------------------------- | --------------------------------------- |
@@ -3906,19 +4026,10 @@ Testing types:
 | Highest risk changeover            | Direct cutover                    | No rollback capability                  |
 | Highest redundancy changeover      | Parallel                          | Both systems run simultaneously         |
 
-## Related topics (Doshi)
-
-- **Risk register**: Documents all implemented controls and risk status; update
-  when controls change
-- **Post-implementation review**: Validates control met objectives and analyzes
-  return on investment
-- **Key Control Indicators (KCIs)**: Metrics that measure control effectiveness
-- **Control monitoring**: Balance between control effectiveness and cost at
-  optimum level
-
 ### 3.4: Establish accountability by assigning control ownership
-## Key concepts
+#### Key concepts
 
+##### CRISC All-in-One Exam Guide
 - **Control owner**: The individual responsible for implementing a control to
   mitigate risk or overseeing the control's effectiveness
   - Must be identified for each control in the organization
@@ -3945,63 +4056,7 @@ Testing types:
   - Second line: Risk monitoring and oversight functions
   - Third line: Internal and external audit
 
-## Common scenarios
-
-| Scenario | Correct approach | Why |
-| -------- | ---------------- | --- |
-| Risk impacts multiple business units | Assign ownership to leader who can provide budget, resources, and expertise | Single point of accountability prevents confusion |
-| Small organization with limited staff | Same person may serve as both risk owner and control owner | Acceptable when resources constrain separation |
-| Control owner cannot be determined during assessment | Record in risk register as soon as identified post-assessment | Ensures eventual accountability even if delayed |
-| Controls becoming outdated | Control owner monitors and updates as threat landscape changes | Prevents degradation of control effectiveness |
-
-## Gotchas
-
-- **Risk owner and control owner should be separate**: While acceptable for the
-  same person to hold both roles, this should be avoided to maintain
-  segregation of duties. Common in smaller organizations but creates potential
-  conflict of interest.
-
-- **Accountability versus responsibility**: The accountable party provides
-  resources and answers for success; the responsible party performs the work.
-  Confusing these leads to unclear ownership.
-
-- **Control efficacy testing**: The control owner bears responsibility for
-  periodic control testing and evaluation, not the risk owner. This includes
-  both progressive testing (from requirements forward) and regressive testing
-  (from results backward).
-
-- **Risk ownership exists even without explicit assignment**: In the 3LoD
-  model, business owners are inherently risk owners because they manage
-  day-to-day operations. Failure to formally assign ownership does not
-  eliminate accountability.
-
-- **Risk transfer does not transfer accountability**: Outsourcing services or
-  purchasing insurance transfers financial risk but reputational damage remains
-  with the organization.
-
-## Limits and defaults
-
-| Item | Value | Notes |
-| ---- | ----- | ----- |
-| Risk owners per risk | One | Single point of accountability required |
-| Control review frequency | Annual minimum | Risk acceptance must be revisited at least yearly |
-| Risk register fields for ownership | Risk owner, control owner | Both should be captured when known |
-| 3LoD first line | Business/operational managers | Ultimate risk owners by default |
-
-## Related topics
-
-- **Risk register**: Central repository where risk and control owners must be
-  documented; serves as system of record for accountability
-- **Segregation of duties**: Principle requiring separation of risk ownership
-  from control ownership where feasible
-- **Control testing**: Periodic evaluation responsibility falling to the
-  control owner to ensure continued effectiveness
-- **Risk response strategies**: Mitigate, accept, transfer, avoid -- decisions
-  requiring risk owner approval
-- **Post-implementation review**: Control owner responsibility to verify
-  implemented controls function as intended
-## Key concepts (Doshi)
-
+##### Doshi Review Manual
 - **Control ownership assignment**: The formal allocation of responsibility for
   specific controls to individuals who ensure their effectiveness and adequacy.
   - Assign to specific individuals, not departments or groups
@@ -4043,8 +4098,17 @@ Testing types:
   - Third line: Internal audit that provides independent testing and attestation
   - All three lines must have common goals and planning for effectiveness
 
-## Common scenarios (Doshi)
+#### Common scenarios
 
+##### CRISC All-in-One Exam Guide
+| Scenario | Correct approach | Why |
+| -------- | ---------------- | --- |
+| Risk impacts multiple business units | Assign ownership to leader who can provide budget, resources, and expertise | Single point of accountability prevents confusion |
+| Small organization with limited staff | Same person may serve as both risk owner and control owner | Acceptable when resources constrain separation |
+| Control owner cannot be determined during assessment | Record in risk register as soon as identified post-assessment | Ensures eventual accountability even if delayed |
+| Controls becoming outdated | Control owner monitors and updates as threat landscape changes | Prevents degradation of control effectiveness |
+
+##### Doshi Review Manual
 | Scenario | Correct approach | Why |
 | -------- | ---------------- | --- |
 | Roles and responsibilities undocumented | Recommend defining accountability for each critical function | Undefined responsibilities are a major risk in attaining objectives |
@@ -4054,8 +4118,33 @@ Testing types:
 | Control monitoring reveals issues | Report results to risk owner | Risk owner is accountable for maintaining risk within acceptable levels |
 | System owner function during accreditation | Select and specify security requirements | System owners determine security requirements for their systems |
 
-## Gotchas (Doshi)
+#### Gotchas
 
+##### CRISC All-in-One Exam Guide
+- **Risk owner and control owner should be separate**: While acceptable for the
+  same person to hold both roles, this should be avoided to maintain
+  segregation of duties. Common in smaller organizations but creates potential
+  conflict of interest.
+
+- **Accountability versus responsibility**: The accountable party provides
+  resources and answers for success; the responsible party performs the work.
+  Confusing these leads to unclear ownership.
+
+- **Control efficacy testing**: The control owner bears responsibility for
+  periodic control testing and evaluation, not the risk owner. This includes
+  both progressive testing (from requirements forward) and regressive testing
+  (from results backward).
+
+- **Risk ownership exists even without explicit assignment**: In the 3LoD
+  model, business owners are inherently risk owners because they manage
+  day-to-day operations. Failure to formally assign ownership does not
+  eliminate accountability.
+
+- **Risk transfer does not transfer accountability**: Outsourcing services or
+  purchasing insurance transfers financial risk but reputational damage remains
+  with the organization.
+
+##### Doshi Review Manual
 - **Assigning ownership to a department or group**: Allocating accountability to
   a department circumvents ownership. Always assign to a specific individual for
   effective accountability.
@@ -4077,8 +4166,17 @@ Testing types:
   control ownership appropriately, not compliance or ensuring risk assessment
   is finished on schedule.
 
-## Limits and defaults (Doshi)
+#### Limits and defaults
 
+##### CRISC All-in-One Exam Guide
+| Item | Value | Notes |
+| ---- | ----- | ----- |
+| Risk owners per risk | One | Single point of accountability required |
+| Control review frequency | Annual minimum | Risk acceptance must be revisited at least yearly |
+| Risk register fields for ownership | Risk owner, control owner | Both should be captured when known |
+| 3LoD first line | Business/operational managers | Ultimate risk owners by default |
+
+##### Doshi Review Manual
 | Item | Value | Notes |
 | ---- | ----- | ----- |
 | Ultimate accountability for enterprise risk | Board of Directors | Senior management implements; board oversees |
@@ -4087,8 +4185,21 @@ Testing types:
 | Primary documentation for ownership | Risk register | Contains details of risk, controls, and owners |
 | Purpose of audit trail | Establish accountability | Captures who executed transactions and when |
 
-## Related topics (Doshi)
+#### Related topics
 
+##### CRISC All-in-One Exam Guide
+- **Risk register**: Central repository where risk and control owners must be
+  documented; serves as system of record for accountability
+- **Segregation of duties**: Principle requiring separation of risk ownership
+  from control ownership where feasible
+- **Control testing**: Periodic evaluation responsibility falling to the
+  control owner to ensure continued effectiveness
+- **Risk response strategies**: Mitigate, accept, transfer, avoid -- decisions
+  requiring risk owner approval
+- **Post-implementation review**: Control owner responsibility to verify
+  implemented controls function as intended
+
+##### Doshi Review Manual
 - **Risk register**: Documents both risk ownership and control ownership details,
   including likelihood, impact, priority, mitigation status, and responsible
   parties.
@@ -4109,8 +4220,9 @@ Testing types:
   control environment, reinforcing accountability for control effectiveness.
 
 ### 3.5: Support control owners in establishing procedures and documentation
-## Key concepts
+#### Key concepts
 
+##### CRISC All-in-One Exam Guide
 - **Control owner**: The person who implements a control to mitigate risk or
   oversees control effectiveness
   - Must be identified and recorded in the risk register
@@ -4143,59 +4255,7 @@ Testing types:
   - **Consulted**: Subject matter experts with domain knowledge
   - **Informed**: Stakeholders affected by success or failure
 
-## Common scenarios
-
-| Scenario | Correct approach | Why |
-| -------- | ---------------- | --- |
-| New control without documented procedures | Control owner develops SOPs with stakeholder oversight | Procedures provide evidence of due care and ensure consistent execution |
-| Encryption policy implementation | Create standard (algorithm requirements), then procedure (step-by-step guidance) | Hierarchy ensures technical specifics support policy intent |
-| Control owner and risk owner are the same person | Document justification; implement compensating oversight | Common in small organizations but weakens segregation of duties |
-| Control gaps identified after implementation | Document in risk register; advise risk owner | Control owner responsible for ongoing efficacy evaluation |
-| Policy exception required for business need | Raise exception, obtain explicit approval from business process owner, log centrally | Enables business while maintaining documented accountability |
-
-## Gotchas
-
-- **Control owners identified too late**: Unlike risk owners, control owners
-  are often not identified during risk assessment; record them in the risk
-  register as soon as identified
-
-- **Procedures without stakeholder oversight**: Procedures built by process
-  owners alone may miss compliance requirements; include stakeholder review
-
-- **Confusing accountability with responsibility**: The accountable party
-  provides resources and approves decisions; the responsible party executes the
-  work
-
-- **Static documentation**: Post-implementation review documents and procedures
-  should be living documents, updated as new learnings emerge
-
-- **Exception management failures**: Exceptions must be logged centrally and
-  reviewed annually; undocumented exceptions create compliance gaps
-
-## Limits and defaults
-
-| Item | Value | Notes |
-| ---- | ----- | ----- |
-| Exception review frequency | Annual minimum | More frequent for high-risk areas |
-| Control testing approach | Progressive or regressive | Progressive starts from requirements; regressive works backward from results |
-| Post-implementation review timing | After each major implementation | Regardless of success or failure |
-| Risk register updates | Immediate for control owner changes | Document control owner as soon as identified |
-
-## Related topics
-
-- **Control testing and evaluation**: Control owners determine efficacy through
-  testing; risk practitioners advise risk owners on gaps
-- **Exception management**: Formal process for policy deviations with approval,
-  logging, and annual review
-- **Risk and control monitoring**: Continuous process to ensure controls remain
-  adequate as threat landscape changes
-- **Key Control Indicators (KCIs)**: Metrics measuring control effectiveness to
-  indicate weakness that may increase risk probability
-- **Post-implementation reviews**: Document lessons learned and disseminate to
-  stakeholders; questions should cover business objectives, user requirements,
-  and resource allocation
-## Key concepts (Doshi)
-
+##### Doshi Review Manual
 - **Control owner**: The first line of defense responsible for implementing and
   maintaining controls within their business unit. Typically the business
   process owner who manages daily operational activities and monitors control
@@ -4221,8 +4281,18 @@ Testing types:
     policies, standards, and procedures
   - Third line: Audit function providing independent assurance
 
-## Common scenarios (Doshi)
+#### Common scenarios
 
+##### CRISC All-in-One Exam Guide
+| Scenario | Correct approach | Why |
+| -------- | ---------------- | --- |
+| New control without documented procedures | Control owner develops SOPs with stakeholder oversight | Procedures provide evidence of due care and ensure consistent execution |
+| Encryption policy implementation | Create standard (algorithm requirements), then procedure (step-by-step guidance) | Hierarchy ensures technical specifics support policy intent |
+| Control owner and risk owner are the same person | Document justification; implement compensating oversight | Common in small organizations but weakens segregation of duties |
+| Control gaps identified after implementation | Document in risk register; advise risk owner | Control owner responsible for ongoing efficacy evaluation |
+| Policy exception required for business need | Raise exception, obtain explicit approval from business process owner, log centrally | Enables business while maintaining documented accountability |
+
+##### Doshi Review Manual
 | Scenario | Correct approach | Why |
 | -------- | ---------------- | --- |
 | Control owner needs exception to policy | Documented formal escalation process | Exceptions allowed only when risk is justified by benefit; prevents ad-hoc judgments |
@@ -4231,8 +4301,27 @@ Testing types:
 | Security exception identified | Validate first | Rules out false positives before escalating |
 | Multiple departments need same control | Align procedures with corporate policy | Prevents conflicting or overlapping procedures |
 
-## Gotchas (Doshi)
+#### Gotchas
 
+##### CRISC All-in-One Exam Guide
+- **Control owners identified too late**: Unlike risk owners, control owners
+  are often not identified during risk assessment; record them in the risk
+  register as soon as identified
+
+- **Procedures without stakeholder oversight**: Procedures built by process
+  owners alone may miss compliance requirements; include stakeholder review
+
+- **Confusing accountability with responsibility**: The accountable party
+  provides resources and approves decisions; the responsible party executes the
+  work
+
+- **Static documentation**: Post-implementation review documents and procedures
+  should be living documents, updated as new learnings emerge
+
+- **Exception management failures**: Exceptions must be logged centrally and
+  reviewed annually; undocumented exceptions create compliance gaps
+
+##### Doshi Review Manual
 - **Exception management is not based on judgment**: Exceptions require a
   documented escalation process, not approval by process owner or manager
   alone.
@@ -4249,8 +4338,17 @@ Testing types:
 - **Third-party applicability**: Policies, standards, procedures, and
   guidelines must extend to third-party vendors and service providers.
 
-## Limits and defaults (Doshi)
+#### Limits and defaults
 
+##### CRISC All-in-One Exam Guide
+| Item | Value | Notes |
+| ---- | ----- | ----- |
+| Exception review frequency | Annual minimum | More frequent for high-risk areas |
+| Control testing approach | Progressive or regressive | Progressive starts from requirements; regressive works backward from results |
+| Post-implementation review timing | After each major implementation | Regardless of success or failure |
+| Risk register updates | Immediate for control owner changes | Document control owner as soon as identified |
+
+##### Doshi Review Manual
 | Item | Value | Notes |
 | ---- | ----- | ----- |
 | Document hierarchy | Policy > Standard > Procedure > Guideline | Decreasing formality, increasing detail |
@@ -4258,8 +4356,22 @@ Testing types:
 | Exception approval | Policy approver | Not process owner or risk practitioner |
 | Control sign-off | System/process owner | Required before implementation |
 
-## Related topics (Doshi)
+#### Related topics
 
+##### CRISC All-in-One Exam Guide
+- **Control testing and evaluation**: Control owners determine efficacy through
+  testing; risk practitioners advise risk owners on gaps
+- **Exception management**: Formal process for policy deviations with approval,
+  logging, and annual review
+- **Risk and control monitoring**: Continuous process to ensure controls remain
+  adequate as threat landscape changes
+- **Key Control Indicators (KCIs)**: Metrics measuring control effectiveness to
+  indicate weakness that may increase risk probability
+- **Post-implementation reviews**: Document lessons learned and disseminate to
+  stakeholders; questions should cover business objectives, user requirements,
+  and resource allocation
+
+##### Doshi Review Manual
 - **Change management**: Structured process for implementing control changes;
   preventive control requiring formal approval, documentation, and testing
 
@@ -4277,7 +4389,7 @@ Testing types:
 - **Control self-assessment (CSA)**: Process owners conduct self-assessment as
   part of control monitoring alongside periodic testing
 
-## Exam focus
+#### Exam focus
 
 | Question pattern | Key answer |
 | ---------------- | ---------- |
@@ -4293,8 +4405,9 @@ Testing types:
 
 Guide
 
-## Key concepts
+#### Key concepts
 
+##### CRISC All-in-One Exam Guide
 - **Risk register**: A centralized repository documenting all identified risks.
   Can be a SaaS platform or spreadsheet. At minimum, it must contain:
   - Threats and vulnerabilities
@@ -4318,90 +4431,7 @@ Guide
   Once remediation completes, the CAP closes and the risk is marked as
   remediated.
 
-## Factors triggering risk profile changes
-
-| Factor                        | Impact on profile                            |
-| ----------------------------- | -------------------------------------------- |
-| New regulations               | Adds compliance risks, changes requirements  |
-| Technology changes            | Introduces new vulnerabilities or controls   |
-| Business objective changes    | Shifts risk appetite and priority            |
-| Mergers and acquisitions      | Expands attack surface, adds inherited risks |
-| Emerging threats              | Increases likelihood of existing risks       |
-| Incidents and breaches        | Demonstrates realized risk, triggers review  |
-| New or acquired assets        | Adds to asset inventory requiring protection |
-| Supply chain changes          | Introduces third-party dependencies          |
-| Privacy framework updates     | Adds regulatory compliance requirements      |
-| Control implementation        | Reduces residual risk                        |
-| Control deprecation           | Increases residual risk                      |
-
-## Common scenarios
-
-| Scenario                           | Correct approach                                            | Why                                                          |
-| ---------------------------------- | ----------------------------------------------------------- | ------------------------------------------------------------ |
-| New vulnerability discovered       | Update likelihood, reassess residual risk, assign CAP       | Threat landscape changed; existing controls may be bypassed  |
-| Control implemented                | Reduce residual risk rating, document control owner         | Controls reduce risk; register must reflect current state    |
-| Risk accepted by management        | Record acceptance decision, set annual review date          | Accepted risks require documented sign-off and periodic review |
-| Vendor introduces new service      | Add risks to register, assign risk owner, assess controls   | Third-party changes expand risk profile                      |
-| Audit finding identified           | Create CAP, assign owner, update residual risk if warranted | Findings indicate control gaps affecting risk                |
-| KRI breaches threshold             | Escalate to stakeholders, update register with event        | KRI breach signals profile change requiring action           |
-
-## Gotchas
-
-- **Trap: Treating the register as static**: The register is a live document
-  requiring continuous updates as the threat landscape evolves. Firewall rules
-  that blocked attacks last year may be ineffective against current attack
-  patterns.
-- **Trap: Missing risk owners**: Without assigned owners, risks go unnoticed
-  and unaddressed. Each risk requires a single accountable individual recorded
-  in the register.
-- **Trap: No control owner**: Controls without owners become outdated with no
-  oversight of their performance against changing risks. Control owners must
-  be identified and documented.
-- **Trap: Confusing residual and current risk**: Residual risk is
-  calculated (inherent risk minus controls). Current risk is residual risk in
-  a real-time threat scenario. Both require tracking.
-- **Trap: Skipping annual review of accepted risks**: Accepted risks must be
-  revisited at least annually to assess whether the original asset value and
-  risk level still warrant acceptance or if a new response is needed.
-- **Trap: KRIs that are not actionable**: KRIs reported to stakeholders but
-  lacking actionable thresholds provide no value. Effective KRIs trigger
-  register updates when breached.
-
-## Minimum risk register fields
-
-| Field              | Purpose                                      |
-| ------------------ | -------------------------------------------- |
-| Risk ID            | Unique identifier for tracking              |
-| Threat             | Source of potential harm                     |
-| Vulnerability      | Weakness that could be exploited             |
-| Likelihood         | Probability of occurrence                    |
-| Impact             | Consequence if risk materializes             |
-| Inherent risk      | Risk level before controls                   |
-| Current controls   | Existing mitigations                         |
-| Residual risk      | Risk level after controls                    |
-| Countermeasures    | Planned future controls                      |
-| Risk owner         | Accountable individual                       |
-| Control owner      | Person responsible for control effectiveness |
-| Status             | Open, in remediation, accepted, closed       |
-| Last review date   | When risk was last assessed                  |
-
-## Related topics
-
-- **Risk response strategies**: Mitigate, accept, transfer, avoid. The selected
-  response determines how the register entry is updated.
-- **Three Lines of Defense**: First line (business owners) are risk owners.
-  Second line monitors controls and KRIs. Third line provides independent
-  assurance.
-- **Control assessment techniques**: Self-assessments, internal audits,
-  vulnerability assessments, penetration tests, and third-party assurance all
-  generate findings that update the register.
-- **Risk and control monitoring**: Continuous monitoring ensures controls
-  remain effective against changing risks. Exceptions trigger register updates.
-- **Risk appetite and tolerance**: Define thresholds for acceptable risk.
-  Profile changes may push risks outside tolerance, requiring register updates
-  and escalation.
-## Key concepts (Doshi)
-
+##### Doshi Review Manual
 - **Risk register**: Centralized inventory of all identified organizational
   risks. Consolidates risk data for driving risk response and tracking risk
   status across the enterprise.
@@ -4428,8 +4458,35 @@ Guide
   organization's risk profile at regular intervals to identify changes and
   determine if additional response is needed.
 
-## Common scenarios (Doshi)
+#### Factors triggering risk profile changes
 
+| Factor                        | Impact on profile                            |
+| ----------------------------- | -------------------------------------------- |
+| New regulations               | Adds compliance risks, changes requirements  |
+| Technology changes            | Introduces new vulnerabilities or controls   |
+| Business objective changes    | Shifts risk appetite and priority            |
+| Mergers and acquisitions      | Expands attack surface, adds inherited risks |
+| Emerging threats              | Increases likelihood of existing risks       |
+| Incidents and breaches        | Demonstrates realized risk, triggers review  |
+| New or acquired assets        | Adds to asset inventory requiring protection |
+| Supply chain changes          | Introduces third-party dependencies          |
+| Privacy framework updates     | Adds regulatory compliance requirements      |
+| Control implementation        | Reduces residual risk                        |
+| Control deprecation           | Increases residual risk                      |
+
+#### Common scenarios
+
+##### CRISC All-in-One Exam Guide
+| Scenario                           | Correct approach                                            | Why                                                          |
+| ---------------------------------- | ----------------------------------------------------------- | ------------------------------------------------------------ |
+| New vulnerability discovered       | Update likelihood, reassess residual risk, assign CAP       | Threat landscape changed; existing controls may be bypassed  |
+| Control implemented                | Reduce residual risk rating, document control owner         | Controls reduce risk; register must reflect current state    |
+| Risk accepted by management        | Record acceptance decision, set annual review date          | Accepted risks require documented sign-off and periodic review |
+| Vendor introduces new service      | Add risks to register, assign risk owner, assess controls   | Third-party changes expand risk profile                      |
+| Audit finding identified           | Create CAP, assign owner, update residual risk if warranted | Findings indicate control gaps affecting risk                |
+| KRI breaches threshold             | Escalate to stakeholders, update register with event        | KRI breach signals profile change requiring action           |
+
+##### Doshi Review Manual
 | Scenario | Correct approach | Why |
 | -------- | ---------------- | --- |
 | Identifying changes in organization's risk profile | Review the risk register | Risk register provides status of current risk profile; other documents lack this detail |
@@ -4439,8 +4496,30 @@ Guide
 | Presenting current risk profile to senior management | Use risk register dashboard | Provides complete picture of organization's risk profile |
 | Risk identified but not yet mitigated | Capture in risk register with remediation status | Enables monitoring of outstanding risks |
 
-## Gotchas (Doshi)
+#### Gotchas
 
+##### CRISC All-in-One Exam Guide
+- **Trap: Treating the register as static**: The register is a live document
+  requiring continuous updates as the threat landscape evolves. Firewall rules
+  that blocked attacks last year may be ineffective against current attack
+  patterns.
+- **Trap: Missing risk owners**: Without assigned owners, risks go unnoticed
+  and unaddressed. Each risk requires a single accountable individual recorded
+  in the register.
+- **Trap: No control owner**: Controls without owners become outdated with no
+  oversight of their performance against changing risks. Control owners must
+  be identified and documented.
+- **Trap: Confusing residual and current risk**: Residual risk is
+  calculated (inherent risk minus controls). Current risk is residual risk in
+  a real-time threat scenario. Both require tracking.
+- **Trap: Skipping annual review of accepted risks**: Accepted risks must be
+  revisited at least annually to assess whether the original asset value and
+  risk level still warrant acceptance or if a new response is needed.
+- **Trap: KRIs that are not actionable**: KRIs reported to stakeholders but
+  lacking actionable thresholds provide no value. Effective KRIs trigger
+  register updates when breached.
+
+##### Doshi Review Manual
 - **Register vs. profile confusion**: The risk register is the document; the
   risk profile is the aggregated status. Changes in the profile must be
   reflected in the register.
@@ -4461,17 +4540,42 @@ Guide
   after addressing prior gaps, perform a new independent risk assessment.
   Reviewing previous controls alone will not identify new or emerging risks.
 
-## Limits and defaults
+#### Minimum risk register fields
 
-| Item | Value | Notes |
-| ---- | ----- | ----- |
-| Risk register contents | Scenario, impact, probability, score, owner, treatment | Industry benchmarks and communication plans excluded |
-| Risk removal timing | When risk is no longer relevant | Not when controls are implemented |
-| Risk addition timing | When activity triggering the risk is initiated | Proactive capture of emerging risks |
-| Review frequency | Periodic intervals | Defined by organizational policy |
+| Field              | Purpose                                      |
+| ------------------ | -------------------------------------------- |
+| Risk ID            | Unique identifier for tracking              |
+| Threat             | Source of potential harm                     |
+| Vulnerability      | Weakness that could be exploited             |
+| Likelihood         | Probability of occurrence                    |
+| Impact             | Consequence if risk materializes             |
+| Inherent risk      | Risk level before controls                   |
+| Current controls   | Existing mitigations                         |
+| Residual risk      | Risk level after controls                    |
+| Countermeasures    | Planned future controls                      |
+| Risk owner         | Accountable individual                       |
+| Control owner      | Person responsible for control effectiveness |
+| Status             | Open, in remediation, accepted, closed       |
+| Last review date   | When risk was last assessed                  |
 
-## Related topics (Doshi)
+#### Related topics
 
+##### CRISC All-in-One Exam Guide
+- **Risk response strategies**: Mitigate, accept, transfer, avoid. The selected
+  response determines how the register entry is updated.
+- **Three Lines of Defense**: First line (business owners) are risk owners.
+  Second line monitors controls and KRIs. Third line provides independent
+  assurance.
+- **Control assessment techniques**: Self-assessments, internal audits,
+  vulnerability assessments, penetration tests, and third-party assurance all
+  generate findings that update the register.
+- **Risk and control monitoring**: Continuous monitoring ensures controls
+  remain effective against changing risks. Exceptions trigger register updates.
+- **Risk appetite and tolerance**: Define thresholds for acceptable risk.
+  Profile changes may push risks outside tolerance, requiring register updates
+  and escalation.
+
+##### Doshi Review Manual
 - **Key Risk Indicators (KRI)**: Monitored periodically to detect changes in
   risk profile. Primary reason for KRI monitoring is that risk profile changes
   over time.
@@ -4484,9 +4588,19 @@ Guide
 - **Risk reporting**: Risk register dashboard provides the most comprehensive
   view for senior management reporting on organizational risk status.
 
-### 3.7: Verify risk responses executed per approved action plans
-## Key concepts
+#### Limits and defaults
 
+| Item | Value | Notes |
+| ---- | ----- | ----- |
+| Risk register contents | Scenario, impact, probability, score, owner, treatment | Industry benchmarks and communication plans excluded |
+| Risk removal timing | When risk is no longer relevant | Not when controls are implemented |
+| Risk addition timing | When activity triggering the risk is initiated | Proactive capture of emerging risks |
+| Review frequency | Periodic intervals | Defined by organizational policy |
+
+### 3.7: Verify risk responses executed per approved action plans
+#### Key concepts
+
+##### CRISC All-in-One Exam Guide
 - **Risk response verification**: Confirming that implemented controls and
   countermeasures align with approved action plans and achieve intended risk
   reduction objectives
@@ -4516,8 +4630,25 @@ Guide
   - Determines if controls are designed and operating effectively
   - Addresses identified risks within organizational objectives
 
-## Common scenarios
+##### Doshi Review Manual
+- **Risk mitigation plan**: Detailed document containing responsible officer, monitoring process, milestone achievement, and implementation timelines. Review of this plan verifies remediation of control deficiencies.
 
+- **Risk treatment plan**: Structured approach to treating identified risks that includes:
+  - Detailed action plan
+  - Person responsible for implementation
+  - Expected date of completion
+  - Start date, end date, strategy details
+  - Monitored regularly to track progress
+
+- **Risk action plan**: Documented in risk register once risk response is finalized. Must include start date, end date, responsible person/team, and detailed action plan. Treated as a project with measurable timelines, budget, and milestones.
+
+- **Accountability assignment**: For effective implementation, responsibility must be assigned to specific individuals with deadlines. Risk owner retains ultimate accountability even when management of risk is delegated.
+
+- **Post-implementation review**: Determines efficiency and effectiveness of new controls; verifies system meets requirements, controls are properly deployed, ROI is achieved, and residual risk is within acceptable limits.
+
+#### Common scenarios
+
+##### CRISC All-in-One Exam Guide
 | Scenario | Correct approach | Why |
 | -------- | ---------------- | --- |
 | Control implemented but effectiveness unknown | Conduct progressive or regressive testing | Validates control meets requirements and identifies gaps |
@@ -4526,8 +4657,18 @@ Guide
 | Vendor risk response pending | Track CAP with owner and timeline | Maintains accountability and visibility into remediation status |
 | Control exceptions granted | Review annually for continued necessity | Prevents permanent deviations from accumulating |
 
-## Gotchas
+##### Doshi Review Manual
+| Scenario | Correct approach | Why |
+| -------- | ---------------- | --- |
+| Ensuring vulnerability is addressed | Assign action plans to responsible employee with timelines | Assigned responsibility with deadlines is most effective for timely implementation |
+| Verifying control deficiencies remediated | Review risk mitigation plan | Contains responsible officer, monitoring process, milestones, and implementation timelines |
+| Ensuring risk kept at acceptable level | Periodic review of controls per risk action plan | Control effectiveness must be verified continuously, not just documented |
+| Supporting approved mitigation plan implementation | Assign action plans to individuals with deadlines | Centralized tracking software or root cause analysis alone is insufficient without assigned responsibility |
+| New control implemented | Test the control to validate effectiveness | Each new control must be evaluated for additional vulnerabilities and verified to mitigate risk |
 
+#### Gotchas
+
+##### CRISC All-in-One Exam Guide
 - **Testing requires non-production data**: Never use production data for
   control testing; generate synthetic data matching production characteristics.
   Mask sensitive fields if production data is absolutely required.
@@ -4548,7 +4689,20 @@ Guide
   confirming the remediation was implemented and the risk level reduced as
   expected, not merely when the deadline passes.
 
-## Verification techniques
+##### Doshi Review Manual
+- **Delegation does not transfer accountability**: When local management mitigates risk owned by corporate management, corporate management remains responsible for monitoring and controlling the risk.
+
+- **Documentation alone is insufficient**: Merely documenting risks in a register does not ensure they are addressed. Active periodic review of controls against the action plan is required.
+
+- **Milestones without ownership fail**: Action plan monitoring software is ineffective without first assigning responsibility to specific individuals with deadlines.
+
+- **Post-implementation review timing**: Must be conducted after sufficient time to determine effectiveness, efficiency, and adequacy - not immediately after deployment.
+
+- **Incidents vs. risks**: Already-occurred incidents (realized risks) are not in scope of risk treatment plans. This is an area of major concern if overlooked.
+
+- **Critical path monitoring**: Delays in critical path elements increase overall project risk. Risk action plans should be monitored as projects.
+
+#### Verification techniques
 
 | Technique | Purpose | Independence |
 | --------- | ------- | ------------ |
@@ -4558,7 +4712,7 @@ Guide
 | Penetration testing | Discover undocumented vulnerabilities through simulated attacks | High |
 | Third-party assurance (SOC 2, ISO 27001, PCI DSS) | Independent attestation of control effectiveness | Highest |
 
-## Key indicators for verification
+#### Key indicators for verification
 
 - **Key Performance Indicators (KPIs)**: Measure control performance against
   objectives (e.g., reduction in incidents after control implementation)
@@ -4574,7 +4728,7 @@ Guide
 Indicators should follow SMART criteria: Specific, Measurable, Attainable,
 Relevant, Timely.
 
-## Reporting verified responses
+#### Reporting verified responses
 
 | Format | Use case | Characteristics |
 | ------ | -------- | --------------- |
@@ -4586,8 +4740,9 @@ Relevant, Timely.
 Key reporting considerations: audience, actionability, format preference,
 succinctness, data source integrity, tailoring, timeframe, cadence.
 
-## Related topics
+#### Related topics
 
+##### CRISC All-in-One Exam Guide
 - **Risk and control monitoring**: Continuous process ensuring controls remain
   relevant as risk profile changes; uses self-assessments and independent audits
 - **Exception management**: Process for documenting and approving policy
@@ -4596,48 +4751,15 @@ succinctness, data source integrity, tailoring, timeframe, cadence.
   configuration changes affecting risk responses
 - **Configuration management**: Baseline standards ensuring consistent control
   implementation across all enterprise systems
-## Key concepts (Doshi)
 
-- **Risk mitigation plan**: Detailed document containing responsible officer, monitoring process, milestone achievement, and implementation timelines. Review of this plan verifies remediation of control deficiencies.
+##### Doshi Review Manual
+- **Risk register**: Documents risk ownership, corrective actions, residual risk, and remediation status. Provides centralized view for tracking and verification.
+- **Control testing**: Best method to verify control effectiveness. Role of risk practitioner is to assist in planning, reporting, and scheduling tests.
+- **KRI monitoring**: Periodic monitoring identifies changes in risk profile; determines if additional response is required.
+- **Exception management**: Exceptions to policy require documented escalation process and validation before reporting.
+- **Project closeout**: Must include accountability assignment for outstanding issues, risk register updates, documentation archival, post-implementation review, and end-user sign-off.
 
-- **Risk treatment plan**: Structured approach to treating identified risks that includes:
-  - Detailed action plan
-  - Person responsible for implementation
-  - Expected date of completion
-  - Start date, end date, strategy details
-  - Monitored regularly to track progress
-
-- **Risk action plan**: Documented in risk register once risk response is finalized. Must include start date, end date, responsible person/team, and detailed action plan. Treated as a project with measurable timelines, budget, and milestones.
-
-- **Accountability assignment**: For effective implementation, responsibility must be assigned to specific individuals with deadlines. Risk owner retains ultimate accountability even when management of risk is delegated.
-
-- **Post-implementation review**: Determines efficiency and effectiveness of new controls; verifies system meets requirements, controls are properly deployed, ROI is achieved, and residual risk is within acceptable limits.
-
-## Common scenarios (Doshi)
-
-| Scenario | Correct approach | Why |
-| -------- | ---------------- | --- |
-| Ensuring vulnerability is addressed | Assign action plans to responsible employee with timelines | Assigned responsibility with deadlines is most effective for timely implementation |
-| Verifying control deficiencies remediated | Review risk mitigation plan | Contains responsible officer, monitoring process, milestones, and implementation timelines |
-| Ensuring risk kept at acceptable level | Periodic review of controls per risk action plan | Control effectiveness must be verified continuously, not just documented |
-| Supporting approved mitigation plan implementation | Assign action plans to individuals with deadlines | Centralized tracking software or root cause analysis alone is insufficient without assigned responsibility |
-| New control implemented | Test the control to validate effectiveness | Each new control must be evaluated for additional vulnerabilities and verified to mitigate risk |
-
-## Gotchas (Doshi)
-
-- **Delegation does not transfer accountability**: When local management mitigates risk owned by corporate management, corporate management remains responsible for monitoring and controlling the risk.
-
-- **Documentation alone is insufficient**: Merely documenting risks in a register does not ensure they are addressed. Active periodic review of controls against the action plan is required.
-
-- **Milestones without ownership fail**: Action plan monitoring software is ineffective without first assigning responsibility to specific individuals with deadlines.
-
-- **Post-implementation review timing**: Must be conducted after sufficient time to determine effectiveness, efficiency, and adequacy - not immediately after deployment.
-
-- **Incidents vs. risks**: Already-occurred incidents (realized risks) are not in scope of risk treatment plans. This is an area of major concern if overlooked.
-
-- **Critical path monitoring**: Delays in critical path elements increase overall project risk. Risk action plans should be monitored as projects.
-
-## Limits and defaults
+#### Limits and defaults
 
 | Item | Value | Notes |
 | ---- | ----- | ----- |
@@ -4646,17 +4768,10 @@ succinctness, data source integrity, tailoring, timeframe, cadence.
 | Post-implementation participants | Development team, end users, risk practitioner | Joint review required |
 | Project closeout accountability | Specific individuals for outstanding issues | Must include follow-up and closure responsibility |
 
-## Related topics (Doshi)
-
-- **Risk register**: Documents risk ownership, corrective actions, residual risk, and remediation status. Provides centralized view for tracking and verification.
-- **Control testing**: Best method to verify control effectiveness. Role of risk practitioner is to assist in planning, reporting, and scheduling tests.
-- **KRI monitoring**: Periodic monitoring identifies changes in risk profile; determines if additional response is required.
-- **Exception management**: Exceptions to policy require documented escalation process and validation before reporting.
-- **Project closeout**: Must include accountability assignment for outstanding issues, risk register updates, documentation archival, post-implementation review, and end-user sign-off.
-
 ### 3.8: Establish Key Risk Indicators (KRIs) and thresholds for monitoring
-## Key concepts
+#### Key concepts
 
+##### CRISC All-in-One Exam Guide
 - **Key Risk Indicator (KRI)**: A metric designed to predict risks that could
   breach defined thresholds. KRIs serve as early warning signals that alert
   stakeholders when risk levels approach or exceed acceptable limits.
@@ -4688,8 +4803,30 @@ succinctness, data source integrity, tailoring, timeframe, cadence.
   stakeholders informed of credible threats. This includes monitoring first
   LoD activities for compliance.
 
-## Common scenarios
+##### Doshi Review Manual
+- **Key Risk Indicator (KRI)**: A measure used to determine the level of current
+  risk for an activity. KRIs flag exceptions as they occur, providing opportunity
+  to respond before damage is done.
+  - Objective is to monitor risk levels and receive alerts when approaching
+    unacceptable levels
+  - Examples: unauthorized software count, system downtime hours, systems
+    without antivirus
 
+- **Threshold**: The minimum requirement or maximum limit within which a KRI is
+  expected to operate.
+  - Indicates whether controls are providing intended value
+  - Must be aligned with risk appetite and risk tolerance
+  - Requires periodic review as risk profile changes
+
+- **Lead indicators**: Forward-looking; provide warning signals for emerging
+  high risk (preventive controls)
+
+- **Lag indicators**: Backward-looking; indicate past occurrences and provide
+  trends and historical data to improve risk response
+
+#### Common scenarios
+
+##### CRISC All-in-One Exam Guide
 | Scenario | Correct approach | Why |
 | -------- | ---------------- | --- |
 | Employees failing phishing tests repeatedly | Define KRI for untrained employees; set threshold for acceptable failure rate | Predicts breach risk before incident occurs |
@@ -4697,8 +4834,18 @@ succinctness, data source integrity, tailoring, timeframe, cadence.
 | Risk exceeds appetite but within tolerance | Accept with compensating controls; document in risk register | Tolerance allows slight deviation from appetite |
 | Risk approaches capacity threshold | Immediate escalation and remediation required | Exceeding capacity threatens organizational existence |
 
-## Gotchas
+##### Doshi Review Manual
+| Scenario | Correct approach | Why |
+| -------- | ---------------- | --- |
+| Identifying when to establish KRIs | During risk response stage (before risk monitoring) | Controls are selected and implemented at this stage; KRIs measure control effectiveness |
+| KRI reaches threshold | Report first to business process owner | Owner determines risk response and evaluates if additional controls are needed |
+| Validating line manager's KRI monitoring | Independent review of reported results | Ensures unbiasedness and validates efficiency of monitoring efforts |
+| Designing effective KRIs | Document end-to-end operational flow of business processes | Enables understanding of data flows, decision processes, risk appetite, and tolerance |
+| Monitoring third-party risk | Use indicators with approved thresholds | Determines acceptable risk levels; exceeding thresholds triggers management alarm |
 
+#### Gotchas
+
+##### CRISC All-in-One Exam Guide
 - **Actionability is mandatory**: KRIs that only inform but offer no
   remediation path are useless to senior management. Every KRI must have
   associated response procedures.
@@ -4720,98 +4867,7 @@ succinctness, data source integrity, tailoring, timeframe, cadence.
   must be appropriately calibrated. Setting thresholds too low generates
   thousands of false positive alerts; too high misses genuine threats.
 
-## Limits and defaults
-
-| Item | Value | Notes |
-| ---- | ----- | ----- |
-| Risk appetite | Defined by organization | Amount of risk willing to accept for objectives |
-| Risk tolerance | Slight deviation allowed | Acceptable variation around appetite |
-| Risk capacity | Absolute maximum | Exceeding threatens organizational existence |
-| Risk acceptance duration | Annual review minimum | Document in GRC tool; revisit regularly |
-| Dashboard cadence | Recurring | Show trends, analysis, anomalies over time |
-
-## Related topics
-
-- **Risk appetite and tolerance**: KRI thresholds derive directly from
-  appetite and tolerance definitions. Thresholds operationalize these abstract
-  concepts into measurable limits.
-
-- **Three Lines of Defense (3LoD)**: Second LoD develops and monitors KRIs.
-  First LoD owns the risks. Third LoD (audit) evaluates KRI effectiveness.
-
-- **SIEM integration**: Log aggregation tools collect data that feeds KRIs.
-  Intelligent thresholds in SIEM systems automate breach detection and
-  alerting.
-
-- **Control assessment techniques**: Self-assessments, internal audits,
-  vulnerability assessments, and penetration testing provide data that
-  informs KRI values and threshold calibration.
-
-- **Risk reporting formats**: KRIs are typically presented via dashboards
-  (preferred for flexibility), heat maps, scorecards, or executive summaries
-  depending on audience needs.
-## Key concepts (Doshi)
-
-- **Key Risk Indicator (KRI)**: A measure used to determine the level of current
-  risk for an activity. KRIs flag exceptions as they occur, providing opportunity
-  to respond before damage is done.
-  - Objective is to monitor risk levels and receive alerts when approaching
-    unacceptable levels
-  - Examples: unauthorized software count, system downtime hours, systems
-    without antivirus
-
-- **Threshold**: The minimum requirement or maximum limit within which a KRI is
-  expected to operate.
-  - Indicates whether controls are providing intended value
-  - Must be aligned with risk appetite and risk tolerance
-  - Requires periodic review as risk profile changes
-
-- **Lead indicators**: Forward-looking; provide warning signals for emerging
-  high risk (preventive controls)
-
-- **Lag indicators**: Backward-looking; indicate past occurrences and provide
-  trends and historical data to improve risk response
-
-## SMART criteria for KRI selection
-
-| Criterion | Requirement |
-| --------- | ----------- |
-| Specific | Clear, concise, easily understandable |
-| Measurable | Quantifiable with no subjectivity |
-| Attainable | Realistic targets |
-| Relevant | Aligned with organizational goals and objectives |
-| Time-bound | Achievable within a given time frame |
-
-## KRI design priorities
-
-Design aspects in order of priority:
-
-1. KRI should be linked to specific risk (most important)
-2. KRI should be capable to predict a risk event
-3. KRI should be complete and accurate
-4. KRI should be easily measurable and comparable
-5. KRI should be repeatable to be effective over time
-
-## Common scenarios (Doshi)
-
-| Scenario | Correct approach | Why |
-| -------- | ---------------- | --- |
-| Identifying when to establish KRIs | During risk response stage (before risk monitoring) | Controls are selected and implemented at this stage; KRIs measure control effectiveness |
-| KRI reaches threshold | Report first to business process owner | Owner determines risk response and evaluates if additional controls are needed |
-| Validating line manager's KRI monitoring | Independent review of reported results | Ensures unbiasedness and validates efficiency of monitoring efforts |
-| Designing effective KRIs | Document end-to-end operational flow of business processes | Enables understanding of data flows, decision processes, risk appetite, and tolerance |
-| Monitoring third-party risk | Use indicators with approved thresholds | Determines acceptable risk levels; exceeding thresholds triggers management alarm |
-
-## KRI threshold example
-
-| System downtime | Risk indicator |
-| --------------- | -------------- |
-| Less than 5 hours | Acceptable |
-| Between 5-10 hours | Close monitoring |
-| More than 10 hours | Unacceptable |
-
-## Gotchas (Doshi)
-
+##### Doshi Review Manual
 - **KRI threshold must evolve with risk profile**: A threshold acceptable today
   (e.g., 10% defect rate) may become unacceptable later (e.g., 2%) due to
   changing market conditions
@@ -4831,27 +4887,39 @@ Design aspects in order of priority:
   negligible impact and remain within set thresholds, senior management may not
   need notification
 
-## Advantages of KRIs
+#### Limits and defaults
 
-- Validates risk appetite and risk tolerance levels
-- Identifies risk objectively
-- Quantifies risk
-- Enables continuous risk monitoring
-- Triggers risk mitigation action
-- Monitors regulatory compliance
+| Item | Value | Notes |
+| ---- | ----- | ----- |
+| Risk appetite | Defined by organization | Amount of risk willing to accept for objectives |
+| Risk tolerance | Slight deviation allowed | Acceptable variation around appetite |
+| Risk capacity | Absolute maximum | Exceeding threatens organizational existence |
+| Risk acceptance duration | Annual review minimum | Document in GRC tool; revisit regularly |
+| Dashboard cadence | Recurring | Show trends, analysis, anomalies over time |
 
-## Reporting and monitoring responsibilities
+#### Related topics
 
-| Role | Responsibility |
-| ---- | -------------- |
-| Independent team | Measure and monitor KRIs to ensure unbiasedness |
-| Line manager | Monitor KRIs (with independent review) |
-| Senior official | Review and validate monitoring efforts |
-| Business process owner | First recipient when KRI reaches threshold; evaluates control effectiveness |
-| Senior management | Receives periodic KRI results to determine current state of risk |
+##### CRISC All-in-One Exam Guide
+- **Risk appetite and tolerance**: KRI thresholds derive directly from
+  appetite and tolerance definitions. Thresholds operationalize these abstract
+  concepts into measurable limits.
 
-## Related topics (Doshi)
+- **Three Lines of Defense (3LoD)**: Second LoD develops and monitors KRIs.
+  First LoD owns the risks. Third LoD (audit) evaluates KRI effectiveness.
 
+- **SIEM integration**: Log aggregation tools collect data that feeds KRIs.
+  Intelligent thresholds in SIEM systems automate breach detection and
+  alerting.
+
+- **Control assessment techniques**: Self-assessments, internal audits,
+  vulnerability assessments, and penetration testing provide data that
+  informs KRI values and threshold calibration.
+
+- **Risk reporting formats**: KRIs are typically presented via dashboards
+  (preferred for flexibility), heat maps, scorecards, or executive summaries
+  depending on audience needs.
+
+##### Doshi Review Manual
 - **Risk profile**: Overall risk status the organization is exposed to; KRIs
   help keep this updated with new and emerging risks
 - **Key Performance Indicators (KPIs)**: Measures performance of business
@@ -4862,9 +4930,57 @@ Design aspects in order of priority:
 - **Continuous monitoring**: Process and technology used to monitor critical
   areas on an ongoing basis; typically applied to high-risk areas
 
-### 3.9: Monitor and assess KRIs to detect IT risk profile shifts
-## Key concepts
+#### SMART criteria for KRI selection
 
+| Criterion | Requirement |
+| --------- | ----------- |
+| Specific | Clear, concise, easily understandable |
+| Measurable | Quantifiable with no subjectivity |
+| Attainable | Realistic targets |
+| Relevant | Aligned with organizational goals and objectives |
+| Time-bound | Achievable within a given time frame |
+
+#### KRI design priorities
+
+Design aspects in order of priority:
+
+1. KRI should be linked to specific risk (most important)
+2. KRI should be capable to predict a risk event
+3. KRI should be complete and accurate
+4. KRI should be easily measurable and comparable
+5. KRI should be repeatable to be effective over time
+
+#### KRI threshold example
+
+| System downtime | Risk indicator |
+| --------------- | -------------- |
+| Less than 5 hours | Acceptable |
+| Between 5-10 hours | Close monitoring |
+| More than 10 hours | Unacceptable |
+
+#### Advantages of KRIs
+
+- Validates risk appetite and risk tolerance levels
+- Identifies risk objectively
+- Quantifies risk
+- Enables continuous risk monitoring
+- Triggers risk mitigation action
+- Monitors regulatory compliance
+
+#### Reporting and monitoring responsibilities
+
+| Role | Responsibility |
+| ---- | -------------- |
+| Independent team | Measure and monitor KRIs to ensure unbiasedness |
+| Line manager | Monitor KRIs (with independent review) |
+| Senior official | Review and validate monitoring efforts |
+| Business process owner | First recipient when KRI reaches threshold; evaluates control effectiveness |
+| Senior management | Receives periodic KRI results to determine current state of risk |
+
+### 3.9: Monitor and assess KRIs to detect IT risk profile shifts
+#### Key concepts
+
+##### CRISC All-in-One Exam Guide
 - **Key Risk Indicators (KRIs)**: Highly probable indicators designed to predict
   risks that could breach defined thresholds
   - Primary goal: monitor and analyze trends to detect risk profile changes
@@ -4899,68 +5015,7 @@ Design aspects in order of priority:
   - **Relevant**: tied to a specific activity or goal
   - **Timely**: time-bound, not open-ended
 
-## Common scenarios
-
-| Scenario | Correct approach | Why |
-| -------- | ---------------- | --- |
-| New privacy regulation introduced | Update IT risk profile, adjust KRI thresholds | External factors shift risk exposure |
-| Merger or acquisition completed | Reassess enterprise and IT risk profiles | New assets and systems change risk landscape |
-| KRI shows employees failing phishing tests | Escalate to stakeholders, implement training | Indicates control gap before breach occurs |
-| Risk tolerance threshold crossed | Evaluate compensating controls, report to management | Approaching risk capacity requires intervention |
-| Multiple KRIs trending upward | Analyze correlation, adjust controls proactively | Pattern indicates systemic risk profile shift |
-
-## Gotchas
-
-- **Confusing KRIs with KPIs**: KPIs measure control performance; KRIs predict
-  risk threshold breaches. Use KRIs for forward-looking risk detection.
-
-- **Non-actionable KRIs**: Reporting KRIs without remediation paths wastes
-  management attention. Every KRI should have a response plan.
-
-- **Static thresholds**: Thresholds must adjust as risk appetite, business
-  objectives, and threat landscape change.
-
-- **Ignoring trend analysis**: Individual KRI readings matter less than trends
-  over time. Dashboards should show trend identification, analysis, and
-  anomalies.
-
-- **Risk tolerance vs. risk capacity**: Tolerance is acceptable variation;
-  capacity is maximum risk before existence is threatened. Breaching capacity is
-  critical; breaching tolerance is a warning.
-
-## Reporting formats for KRI monitoring
-
-| Format | Characteristics | Best use |
-| ------ | --------------- | -------- |
-| Executive summary | 1-2 pages, concise key risks | Milestone reporting with metrics |
-| Heat maps | Visual 2x2 to nxn grid, color-coded | Qualitative impact vs. likelihood |
-| Scorecards | Aggregated grades per area | High-level status across domains |
-| Dashboards | Mixed quantitative/qualitative metrics | Trend identification and anomalies |
-
-## Control assessment techniques
-
-| Technique | Description | Scope |
-| --------- | ----------- | ----- |
-| Self-assessments (MSIIs) | Internal workshops identifying overlooked issues | Known risks and controls |
-| Internal IS audit | Independent review providing objective evidence | Control effectiveness |
-| Vulnerability assessment | Tool-based identification of known weaknesses | Technical controls |
-| Penetration testing | Simulated attacks finding unknown vulnerabilities | Business logic and cascading flaws |
-| Third-party assurance | External attestation (SOC 2, ISO 27001, PCI DSS) | Stakeholder confidence |
-
-## Related topics
-
-- **Risk and control monitoring**: continuous evaluation of control environment
-  against changing threat landscape (see objective 3.8)
-- **Second line of defense**: responsible for developing KRIs and keeping
-  stakeholders informed of credible threats
-- **SIEM systems**: collect, analyze, and correlate logs; alert based on
-  intelligent thresholds; require ongoing tuning to reduce false positives
-- **Risk appetite and tolerance**: define acceptable boundaries that KRI
-  thresholds enforce
-- **Continuous monitoring**: ensures controls remain effective as risk profile
-  shifts; required for detecting changes in risk status
-## Key concepts (Doshi)
-
+##### Doshi Review Manual
 - **Key Risk Indicator (KRI)**: A measure used to determine the level of current
   risk for an activity. Flags exceptions when risk approaches unacceptable
   levels, providing opportunity to respond before damage occurs.
@@ -4987,8 +5042,18 @@ Design aspects in order of priority:
   - Effective KRI programs balance both types
   - Lag indicators provide trends and historical data to improve risk response
 
-## Common scenarios (Doshi)
+#### Common scenarios
 
+##### CRISC All-in-One Exam Guide
+| Scenario | Correct approach | Why |
+| -------- | ---------------- | --- |
+| New privacy regulation introduced | Update IT risk profile, adjust KRI thresholds | External factors shift risk exposure |
+| Merger or acquisition completed | Reassess enterprise and IT risk profiles | New assets and systems change risk landscape |
+| KRI shows employees failing phishing tests | Escalate to stakeholders, implement training | Indicates control gap before breach occurs |
+| Risk tolerance threshold crossed | Evaluate compensating controls, report to management | Approaching risk capacity requires intervention |
+| Multiple KRIs trending upward | Analyze correlation, adjust controls proactively | Pattern indicates systemic risk profile shift |
+
+##### Doshi Review Manual
 | Scenario | Correct approach | Why |
 | -------- | ---------------- | --- |
 | KRI reaches threshold | Report to business process owner first | Owner evaluates control effectiveness and determines response |
@@ -4997,8 +5062,27 @@ Design aspects in order of priority:
 | Line manager monitors KRI | Independent review of reported results | Validates efforts and ensures unbiasedness |
 | High false positive rate on IDS | Adjust sensitivity settings | Tuning sensitivity impacts detection accuracy |
 
-## Gotchas (Doshi)
+#### Gotchas
 
+##### CRISC All-in-One Exam Guide
+- **Confusing KRIs with KPIs**: KPIs measure control performance; KRIs predict
+  risk threshold breaches. Use KRIs for forward-looking risk detection.
+
+- **Non-actionable KRIs**: Reporting KRIs without remediation paths wastes
+  management attention. Every KRI should have a response plan.
+
+- **Static thresholds**: Thresholds must adjust as risk appetite, business
+  objectives, and threat landscape change.
+
+- **Ignoring trend analysis**: Individual KRI readings matter less than trends
+  over time. Dashboards should show trend identification, analysis, and
+  anomalies.
+
+- **Risk tolerance vs. risk capacity**: Tolerance is acceptable variation;
+  capacity is maximum risk before existence is threatened. Breaching capacity is
+  critical; breaching tolerance is a warning.
+
+##### Doshi Review Manual
 - **KRI identification timing**: KRIs are identified during risk response stage,
   not risk monitoring stage. Controls must be selected and implemented first.
 
@@ -5016,7 +5100,49 @@ Design aspects in order of priority:
 - **Measurement independence**: KRIs should be measured by an independent team.
   If line managers measure, results must be reviewed by independent authority.
 
-## SMART criteria for KRI selection
+#### Reporting formats for KRI monitoring
+
+| Format | Characteristics | Best use |
+| ------ | --------------- | -------- |
+| Executive summary | 1-2 pages, concise key risks | Milestone reporting with metrics |
+| Heat maps | Visual 2x2 to nxn grid, color-coded | Qualitative impact vs. likelihood |
+| Scorecards | Aggregated grades per area | High-level status across domains |
+| Dashboards | Mixed quantitative/qualitative metrics | Trend identification and anomalies |
+
+#### Control assessment techniques
+
+| Technique | Description | Scope |
+| --------- | ----------- | ----- |
+| Self-assessments (MSIIs) | Internal workshops identifying overlooked issues | Known risks and controls |
+| Internal IS audit | Independent review providing objective evidence | Control effectiveness |
+| Vulnerability assessment | Tool-based identification of known weaknesses | Technical controls |
+| Penetration testing | Simulated attacks finding unknown vulnerabilities | Business logic and cascading flaws |
+| Third-party assurance | External attestation (SOC 2, ISO 27001, PCI DSS) | Stakeholder confidence |
+
+#### Related topics
+
+##### CRISC All-in-One Exam Guide
+- **Risk and control monitoring**: continuous evaluation of control environment
+  against changing threat landscape (see objective 3.8)
+- **Second line of defense**: responsible for developing KRIs and keeping
+  stakeholders informed of credible threats
+- **SIEM systems**: collect, analyze, and correlate logs; alert based on
+  intelligent thresholds; require ongoing tuning to reduce false positives
+- **Risk appetite and tolerance**: define acceptable boundaries that KRI
+  thresholds enforce
+- **Continuous monitoring**: ensures controls remain effective as risk profile
+  shifts; required for detecting changes in risk status
+
+##### Doshi Review Manual
+- **KCI (Key Control Indicator)**: Measures control effectiveness; inversely
+  correlated with KRI. If KCI shows controls working, KRI should be within
+  limits.
+- **Continuous monitoring**: Process and technology for ongoing critical area
+  monitoring. First step is identifying high-risk areas.
+- **Risk dashboard**: Most suitable format for reporting IT-related business
+  risk to senior management.
+
+#### SMART criteria for KRI selection
 
 | Criterion | Requirement |
 | --------- | ----------- |
@@ -5026,7 +5152,7 @@ Design aspects in order of priority:
 | Relevant | Aligned to organizational goals and objectives |
 | Time-bound | Achievable within defined time frame |
 
-## KRI design priorities
+#### KRI design priorities
 
 | Priority | Requirement |
 | -------- | ----------- |
@@ -5036,7 +5162,7 @@ Design aspects in order of priority:
 | 4 | Easily measurable and comparable |
 | 5 | Repeatable over time |
 
-## Examples of KRIs
+#### Examples of KRIs
 
 | KRI | What it indicates |
 | --- | ----------------- |
@@ -5046,7 +5172,7 @@ Design aspects in order of priority:
 | Number of workstations vs employee count | Configuration management issues |
 | Installation of unlicensed software | Need for security awareness training |
 
-## KRI reporting
+#### KRI reporting
 
 - **Threshold breach**: First report to business process owner
 - **Periodic results**: Place before senior management at regular intervals
@@ -5055,7 +5181,7 @@ Design aspects in order of priority:
 - **KRI results**: Most useful data for communicating current risk state to
   management
 
-## Advantages of KRIs
+#### Advantages of KRIs
 
 - Validates risk appetite and tolerance levels
 - Identifies risk objectively
@@ -5064,19 +5190,10 @@ Design aspects in order of priority:
 - Triggers risk mitigation actions
 - Monitors regulatory compliance
 
-## Related topics (Doshi)
-
-- **KCI (Key Control Indicator)**: Measures control effectiveness; inversely
-  correlated with KRI. If KCI shows controls working, KRI should be within
-  limits.
-- **Continuous monitoring**: Process and technology for ongoing critical area
-  monitoring. First step is identifying high-risk areas.
-- **Risk dashboard**: Most suitable format for reporting IT-related business
-  risk to senior management.
-
 ### 3.10: Report IT risk profile changes and trends to management
-## Key concepts
+#### Key concepts
 
+##### CRISC All-in-One Exam Guide
 - **IT risk profile**: The overall identified IT risk to which the enterprise is
   exposed
   - Depends on factors such as emerging threats, malicious actors, incidents,
@@ -5109,85 +5226,7 @@ Design aspects in order of priority:
   - Relevant: tied to specific activity or goal
   - Timely: time-bound, not open-ended
 
-## Reporting formats
-
-| Format | Description | Best used for |
-| ------ | ----------- | ------------- |
-| Executive summary | Concise 1-2 page overview with quantified metrics | Project milestones, control effectiveness |
-| Heat map | Graphical grid (2x2 to nxn) showing impact vs. likelihood | Visual risk severity comparison |
-| Scorecard | Aggregated performance with grades per area | Simplified status communication |
-| Dashboard | Collection of qualitative and quantitative metrics | Trend analysis, recurring reporting |
-
-Dashboards are the preferred method due to flexibility in combining qualitative
-and quantitative content and ability to show trends.
-
-## Reporting considerations
-
-- **Audience**: Match report to the right stakeholders
-- **Actionability**: Ensure metrics drive decisions
-- **Format**: Know the audience's preferred format
-- **Succinctness**: Show only key information relevant to audience
-- **Source**: Verify data integrity
-- **Tailoring**: Customize for primary stakeholders
-- **Timeframe**: Present relevant time periods
-- **Inferences**: Enable audience to draw conclusions
-- **Cadence**: Agree on reporting frequency
-
-## Common scenarios
-
-| Scenario | Correct approach | Why |
-| -------- | ---------------- | --- |
-| Phishing incidents increased 40% | Report trend with root cause (e.g., untrained employees) via dashboard | Enables actionable response; shows trend not just point-in-time |
-| New regulatory requirement introduced | Update risk profile to reflect compliance risk; report to board | External factors change profile; governance needs visibility |
-| Control implemented successfully | Report KPI showing measurable improvement | Demonstrates control effectiveness quantitatively |
-| KRI threshold breached | Alert stakeholders immediately; include in recurring report | Enables timely intervention before risk materializes |
-| Presenting to physical security lead | Exclude IT-specific metrics like phishing attempts | Tailor content to audience's domain |
-
-## Gotchas
-
-- **Non-actionable KRIs**: Reporting indicators that stakeholders cannot act on
-  wastes management attention; every KRI should have a clear response path
-
-- **Wrong audience**: Sending IT security metrics to stakeholders outside the
-  IT domain (e.g., phishing statistics to physical security) reduces report
-  relevance
-
-- **Qualitative-only reporting**: Heat maps and scorecards alone leave room for
-  judgment error; dashboards combining qualitative and quantitative metrics
-  provide more reliable trend analysis
-
-- **Static risk register**: The risk register must be a live document updated
-  when risk changes due to internal or external factors; stale data produces
-  misleading profile reports
-
-- **Ignoring risk reporting phase**: Risk practitioners often skip reporting
-  after completing risk treatment; this phase is critical for stakeholder
-  awareness and decision-making
-
-## Reporting cadence
-
-| Report type | Typical frequency |
-| ----------- | ----------------- |
-| Dashboard with trends | Recurring (monthly/quarterly) |
-| Executive summary | Per milestone or project |
-| Board risk report | Quarterly |
-| Risk assessment results | At least annually |
-| KRI breach alerts | Immediate/as needed |
-
-## Related topics
-
-- **Risk appetite and tolerance**: Thresholds that define when risk profile
-  changes require escalation
-- **Risk register**: Source document for tracking identified risks and status
-  changes
-- **Three Lines of Defense**: Second line develops KRIs; third line provides
-  independent assurance reported to governance
-- **Control monitoring**: Continuous assessment that feeds trend data into
-  reports
-- **SIEM and log aggregation**: Technical foundation for generating metrics and
-  detecting anomalies for reporting
-## Key concepts (Doshi)
-
+##### Doshi Review Manual
 - **Risk profile**: Overall risk status that the organization is exposed to;
   aggregates historical risk and emerging risk into a single view
   - Must be kept updated with new and emerging risks
@@ -5216,8 +5255,52 @@ and quantitative content and ability to show trends.
   - Lag indicators: Backward-looking; provide relevant trends and historical
     data to improve risk response
 
-## Common scenarios (Doshi)
+#### Reporting formats
 
+##### CRISC All-in-One Exam Guide
+| Format | Description | Best used for |
+| ------ | ----------- | ------------- |
+| Executive summary | Concise 1-2 page overview with quantified metrics | Project milestones, control effectiveness |
+| Heat map | Graphical grid (2x2 to nxn) showing impact vs. likelihood | Visual risk severity comparison |
+| Scorecard | Aggregated performance with grades per area | Simplified status communication |
+| Dashboard | Collection of qualitative and quantitative metrics | Trend analysis, recurring reporting |
+
+Dashboards are the preferred method due to flexibility in combining qualitative
+and quantitative content and ability to show trends.
+
+##### Doshi Review Manual
+| Format | Best use |
+| ------ | -------- |
+| Dashboard | Senior management reporting; high-level overview |
+| Risk register dashboard | Presenting current risk profile; complete picture |
+| Heat maps | Visual risk severity representation |
+| Scorecards | Performance tracking |
+| KRI reports | Current state of risk; control effectiveness |
+
+#### Reporting considerations
+
+- **Audience**: Match report to the right stakeholders
+- **Actionability**: Ensure metrics drive decisions
+- **Format**: Know the audience's preferred format
+- **Succinctness**: Show only key information relevant to audience
+- **Source**: Verify data integrity
+- **Tailoring**: Customize for primary stakeholders
+- **Timeframe**: Present relevant time periods
+- **Inferences**: Enable audience to draw conclusions
+- **Cadence**: Agree on reporting frequency
+
+#### Common scenarios
+
+##### CRISC All-in-One Exam Guide
+| Scenario | Correct approach | Why |
+| -------- | ---------------- | --- |
+| Phishing incidents increased 40% | Report trend with root cause (e.g., untrained employees) via dashboard | Enables actionable response; shows trend not just point-in-time |
+| New regulatory requirement introduced | Update risk profile to reflect compliance risk; report to board | External factors change profile; governance needs visibility |
+| Control implemented successfully | Report KPI showing measurable improvement | Demonstrates control effectiveness quantitatively |
+| KRI threshold breached | Alert stakeholders immediately; include in recurring report | Enables timely intervention before risk materializes |
+| Presenting to physical security lead | Exclude IT-specific metrics like phishing attempts | Tailor content to audience's domain |
+
+##### Doshi Review Manual
 | Scenario | Correct approach | Why |
 | -------- | ---------------- | --- |
 | Present current risk profile to senior management | Use risk register dashboard | Provides complete picture of organization's risk profile |
@@ -5226,8 +5309,29 @@ and quantitative content and ability to show trends.
 | Evaluate current risk profile after year-long gap | Conduct new risk assessment by independent expert | Identifies new or emerging risks that existing controls may not address |
 | KRI reaches threshold | Report to business process owner first | Owner determines risk response and evaluates control effectiveness |
 
-## Gotchas (Doshi)
+#### Gotchas
 
+##### CRISC All-in-One Exam Guide
+- **Non-actionable KRIs**: Reporting indicators that stakeholders cannot act on
+  wastes management attention; every KRI should have a clear response path
+
+- **Wrong audience**: Sending IT security metrics to stakeholders outside the
+  IT domain (e.g., phishing statistics to physical security) reduces report
+  relevance
+
+- **Qualitative-only reporting**: Heat maps and scorecards alone leave room for
+  judgment error; dashboards combining qualitative and quantitative metrics
+  provide more reliable trend analysis
+
+- **Static risk register**: The risk register must be a live document updated
+  when risk changes due to internal or external factors; stale data produces
+  misleading profile reports
+
+- **Ignoring risk reporting phase**: Risk practitioners often skip reporting
+  after completing risk treatment; this phase is critical for stakeholder
+  awareness and decision-making
+
+##### Doshi Review Manual
 - **Reporting purpose misconception**: Main reason to report risk profile
   changes is NOT to update inventory, budget, or individual risk
   probability/impact--it is to update management about current overall risk
@@ -5246,7 +5350,41 @@ and quantitative content and ability to show trends.
 - **Independent review requirement**: KRI monitoring by line managers should be
   validated through independent review of reported results
 
-## Factors driving risk profile changes
+#### Reporting cadence
+
+| Report type | Typical frequency |
+| ----------- | ----------------- |
+| Dashboard with trends | Recurring (monthly/quarterly) |
+| Executive summary | Per milestone or project |
+| Board risk report | Quarterly |
+| Risk assessment results | At least annually |
+| KRI breach alerts | Immediate/as needed |
+
+#### Related topics
+
+##### CRISC All-in-One Exam Guide
+- **Risk appetite and tolerance**: Thresholds that define when risk profile
+  changes require escalation
+- **Risk register**: Source document for tracking identified risks and status
+  changes
+- **Three Lines of Defense**: Second line develops KRIs; third line provides
+  independent assurance reported to governance
+- **Control monitoring**: Continuous assessment that feeds trend data into
+  reports
+- **SIEM and log aggregation**: Technical foundation for generating metrics and
+  detecting anomalies for reporting
+
+##### Doshi Review Manual
+- **Risk appetite and tolerance**: Basis for developing KRIs includes
+  organization's risk appetite, metrics, and current risk profile
+- **Risk monitoring**: Closely associated with risk reporting; results of
+  monitoring feed into reports
+- **Continuous monitoring**: Used for high-risk areas where impact and
+  frequency of occurrence are high; first step is identifying high-risk areas
+- **Control assessment**: Effectiveness depends on accurate data, timely
+  reporting to management, and skilled risk practitioners
+
+#### Factors driving risk profile changes
 
 | Factor | Notes |
 | ------ | ----- |
@@ -5257,30 +5395,10 @@ and quantitative content and ability to show trends.
 | Competitor policies | Industry changes affect risk landscape |
 | Cascading effects | Minor changes may compound into significant impact |
 
-## Reporting formats (Doshi)
-
-| Format | Best use |
-| ------ | -------- |
-| Dashboard | Senior management reporting; high-level overview |
-| Risk register dashboard | Presenting current risk profile; complete picture |
-| Heat maps | Visual risk severity representation |
-| Scorecards | Performance tracking |
-| KRI reports | Current state of risk; control effectiveness |
-
-## Related topics (Doshi)
-
-- **Risk appetite and tolerance**: Basis for developing KRIs includes
-  organization's risk appetite, metrics, and current risk profile
-- **Risk monitoring**: Closely associated with risk reporting; results of
-  monitoring feed into reports
-- **Continuous monitoring**: Used for high-risk areas where impact and
-  frequency of occurrence are high; first step is identifying high-risk areas
-- **Control assessment**: Effectiveness depends on accurate data, timely
-  reporting to management, and skilled risk practitioners
-
 ### 3.11: Facilitate identification of KPIs for control performance assessment
-## Key concepts
+#### Key concepts
 
+##### CRISC All-in-One Exam Guide
 - **Key Performance Indicators (KPIs)**: Metrics used to understand and enable
   measurement of control performance
   - Performance levels differ by organization
@@ -5310,72 +5428,7 @@ and quantitative content and ability to show trends.
   - **R**elevant: relevant to a specific activity or goal
   - **T**imely: timebound and not open-ended
 
-## Common scenarios
-
-| Scenario | Correct approach | Why |
-| -------- | ---------------- | --- |
-| Measuring vulnerability management program | Count vulnerabilities found and remediated | Indicates success at identifying and addressing security risks |
-| Evaluating new security program effectiveness | Track percentage reduction in data breaches | Provides clear metric to measure program success over time |
-| Defining KPIs for phishing control | Measure reduction in successful phishing attempts post-control | Directly ties control implementation to measurable outcome |
-| Stakeholder reporting needs vary | Tailor indicators to audience | Technical metrics for security team; business impact metrics for executives |
-
-## Gotchas
-
-- **KPIs vs KRIs vs KCIs confusion**: KPIs measure control performance; KRIs
-  predict threshold breaches; KCIs indicate control weaknesses. Each serves a
-  distinct purpose in risk monitoring.
-
-- **Non-actionable indicators**: The most important aspect of effective
-  indicators is that they should be actionable. Indicators reported but not
-  actionable provide little value to senior management.
-
-- **Misalignment with risk appetite**: KPIs must make sense to the
-  organization's objectives and risk appetite. Generic industry KPIs may not
-  reflect actual organizational risk tolerance.
-
-- **Confusing risk tolerance with risk capacity**: Risk tolerance is acceptable
-  deviation from risk appetite; risk capacity is the maximum risk before
-  threatening organizational existence. KPI thresholds should respect both.
-
-- **Static indicator selection**: Risks are ever-changing, so the risk profile
-  changes. Controls recently implemented may become outdated. Continuously
-  monitor, benchmark, and improve the control environment.
-
-## Control assessment techniques for KPI validation
-
-| Technique | Purpose | Notes |
-| --------- | ------- | ----- |
-| Self-assessments (MSIIs) | Internal risk workshops | Engage key resources; non-judgmental; identify overlooked issues |
-| Internal IS audit | Independent internal evaluation | Auditor recommendations presented objectively to management |
-| Vulnerability assessment | Identify known weaknesses | Only finds known vulnerabilities; cannot discover new ones |
-| Penetration testing | Simulate real attacks | White/gray/black box; finds undiscovered vulnerabilities |
-| Third-party assurance | External attestation (SOC 2, ISO 27001) | Carries more weight for stakeholder trust |
-
-## Reporting formats for KPIs
-
-| Format | Characteristics | Best for |
-| ------ | --------------- | -------- |
-| Executive summary | Brief, high-level | Senior leadership quick review |
-| Heat map | Color-coded risk visualization | Qualitative risk overview |
-| Scorecard | Grades assigned to areas | Performance tracking |
-| Dashboard | Qualitative and quantitative metrics combined | Trend identification, anomaly detection, recurring reporting |
-
-## Related topics
-
-- **Risk and control monitoring**: Continuous assessment of control environments
-  using KPIs to verify control adequacy as threat landscape changes
-
-- **Risk appetite and tolerance**: KPI thresholds must align with organizational
-  risk appetite; deviations within tolerance are acceptable, beyond tolerance
-  requires action
-
-- **Three lines of defense**: Second line develops KRIs and keeps stakeholders
-  informed of credible threats; KPIs help monitor first line activities
-
-- **Control design and implementation**: KPIs validate that implemented controls
-  achieve intended risk reduction objectives
-## Key concepts (Doshi)
-
+##### Doshi Review Manual
 - **Key Performance Indicator (KPI)**: Indicator that measures how well a process
   is doing in terms of its goals and objectives
   - Provides warning when values approach or exceed thresholds
@@ -5405,8 +5458,17 @@ and quantitative content and ability to show trends.
   - Relevant: aligned with organizational goals and objectives
   - Time-bound: achievable in a given timeframe
 
-## Common scenarios (Doshi)
+#### Common scenarios
 
+##### CRISC All-in-One Exam Guide
+| Scenario | Correct approach | Why |
+| -------- | ---------------- | --- |
+| Measuring vulnerability management program | Count vulnerabilities found and remediated | Indicates success at identifying and addressing security risks |
+| Evaluating new security program effectiveness | Track percentage reduction in data breaches | Provides clear metric to measure program success over time |
+| Defining KPIs for phishing control | Measure reduction in successful phishing attempts post-control | Directly ties control implementation to measurable outcome |
+| Stakeholder reporting needs vary | Tailor indicators to audience | Technical metrics for security team; business impact metrics for executives |
+
+##### Doshi Review Manual
 | Scenario | Correct approach | Why |
 | -------- | ---------------- | --- |
 | Evaluating disaster recovery readiness | Results of tests and exercises | Demonstrates actual capability, not just documentation |
@@ -5415,8 +5477,30 @@ and quantitative content and ability to show trends.
 | Monitoring user access administration | Percent of accounts complied with configuration | Reflects overall impact of access controls |
 | Validating control effectiveness | Key Control Indicator (KCI) | Specifically designed to measure control performance |
 
-## Gotchas (Doshi)
+#### Gotchas
 
+##### CRISC All-in-One Exam Guide
+- **KPIs vs KRIs vs KCIs confusion**: KPIs measure control performance; KRIs
+  predict threshold breaches; KCIs indicate control weaknesses. Each serves a
+  distinct purpose in risk monitoring.
+
+- **Non-actionable indicators**: The most important aspect of effective
+  indicators is that they should be actionable. Indicators reported but not
+  actionable provide little value to senior management.
+
+- **Misalignment with risk appetite**: KPIs must make sense to the
+  organization's objectives and risk appetite. Generic industry KPIs may not
+  reflect actual organizational risk tolerance.
+
+- **Confusing risk tolerance with risk capacity**: Risk tolerance is acceptable
+  deviation from risk appetite; risk capacity is the maximum risk before
+  threatening organizational existence. KPI thresholds should respect both.
+
+- **Static indicator selection**: Risks are ever-changing, so the risk profile
+  changes. Controls recently implemented may become outdated. Continuously
+  monitor, benchmark, and improve the control environment.
+
+##### Doshi Review Manual
 - **KPI vs KCI confusion**: KPIs measure business performance targets; KCIs
   measure control effectiveness. Many organizations incorrectly label everything
   as "KPI"
@@ -5436,31 +5520,42 @@ and quantitative content and ability to show trends.
   A single control may affect multiple risk areas, so KCI may have broader
   implications than KRIs
 
-## Limits and defaults
+#### Control assessment techniques for KPI validation
 
-| Item | Value | Notes |
-| ---- | ----- | ----- |
-| Error rate threshold example | 10% | Above threshold requires escalation |
-| System uptime target example | >99% | KPI for availability |
-| Tolerance definition timing | Before KCI creation | Tolerances must be established first |
+| Technique | Purpose | Notes |
+| --------- | ------- | ----- |
+| Self-assessments (MSIIs) | Internal risk workshops | Engage key resources; non-judgmental; identify overlooked issues |
+| Internal IS audit | Independent internal evaluation | Auditor recommendations presented objectively to management |
+| Vulnerability assessment | Identify known weaknesses | Only finds known vulnerabilities; cannot discover new ones |
+| Penetration testing | Simulate real attacks | White/gray/black box; finds undiscovered vulnerabilities |
+| Third-party assurance | External attestation (SOC 2, ISO 27001) | Carries more weight for stakeholder trust |
 
-## KPI examples by domain
+#### Reporting formats for KPIs
 
-| Domain | KPI example |
-| ------ | ----------- |
-| Availability | Network uptime percentage |
-| Disaster recovery | Results of tests and exercises |
-| Operations | User satisfaction survey results |
-| Access management | Percent of accounts compliant with configuration |
+| Format | Characteristics | Best for |
+| ------ | --------------- | -------- |
+| Executive summary | Brief, high-level | Senior leadership quick review |
+| Heat map | Color-coded risk visualization | Qualitative risk overview |
+| Scorecard | Grades assigned to areas | Performance tracking |
+| Dashboard | Qualitative and quantitative metrics combined | Trend identification, anomaly detection, recurring reporting |
 
-## KCI examples
+#### Related topics
 
-- Percentage of phishing emails blocked by filtering software
-- Percentage of audit findings closed within specified time
-- Instances of malicious traffic bypassing the firewall
+##### CRISC All-in-One Exam Guide
+- **Risk and control monitoring**: Continuous assessment of control environments
+  using KPIs to verify control adequacy as threat landscape changes
 
-## Related topics (Doshi)
+- **Risk appetite and tolerance**: KPI thresholds must align with organizational
+  risk appetite; deviations within tolerance are acceptable, beyond tolerance
+  requires action
 
+- **Three lines of defense**: Second line develops KRIs and keeps stakeholders
+  informed of credible threats; KPIs help monitor first line activities
+
+- **Control design and implementation**: KPIs validate that implemented controls
+  achieve intended risk reduction objectives
+
+##### Doshi Review Manual
 - **Key Risk Indicators (KRI)**: Measures level of risk; threshold should align
   with risk appetite and tolerance
 - **Control monitoring**: Ongoing validation that controls address risk; more
@@ -5470,9 +5565,33 @@ and quantitative content and ability to show trends.
 - **Optimum control level**: Balance between control effectiveness and cost of
   maintaining the control
 
-### 3.12: Monitor and evaluate KPIs to measure control efficiency
-## Key concepts
+#### Limits and defaults
 
+| Item | Value | Notes |
+| ---- | ----- | ----- |
+| Error rate threshold example | 10% | Above threshold requires escalation |
+| System uptime target example | >99% | KPI for availability |
+| Tolerance definition timing | Before KCI creation | Tolerances must be established first |
+
+#### KPI examples by domain
+
+| Domain | KPI example |
+| ------ | ----------- |
+| Availability | Network uptime percentage |
+| Disaster recovery | Results of tests and exercises |
+| Operations | User satisfaction survey results |
+| Access management | Percent of accounts compliant with configuration |
+
+#### KCI examples
+
+- Percentage of phishing emails blocked by filtering software
+- Percentage of audit findings closed within specified time
+- Instances of malicious traffic bypassing the firewall
+
+### 3.12: Monitor and evaluate KPIs to measure control efficiency
+#### Key concepts
+
+##### CRISC All-in-One Exam Guide
 - **Key Performance Indicators (KPIs)**: Metrics used to understand and enable
   measurement of control performance
   - Performance levels differ by organization; define KPIs aligned with
@@ -5508,76 +5627,7 @@ and quantitative content and ability to show trends.
   - Risks and risk profiles are ever-changing
   - Controls implemented for latest risks may already be outdated
 
-## Common scenarios
-
-| Scenario | Correct approach | Why |
-| -------- | ---------------- | --- |
-| Measuring vulnerability management effectiveness | Track number of vulnerabilities found and remediated | Provides clear metric for program success at identifying and addressing risks |
-| Evaluating security program over time | Track percentage reduction in data breaches | Measures actual risk reduction, not just activity |
-| Control became outdated | Assign control owner to monitor and update | Prevents control drift and ensures ongoing effectiveness |
-| Risk breaches threshold | KRI triggers alert to stakeholders | Enables proactive response before risk materializes |
-| Reporting to different audiences | Tailor format and content per audience | Technical details irrelevant to non-technical stakeholders |
-
-## Gotchas
-
-- **KPIs vs KRIs vs KCIs**: KPIs measure control performance, KRIs predict
-  future risks, KCIs indicate control weaknesses. Each serves a distinct
-  purpose in monitoring.
-
-- **Activity vs outcome metrics**: Counting completed activities (training
-  sessions held) differs from measuring outcomes (reduction in incidents).
-  Prioritize outcome-based KPIs.
-
-- **Qualitative limitations**: Heat maps and scorecards are qualitative,
-  leaving room for judgment error. Dashboards combining qualitative and
-  quantitative metrics provide more comprehensive view.
-
-- **Risk owner vs control owner**: May be same person in small organizations,
-  but should be segregated when possible. Risk owner accountable for
-  remediation; control owner accountable for control effectiveness.
-
-- **Threshold confusion**: Risk tolerance threshold differs from risk appetite.
-  A little beyond appetite is still within tolerance if compensating controls
-  exist.
-
-## SMART metrics for selecting key indicators
-
-| Attribute | Definition | Application |
-| --------- | ---------- | ----------- |
-| Specific | Clearly understandable and concise | Avoid vague metrics like "improve security" |
-| Measurable | Can be measured and quantified | Use numerical values, percentages, counts |
-| Attainable | Realistic and based on goals | Set achievable targets given resources |
-| Relevant | Related to specific activity or goal | Align with organizational objectives |
-| Timely | Timebound and not open-ended | Define measurement periods and deadlines |
-
-## Control assessment techniques
-
-| Technique | Purpose | Limitation |
-| --------- | ------- | ---------- |
-| Self-assessment | Engage key resources to identify overlooked issues | Subject to internal bias |
-| Internal IS audit | Determine control effectiveness through independent review | Limited to known control scope |
-| Vulnerability assessment | Identify known weaknesses in design, implementation, or operation | Only finds already-known vulnerabilities |
-| Penetration testing | Simulate real attacks to find undiscovered vulnerabilities | Point-in-time assessment |
-| Third-party assurance | Independent attestation (ISO 27001, SOC 2, PCI DSS) | More weight in building stakeholder trust |
-
-## Reporting formats
-
-| Format | Best for | Characteristics |
-| ------ | -------- | --------------- |
-| Executive summary | Project milestones, quick updates | 1-2 pages, quantified metrics |
-| Heat map | Impact vs likelihood visualization | Qualitative, 2x2 to nxn grid |
-| Scorecard | Aggregated performance grades | Qualitative, simplified view |
-| Dashboard | Comprehensive risk overview | Quantitative and qualitative, trend analysis |
-
-## Related topics
-
-- Log aggregation: Provides data sources for control monitoring metrics
-- SIEM systems: Enable automated correlation and alerting on control
-  thresholds
-- Risk register: Records control owners and KPI assignments
-- Risk tolerance: Defines acceptable thresholds for KRI alerting
-## Key concepts (Doshi)
-
+##### Doshi Review Manual
 - **Key Performance Indicator (KPI)**: Metric that measures how well a process
   is doing in terms of its goals and objectives
   - Operates similarly to risk indicators but focuses on performance rather
@@ -5605,7 +5655,114 @@ and quantitative content and ability to show trends.
   - Not control effectiveness (that's KCI)
   - Not business goals (that's KGI)
 
-## SMART characteristics of good KPIs
+#### Common scenarios
+
+##### CRISC All-in-One Exam Guide
+| Scenario | Correct approach | Why |
+| -------- | ---------------- | --- |
+| Measuring vulnerability management effectiveness | Track number of vulnerabilities found and remediated | Provides clear metric for program success at identifying and addressing risks |
+| Evaluating security program over time | Track percentage reduction in data breaches | Measures actual risk reduction, not just activity |
+| Control became outdated | Assign control owner to monitor and update | Prevents control drift and ensures ongoing effectiveness |
+| Risk breaches threshold | KRI triggers alert to stakeholders | Enables proactive response before risk materializes |
+| Reporting to different audiences | Tailor format and content per audience | Technical details irrelevant to non-technical stakeholders |
+
+##### Doshi Review Manual
+| Scenario | Correct approach | Why |
+| -------- | ---------------- | --- |
+| Error rate reaches 10% threshold | KPI provides warning for escalation | KPI monitors performance against defined limits |
+| Evaluating disaster recovery readiness | Review results of tests and exercises | Demonstrates actual capability, not just documentation |
+| Measuring control management effectiveness | Measure control effectiveness against business objectives | Primary KPI for control performance |
+| Operational review of processing environment | User satisfaction survey | Indicates how well processes meet user expectations |
+| KPI value outside threshold | Attend immediately | Leading indicator requires remedial action |
+
+#### Gotchas
+
+##### CRISC All-in-One Exam Guide
+- **KPIs vs KRIs vs KCIs**: KPIs measure control performance, KRIs predict
+  future risks, KCIs indicate control weaknesses. Each serves a distinct
+  purpose in monitoring.
+
+- **Activity vs outcome metrics**: Counting completed activities (training
+  sessions held) differs from measuring outcomes (reduction in incidents).
+  Prioritize outcome-based KPIs.
+
+- **Qualitative limitations**: Heat maps and scorecards are qualitative,
+  leaving room for judgment error. Dashboards combining qualitative and
+  quantitative metrics provide more comprehensive view.
+
+- **Risk owner vs control owner**: May be same person in small organizations,
+  but should be segregated when possible. Risk owner accountable for
+  remediation; control owner accountable for control effectiveness.
+
+- **Threshold confusion**: Risk tolerance threshold differs from risk appetite.
+  A little beyond appetite is still within tolerance if compensating controls
+  exist.
+
+##### Doshi Review Manual
+- **KPI requires immediate attention when outside threshold**: Not when
+  fluctuating, within threshold, or below average
+
+- **Most important criteria for metric effectiveness**: Must be meaningful to
+  the recipient, not just complete, accurate, consistent, or cost-effective
+
+- **Attainable feature of KPI**: Determines that KPI is realistic and based on
+  important objectives (not cost-effective, repeatable, or relevant)
+
+- **Organizations often conflate KPI, KRI, and KCI**: In practice everything
+  may be called "KPI" but exam requires precise distinction
+
+- **Optimum control level**: Balance between control effectiveness and cost of
+  maintaining the control, not just highlighting ineffectiveness
+
+#### SMART metrics for selecting key indicators
+
+| Attribute | Definition | Application |
+| --------- | ---------- | ----------- |
+| Specific | Clearly understandable and concise | Avoid vague metrics like "improve security" |
+| Measurable | Can be measured and quantified | Use numerical values, percentages, counts |
+| Attainable | Realistic and based on goals | Set achievable targets given resources |
+| Relevant | Related to specific activity or goal | Align with organizational objectives |
+| Timely | Timebound and not open-ended | Define measurement periods and deadlines |
+
+#### Control assessment techniques
+
+| Technique | Purpose | Limitation |
+| --------- | ------- | ---------- |
+| Self-assessment | Engage key resources to identify overlooked issues | Subject to internal bias |
+| Internal IS audit | Determine control effectiveness through independent review | Limited to known control scope |
+| Vulnerability assessment | Identify known weaknesses in design, implementation, or operation | Only finds already-known vulnerabilities |
+| Penetration testing | Simulate real attacks to find undiscovered vulnerabilities | Point-in-time assessment |
+| Third-party assurance | Independent attestation (ISO 27001, SOC 2, PCI DSS) | More weight in building stakeholder trust |
+
+#### Reporting formats
+
+| Format | Best for | Characteristics |
+| ------ | -------- | --------------- |
+| Executive summary | Project milestones, quick updates | 1-2 pages, quantified metrics |
+| Heat map | Impact vs likelihood visualization | Qualitative, 2x2 to nxn grid |
+| Scorecard | Aggregated performance grades | Qualitative, simplified view |
+| Dashboard | Comprehensive risk overview | Quantitative and qualitative, trend analysis |
+
+#### Related topics
+
+##### CRISC All-in-One Exam Guide
+- Log aggregation: Provides data sources for control monitoring metrics
+- SIEM systems: Enable automated correlation and alerting on control
+  thresholds
+- Risk register: Records control owners and KPI assignments
+- Risk tolerance: Defines acceptable thresholds for KRI alerting
+
+##### Doshi Review Manual
+- **Control testing (3.11)**: Best way to determine control effectiveness is
+  to test controls; testing identifies design flaws, failures, and redundancies
+- **KRI monitoring (3.16)**: KRI thresholds indicate whether controls provide
+  intended value; periodic monitoring addresses new risks
+- **Key Control Indicators (3.19)**: KCI measures control effectiveness; KRI
+  and KCI are inversely correlated
+- **Risk reporting**: Enables risk owner to initiate appropriate risk response;
+  should be tailored to target audience
+
+#### SMART characteristics of good KPIs
 
 | Characteristic | Requirement |
 | -------------- | ----------- |
@@ -5620,17 +5777,7 @@ Additional requirements:
 - Meaningful to the recipient
 - Agreed upon by relevant stakeholders and approved by senior management
 
-## Common scenarios (Doshi)
-
-| Scenario | Correct approach | Why |
-| -------- | ---------------- | --- |
-| Error rate reaches 10% threshold | KPI provides warning for escalation | KPI monitors performance against defined limits |
-| Evaluating disaster recovery readiness | Review results of tests and exercises | Demonstrates actual capability, not just documentation |
-| Measuring control management effectiveness | Measure control effectiveness against business objectives | Primary KPI for control performance |
-| Operational review of processing environment | User satisfaction survey | Indicates how well processes meet user expectations |
-| KPI value outside threshold | Attend immediately | Leading indicator requires remedial action |
-
-## Control monitoring and reporting
+#### Control monitoring and reporting
 
 - **Role of risk practitioner**: Assist in planning, reporting, and scheduling
   tests of IS controls
@@ -5653,24 +5800,7 @@ Additional requirements:
   - Risk dashboard is most suitable for senior management reporting
   - Provides high-level overview that can be easily tailored
 
-## Gotchas (Doshi)
-
-- **KPI requires immediate attention when outside threshold**: Not when
-  fluctuating, within threshold, or below average
-
-- **Most important criteria for metric effectiveness**: Must be meaningful to
-  the recipient, not just complete, accurate, consistent, or cost-effective
-
-- **Attainable feature of KPI**: Determines that KPI is realistic and based on
-  important objectives (not cost-effective, repeatable, or relevant)
-
-- **Organizations often conflate KPI, KRI, and KCI**: In practice everything
-  may be called "KPI" but exam requires precise distinction
-
-- **Optimum control level**: Balance between control effectiveness and cost of
-  maintaining the control, not just highlighting ineffectiveness
-
-## Limits and defaults
+#### Limits and defaults
 
 | Item | Value | Notes |
 | ---- | ----- | ----- |
@@ -5678,23 +5808,13 @@ Additional requirements:
 | KRI threshold revision | Periodic | As risk profile changes over time |
 | Continuous monitoring scope | High-risk areas | Where impact and frequency are high |
 
-## Related topics (Doshi)
-
-- **Control testing (3.11)**: Best way to determine control effectiveness is
-  to test controls; testing identifies design flaws, failures, and redundancies
-- **KRI monitoring (3.16)**: KRI thresholds indicate whether controls provide
-  intended value; periodic monitoring addresses new risks
-- **Key Control Indicators (3.19)**: KCI measures control effectiveness; KRI
-  and KCI are inversely correlated
-- **Risk reporting**: Enables risk owner to initiate appropriate risk response;
-  should be tailored to target audience
-
 ### 3.13: Review control assessment findings for effectiveness
 
 Guide
 
-## Key concepts
+#### Key concepts
 
+##### CRISC All-in-One Exam Guide
 - **Control assessment**: Process of evaluating and examining the effectiveness
   and adequacy of internal controls within an organization
   - Internal controls are policies, procedures, and practices that mitigate
@@ -5725,8 +5845,33 @@ Guide
   - Provide insight into effectiveness of controls to keep risk within
     acceptable levels
 
-## Common scenarios
+##### Doshi Review Manual
+- **Control assessment**: Process of evaluating controls through testing, audit,
+  or self-assessment to determine whether they meet their intended objectives
+  - Prime objective: evaluate effectiveness, efficiency, and adequacy
+  - Advise risk owner of any gaps identified
+  - Test at frequent intervals to verify ongoing performance
 
+- **Control effectiveness**: Degree to which a control achieves its stated
+  objectives in reducing likelihood or impact of risk
+  - Best determined by reviewing test results against desired objectives
+  - Must balance effectiveness with control cost (optimum level)
+  - Changes in effectiveness directly impact the organization's risk profile
+
+- **Result of control assessment**: Effectiveness depends on three parameters:
+  - Accuracy of data on which controls are evaluated
+  - Timely reporting to management for corrective action
+  - Skill set of risk practitioner to properly evaluate controls
+
+- **Key Control Indicators (KCI)**: Metrics measuring control effectiveness
+  - Also called control effectiveness indicators
+  - Provide insight into ongoing adequacy of controls
+  - Inversely correlated with KRI (effective controls = risk within limits)
+  - Tolerance levels based on criticality of protected assets
+
+#### Common scenarios
+
+##### CRISC All-in-One Exam Guide
 | Scenario | Correct approach | Why |
 | -------- | ---------------- | --- |
 | Determine control effectiveness over time | Continuous monitoring | Ongoing monitoring identifies issues as they arise and tracks trends |
@@ -5735,7 +5880,16 @@ Guide
 | Verify control logs for unauthorized access | Review control logs | Best way to determine if control is working as intended |
 | Evaluate overall control environment | Third-party assurance (SOC 2, ISO 27001) | Independent assessment carries more weight with stakeholders |
 
-## Control assessment techniques
+##### Doshi Review Manual
+| Scenario | Correct approach | Why |
+| -------- | ---------------- | --- |
+| Monitoring indicates noncompliance | Discuss with risk owner; recommend review of controls and additional controls if needed | Risk owner responsible for ensuring risk managed to acceptable level |
+| Security exception identified | Validate exception first to rule out false positives | Prevents wasted effort on non-issues |
+| Audit finding identified | Create risk mitigation plan with corrective action | Addresses root cause and closes finding |
+| Control deficiency suspected | Review defined control objectives first | Objectives define success criteria; unmet objectives indicate deficiency |
+| New control implemented | Test to validate effectiveness | Each new control must be evaluated for both effectiveness and additional vulnerabilities |
+
+#### Control assessment techniques
 
 - **Self-assessments (MSIIs)**: Workshops with key resources to identify
   overlooked issues
@@ -5763,8 +5917,9 @@ Guide
   - Provides certificate or attestation report with findings
   - Carries more weight due to independence
 
-## Gotchas
+#### Gotchas
 
+##### CRISC All-in-One Exam Guide
 - **Annual reviews are insufficient for high-risk controls**: Continuous
   monitoring is required for controls addressing high-risk threats
 
@@ -5777,71 +5932,7 @@ Guide
 - **Control testing is the control owner's responsibility**: The risk
   practitioner advises but the control owner determines efficacy
 
-## Managing assessment findings
-
-| Approach | Purpose | Notes |
-| -------- | ------- | ----- |
-| Configuration management | Maintain baseline/standard controls | Reduces complexity; verify teams follow baselines |
-| Release management | Coordinate development to production moves | Includes end user testing before release |
-| Exception management | Document policy deviations | Review exceptions at least annually |
-| Change management (CAB) | Formal review and approval of changes | Verifies changes don't negatively affect risk profile |
-
-## Reporting considerations
-
-- **Audience**: Match report content to recipient's role and concerns
-- **Actionability**: Ensure metrics are actionable, not just informational
-- **Format**: Use appropriate format (executive summary, heat map, scorecard,
-  dashboard) based on audience preference
-- **Source integrity**: Verify confidence in data sources before reporting
-- **Cadence**: Establish agreed reporting frequency
-
-## Related topics
-
-- **Key Risk Indicators (KRIs)**: Predict risks that may breach thresholds;
-  complement KCIs in monitoring effectiveness
-- **Key Performance Indicators (KPIs)**: Measure control performance; example
-  is reduction in phishing emails after implementing a new tool
-- **SMART metrics**: Indicators should be Specific, Measurable, Attainable,
-  Relevant, and Timely
-- **Three Lines of Defense**: Third LoD (internal/external audit) provides
-  independent assessment of control effectiveness
-## Key concepts (Doshi)
-
-- **Control assessment**: Process of evaluating controls through testing, audit,
-  or self-assessment to determine whether they meet their intended objectives
-  - Prime objective: evaluate effectiveness, efficiency, and adequacy
-  - Advise risk owner of any gaps identified
-  - Test at frequent intervals to verify ongoing performance
-
-- **Control effectiveness**: Degree to which a control achieves its stated
-  objectives in reducing likelihood or impact of risk
-  - Best determined by reviewing test results against desired objectives
-  - Must balance effectiveness with control cost (optimum level)
-  - Changes in effectiveness directly impact the organization's risk profile
-
-- **Result of control assessment**: Effectiveness depends on three parameters:
-  - Accuracy of data on which controls are evaluated
-  - Timely reporting to management for corrective action
-  - Skill set of risk practitioner to properly evaluate controls
-
-- **Key Control Indicators (KCI)**: Metrics measuring control effectiveness
-  - Also called control effectiveness indicators
-  - Provide insight into ongoing adequacy of controls
-  - Inversely correlated with KRI (effective controls = risk within limits)
-  - Tolerance levels based on criticality of protected assets
-
-## Common scenarios (Doshi)
-
-| Scenario | Correct approach | Why |
-| -------- | ---------------- | --- |
-| Monitoring indicates noncompliance | Discuss with risk owner; recommend review of controls and additional controls if needed | Risk owner responsible for ensuring risk managed to acceptable level |
-| Security exception identified | Validate exception first to rule out false positives | Prevents wasted effort on non-issues |
-| Audit finding identified | Create risk mitigation plan with corrective action | Addresses root cause and closes finding |
-| Control deficiency suspected | Review defined control objectives first | Objectives define success criteria; unmet objectives indicate deficiency |
-| New control implemented | Test to validate effectiveness | Each new control must be evaluated for both effectiveness and additional vulnerabilities |
-
-## Gotchas (Doshi)
-
+##### Doshi Review Manual
 - **Test results vs. other metrics**: Cost of implementation, failure
   notification capability, or number of vulnerabilities addressed do not
   determine effectiveness--only test results against desired objectives
@@ -5861,17 +5952,37 @@ Guide
 - **Decreased cost does not indicate effectiveness**: Reduced control cost
   alone does not prove the control works; test results required
 
-## Limits and defaults
+#### Managing assessment findings
 
-| Item | Value | Notes |
-| ---- | ----- | ----- |
-| Control assessment frequency | Periodic intervals | Determined by risk level and regulatory requirements |
-| KCI tolerance levels | Asset-specific | Based on criticality of information assets being protected |
-| Continuous monitoring | High-risk areas | Where impact and frequency of occurrence are both high |
-| First step for exceptions | Validate to rule out false positives | Before escalating or remediating |
+| Approach | Purpose | Notes |
+| -------- | ------- | ----- |
+| Configuration management | Maintain baseline/standard controls | Reduces complexity; verify teams follow baselines |
+| Release management | Coordinate development to production moves | Includes end user testing before release |
+| Exception management | Document policy deviations | Review exceptions at least annually |
+| Change management (CAB) | Formal review and approval of changes | Verifies changes don't negatively affect risk profile |
 
-## Related topics (Doshi)
+#### Reporting considerations
 
+- **Audience**: Match report content to recipient's role and concerns
+- **Actionability**: Ensure metrics are actionable, not just informational
+- **Format**: Use appropriate format (executive summary, heat map, scorecard,
+  dashboard) based on audience preference
+- **Source integrity**: Verify confidence in data sources before reporting
+- **Cadence**: Establish agreed reporting frequency
+
+#### Related topics
+
+##### CRISC All-in-One Exam Guide
+- **Key Risk Indicators (KRIs)**: Predict risks that may breach thresholds;
+  complement KCIs in monitoring effectiveness
+- **Key Performance Indicators (KPIs)**: Measure control performance; example
+  is reduction in phishing emails after implementing a new tool
+- **SMART metrics**: Indicators should be Specific, Measurable, Attainable,
+  Relevant, and Timely
+- **Three Lines of Defense**: Third LoD (internal/external audit) provides
+  independent assessment of control effectiveness
+
+##### Doshi Review Manual
 - **Risk profile**: Control effectiveness changes directly impact the
   organization's overall risk status; must be kept updated
 
@@ -5890,9 +6001,19 @@ Guide
 - **Corrective action**: Risk owner receives findings and initiates appropriate
   response; risk mitigation plan used to address audit findings
 
-### 3.14: Report on risk profile, control performance, and trends to stakeholders
-## Key concepts
+#### Limits and defaults
 
+| Item | Value | Notes |
+| ---- | ----- | ----- |
+| Control assessment frequency | Periodic intervals | Determined by risk level and regulatory requirements |
+| KCI tolerance levels | Asset-specific | Based on criticality of information assets being protected |
+| Continuous monitoring | High-risk areas | Where impact and frequency of occurrence are both high |
+| First step for exceptions | Validate to rule out false positives | Before escalating or remediating |
+
+### 3.14: Report on risk profile, control performance, and trends to stakeholders
+#### Key concepts
+
+##### CRISC All-in-One Exam Guide
 - **Risk profile**: The overall risk exposure of an organization to any type
   of risk. Factors affecting the risk profile include new regulations, changes
   in underlying technology, business objective shifts, mergers and
@@ -5934,60 +6055,7 @@ Guide
   - Inferences: Enable audience to draw key conclusions
   - Cadence: Agree on reporting frequency
 
-## Common scenarios
-
-| Scenario | Correct approach | Why |
-| -------- | ---------------- | --- |
-| Presenting risk to board of directors | Use executive summary or dashboard with qualitative and quantitative metrics | Board needs concise, actionable information aligned with business objectives |
-| Tracking control effectiveness over time | Create dashboards with trend identification and anomaly detection | Dashboards combine qualitative and quantitative metrics on recurring cadence |
-| Communicating security posture to non-technical stakeholders | Translate technical risks to business impact using risk appetite context | Senior management needs risks framed in terms of business objectives |
-| Reporting on specific project milestone | Use executive summary with quantified metrics | Showcases effectiveness without excessive detail |
-| Comparing risk levels across business units | Use heat maps or scorecards | Visual representation enables quick comparison of impact and likelihood |
-
-## Gotchas
-
-- **KRIs without actionability are useless**: KRIs that provide inferences but
-  are not actionable will not be useful to senior management. Always develop,
-  socialize, and report actionable KRIs.
-
-- **Qualitative formats have limitations**: Heat maps and scorecards are
-  qualitative, which leaves room for interpretation error. Dashboards are
-  preferred because they combine qualitative and quantitative metrics.
-
-- **Wrong audience equals wasted effort**: Reporting phishing attempts to the
-  head of physical security provides no value. Always match reports to the
-  stakeholder's area of responsibility.
-
-- **Risk profile is dynamic**: The risk profile changes continuously; reports
-  must reflect current state, not historical snapshots that no longer apply.
-
-- **Confusing KPIs, KRIs, and KCIs**: KPIs measure performance, KRIs predict
-  risk events, KCIs measure control effectiveness. Each serves a distinct
-  purpose in reporting.
-
-## Reporting formats
-
-| Format | Characteristics | Best use |
-| ------ | --------------- | -------- |
-| Executive summary | 1-2 pages, concise, often sent in email body or attachment | Project milestones with quantified metrics |
-| Heat maps | Graphical 2x2, 3x3, or n×n grid; color-coded; y-axis shows impact, x-axis shows likelihood | Qualitative risk comparison |
-| Scorecards | Aggregated performance with grades per area | Qualitative assessment across domains |
-| Dashboards | Collection of metrics and indicators; qualitative + quantitative; recurring cadence | Trend identification, analysis, anomalies; preferred format |
-
-## Related topics
-
-- **Risk appetite and tolerance**: Reports should contextualize risk profile
-  against defined appetite and tolerance thresholds to enable decision-making
-- **Control assessment techniques**: Self-assessments, internal audits,
-  vulnerability assessments, penetration testing, and third-party assurance
-  feed data into risk reports
-- **SIEM systems**: Translate logs into management reports and dashboards;
-  support compliance requirements for log retention
-- **Three lines of defense**: Reporting structure should align with governance
-  model where first line owns risk, second line monitors, third line provides
-  assurance
-## Key concepts (Doshi)
-
+##### Doshi Review Manual
 - **Risk reporting**: Process of communicating risk assessment results to risk
   owners and stakeholders to enable informed decisions and corrective action
   - Objective: help people make informed decisions and take necessary action
@@ -6013,8 +6081,18 @@ Guide
   - Lag indicators: backward-looking, provide trends and historical data
   - Both are required to improve risk response
 
-## Common scenarios (Doshi)
+#### Common scenarios
 
+##### CRISC All-in-One Exam Guide
+| Scenario | Correct approach | Why |
+| -------- | ---------------- | --- |
+| Presenting risk to board of directors | Use executive summary or dashboard with qualitative and quantitative metrics | Board needs concise, actionable information aligned with business objectives |
+| Tracking control effectiveness over time | Create dashboards with trend identification and anomaly detection | Dashboards combine qualitative and quantitative metrics on recurring cadence |
+| Communicating security posture to non-technical stakeholders | Translate technical risks to business impact using risk appetite context | Senior management needs risks framed in terms of business objectives |
+| Reporting on specific project milestone | Use executive summary with quantified metrics | Showcases effectiveness without excessive detail |
+| Comparing risk levels across business units | Use heat maps or scorecards | Visual representation enables quick comparison of impact and likelihood |
+
+##### Doshi Review Manual
 | Scenario | Correct approach | Why |
 | -------- | ---------------- | --- |
 | Report risk to senior management | Use dashboard | Provides high-level overview that can be easily understood and tailored |
@@ -6023,8 +6101,29 @@ Guide
 | Tailor report content | Consider target audience | Ensures information is presented in understandable and usable form |
 | Report KRI reaching threshold | Alert business process owner first | Owner determines risk response and evaluates control effectiveness |
 
-## Gotchas (Doshi)
+#### Gotchas
 
+##### CRISC All-in-One Exam Guide
+- **KRIs without actionability are useless**: KRIs that provide inferences but
+  are not actionable will not be useful to senior management. Always develop,
+  socialize, and report actionable KRIs.
+
+- **Qualitative formats have limitations**: Heat maps and scorecards are
+  qualitative, which leaves room for interpretation error. Dashboards are
+  preferred because they combine qualitative and quantitative metrics.
+
+- **Wrong audience equals wasted effort**: Reporting phishing attempts to the
+  head of physical security provides no value. Always match reports to the
+  stakeholder's area of responsibility.
+
+- **Risk profile is dynamic**: The risk profile changes continuously; reports
+  must reflect current state, not historical snapshots that no longer apply.
+
+- **Confusing KPIs, KRIs, and KCIs**: KPIs measure performance, KRIs predict
+  risk events, KCIs measure control effectiveness. Each serves a distinct
+  purpose in reporting.
+
+##### Doshi Review Manual
 - **Dashboard vs balanced scorecard**: Dashboard is for risk reporting;
   balanced scorecard monitors IT performance but is not suitable for reporting
 
@@ -6042,17 +6141,30 @@ Guide
 - **Risk reporting objective**: Primary objective is to provide information to
   risk owner for responding to risk, not compliance or assurance purposes
 
-## Limits and defaults
+#### Reporting formats
 
-| Item | Value | Notes |
-| ---- | ----- | ----- |
-| Heat map axes | Probability x Impact | Score = probability weight x impact weight |
-| Common report formats | Heat maps, scorecards, dashboards | Used for risk reporting |
-| KRI monitoring frequency | Periodic intervals | Risk profile changes over time |
-| KRI review by | Independent team or independent reviewer | Ensures unbiasedness |
+| Format | Characteristics | Best use |
+| ------ | --------------- | -------- |
+| Executive summary | 1-2 pages, concise, often sent in email body or attachment | Project milestones with quantified metrics |
+| Heat maps | Graphical 2x2, 3x3, or n×n grid; color-coded; y-axis shows impact, x-axis shows likelihood | Qualitative risk comparison |
+| Scorecards | Aggregated performance with grades per area | Qualitative assessment across domains |
+| Dashboards | Collection of metrics and indicators; qualitative + quantitative; recurring cadence | Trend identification, analysis, anomalies; preferred format |
 
-## Related topics (Doshi)
+#### Related topics
 
+##### CRISC All-in-One Exam Guide
+- **Risk appetite and tolerance**: Reports should contextualize risk profile
+  against defined appetite and tolerance thresholds to enable decision-making
+- **Control assessment techniques**: Self-assessments, internal audits,
+  vulnerability assessments, penetration testing, and third-party assurance
+  feed data into risk reports
+- **SIEM systems**: Translate logs into management reports and dashboards;
+  support compliance requirements for log retention
+- **Three lines of defense**: Reporting structure should align with governance
+  model where first line owns risk, second line monitors, third line provides
+  assurance
+
+##### Doshi Review Manual
 - **Risk register**: Primary document for tracking risk profile changes and
   driving risk response (Objective 2.8)
 
@@ -6075,9 +6187,19 @@ Guide
 
 **Weight: 20%**
 
-### 4.1: Enterprise architecture and IT operations management
-## Key concepts
+#### Limits and defaults
 
+| Item | Value | Notes |
+| ---- | ----- | ----- |
+| Heat map axes | Probability x Impact | Score = probability weight x impact weight |
+| Common report formats | Heat maps, scorecards, dashboards | Used for risk reporting |
+| KRI monitoring frequency | Periodic intervals | Risk profile changes over time |
+| KRI review by | Independent team or independent reviewer | Ensures unbiasedness |
+
+### 4.1: Enterprise architecture and IT operations management
+#### Key concepts
+
+##### CRISC All-in-One Exam Guide
 - **Enterprise architecture (EA)**: Foundation for running a business
   effectively by ensuring people, processes, technology, and data work
   together to produce value
@@ -6123,58 +6245,7 @@ Guide
   - Minimize impact on users and systems
   - Distinct from problem management (root cause analysis)
 
-## Common scenarios
-
-| Scenario | Correct approach | Why |
-| -------- | ---------------- | --- |
-| New software deployment across organization | Configuration management to set baseline controls | Preventative control ensures no unapproved software installed |
-| Production code changes | Change management with CAB approval | Changes must be tested in non-production before rollout |
-| Ensuring data integrity during system changes | Implement change management procedures | Controls unauthorized or malicious changes |
-| Security vulnerability in one system | Assess all interconnected system components | IT systems are interdependent; one issue can affect others |
-
-## Gotchas
-
-- **Incident vs. problem management**: Incident management restores service
-  quickly; problem management identifies and resolves root causes. Do not
-  confuse them.
-
-- **CMM vs. CMMI**: CMM is the original 1986 framework; CMMI (2006) is the
-  enhanced version that largely replaced it. Exam may reference either.
-
-- **Technology architecture scope**: Includes physical entities (wires,
-  devices, storage, hardware) and software, not just digital infrastructure.
-
-- **Configuration management vs. change management**: Configuration sets
-  initial baselines; change management controls modifications after baseline
-  is established.
-
-- **Defined process maturity**: The "Defined" level is proactive, well
-  characterized, and organization-wide. "Unpredictable" is not a property of
-  the Defined level.
-
-## Limits and defaults
-
-| Item | Value | Notes |
-| ---- | ----- | ----- |
-| Domain 4 exam weight | 22% | Approximately 33 questions |
-| CMM development year | 1986 | Based on US DoD contractor study |
-| CMMI development year | 2006 | Carnegie Mellon SEI enhancement |
-| CMM maturity levels | 5 | Initial through Optimized |
-
-## Related topics
-
-- **Network architecture**: TCP/IP model (5 layers), OSI model (7 layers),
-  networking devices (repeaters, bridges, switches, routers, gateways)
-- **Security infrastructure**: Firewalls, IDS/IPS, VPNs, wireless security
-  (WPA2)
-- **Cloud computing**: IaaS, PaaS, SaaS service models; public, private,
-  hybrid, community deployment models
-- **SDLC**: System Development Life Cycle phases connect to IT operations
-  through implementation and maintenance
-- **COBIT and ITIL**: BAI06 Managed IT Changes (COBIT) equivalent to ITIL
-  Change Management
-## Key concepts (Doshi)
-
+##### Doshi Review Manual
 - **Enterprise Architecture (EA)**: Defines the structure and operations of an
   organization, analogous to how conventional architecture defines rules for
   building construction
@@ -6219,8 +6290,17 @@ Guide
   - Most susceptible to introduction of vulnerabilities
   - Misconfiguration and missing updates are primary risk vectors
 
-## Common scenarios (Doshi)
+#### Common scenarios
 
+##### CRISC All-in-One Exam Guide
+| Scenario | Correct approach | Why |
+| -------- | ---------------- | --- |
+| New software deployment across organization | Configuration management to set baseline controls | Preventative control ensures no unapproved software installed |
+| Production code changes | Change management with CAB approval | Changes must be tested in non-production before rollout |
+| Ensuring data integrity during system changes | Implement change management procedures | Controls unauthorized or malicious changes |
+| Security vulnerability in one system | Assess all interconnected system components | IT systems are interdependent; one issue can affect others |
+
+##### Doshi Review Manual
 | Scenario | Correct approach | Why |
 | -------- | ---------------- | --- |
 | Installing new equipment | Conduct risk assessment first | Identifies potential vulnerabilities before deployment |
@@ -6231,8 +6311,28 @@ Guide
 | Assessing risk management process maturity | Use Capability Maturity Model | Identifies gaps between current and desired state |
 | BYOD environment with data security concerns | Implement virtualized desktop | Prevents data copying to personal device space |
 
-## Gotchas (Doshi)
+#### Gotchas
 
+##### CRISC All-in-One Exam Guide
+- **Incident vs. problem management**: Incident management restores service
+  quickly; problem management identifies and resolves root causes. Do not
+  confuse them.
+
+- **CMM vs. CMMI**: CMM is the original 1986 framework; CMMI (2006) is the
+  enhanced version that largely replaced it. Exam may reference either.
+
+- **Technology architecture scope**: Includes physical entities (wires,
+  devices, storage, hardware) and software, not just digital infrastructure.
+
+- **Configuration management vs. change management**: Configuration sets
+  initial baselines; change management controls modifications after baseline
+  is established.
+
+- **Defined process maturity**: The "Defined" level is proactive, well
+  characterized, and organization-wide. "Unpredictable" is not a property of
+  the Defined level.
+
+##### Doshi Review Manual
 - **Uncertified hardware = unknown risk**: Hardware not certified by vendor or
   manufacturer represents unknown risk, not low or high risk
 - **Performance is the key CMM dimension**: When using a capability maturity
@@ -6245,16 +6345,38 @@ Guide
 - **Error messages should not reveal details**: Error messages must use codes
   understandable only by IT staff; revealing details aids attackers
 
-## Limits and defaults (Doshi)
+#### Limits and defaults
 
+##### CRISC All-in-One Exam Guide
+| Item | Value | Notes |
+| ---- | ----- | ----- |
+| Domain 4 exam weight | 22% | Approximately 33 questions |
+| CMM development year | 1986 | Based on US DoD contractor study |
+| CMMI development year | 2006 | Carnegie Mellon SEI enhancement |
+| CMM maturity levels | 5 | Initial through Optimized |
+
+##### Doshi Review Manual
 | Item | Value | Notes |
 | ---- | ----- | ----- |
 | CMM levels | 0-5 | 0=Incomplete, 5=Optimized |
 | Mature organization traits | Prevent, detect sooner, recover rapidly | Key outcomes of high maturity |
 | Security code review scope | Entire application | Required for third-party developed applications |
 
-## Related topics (Doshi)
+#### Related topics
 
+##### CRISC All-in-One Exam Guide
+- **Network architecture**: TCP/IP model (5 layers), OSI model (7 layers),
+  networking devices (repeaters, bridges, switches, routers, gateways)
+- **Security infrastructure**: Firewalls, IDS/IPS, VPNs, wireless security
+  (WPA2)
+- **Cloud computing**: IaaS, PaaS, SaaS service models; public, private,
+  hybrid, community deployment models
+- **SDLC**: System Development Life Cycle phases connect to IT operations
+  through implementation and maintenance
+- **COBIT and ITIL**: BAI06 Managed IT Changes (COBIT) equivalent to ITIL
+  Change Management
+
+##### Doshi Review Manual
 - **Patch management**: Rollback plans address untested emergency patches;
   testing is required before production deployment
 - **Secure coding practices**: Input validation, data masking, encryption,
@@ -6267,8 +6389,9 @@ Guide
   communication channels
 
 ### 4.2: Project and program management principles
-## Key concepts
+#### Key concepts
 
+##### CRISC All-in-One Exam Guide
 - **Project risk**: Risk associated with achieving project objectives --
   delivering on time, within budget, and meeting stakeholder requirements
   - External factors: market condition changes
@@ -6306,8 +6429,17 @@ Guide
   - Contains return-on-investment (ROI) thesis for senior management
     decision-making
 
-## Common scenarios
+##### Doshi Review Manual
+- **Project**: A sequence of activities to achieve a required outcome; unique,
+  time-bound, and produces something that did not previously exist
+- **Program**: A collection of related projects; a project is a subset of a
+  program delivering a tangible single output
+- **Project management**: Formal process of organizing, administering, and
+  implementing a project to deliver value through specific deliverables
 
+#### Common scenarios
+
+##### CRISC All-in-One Exam Guide
 | Scenario | Correct approach | Why |
 | -------- | ---------------- | --- |
 | Complex system migration | Parallel changeover | Safe rollback, training opportunity, minimal downtime despite higher cost |
@@ -6316,8 +6448,17 @@ Guide
 | Emergency production fix | Submit to CAB with expedited review | Maintains visibility and stakeholder awareness |
 | Unclear project requirements | Address during initiation phase | Prevents downstream failures from inadequate foundation |
 
-## Gotchas
+##### Doshi Review Manual
+| Scenario | Correct approach | Why |
+| -------- | ---------------- | --- |
+| Determining project progress in scope, schedule, budget | Use Earned Value Analysis | EVA provides comprehensive variance analysis and forecasting |
+| Preventing scope creep | Define requirements during feasibility/design phase | Early requirement freeze prevents constant changes |
+| Go/no-go decision making | Conduct risk analysis of alternatives | Project team selects best approach based on risk analysis |
+| Implementing risk-based approach | Involve business representative | Ensures accurate risk assessment and appropriate mitigation |
 
+#### Gotchas
+
+##### CRISC All-in-One Exam Guide
 - **Project risk vs SDLC risk confusion**: Project risk focuses on meeting
   objectives (time, budget, requirements); SDLC risk focuses on the
   development process itself (coding errors, testing gaps). Both are
@@ -6338,121 +6479,7 @@ Guide
 - **Parallel changeover hidden cost**: Data consistency between old and new
   systems creates ongoing maintenance overhead beyond infrastructure costs.
 
-## Limits and defaults
-
-| Item | Value | Notes |
-| ---- | ----- | ----- |
-| RACI accountable role | 1 per task | Only one person can be accountable |
-| Exception review frequency | Annual minimum | Granted exceptions must be reverified at least annually |
-| Test environment requirement | Match production | Must reflect production as closely as possible |
-| Code freeze timing | Before production push | Reduces likelihood of untested code in production |
-
-## Related topics
-
-- **SDLC phases**: Initiation, development/acquisition, implementation,
-  operation/maintenance, disposal -- each phase has specific project risks
-  requiring different management approaches
-- **Control implementation techniques**: Parallel, phased, and abrupt
-  changeover methods directly affect project risk profiles
-- **Post-implementation reviews**: Key questions include whether business
-  objectives were met, requirements satisfied, and project completed on time
-  and within budget
-- **Three Lines of Defense**: Project governance aligns with 3LoD model where
-  first line owns risk, second line monitors compliance, third line audits
-- **Enterprise risk management**: Project risk management must integrate with
-  ERM program under senior management sponsorship
-## Key concepts (Doshi)
-
-- **Project**: A sequence of activities to achieve a required outcome; unique,
-  time-bound, and produces something that did not previously exist
-- **Program**: A collection of related projects; a project is a subset of a
-  program delivering a tangible single output
-- **Project management**: Formal process of organizing, administering, and
-  implementing a project to deliver value through specific deliverables
-
-## SDLC models
-
-- **Waterfall**: Sequential approach best suited when requirements are
-  well-defined and stable
-  - Most commonly adopted for business applications
-  - Identifies mistakes early rather than during final acceptance testing
-  - Useful when prototypes are needed to understand design and requirements
-- **Agile**: Iterative approach producing releasable software in short cycles
-  - Minimal emphasis on formal documentation
-  - Systematic review after each iteration to identify improvements
-  - Risk: Insufficient documentation; lack of formal paper-based deliverables
-
-## SDLC phases
-
-| Phase | Description | Risk considerations |
-| ----- | ----------- | ------------------- |
-| Initiation/Feasibility | Define objective, purpose, scope; finalize design; define change management process | Prevent scope creep; freeze requirements early |
-| Development/Acquisition | Evaluate alternatives; develop or acquire system | Address skilled resource availability |
-| Implementation | Testing, migration, security configuration | Address migration risk; verify security features |
-| Operations/Maintenance | Regular updates and system upkeep | Ongoing monitoring and control |
-| Disposal | Discard obsolete systems; archive, sanitize, destroy | Data sanitization; hardware/software disposal |
-
-## Success factors for effective project management
-
-- Clear definition of required outcome
-- Clearly defined scope and objectives to prevent scope creep
-- Accountable individual with appropriate experience and authority
-- Resource identification during planning stage for cost efficiency
-- Monitoring and control procedures at different milestones
-
-## Project risks
-
-- **Scope creep**: Unclear or ever-changing requirements; most common cause of
-  project failure
-- Unavailability of adequate resources
-- Unrealistic deadlines impacting quality
-- Lack of monitoring and controlling processes
-- Insufficient senior management support
-
-## Risk assessment considerations
-
-- Confidentiality and availability requirements
-- Regulatory and legal impact (privacy laws)
-- Architectural and technological risks
-- Secure development process usage
-- Security training for developers and staff
-
-## Project management tools
-
-| Tool | Purpose | Key feature |
-| ---- | ------- | ----------- |
-| Earned Value Analysis (EVA) | Monitor scope, schedule, budget | Forecasts completion date and final cost; analyzes variances |
-| Critical Path Method (CPM) | Estimate project duration | Identifies longest path of dependent activities; zero slack time |
-| PERT | Estimate project duration | Uses three scenarios: optimistic, pessimistic, most likely; more accurate than CPM |
-| Gantt Chart | Track progress and milestones | Shows whether project is delayed, ahead, or on schedule |
-
-## Project closeout
-
-- Record all deliverables
-- Centralize documentation
-- Hand over to operations team
-- Evaluate project performance
-- Document lessons learned for future projects
-
-## Changeover techniques
-
-| Technique | Description | Risk level |
-| --------- | ----------- | ---------- |
-| Parallel | Run old and new systems simultaneously until confidence in new system | Lowest; greatest redundancy |
-| Phased | Implement changes gradually, replacing old phases with new | Moderate |
-| Abrupt (direct cutover) | Implement new system from cut-off date, discontinue old immediately | Highest; no rollback option |
-
-## Common scenarios (Doshi)
-
-| Scenario | Correct approach | Why |
-| -------- | ---------------- | --- |
-| Determining project progress in scope, schedule, budget | Use Earned Value Analysis | EVA provides comprehensive variance analysis and forecasting |
-| Preventing scope creep | Define requirements during feasibility/design phase | Early requirement freeze prevents constant changes |
-| Go/no-go decision making | Conduct risk analysis of alternatives | Project team selects best approach based on risk analysis |
-| Implementing risk-based approach | Involve business representative | Ensures accurate risk assessment and appropriate mitigation |
-
-## Gotchas (Doshi)
-
+##### Doshi Review Manual
 - **Risk assessment timing**: Must be conducted at every SDLC stage, not just
   once before the project
 - **Internal controls**: Incorporate during design phase, not later stages
@@ -6465,24 +6492,121 @@ Guide
 - **User sign-off**: Required before changeover; user department assumes
   ownership
 
-## Limits and defaults (Doshi)
+#### Limits and defaults
 
+##### CRISC All-in-One Exam Guide
+| Item | Value | Notes |
+| ---- | ----- | ----- |
+| RACI accountable role | 1 per task | Only one person can be accountable |
+| Exception review frequency | Annual minimum | Granted exceptions must be reverified at least annually |
+| Test environment requirement | Match production | Must reflect production as closely as possible |
+| Code freeze timing | Before production push | Reduces likelihood of untested code in production |
+
+##### Doshi Review Manual
 | Item | Value | Notes |
 | ---- | ----- | ----- |
 | Minimum critical paths per project | 1 | Every project has at least one critical path |
 | Slack time on critical path | 0 | No buffer available for critical path activities |
 | PERT scenarios | 3 | Optimistic, pessimistic, most likely |
 
-## Related topics (Doshi)
+#### Related topics
 
+##### CRISC All-in-One Exam Guide
+- **SDLC phases**: Initiation, development/acquisition, implementation,
+  operation/maintenance, disposal -- each phase has specific project risks
+  requiring different management approaches
+- **Control implementation techniques**: Parallel, phased, and abrupt
+  changeover methods directly affect project risk profiles
+- **Post-implementation reviews**: Key questions include whether business
+  objectives were met, requirements satisfied, and project completed on time
+  and within budget
+- **Three Lines of Defense**: Project governance aligns with 3LoD model where
+  first line owns risk, second line monitors compliance, third line audits
+- **Enterprise risk management**: Project risk management must integrate with
+  ERM program under senior management sponsorship
+
+##### Doshi Review Manual
 - **Risk tolerance**: Acceptable deviation from defined project budget
 - **Change management**: Process to handle requirement changes; define during
   feasibility phase
 - **Configuration management**: Baseline for system features including security
 
-### 4.3: Disaster recovery and business continuity management
-## Key concepts
+#### SDLC models
 
+- **Waterfall**: Sequential approach best suited when requirements are
+  well-defined and stable
+  - Most commonly adopted for business applications
+  - Identifies mistakes early rather than during final acceptance testing
+  - Useful when prototypes are needed to understand design and requirements
+- **Agile**: Iterative approach producing releasable software in short cycles
+  - Minimal emphasis on formal documentation
+  - Systematic review after each iteration to identify improvements
+  - Risk: Insufficient documentation; lack of formal paper-based deliverables
+
+#### SDLC phases
+
+| Phase | Description | Risk considerations |
+| ----- | ----------- | ------------------- |
+| Initiation/Feasibility | Define objective, purpose, scope; finalize design; define change management process | Prevent scope creep; freeze requirements early |
+| Development/Acquisition | Evaluate alternatives; develop or acquire system | Address skilled resource availability |
+| Implementation | Testing, migration, security configuration | Address migration risk; verify security features |
+| Operations/Maintenance | Regular updates and system upkeep | Ongoing monitoring and control |
+| Disposal | Discard obsolete systems; archive, sanitize, destroy | Data sanitization; hardware/software disposal |
+
+#### Success factors for effective project management
+
+- Clear definition of required outcome
+- Clearly defined scope and objectives to prevent scope creep
+- Accountable individual with appropriate experience and authority
+- Resource identification during planning stage for cost efficiency
+- Monitoring and control procedures at different milestones
+
+#### Project risks
+
+- **Scope creep**: Unclear or ever-changing requirements; most common cause of
+  project failure
+- Unavailability of adequate resources
+- Unrealistic deadlines impacting quality
+- Lack of monitoring and controlling processes
+- Insufficient senior management support
+
+#### Risk assessment considerations
+
+- Confidentiality and availability requirements
+- Regulatory and legal impact (privacy laws)
+- Architectural and technological risks
+- Secure development process usage
+- Security training for developers and staff
+
+#### Project management tools
+
+| Tool | Purpose | Key feature |
+| ---- | ------- | ----------- |
+| Earned Value Analysis (EVA) | Monitor scope, schedule, budget | Forecasts completion date and final cost; analyzes variances |
+| Critical Path Method (CPM) | Estimate project duration | Identifies longest path of dependent activities; zero slack time |
+| PERT | Estimate project duration | Uses three scenarios: optimistic, pessimistic, most likely; more accurate than CPM |
+| Gantt Chart | Track progress and milestones | Shows whether project is delayed, ahead, or on schedule |
+
+#### Project closeout
+
+- Record all deliverables
+- Centralize documentation
+- Hand over to operations team
+- Evaluate project performance
+- Document lessons learned for future projects
+
+#### Changeover techniques
+
+| Technique | Description | Risk level |
+| --------- | ----------- | ---------- |
+| Parallel | Run old and new systems simultaneously until confidence in new system | Lowest; greatest redundancy |
+| Phased | Implement changes gradually, replacing old phases with new | Moderate |
+| Abrupt (direct cutover) | Implement new system from cut-off date, discontinue old immediately | Highest; no rollback option |
+
+### 4.3: Disaster recovery and business continuity management
+#### Key concepts
+
+##### CRISC All-in-One Exam Guide
 - **Business continuity (BC)**: Ability of an organization to continue
   operating critical business functions during and after a disruption
   - Purpose: identify potential threats to operations and develop strategies
@@ -6522,8 +6646,28 @@ Guide
 - **Maximum tolerable downtime (MTD)**: Total time stakeholders will accept
   for a business process outage, including all impact considerations
 
-## Common scenarios
+##### Doshi Review Manual
+- **Business continuity plan (BCP)**: Documented processes to prevent, mitigate,
+  and recover from disruption. BCP is a continuous process of implementing
+  controls to prevent or mitigate incident impact.
+- **Disaster recovery plan (DRP)**: Subset of BCP focused on restoring
+  operations after business processes are impacted. Activated only when
+  preventive measures have failed.
+- **Business impact analysis (BIA)**: Process to determine critical assets and
+  processes by analyzing disruption impact over time. Must be conducted before
+  developing detailed BCP. Determines incremental cost of losing different
+  systems.
+- **Recovery time objective (RTO)**: Extent of acceptable system downtime. A 2-hour
+  RTO means the organization will not be overly impacted if systems are down
+  for up to 2 hours.
+- **Recovery point objective (RPO)**: Extent of acceptable data loss. A 2-hour
+  RPO means the organization can tolerate losing up to 2 hours of data.
+- **Disaster tolerance**: Organization's tolerance for IT facility
+  non-availability. Low RTO/RPO indicates low disaster tolerance.
 
+#### Common scenarios
+
+##### CRISC All-in-One Exam Guide
 | Scenario | Correct approach | Why |
 | -------- | ---------------- | --- |
 | Data center hit by hurricane | Activate DR plan to restore from backups or offsite storage | DR handles IT infrastructure recovery |
@@ -6532,8 +6676,18 @@ Guide
 | Determining backup frequency | Use RPO as guide; 4-hour RPO needs backups at least every 4 hours | RPO defines acceptable data loss window |
 | Developing recovery strategy | Start with BIA to identify RPO, RTO, MTD for critical systems | BIA provides inputs for recovery planning |
 
-## Gotchas
+##### Doshi Review Manual
+| Scenario | Correct approach | Why |
+| -------- | ---------------- | --- |
+| RTO 72 hours, RPO 0 hours | Warm site with synchronous backup | Meets both requirements cost-effectively |
+| Critical monitoring system | Low RTO (zero or near-zero) | Cannot afford downtime |
+| Widespread natural disaster | Allocate resources at different geographic locations | Avoids single point of failure |
+| BCP not tested | Test results not documented | Cannot evaluate BCP effectiveness |
+| Annual risk assessment completed | Review existing BCP for adequacy | Ensure BCP aligns with latest risk assessment |
 
+#### Gotchas
+
+##### CRISC All-in-One Exam Guide
 - **DR and BC are not interchangeable**: DR focuses on IT systems; BC focuses
   on entire organization operations including people, facilities, and
   communication
@@ -6555,106 +6709,7 @@ Guide
 - **RPO looks backward, RTO looks forward**: RPO measures acceptable past data
   loss; RTO measures acceptable future downtime
 
-## Limits and defaults
-
-| Item | Value | Notes |
-| ---- | ----- | ----- |
-| RPO direction | Backward-looking | Measures data loss before event |
-| RTO direction | Forward-looking | Measures downtime after event |
-| MTD relationship | MTD >= RTO | MTD includes total outage tolerance |
-
-Example application comparison:
-
-| Application | RPO | RTO | MTD | Priority |
-| ----------- | --- | --- | --- | -------- |
-| App A | 4 hours | 8 hours | 12 hours | Higher (shorter RTO) |
-| App B | 6 hours | 12 hours | 16 hours | Lower |
-
-## Related topics
-
-- **Business impact analysis (BIA)**: Identifies RPO, RTO, MTD for critical
-  applications; serves as initial point for DR planning; supports risk
-  practitioner in recommending risk response
-
-- **Risk assessment**: Identifies threats and likelihood; distinct from BIA
-  which focuses on recovery speed rather than threat identification
-
-- **Incident response**: Related but separate; focuses on responding to
-  security incidents rather than recovering from disasters
-
-- **Data backup and restoration**: Technical implementation supporting RPO/RTO
-  requirements; must be tested regularly
-
-- **Resiliency vs recovery**: Resiliency keeps systems from complete failure;
-  recovery restores after failure has occurred
-## Key concepts (Doshi)
-
-- **Business continuity plan (BCP)**: Documented processes to prevent, mitigate,
-  and recover from disruption. BCP is a continuous process of implementing
-  controls to prevent or mitigate incident impact.
-- **Disaster recovery plan (DRP)**: Subset of BCP focused on restoring
-  operations after business processes are impacted. Activated only when
-  preventive measures have failed.
-- **Business impact analysis (BIA)**: Process to determine critical assets and
-  processes by analyzing disruption impact over time. Must be conducted before
-  developing detailed BCP. Determines incremental cost of losing different
-  systems.
-- **Recovery time objective (RTO)**: Extent of acceptable system downtime. A 2-hour
-  RTO means the organization will not be overly impacted if systems are down
-  for up to 2 hours.
-- **Recovery point objective (RPO)**: Extent of acceptable data loss. A 2-hour
-  RPO means the organization can tolerate losing up to 2 hours of data.
-- **Disaster tolerance**: Organization's tolerance for IT facility
-  non-availability. Low RTO/RPO indicates low disaster tolerance.
-
-## Recovery site types
-
-| Site type | Characteristics | Best for |
-| --------- | --------------- | -------- |
-| Hot site | Fully operational, immediate failover, costly | Low RTO, critical systems |
-| Warm site | Partially equipped, moderate recovery time | Moderate RTO (e.g., 60 hours) |
-| Cold site | Basic infrastructure only, longest recovery | High RTO, non-critical systems |
-
-## BCP phases
-
-1. Conduct risk assessment and business impact analysis
-2. Develop and document response and recovery strategy
-3. Train staff on response and recovery procedures
-4. Test response and recovery plans
-5. Audit response and recovery plans
-
-## BCP content requirements
-
-- Written in simple, understandable language
-- Clear responsibilities and accountability for each individual
-- Designated person responsible for declaring a disaster
-- Uniform structure across unit-level plans
-- Offsite copy of the plan
-- Backup procedures for critical operations
-- Shadow file processing for time-sensitive data
-
-## RTO and RPO relationships
-
-| Condition | Implication |
-| --------- | ----------- |
-| Low RTO | Critical systems, requires hot site, higher maintenance cost |
-| High RTO | Non-critical systems, cold site acceptable, lower cost |
-| Low RPO | Critical data, requires data mirroring/synchronization, higher backup cost |
-| High RPO | Less critical data, periodic backups sufficient |
-| Zero RPO | Synchronous data replication required |
-
-## Common scenarios (Doshi)
-
-| Scenario | Correct approach | Why |
-| -------- | ---------------- | --- |
-| RTO 72 hours, RPO 0 hours | Warm site with synchronous backup | Meets both requirements cost-effectively |
-| Critical monitoring system | Low RTO (zero or near-zero) | Cannot afford downtime |
-| Widespread natural disaster | Allocate resources at different geographic locations | Avoids single point of failure |
-| BCP not tested | Test results not documented | Cannot evaluate BCP effectiveness |
-| Annual risk assessment completed | Review existing BCP for adequacy | Ensure BCP aligns with latest risk assessment |
-
-## Gotchas (Doshi)
-
+##### Doshi Review Manual
 - **DRP vs BCP scope**: DRP is a subset of BCP, not separate. BCP covers
   prevention and mitigation; DRP covers restoration after failure.
 - **Human life priority**: Protection of human life takes precedence over all
@@ -6674,8 +6729,23 @@ Example application comparison:
 - **Integrated testing**: BCP and DRP testing should be integrated to validate
   assumptions (e.g., work-from-home capability).
 
-## Limits and defaults (Doshi)
+#### Limits and defaults
 
+##### CRISC All-in-One Exam Guide
+| Item | Value | Notes |
+| ---- | ----- | ----- |
+| RPO direction | Backward-looking | Measures data loss before event |
+| RTO direction | Forward-looking | Measures downtime after event |
+| MTD relationship | MTD >= RTO | MTD includes total outage tolerance |
+
+Example application comparison:
+
+| Application | RPO | RTO | MTD | Priority |
+| ----------- | --- | --- | --- | -------- |
+| App A | 4 hours | 8 hours | 12 hours | Higher (shorter RTO) |
+| App B | 6 hours | 12 hours | 16 hours | Lower |
+
+##### Doshi Review Manual
 | Item | Value | Notes |
 | ---- | ----- | ----- |
 | Critical system RTO | Zero or near-zero | Cannot afford downtime |
@@ -6683,19 +6753,26 @@ Example application comparison:
 | BCP review frequency | After each risk assessment | Ensures alignment with current risks |
 | Backup site distance | Different geographic zone | Avoids shared disaster risk |
 
-## BIA objectives
+#### Related topics
 
-- Determine critical processes for prioritized prevention/response
-- Determine disruption impact over time
-- Raise employee awareness of business continuity requirements
+##### CRISC All-in-One Exam Guide
+- **Business impact analysis (BIA)**: Identifies RPO, RTO, MTD for critical
+  applications; serves as initial point for DR planning; supports risk
+  practitioner in recommending risk response
 
-## Cost factors in BIA
+- **Risk assessment**: Identifies threats and likelihood; distinct from BIA
+  which focuses on recovery speed rather than threat identification
 
-- Foregone profits: drop in sales, cost of idle resources, interest costs
-- Additional operating expenses: activation of BCP and recovery costs
+- **Incident response**: Related but separate; focuses on responding to
+  security incidents rather than recovering from disasters
 
-## Related topics (Doshi)
+- **Data backup and restoration**: Technical implementation supporting RPO/RTO
+  requirements; must be tested regularly
 
+- **Resiliency vs recovery**: Resiliency keeps systems from complete failure;
+  recovery restores after failure has occurred
+
+##### Doshi Review Manual
 - **Risk assessment**: BCP should be reviewed for adequacy after each risk
   assessment to incorporate worst-case scenarios.
 - **Information security during recovery**: BCP must specify required security
@@ -6705,9 +6782,57 @@ Example application comparison:
 - **Cloud service providers**: Evaluate CSP's disaster recovery and business
   continuity arrangements as part of due diligence.
 
-### 4.4: Data lifecycle management and data protection
-## Key concepts
+#### Recovery site types
 
+| Site type | Characteristics | Best for |
+| --------- | --------------- | -------- |
+| Hot site | Fully operational, immediate failover, costly | Low RTO, critical systems |
+| Warm site | Partially equipped, moderate recovery time | Moderate RTO (e.g., 60 hours) |
+| Cold site | Basic infrastructure only, longest recovery | High RTO, non-critical systems |
+
+#### BCP phases
+
+1. Conduct risk assessment and business impact analysis
+2. Develop and document response and recovery strategy
+3. Train staff on response and recovery procedures
+4. Test response and recovery plans
+5. Audit response and recovery plans
+
+#### BCP content requirements
+
+- Written in simple, understandable language
+- Clear responsibilities and accountability for each individual
+- Designated person responsible for declaring a disaster
+- Uniform structure across unit-level plans
+- Offsite copy of the plan
+- Backup procedures for critical operations
+- Shadow file processing for time-sensitive data
+
+#### RTO and RPO relationships
+
+| Condition | Implication |
+| --------- | ----------- |
+| Low RTO | Critical systems, requires hot site, higher maintenance cost |
+| High RTO | Non-critical systems, cold site acceptable, lower cost |
+| Low RPO | Critical data, requires data mirroring/synchronization, higher backup cost |
+| High RPO | Less critical data, periodic backups sufficient |
+| Zero RPO | Synchronous data replication required |
+
+#### BIA objectives
+
+- Determine critical processes for prioritized prevention/response
+- Determine disruption impact over time
+- Raise employee awareness of business continuity requirements
+
+#### Cost factors in BIA
+
+- Foregone profits: drop in sales, cost of idle resources, interest costs
+- Additional operating expenses: activation of BCP and recovery costs
+
+### 4.4: Data lifecycle management and data protection
+#### Key concepts
+
+##### CRISC All-in-One Exam Guide
 - **Data lifecycle**: The six stages data passes through from creation to
   destruction
   - Creation: data comes into existence or is synthesized from other sources
@@ -6755,57 +6880,7 @@ Example application comparison:
     disclosure
   - Security enables privacy
 
-## Common scenarios
-
-| Scenario | Correct approach | Why |
-| -------- | ---------------- | --- |
-| Migrating to cloud | Classify sensitive data first | Determines required controls and provider compliance requirements |
-| Implementing DLP | Ensure data is labeled by owners | DLP tools rely on classification tags to enforce policies |
-| Third-party stores unencrypted data | Assess actual risk based on data type | Deidentified data may pose lower risk than initially assumed |
-| Sensitive data no longer needed | Destroy using approved deletion techniques | Meets regulatory requirements and reduces exposure |
-| New data classification policy | Conduct security awareness training | Ensures employees understand and implement the policy |
-
-## Gotchas
-
-- **Classification without labeling is incomplete**: Defining classification
-  categories means nothing if employees don't actually tag data they create
-
-- **Data privacy and data security are not synonymous**: Privacy focuses on
-  individual rights and consent; security focuses on technical protection.
-  Security enables privacy but does not guarantee it
-
-- **Archival is not destruction**: Archiving retains data for
-  regulatory/contractual compliance; destruction permanently removes it
-
-- **Asymmetric encryption is not used for bulk data**: It's slower and
-  typically used only to exchange symmetric keys, not encrypt large datasets
-
-- **Data classification drives control costs**: More sensitive classifications
-  require more robust (and expensive) controls throughout the lifecycle
-
-## Limits and defaults
-
-| Item | Value | Notes |
-| ---- | ----- | ----- |
-| Data lifecycle stages | 6 | Creation, Storage, Use, Sharing, Archiving, Destruction |
-| Encryption types | 2 | Symmetric (single key), Asymmetric (key pair) |
-| Symmetric key usage | Encryption + decryption | Same key for both operations |
-| Asymmetric key usage | Public encrypts, private decrypts | Or vice versa for signatures |
-
-## Related topics
-
-- **GDPR/HIPAA/PCI DSS**: Regulatory frameworks that mandate specific data
-  classification and handling requirements
-- **Business impact analysis**: Informs data classification based on loss
-  impact
-- **DLP (Data Leakage Prevention)**: Technical control that enforces data
-  handling policies based on classification
-- **Access control**: Implements restrictions based on data classification
-  levels
-- **Key management**: Critical for encryption; keys must be protected
-  throughout their lifecycle
-## Key concepts (Doshi)
-
+##### Doshi Review Manual
 - **Data lifecycle phases**: All data moves through six phases requiring
   protection at each stage:
   - Creation: data input through multiple channels; controls ensure integrity
@@ -6866,8 +6941,18 @@ Example application comparison:
   - Degaussing
   - Physical destruction
 
-## Common scenarios (Doshi)
+#### Common scenarios
 
+##### CRISC All-in-One Exam Guide
+| Scenario | Correct approach | Why |
+| -------- | ---------------- | --- |
+| Migrating to cloud | Classify sensitive data first | Determines required controls and provider compliance requirements |
+| Implementing DLP | Ensure data is labeled by owners | DLP tools rely on classification tags to enforce policies |
+| Third-party stores unencrypted data | Assess actual risk based on data type | Deidentified data may pose lower risk than initially assumed |
+| Sensitive data no longer needed | Destroy using approved deletion techniques | Meets regulatory requirements and reduces exposure |
+| New data classification policy | Conduct security awareness training | Ensures employees understand and implement the policy |
+
+##### Doshi Review Manual
 | Scenario | Correct approach | Why |
 | -------- | ---------------- | --- |
 | Protecting data on USB or mobile device | Encrypt the data | Encryption makes data unreadable without the key; most effective control |
@@ -6877,8 +6962,26 @@ Example application comparison:
 | Granting data access | Obtain data owner authorization | Data owner responsible for formal authorization |
 | Detecting fraudulent transactions | Reasonableness checks | Identifies data deviating from normal business patterns |
 
-## Gotchas (Doshi)
+#### Gotchas
 
+##### CRISC All-in-One Exam Guide
+- **Classification without labeling is incomplete**: Defining classification
+  categories means nothing if employees don't actually tag data they create
+
+- **Data privacy and data security are not synonymous**: Privacy focuses on
+  individual rights and consent; security focuses on technical protection.
+  Security enables privacy but does not guarantee it
+
+- **Archival is not destruction**: Archiving retains data for
+  regulatory/contractual compliance; destruction permanently removes it
+
+- **Asymmetric encryption is not used for bulk data**: It's slower and
+  typically used only to exchange symmetric keys, not encrypt large datasets
+
+- **Data classification drives control costs**: More sensitive classifications
+  require more robust (and expensive) controls throughout the lifecycle
+
+##### Doshi Review Manual
 - **Encryption scope**: Encryption protects data at rest and in transit, but
   data is in plaintext during use. Role-based access control is the primary
   control for data in use.
@@ -6898,8 +7001,17 @@ Example application comparison:
   retained as long as required by law, regulation, or contract--not just
   business preference.
 
-## Limits and defaults (Doshi)
+#### Limits and defaults
 
+##### CRISC All-in-One Exam Guide
+| Item | Value | Notes |
+| ---- | ----- | ----- |
+| Data lifecycle stages | 6 | Creation, Storage, Use, Sharing, Archiving, Destruction |
+| Encryption types | 2 | Symmetric (single key), Asymmetric (key pair) |
+| Symmetric key usage | Encryption + decryption | Same key for both operations |
+| Asymmetric key usage | Public encrypts, private decrypts | Or vice versa for signatures |
+
+##### Doshi Review Manual
 | Item | Value | Notes |
 | ---- | ----- | ----- |
 | Anti-malware signature updates | Daily | Minimum update frequency |
@@ -6907,8 +7019,21 @@ Example application comparison:
 | Strongest wireless encryption | WPA-2 | WEP no longer secure |
 | Data validation preference | Whitelist | When input data is static |
 
-## Related topics (Doshi)
+#### Related topics
 
+##### CRISC All-in-One Exam Guide
+- **GDPR/HIPAA/PCI DSS**: Regulatory frameworks that mandate specific data
+  classification and handling requirements
+- **Business impact analysis**: Informs data classification based on loss
+  impact
+- **DLP (Data Leakage Prevention)**: Technical control that enforces data
+  handling policies based on classification
+- **Access control**: Implements restrictions based on data classification
+  levels
+- **Key management**: Critical for encryption; keys must be protected
+  throughout their lifecycle
+
+##### Doshi Review Manual
 - **Data classification (4.17)**: Prerequisite for determining protection
   levels; must identify data owners first
 - **Database security**: Encryption, restricted access, secured protocols,
@@ -6919,8 +7044,9 @@ Example application comparison:
   employees and contractors
 
 ### 4.5: System development life cycle (SDLC) and change management
-## Key concepts
+#### Key concepts
 
+##### CRISC All-in-One Exam Guide
 - **System Development Life Cycle (SDLC)**: Systematic process outlining
   steps for developing software applications or information systems
   - Five sequential phases: initiation, development/acquisition,
@@ -7006,73 +7132,7 @@ Example application comparison:
   - Exceptions bring unknown risk to organization
   - Risk practitioner must review exceptions at least annually
 
-## Common scenarios
-
-| Scenario | Correct approach | Why |
-| -------- | ---------------- | --- |
-| New software project starting | Define project charter in initiation phase | Sets scope, timeline, budget, and risks upfront |
-| Threat modeling timing | Perform in earlier SDLC stages (after requirements) | Cannot model in requirements phase; too late in later phases |
-| Production environment changes | Submit to CAB for formal approval | Unapproved changes could expose organization to unidentified risks |
-| Emergency changes needed | Follow same CAB process as standard changes | Ensures visibility to all relevant stakeholders |
-| Employee needs policy deviation | Document as exception with annual review | Exceptions bring unknown risk; must be tracked and revalidated |
-| Defining baseline laptop settings | Configuration management | Sets initial standard before deployment |
-
-## Gotchas
-
-- **Project risk vs. SDLC risk distinction**: Project risk relates to project
-  objectives (time, budget, requirements); SDLC risk relates to development
-  process objectives. They are interrelated but not the same.
-
-- **Threat modeling timing**: Cannot be performed in requirements phase since
-  team is still gathering requirements. Must occur after requirements are
-  defined but in earlier SDLC stages.
-
-- **Configuration vs. change management**: Configuration management establishes
-  initial baselines; change management controls modifications after baselines
-  exist. Do not confuse the two.
-
-- **Accreditation vs. certification**: Accreditation can be internal or
-  external. Certification is always performed by an external third-party
-  auditor.
-
-- **Exception review frequency**: Exceptions must be reviewed at least annually
-  to confirm they are still required. More frequent review is acceptable.
-
-- **CAB approval scope**: Even emergency changes should go through the CAB
-  process to ensure visibility and proper documentation.
-
-- **Disposal phase risks**: Often overlooked, but inadequate decommissioning
-  can lead to data breaches, regulatory penalties, and unauthorized access to
-  sensitive information.
-
-## Limits and defaults
-
-| Item | Value | Notes |
-| ---- | ----- | ----- |
-| SDLC phases | 5 | Initiation through Disposal |
-| Exception review frequency | Annual (minimum) | Risk practitioner responsibility |
-| Domain 4 exam weight | 20% | Information Technology and Security |
-| Budgeting phase | Initiation | Project charter includes budget |
-| User training phase | Implementation | Part of system deployment |
-| Final SDLC phase | Disposal | System decommissioning |
-
-## Related topics
-
-- **System accreditation and certification**: Processes ensuring quality and
-  reliability of systems; accreditation verifies standards compliance,
-  certification issues formal attestation
-- **Threat modeling**: Should be integrated into earlier SDLC phases to ensure
-  threats are mitigated promptly
-- **Third-party risk management**: Vendor change management practices should be
-  evaluated during due diligence
-- **COBIT and ITIL alignment**: BAI06 Managed IT Changes (COBIT) corresponds to
-  ITIL Change Management process
-- **Enterprise architecture**: Technology architecture shows current IT state
-  and assists transition with minimal disruption during SDLC
-- **Emerging technologies**: BYOD, IoT, AI, blockchain introduce new risks that
-  must be considered during development
-## Key concepts (Doshi)
-
+##### Doshi Review Manual
 - **System Development Life Cycle (SDLC)**: Structured methodology for
   designing, developing, and implementing systems
   - Three models: waterfall, agile, and hybrid approaches
@@ -7106,8 +7166,19 @@ Example application comparison:
   - Phased: Implement changes in stages; gradual replacement
   - Abrupt (direct cutover): Immediate switch with no rollback; highest risk
 
-## Common scenarios (Doshi)
+#### Common scenarios
 
+##### CRISC All-in-One Exam Guide
+| Scenario | Correct approach | Why |
+| -------- | ---------------- | --- |
+| New software project starting | Define project charter in initiation phase | Sets scope, timeline, budget, and risks upfront |
+| Threat modeling timing | Perform in earlier SDLC stages (after requirements) | Cannot model in requirements phase; too late in later phases |
+| Production environment changes | Submit to CAB for formal approval | Unapproved changes could expose organization to unidentified risks |
+| Emergency changes needed | Follow same CAB process as standard changes | Ensures visibility to all relevant stakeholders |
+| Employee needs policy deviation | Document as exception with annual review | Exceptions bring unknown risk; must be tracked and revalidated |
+| Defining baseline laptop settings | Configuration management | Sets initial standard before deployment |
+
+##### Doshi Review Manual
 | Scenario | Correct approach | Why |
 | -------- | ---------------- | --- |
 | Preventing scope creep | Define change process in feasibility/design phase | Requirements must be frozen early |
@@ -7118,8 +7189,36 @@ Example application comparison:
 | Verifying all patches used change control | Start from patch logs, trace to change requests | Starting from change requests misses unauthorized patches |
 | Determining if modifications introduced vulnerabilities | System users perform acceptance testing | Users best positioned to identify functional issues |
 
-## Gotchas (Doshi)
+#### Gotchas
 
+##### CRISC All-in-One Exam Guide
+- **Project risk vs. SDLC risk distinction**: Project risk relates to project
+  objectives (time, budget, requirements); SDLC risk relates to development
+  process objectives. They are interrelated but not the same.
+
+- **Threat modeling timing**: Cannot be performed in requirements phase since
+  team is still gathering requirements. Must occur after requirements are
+  defined but in earlier SDLC stages.
+
+- **Configuration vs. change management**: Configuration management establishes
+  initial baselines; change management controls modifications after baselines
+  exist. Do not confuse the two.
+
+- **Accreditation vs. certification**: Accreditation can be internal or
+  external. Certification is always performed by an external third-party
+  auditor.
+
+- **Exception review frequency**: Exceptions must be reviewed at least annually
+  to confirm they are still required. More frequent review is acceptable.
+
+- **CAB approval scope**: Even emergency changes should go through the CAB
+  process to ensure visibility and proper documentation.
+
+- **Disposal phase risks**: Often overlooked, but inadequate decommissioning
+  can lead to data breaches, regulatory penalties, and unauthorized access to
+  sensitive information.
+
+##### Doshi Review Manual
 - **Risk assessment timing**: Must be conducted at every SDLC stage, not just
   once before or after the project
 
@@ -7141,8 +7240,19 @@ Example application comparison:
 - **Waterfall vs. Agile**: Waterfall suits well-defined, stable requirements;
   Agile suits rapid development with less documentation emphasis
 
-## Limits and defaults (Doshi)
+#### Limits and defaults
 
+##### CRISC All-in-One Exam Guide
+| Item | Value | Notes |
+| ---- | ----- | ----- |
+| SDLC phases | 5 | Initiation through Disposal |
+| Exception review frequency | Annual (minimum) | Risk practitioner responsibility |
+| Domain 4 exam weight | 20% | Information Technology and Security |
+| Budgeting phase | Initiation | Project charter includes budget |
+| User training phase | Implementation | Part of system deployment |
+| Final SDLC phase | Disposal | System decommissioning |
+
+##### Doshi Review Manual
 | Item | Value | Notes |
 | ---- | ----- | ----- |
 | Emergency change bypasses | Scheduling only | Authorization, documentation, impact analysis still required post-implementation |
@@ -7151,8 +7261,24 @@ Example application comparison:
 | Changeover with greatest redundancy | Parallel | Both systems run simultaneously |
 | Who determines new vulnerabilities | System users | Through user acceptance testing |
 
-## Related topics (Doshi)
+#### Related topics
 
+##### CRISC All-in-One Exam Guide
+- **System accreditation and certification**: Processes ensuring quality and
+  reliability of systems; accreditation verifies standards compliance,
+  certification issues formal attestation
+- **Threat modeling**: Should be integrated into earlier SDLC phases to ensure
+  threats are mitigated promptly
+- **Third-party risk management**: Vendor change management practices should be
+  evaluated during due diligence
+- **COBIT and ITIL alignment**: BAI06 Managed IT Changes (COBIT) corresponds to
+  ITIL Change Management process
+- **Enterprise architecture**: Technology architecture shows current IT state
+  and assists transition with minimal disruption during SDLC
+- **Emerging technologies**: BYOD, IoT, AI, blockchain introduce new risks that
+  must be considered during development
+
+##### Doshi Review Manual
 - **Configuration management**: Most vulnerable area from security perspective;
   misconfiguration and untimely updates pose high risk
 - **Release management**: Separate function from change management
@@ -7164,8 +7290,9 @@ Example application comparison:
   implementation; signoff required before changeover
 
 ### 4.6: Emerging technologies (AI/LLM, quantum computing, Zero Trust)
-## Key concepts
+#### Key concepts
 
+##### CRISC All-in-One Exam Guide
 - **Emerging technology risk**: Risk of negative or adverse impact from
   implementing new technology that has not been fully adopted in the industry
   - Risk managers must stay abreast of technological innovations to support
@@ -7209,68 +7336,7 @@ Example application comparison:
   - Risks: data protection, security when accessing from personal devices
   - Required controls: policies, technical controls, employee training
 
-## Common scenarios
-
-| Scenario | Correct approach | Why |
-| -------- | ---------------- | --- |
-| Organization adopting AI for customer service | Assess data privacy, bias prevention, transparency requirements before deployment | AI risks include biased algorithms and opaque decision-making |
-| Evaluating quantum-resistant cryptography | Plan migration strategy for encryption methods | Quantum computing threatens current encryption algorithms |
-| Implementing IoT sensors in manufacturing | Prioritize data privacy and security measures | IoT devices are vulnerable to attacks and collect sensitive data |
-| BYOD policy implementation | Build policies, technical controls, and training program | Personal devices accessing company data require security controls |
-| Blockchain for supply chain | Address scalability, energy, and regulatory concerns | Technology is early-stage with unresolved operational challenges |
-
-## Gotchas
-
-- **Quantum computing will not break all cryptography immediately**: The
-  technology is nascent; risk managers should plan for gradual migration to
-  quantum-resistant algorithms rather than panic
-- **AI transparency is a requirement, not optional**: Ensuring AI is
-  understandable to humans is critical for responsible deployment, not just a
-  nice-to-have
-- **BYOD is not just a technical problem**: Requires organizational policies and
-  employee training, not just technical controls
-- **Emerging technology risk differs from infrastructure risk**: Emerging
-  technology risk relates to unproven adoption, while infrastructure risk
-  relates to support capacity for business needs
-
-## Limits and defaults
-
-| Item | Value | Notes |
-| ---- | ----- | ----- |
-| CRISC Domain 4 weight | 20% | Information Technology and Security |
-| AI risk categories | 3 | Privacy/security, bias, transparency |
-| Quantum computing threat | Encryption | Can potentially decrypt current algorithms |
-| BYOD control areas | 3 | Policies, technical controls, training |
-
-## Related topics
-
-- **Cryptography and encryption**: Quantum computing directly threatens current
-  symmetric and asymmetric encryption methods; AES-256 and RSA are vulnerable to
-  future quantum attacks
-- **Data privacy principles**: AI and IoT both raise significant privacy
-  concerns requiring privacy-by-design approaches
-- **Control frameworks**: Emerging technologies require compensating controls
-  when traditional controls are insufficient
-- **Risk assessment**: Emerging technology risk is a distinct risk category in
-  IT risk catalogs requiring specific evaluation criteria
-- **System Development Life Cycle (SDLC)**: Emerging technologies should be
-  evaluated during the initiation and design phases for security implications
-
-## Exam-critical points
-
-1. Quantum computing can break current encryption algorithms - this is the
-   primary security concern
-2. AI challenges include: data privacy, algorithmic bias, and transparency
-3. BYOD requires three control types: policies, technical controls, and training
-4. IoT devices are vulnerable to cyber-attacks and raise privacy concerns
-5. Blockchain challenges: scalability, energy consumption, regulatory
-   uncertainty
-6. Risk managers must stay current on emerging technologies to advise business
-   decisions
-7. Emerging technology risk is the risk of adverse impact from implementing
-   unproven technology
-## Key concepts (Doshi)
-
+##### Doshi Review Manual
 - **Emerging risk management**: Risk environment changes as business processes
   and technology evolve. No system remains secure perpetually. Risk assessment
   must be performed at regular intervals to address emerging risks.
@@ -7322,8 +7388,18 @@ Example application comparison:
   - Never assume internal network traffic is trusted
   - Principle of least privilege
 
-## Common scenarios (Doshi)
+#### Common scenarios
 
+##### CRISC All-in-One Exam Guide
+| Scenario | Correct approach | Why |
+| -------- | ---------------- | --- |
+| Organization adopting AI for customer service | Assess data privacy, bias prevention, transparency requirements before deployment | AI risks include biased algorithms and opaque decision-making |
+| Evaluating quantum-resistant cryptography | Plan migration strategy for encryption methods | Quantum computing threatens current encryption algorithms |
+| Implementing IoT sensors in manufacturing | Prioritize data privacy and security measures | IoT devices are vulnerable to attacks and collect sensitive data |
+| BYOD policy implementation | Build policies, technical controls, and training program | Personal devices accessing company data require security controls |
+| Blockchain for supply chain | Address scalability, energy, and regulatory concerns | Technology is early-stage with unresolved operational challenges |
+
+##### Doshi Review Manual
 | Scenario | Correct approach | Why |
 | -------- | ---------------- | --- |
 | Implementing new AI/ML system | Conduct risk assessment, establish algorithm oversight, test against business processes | Untested algorithms may misclassify critical events |
@@ -7332,8 +7408,22 @@ Example application comparison:
 | IDS using heuristic/neural network detection | Periodic testing of detection algorithms | Ensures malicious traffic is not misclassified as normal |
 | New technology promising cost savings | Monitor adoption, perform risk assessment before implementation | Cost savings may introduce new vulnerabilities |
 
-## Gotchas (Doshi)
+#### Gotchas
 
+##### CRISC All-in-One Exam Guide
+- **Quantum computing will not break all cryptography immediately**: The
+  technology is nascent; risk managers should plan for gradual migration to
+  quantum-resistant algorithms rather than panic
+- **AI transparency is a requirement, not optional**: Ensuring AI is
+  understandable to humans is critical for responsible deployment, not just a
+  nice-to-have
+- **BYOD is not just a technical problem**: Requires organizational policies and
+  employee training, not just technical controls
+- **Emerging technology risk differs from infrastructure risk**: Emerging
+  technology risk relates to unproven adoption, while infrastructure risk
+  relates to support capacity for business needs
+
+##### Doshi Review Manual
 - **AI algorithm oversight is not optional**: Organizations must have
   appropriate oversight mechanisms; algorithms require testing in accordance
   with current business processes.
@@ -7351,8 +7441,17 @@ Example application comparison:
   alarms, and increased log activity may signal emerging threats but logs are
   often not monitored timely.
 
-## Limits and defaults (Doshi)
+#### Limits and defaults
 
+##### CRISC All-in-One Exam Guide
+| Item | Value | Notes |
+| ---- | ----- | ----- |
+| CRISC Domain 4 weight | 20% | Information Technology and Security |
+| AI risk categories | 3 | Privacy/security, bias, transparency |
+| Quantum computing threat | Encryption | Can potentially decrypt current algorithms |
+| BYOD control areas | 3 | Policies, technical controls, training |
+
+##### Doshi Review Manual
 | Item | Value | Notes |
 | ---- | ----- | ----- |
 | Risk assessment frequency | Annual minimum + significant changes | Also triggered by new technology, business process changes |
@@ -7360,8 +7459,22 @@ Example application comparison:
 | Lead indicators | Warning signals | Provide warning for emerging risk before impact |
 | Lag indicators | Historical trends | Provide data for improving risk response |
 
-## Related topics (Doshi)
+#### Related topics
 
+##### CRISC All-in-One Exam Guide
+- **Cryptography and encryption**: Quantum computing directly threatens current
+  symmetric and asymmetric encryption methods; AES-256 and RSA are vulnerable to
+  future quantum attacks
+- **Data privacy principles**: AI and IoT both raise significant privacy
+  concerns requiring privacy-by-design approaches
+- **Control frameworks**: Emerging technologies require compensating controls
+  when traditional controls are insufficient
+- **Risk assessment**: Emerging technology risk is a distinct risk category in
+  IT risk catalogs requiring specific evaluation criteria
+- **System Development Life Cycle (SDLC)**: Emerging technologies should be
+  evaluated during the initiation and design phases for security implications
+
+##### Doshi Review Manual
 - **Managing emerging risks (3.6)**: Framework for identifying and responding
   to new threats from technological change
 - **Intrusion detection systems (4.7)**: Neural network and statistical-based
@@ -7375,9 +7488,23 @@ Example application comparison:
 - **BYOD and virtualized desktops**: Emerging technology controls for personal
   device access
 
-### 4.7: Information security frameworks and standards
-## Key concepts
+#### Exam-critical points
 
+1. Quantum computing can break current encryption algorithms - this is the
+   primary security concern
+2. AI challenges include: data privacy, algorithmic bias, and transparency
+3. BYOD requires three control types: policies, technical controls, and training
+4. IoT devices are vulnerable to cyber-attacks and raise privacy concerns
+5. Blockchain challenges: scalability, energy consumption, regulatory
+   uncertainty
+6. Risk managers must stay current on emerging technologies to advise business
+   decisions
+7. Emerging technology risk is the risk of adverse impact from implementing
+   unproven technology
+### 4.7: Information security frameworks and standards
+#### Key concepts
+
+##### CRISC All-in-One Exam Guide
 - **Control**: A measure that reduces risk and improves security posture.
   Controls can be technical (antivirus software), physical (turnstiles),
   or administrative (policy documents).
@@ -7434,66 +7561,7 @@ Example application comparison:
   - Physical: Environmental measures (locks, turnstiles, cameras)
   - Administrative: Policies and procedures (security awareness training)
 
-## Common scenarios
-
-| Scenario | Correct approach | Why |
-| -------- | ---------------- | --- |
-| Third-party vendor evaluation | Request SOC 2 report or ISO 27001 certification | Independent attestation provides objective assurance of control design and effectiveness |
-| US healthcare organization needs security framework | Implement HITRUST CSF | Combines HIPAA requirements with ISO and NIST; favored for US healthcare |
-| EU/UK organization needs certification | Pursue ISO 27001 | More recognized in European markets than SOC 2 |
-| Federal agency information systems | Follow NIST SP 800-37 | Specifically designed for federal system risk management |
-| Supply chain risk management | Reference NIST SP 800-161 | Purpose-built for supply chain security |
-| Quantitative risk analysis needed | Use FAIR framework | FAIR is designed for quantitative risk management; NIST 800-30 and ISO 27005 are primarily qualitative |
-
-## Gotchas
-
-- **Legal controls are not a control category**: The three categories of
-  information security controls are technical, physical, and
-  administrative. "Legal controls" is a distractor.
-
-- **COBIT vs ITIL confusion**: COBIT covers enterprise-wide governance
-  (what to do); ITIL focuses specifically on IT service management (how
-  to do it). They complement each other but serve different purposes.
-
-- **SOC 2 vs ISO 27001**: SOC 2 is an attestation report (point-in-time
-  assessment); ISO 27001 is a certification (ongoing management system).
-  Both demonstrate control effectiveness but through different mechanisms.
-
-- **Framework selection depends on context**: No single framework is
-  universally correct. Selection depends on industry, regulatory
-  requirements, and geographic region.
-
-- **Control sequence matters**: Ideal order is deterrent first
-  (discourage attack), then preventive (block if attempted), then
-  detective (identify if succeeded), then corrective (remediate damage).
-
-## Limits and defaults
-
-| Item | Value | Notes |
-| ---- | ----- | ----- |
-| COBIT Core objectives | 40 | Across 5 domains |
-| COBIT 2019 domains | 5 | EDM, APO, BAI, DSS, MEA |
-| NIST CSF functions | 5 | Identify, Protect, Detect, Respond, Recover |
-| SOC 2 trust principles | 5 | Security, Availability, Processing Integrity, Confidentiality, Privacy |
-| ISO 27001 external audit frequency | Annual | Minimum for maintained certification |
-
-## Related topics
-
-- **Three Lines of Defense**: Third line (internal/external auditors)
-  performs audits per frameworks such as ISO 27001, SOC 2, or HITRUST CSF
-
-- **Third-party risk management**: External certifications (ISO 27001,
-  SOC 2, HITRUST) streamline vendor assessments by providing independent
-  control assurance
-
-- **Control assessment techniques**: Self-assessments can adopt industry
-  standards (NIST, COBIT, ISO 27001) as the control framework for
-  evaluation
-
-- **Risk register**: Framework alignment helps categorize and prioritize
-  risks consistently across the organization
-## Key concepts (Doshi)
-
+##### Doshi Review Manual
 - **Control framework**: A structured set of guidelines for designing,
   implementing, and monitoring controls. Provides a baseline for evaluating
   control adequacy and effectiveness.
@@ -7519,21 +7587,19 @@ Example application comparison:
     organization and external parties
   - Most useful for managing complex security deployments
 
-## Widely recognized standards and frameworks
+#### Common scenarios
 
-| Framework | Purpose |
-| --------- | ------- |
-| ISO 27001 | Information security management system (ISMS) certification |
-| PCI DSS | Payment card industry data security standard |
-| COBIT 5 | IT governance and management framework |
-| SSAE 16 | Attestation standard for service organizations |
-| TOGAF | Enterprise architecture framework |
-| Zachman | Enterprise architecture classification schema |
-| DODAF | Department of Defense architecture framework |
-| FEAF | Federal enterprise architecture framework |
+##### CRISC All-in-One Exam Guide
+| Scenario | Correct approach | Why |
+| -------- | ---------------- | --- |
+| Third-party vendor evaluation | Request SOC 2 report or ISO 27001 certification | Independent attestation provides objective assurance of control design and effectiveness |
+| US healthcare organization needs security framework | Implement HITRUST CSF | Combines HIPAA requirements with ISO and NIST; favored for US healthcare |
+| EU/UK organization needs certification | Pursue ISO 27001 | More recognized in European markets than SOC 2 |
+| Federal agency information systems | Follow NIST SP 800-37 | Specifically designed for federal system risk management |
+| Supply chain risk management | Reference NIST SP 800-161 | Purpose-built for supply chain security |
+| Quantitative risk analysis needed | Use FAIR framework | FAIR is designed for quantitative risk management; NIST 800-30 and ISO 27005 are primarily qualitative |
 
-## Common scenarios (Doshi)
-
+##### Doshi Review Manual
 | Scenario | Correct approach | Why |
 | -------- | ---------------- | --- |
 | Ensuring service provider complies with security requirements | Conduct periodic audit | Verifies actual compliance with agreement requirements |
@@ -7542,8 +7608,30 @@ Example application comparison:
 | Evaluating IT equipment supplier value | Comparative analysis of cost and performance | Enables objective assessment against alternatives |
 | Addressing audit findings | Create risk mitigation plan | Takes corrective action to close findings |
 
-## Gotchas (Doshi)
+#### Gotchas
 
+##### CRISC All-in-One Exam Guide
+- **Legal controls are not a control category**: The three categories of
+  information security controls are technical, physical, and
+  administrative. "Legal controls" is a distractor.
+
+- **COBIT vs ITIL confusion**: COBIT covers enterprise-wide governance
+  (what to do); ITIL focuses specifically on IT service management (how
+  to do it). They complement each other but serve different purposes.
+
+- **SOC 2 vs ISO 27001**: SOC 2 is an attestation report (point-in-time
+  assessment); ISO 27001 is a certification (ongoing management system).
+  Both demonstrate control effectiveness but through different mechanisms.
+
+- **Framework selection depends on context**: No single framework is
+  universally correct. Selection depends on industry, regulatory
+  requirements, and geographic region.
+
+- **Control sequence matters**: Ideal order is deterrent first
+  (discourage attack), then preventive (block if attempted), then
+  detective (identify if succeeded), then corrective (remediate damage).
+
+##### Doshi Review Manual
 - **Framework selection vs. technology selection**: Selecting security
   technology should be based on ability to mitigate risk to enterprise goals,
   not compliance with frameworks alone.
@@ -7562,16 +7650,42 @@ Example application comparison:
   structure for control design, while a risk register documents identified
   risks. Both are needed but serve different purposes.
 
-## Limits and defaults (Doshi)
+#### Limits and defaults
 
+##### CRISC All-in-One Exam Guide
+| Item | Value | Notes |
+| ---- | ----- | ----- |
+| COBIT Core objectives | 40 | Across 5 domains |
+| COBIT 2019 domains | 5 | EDM, APO, BAI, DSS, MEA |
+| NIST CSF functions | 5 | Identify, Protect, Detect, Respond, Recover |
+| SOC 2 trust principles | 5 | Security, Availability, Processing Integrity, Confidentiality, Privacy |
+| ISO 27001 external audit frequency | Annual | Minimum for maintained certification |
+
+##### Doshi Review Manual
 | Item | Value | Notes |
 | ---- | ----- | ----- |
 | Information security policy review | At least annually | Address new and emerging risks |
 | IT risk management program scope | Critical functions minimum | Need not cover all functions |
 | Continuous monitoring deployment | High-risk areas | Where incidents have high impact and frequency |
 
-## Related topics (Doshi)
+#### Related topics
 
+##### CRISC All-in-One Exam Guide
+- **Three Lines of Defense**: Third line (internal/external auditors)
+  performs audits per frameworks such as ISO 27001, SOC 2, or HITRUST CSF
+
+- **Third-party risk management**: External certifications (ISO 27001,
+  SOC 2, HITRUST) streamline vendor assessments by providing independent
+  control assurance
+
+- **Control assessment techniques**: Self-assessments can adopt industry
+  standards (NIST, COBIT, ISO 27001) as the control framework for
+  evaluation
+
+- **Risk register**: Framework alignment helps categorize and prioritize
+  risks consistently across the organization
+
+##### Doshi Review Manual
 - **Control categories**: Preventive, detective, corrective, deterrent,
   directive, and compensating controls work within the framework structure
 - **Administrative, technical, and physical controls**: Three-layer control
@@ -7585,9 +7699,23 @@ Example application comparison:
 - **Third-party risk management**: Frameworks provide basis for evaluating
   vendor compliance
 
-### 4.8: Security awareness training programs
-## Key concepts
+#### Widely recognized standards and frameworks
 
+| Framework | Purpose |
+| --------- | ------- |
+| ISO 27001 | Information security management system (ISMS) certification |
+| PCI DSS | Payment card industry data security standard |
+| COBIT 5 | IT governance and management framework |
+| SSAE 16 | Attestation standard for service organizations |
+| TOGAF | Enterprise architecture framework |
+| Zachman | Enterprise architecture classification schema |
+| DODAF | Department of Defense architecture framework |
+| FEAF | Federal enterprise architecture framework |
+
+### 4.8: Security awareness training programs
+#### Key concepts
+
+##### CRISC All-in-One Exam Guide
 - **Security awareness training**: A critical component of an organization's
   cybersecurity strategy designed to educate employees on identifying and
   mitigating potential security risks and threats
@@ -7615,61 +7743,7 @@ Example application comparison:
     technical measures
   - Preventive control when addressing insider threats
 
-## Common scenarios
-
-| Scenario | Correct approach | Why |
-| -------- | ---------------- | --- |
-| Employees falling for phishing attacks | Implement security awareness training | Social engineering attacks rely on human behavior; training helps employees recognize and resist manipulation |
-| New online banking platform deployment | MFA is most important control, but training supplements | Technical controls address transaction risk; training addresses user behavior |
-| Implementing new data classification policy | Conduct security awareness training for employees | Ensures staff understand the policy and can implement it properly |
-| Managing mobile device risks | MDM solution is primary; training is supplementary | Training alone is insufficient; technical controls required for comprehensive mobile security |
-| Protecting against social engineering | Provide security awareness training to employees | Social engineering exploits human psychology, making education the most effective defense |
-
-## Gotchas
-
-- **Primary purpose misconception**: The primary purpose of security awareness
-  training is to develop a security-conscious culture, not merely to teach
-  employees to recognize threats or use security tools
-
-- **Control type confusion**: Security awareness training is classified as a
-  deterrent control and administrative control, not a preventive or technical
-  control
-
-- **Standalone effectiveness**: Training alone is insufficient for some risks
-  (mobile devices, technical vulnerabilities); must be combined with technical
-  controls
-
-- **Not a compensating control**: Encryption is a compensating control;
-  security awareness training is not
-
-- **Not a risk management component**: Conducting vulnerability scans is a key
-  risk management activity; security awareness training is part of the broader
-  security program
-
-## Limits and defaults
-
-| Item | Value | Notes |
-| ---- | ----- | ----- |
-| Initial training deadline | 30 days | From employee onboarding date |
-| Minimum recurring frequency | Annually | At least once per year |
-| Breach involvement (human element) | 82% | Verizon 2022 DBIR statistic |
-
-## Related topics
-
-- **Social engineering attacks**: Training is the primary defense against
-  phishing, pretexting, and baiting
-- **Insider threats**: Malicious insiders pose the greatest threat; training is
-  the best preventive control
-- **Key risk indicators (KRIs)**: Employees untrained in security awareness
-  continuing to fall for phishing is an example KRI
-- **NIST Cybersecurity Framework Protect function**: Security awareness
-  training is a core activity within the Protect function
-- **Administrative vs. technical controls**: Training is administrative; access
-  control lists are technical
-- **Data classification policies**: Training ensures employees understand and
-  implement classification requirements
-## Key concepts (Doshi)
-
+##### Doshi Review Manual
 - **Security awareness training**: Most important element of information
   security program; technical controls alone cannot address all security risks
   - Addresses behavioral aspects through continuous awareness and education
@@ -7694,8 +7768,18 @@ Example application comparison:
 - **Training timing for new employees**: Must occur before system or data
   access is granted; part of orientation program
 
-## Common scenarios (Doshi)
+#### Common scenarios
 
+##### CRISC All-in-One Exam Guide
+| Scenario | Correct approach | Why |
+| -------- | ---------------- | --- |
+| Employees falling for phishing attacks | Implement security awareness training | Social engineering attacks rely on human behavior; training helps employees recognize and resist manipulation |
+| New online banking platform deployment | MFA is most important control, but training supplements | Technical controls address transaction risk; training addresses user behavior |
+| Implementing new data classification policy | Conduct security awareness training for employees | Ensures staff understand the policy and can implement it properly |
+| Managing mobile device risks | MDM solution is primary; training is supplementary | Training alone is insufficient; technical controls required for comprehensive mobile security |
+| Protecting against social engineering | Provide security awareness training to employees | Social engineering exploits human psychology, making education the most effective defense |
+
+##### Doshi Review Manual
 | Scenario | Correct approach | Why |
 | -------- | ---------------- | --- |
 | Heavy increase in malware attacks | Conduct regular awareness training on user roles and responsibilities | Educated employees detect attacks quickly and prevent adverse impact |
@@ -7706,8 +7790,29 @@ Example application comparison:
 | Employees installing unlicensed software | Additional security awareness training | KRI indicates awareness gap |
 | Ethics concerns in monitoring activities | Ethics awareness training for employees involved in monitoring | Primary target audience for ethics training |
 
-## Gotchas (Doshi)
+#### Gotchas
 
+##### CRISC All-in-One Exam Guide
+- **Primary purpose misconception**: The primary purpose of security awareness
+  training is to develop a security-conscious culture, not merely to teach
+  employees to recognize threats or use security tools
+
+- **Control type confusion**: Security awareness training is classified as a
+  deterrent control and administrative control, not a preventive or technical
+  control
+
+- **Standalone effectiveness**: Training alone is insufficient for some risks
+  (mobile devices, technical vulnerabilities); must be combined with technical
+  controls
+
+- **Not a compensating control**: Encryption is a compensating control;
+  security awareness training is not
+
+- **Not a risk management component**: Conducting vulnerability scans is a key
+  risk management activity; security awareness training is part of the broader
+  security program
+
+##### Doshi Review Manual
 - **Increase in incident/violation reports indicates success**: More reporting
   means staff recognize and report issues; decrease may indicate lack of
   awareness
@@ -7721,8 +7826,16 @@ Example application comparison:
 - **Awareness training is not a one-time event**: Continuous activity at
   frequent intervals; culture change is gradual
 
-## Limits and defaults (Doshi)
+#### Limits and defaults
 
+##### CRISC All-in-One Exam Guide
+| Item | Value | Notes |
+| ---- | ----- | ----- |
+| Initial training deadline | 30 days | From employee onboarding date |
+| Minimum recurring frequency | Annually | At least once per year |
+| Breach involvement (human element) | 82% | Verizon 2022 DBIR statistic |
+
+##### Doshi Review Manual
 | Item | Value | Notes |
 | ---- | ----- | ----- |
 | HR department primary security responsibility | Security awareness training | Not budget, recruitment, or risk assessment |
@@ -7730,8 +7843,23 @@ Example application comparison:
 | Primary program objective | Influence employee behavior toward security consciousness | Decrease security incidents |
 | New employee training timing | Before any system/data access | Part of orientation program |
 
-## Related topics (Doshi)
+#### Related topics
 
+##### CRISC All-in-One Exam Guide
+- **Social engineering attacks**: Training is the primary defense against
+  phishing, pretexting, and baiting
+- **Insider threats**: Malicious insiders pose the greatest threat; training is
+  the best preventive control
+- **Key risk indicators (KRIs)**: Employees untrained in security awareness
+  continuing to fall for phishing is an example KRI
+- **NIST Cybersecurity Framework Protect function**: Security awareness
+  training is a core activity within the Protect function
+- **Administrative vs. technical controls**: Training is administrative; access
+  control lists are technical
+- **Data classification policies**: Training ensures employees understand and
+  implement classification requirements
+
+##### Doshi Review Manual
 - **Social engineering**: Primary reason for enterprise-wide awareness programs;
   attacks manipulate users into divulging credentials
 - **BYOD risks**: Requires periodic awareness training on proper use of personal
@@ -7748,8 +7876,9 @@ Example application comparison:
   is one mitigation option but audit verification is more effective
 
 ### 4.9: Authentication, encryption, and access control principles
-## Key concepts
+#### Key concepts
 
+##### CRISC All-in-One Exam Guide
 - **CIA triad**: The three pillars of information security --
   confidentiality, integrity, and availability -- guide all security
   decisions.
@@ -7828,57 +7957,7 @@ Example application comparison:
   HTTPS connections.
   - Private key compromise at CA creates single point of failure (SPOF).
 
-## Common scenarios
-
-| Scenario | Correct approach | Why |
-| -------- | ---------------- | --- |
-| User needs access to specific data | Apply need-to-know and least privilege | Limits exposure; prevents unauthorized data access |
-| Protecting sensitive data at rest | Symmetric encryption (AES-256) | Fast, efficient for bulk data |
-| Securing data in transit | Asymmetric encryption for key exchange, then symmetric | Combines security of asymmetric with speed of symmetric |
-| Verifying message authenticity | Digital signature with PKI | Proves sender identity and message integrity |
-| Password storage | Hashing with salt | One-way; original cannot be recovered from hash |
-| SOD not feasible due to limited staff | Accept risk with compensating controls | Log monitoring, access reviews, external audits |
-| Establishing secure website connection | PKI with X.509 certificates | Browser verifies CA-issued certificate before encrypting |
-
-## Gotchas
-
-- **Digital signatures alone do not provide confidentiality**: Signature
-  encrypts the hash, not the message content.
-
-- **Need-to-know vs. least privilege**: Need-to-know limits data visibility;
-  least privilege limits application access/permissions.
-
-- **Single-factor authentication risk**: Identification (username) is often
-  known; security depends entirely on authentication factor strength.
-
-- **Asymmetric encryption is slower**: Use only for short messages or key
-  exchange, not bulk data encryption.
-
-- **CA private key compromise**: Creates SPOF for entire PKI; all certificates
-  issued by that CA become untrustworthy.
-
-- **Hashing is not encryption**: Hashing is one-way and irreversible;
-  encryption is reversible with the key.
-
-## Limits and defaults
-
-| Item | Value | Notes |
-| ---- | ----- | ----- |
-| Authentication factors | 3 types | Know, have, are |
-| MFA | 2+ factors | Combining factors from different types |
-| SOD compensating controls | 3 | Log monitoring, access reviews, external audits |
-| Message security states | 3 | Encrypted only, signed only, signed and encrypted |
-| Encryption types | 2 | Symmetric (single key), asymmetric (key pair) |
-
-## Related topics
-
-- SOX compliance: Requires SOD for financial controls
-- PCI DSS: Mandates SOD and encryption of payment card data
-- Incident response: Relies on accountability logs for forensics
-- Business continuity: Availability pillar ensures operations continue
-- Data privacy: Overlaps with confidentiality controls
-## Key concepts (Doshi)
-
+##### Doshi Review Manual
 - **Authentication factors**: Three types used for granting access:
   - Something you know (password, PIN, personal information)
   - Something you have (token, OTP, smart card)
@@ -7941,8 +8020,20 @@ Example application comparison:
 - **Least privilege**: Access restricted to minimum necessary for job
   function. Enforces accountability and reduces unnecessary access rights.
 
-## Common scenarios (Doshi)
+#### Common scenarios
 
+##### CRISC All-in-One Exam Guide
+| Scenario | Correct approach | Why |
+| -------- | ---------------- | --- |
+| User needs access to specific data | Apply need-to-know and least privilege | Limits exposure; prevents unauthorized data access |
+| Protecting sensitive data at rest | Symmetric encryption (AES-256) | Fast, efficient for bulk data |
+| Securing data in transit | Asymmetric encryption for key exchange, then symmetric | Combines security of asymmetric with speed of symmetric |
+| Verifying message authenticity | Digital signature with PKI | Proves sender identity and message integrity |
+| Password storage | Hashing with salt | One-way; original cannot be recovered from hash |
+| SOD not feasible due to limited staff | Accept risk with compensating controls | Log monitoring, access reviews, external audits |
+| Establishing secure website connection | PKI with X.509 certificates | Browser verifies CA-issued certificate before encrypting |
+
+##### Doshi Review Manual
 | Scenario | Correct approach | Why |
 | -------- | ---------------- | --- |
 | Strongest network authentication | Two-factor authentication | Requires multiple authentication methods |
@@ -7955,8 +8046,28 @@ Example application comparison:
 | Prevent DBA from reading sensitive data | Application-level encryption | Data unreadable at database level |
 | Compromised two-factor algorithm | Notify system owners using affected authentication | Enables risk-based response decisions |
 
-## Gotchas (Doshi)
+#### Gotchas
 
+##### CRISC All-in-One Exam Guide
+- **Digital signatures alone do not provide confidentiality**: Signature
+  encrypts the hash, not the message content.
+
+- **Need-to-know vs. least privilege**: Need-to-know limits data visibility;
+  least privilege limits application access/permissions.
+
+- **Single-factor authentication risk**: Identification (username) is often
+  known; security depends entirely on authentication factor strength.
+
+- **Asymmetric encryption is slower**: Use only for short messages or key
+  exchange, not bulk data encryption.
+
+- **CA private key compromise**: Creates SPOF for entire PKI; all certificates
+  issued by that CA become untrustworthy.
+
+- **Hashing is not encryption**: Hashing is one-way and irreversible;
+  encryption is reversible with the key.
+
+##### Doshi Review Manual
 - **Digital signature does not provide confidentiality**: It encrypts only
   the hash, not the message itself. Confidentiality requires encrypting the
   full message with the receiver's public key.
@@ -7980,16 +8091,34 @@ Example application comparison:
 - **Public key encryption does not equal greater strength**: It provides
   scaling convenience, not stronger encryption than symmetric methods.
 
-## Limits and defaults (Doshi)
+#### Limits and defaults
 
+##### CRISC All-in-One Exam Guide
+| Item | Value | Notes |
+| ---- | ----- | ----- |
+| Authentication factors | 3 types | Know, have, are |
+| MFA | 2+ factors | Combining factors from different types |
+| SOD compensating controls | 3 | Log monitoring, access reviews, external audits |
+| Message security states | 3 | Encrypted only, signed only, signed and encrypted |
+| Encryption types | 2 | Symmetric (single key), asymmetric (key pair) |
+
+##### Doshi Review Manual
 | Item | Value | Notes |
 | ---- | ----- | ----- |
 | Password synchronization benefit | Reduced admin workload | Single password across devices |
 | Most reliable biometric | Retina scan | Lowest FAR among current identifiers |
 | Optimal biometric tuning for critical data | High FRR | Stringent matching rejects some valid users but maximizes protection |
 
-## Related topics (Doshi)
+#### Related topics
 
+##### CRISC All-in-One Exam Guide
+- SOX compliance: Requires SOD for financial controls
+- PCI DSS: Mandates SOD and encryption of payment card data
+- Incident response: Relies on accountability logs for forensics
+- Business continuity: Availability pillar ensures operations continue
+- Data privacy: Overlaps with confidentiality controls
+
+##### Doshi Review Manual
 - Non-repudiation (1.5): PKI enables non-repudiation through digital
   signatures and certificate-based authentication
 - Data protection (4.8): Encryption protects confidentiality at rest and in
@@ -8000,8 +8129,9 @@ Example application comparison:
   implement confidentiality requirements
 
 ### 4.10: Network security (firewalls, IDS/IPS, VPN, cloud security)
-## Key concepts
+#### Key concepts
 
+##### CRISC All-in-One Exam Guide
 - **Firewall**: Network security device that monitors incoming and outgoing
   traffic and permits or prohibits traffic based on predefined security rules
   - Can be hardware (physical device) or software
@@ -8060,69 +8190,7 @@ Example application comparison:
   - **Community cloud**: Shared among specific business community (e.g.,
     government agencies, hospitals)
 
-## Common scenarios
-
-| Scenario | Correct approach | Why |
-| -------- | ---------------- | --- |
-| Remote employees need secure access to corporate network | Implement VPN with IPSec | Creates encrypted tunnel; IPSec is most secure protocol |
-| Need to detect attacks without affecting throughput | Deploy IDS | Passive monitoring, no throughput impact |
-| Need to block malicious traffic in real time | Deploy IPS | Active inline blocking, accepts throughput trade-off |
-| Cloud migration with compliance requirements | Understand shared responsibility model | Defines provider vs. customer security obligations |
-| Malicious network requests from changing IP patterns | Implement firewall rules and monitor regularly | Attack patterns evolve; rules require periodic review |
-
-## Gotchas
-
-- **IDS vs. IPS confusion**: IDS only detects and alerts (passive); IPS detects
-  and blocks (active). IDS does not affect throughput; IPS reduces throughput
-  because it inspects traffic inline.
-
-- **Firewall classification as control type**: Firewalls are technical/logical
-  controls, not physical controls. They are also preventive controls, not
-  detective controls.
-
-- **IDS as detective control**: IDS is a detective control because it detects
-  security incidents. Firewalls are preventive controls.
-
-- **VPN protocol selection**: IPSec is the most secure VPN protocol. PPTP and
-  L2TP are older and less secure. SSTP uses SSL/TLS but is Windows-only.
-
-- **Cloud shared responsibility**: Customer security responsibilities vary by
-  service model. IaaS customers manage more (OS, applications, data); SaaS
-  customers manage only configuration and access.
-
-- **Community vs. private cloud**: Community cloud shares resources among
-  similar organizations with common concerns; private cloud is dedicated to a
-  single organization.
-
-## Limits and defaults
-
-| Item | Value | Notes |
-| ---- | ----- | ----- |
-| Packet filtering firewall | OSI Layer 3 | Network layer |
-| Circuit-level gateway | OSI Layer 5 | Session layer |
-| Application-level gateway | OSI Layer 7 | Application layer; most secure |
-| Stateful inspection firewall | OSI Layer 3 | Network layer |
-| Next-generation firewall | OSI Layer 7 | Application layer |
-| IDS throughput impact | None | Passive observation |
-| IPS throughput impact | Reduces | Inline inspection required |
-| VPN IPSec | Network layer | Most secure VPN protocol |
-| VPN TLS | Transport layer | Alternative to IPSec |
-
-## Related topics
-
-- **Control types**: Understanding that firewalls are preventive/technical
-  controls and IDS is a detective control is essential for control
-  classification questions
-- **Risk transfer**: Sharing security responsibility with SaaS providers is a
-  form of risk transfer
-- **Third-party risk**: Cloud providers introduce third-party risk requiring
-  TPRM (Third-Party Risk Management) programs
-- **Service-Level Agreements (SLAs)**: Cloud SLAs should include security terms
-  and measures against data loss and downtime
-- **Data protection**: Cloud security considerations include encryption, access
-  controls, and monitoring to protect against data breaches
-## Key concepts (Doshi)
-
+##### Doshi Review Manual
 - **Firewall**: Network security system that monitors and controls incoming and
   outgoing traffic according to defined rules; can be hardware or software
   - Restricts unauthorized access while permitting authorized connections
@@ -8169,8 +8237,18 @@ Example application comparison:
   - Community cloud: shared by specific consumer communities
   - Hybrid cloud: combination of private and public cloud
 
-## Common scenarios (Doshi)
+#### Common scenarios
 
+##### CRISC All-in-One Exam Guide
+| Scenario | Correct approach | Why |
+| -------- | ---------------- | --- |
+| Remote employees need secure access to corporate network | Implement VPN with IPSec | Creates encrypted tunnel; IPSec is most secure protocol |
+| Need to detect attacks without affecting throughput | Deploy IDS | Passive monitoring, no throughput impact |
+| Need to block malicious traffic in real time | Deploy IPS | Active inline blocking, accepts throughput trade-off |
+| Cloud migration with compliance requirements | Understand shared responsibility model | Defines provider vs. customer security obligations |
+| Malicious network requests from changing IP patterns | Implement firewall rules and monitor regularly | Attack patterns evolve; rules require periodic review |
+
+##### Doshi Review Manual
 | Scenario | Correct approach | Why |
 | -------- | ---------------- | --- |
 | Protect network from external attack | Screened subnet firewall (DMZ) | Uses 2 packet filtering routers plus bastion host; prevents direct internal-external connection |
@@ -8180,8 +8258,32 @@ Example application comparison:
 | Verify CSP physical security | Obtain independent audit reports | Policy review alone insufficient; third-party verification required |
 | Secure remote access | Implement VPN with proper configuration | Cost-efficient alternative to dedicated leased lines |
 
-## Gotchas (Doshi)
+#### Gotchas
 
+##### CRISC All-in-One Exam Guide
+- **IDS vs. IPS confusion**: IDS only detects and alerts (passive); IPS detects
+  and blocks (active). IDS does not affect throughput; IPS reduces throughput
+  because it inspects traffic inline.
+
+- **Firewall classification as control type**: Firewalls are technical/logical
+  controls, not physical controls. They are also preventive controls, not
+  detective controls.
+
+- **IDS as detective control**: IDS is a detective control because it detects
+  security incidents. Firewalls are preventive controls.
+
+- **VPN protocol selection**: IPSec is the most secure VPN protocol. PPTP and
+  L2TP are older and less secure. SSTP uses SSL/TLS but is Windows-only.
+
+- **Cloud shared responsibility**: Customer security responsibilities vary by
+  service model. IaaS customers manage more (OS, applications, data); SaaS
+  customers manage only configuration and access.
+
+- **Community vs. private cloud**: Community cloud shares resources among
+  similar organizations with common concerns; private cloud is dedicated to a
+  single organization.
+
+##### Doshi Review Manual
 - **Application vs circuit gateway**: Application gateway controls specific
   applications (HTTP, FTP); circuit gateway controls paths/circuits only
 
@@ -8205,8 +8307,22 @@ Example application comparison:
 - **Private cloud lowest data leakage risk**: Data remains under organizational
   control; public cloud data may coexist with competitor data
 
-## Limits and defaults (Doshi)
+#### Limits and defaults
 
+##### CRISC All-in-One Exam Guide
+| Item | Value | Notes |
+| ---- | ----- | ----- |
+| Packet filtering firewall | OSI Layer 3 | Network layer |
+| Circuit-level gateway | OSI Layer 5 | Session layer |
+| Application-level gateway | OSI Layer 7 | Application layer; most secure |
+| Stateful inspection firewall | OSI Layer 3 | Network layer |
+| Next-generation firewall | OSI Layer 7 | Application layer |
+| IDS throughput impact | None | Passive observation |
+| IPS throughput impact | Reduces | Inline inspection required |
+| VPN IPSec | Network layer | Most secure VPN protocol |
+| VPN TLS | Transport layer | Alternative to IPSec |
+
+##### Doshi Review Manual
 | Item | Value | Notes |
 | ---- | ----- | ----- |
 | Firewall OSI layers | 3 (packet filter, stateful), 5 (circuit), 7 (application) | Higher layer = more functionality |
@@ -8214,8 +8330,22 @@ Example application comparison:
 | VPN encryption modes | Tunnel (full packet), Transport (data only) | Both use IPSec standard |
 | Cloud service models | IaaS, PaaS, SaaS | IaaS = infrastructure; PaaS = platform; SaaS = software |
 
-## Related topics (Doshi)
+#### Related topics
 
+##### CRISC All-in-One Exam Guide
+- **Control types**: Understanding that firewalls are preventive/technical
+  controls and IDS is a detective control is essential for control
+  classification questions
+- **Risk transfer**: Sharing security responsibility with SaaS providers is a
+  form of risk transfer
+- **Third-party risk**: Cloud providers introduce third-party risk requiring
+  TPRM (Third-Party Risk Management) programs
+- **Service-Level Agreements (SLAs)**: Cloud SLAs should include security terms
+  and measures against data loss and downtime
+- **Data protection**: Cloud security considerations include encryption, access
+  controls, and monitoring to protect against data breaches
+
+##### Doshi Review Manual
 - **IDS tuning**: Adjusting sensitivity affects false positive rate; low
   threshold increases false positives; simulated attacks validate tuning
 - **Honey pots**: Decoy systems to attract attackers; capture intruder details
