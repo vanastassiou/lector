@@ -3,10 +3,12 @@
 
 # Source files (don't commit copyrighted content)
 books/*/source.md
+books/*/chapters/
 
 # Keep structure but not content
 !books/.gitkeep
 !experts/.gitkeep
+!certs/.gitkeep
 
 # OS files
 .DS_Store
