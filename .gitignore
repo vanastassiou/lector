@@ -1,0 +1,13 @@
+.config
+.vscode
+
+# Source files (don't commit copyrighted content)
+books/*/source.md
+
+# Keep structure but not content
+!books/.gitkeep
+!experts/.gitkeep
+
+# OS files
+.DS_Store
+Thumbs.db
