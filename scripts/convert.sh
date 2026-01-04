@@ -1,34 +1,34 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # convert.sh - Convert PDF or EPUB to clean markdown
-# Usage: ./scripts/convert.sh <input-file> <book-slug>
 
-set -e
+source "$(dirname "${BASH_SOURCE[0]}")/lib/common.sh"
+source "$SCRIPT_DIR/lib/validate.sh"
+source "$SCRIPT_DIR/lib/json.sh"
 
-INPUT_FILE="$1"
-BOOK_SLUG="$2"
+# Parse flags
+SPLIT_CHAPTERS=false
+while [[ "${1:-}" == --* ]]; do
+    case "$1" in
+        --chapters) SPLIT_CHAPTERS=true; shift ;;
+        *) die "Unknown flag: $1" ;;
+    esac
+done
 
-if [ -z "$INPUT_FILE" ] || [ -z "$BOOK_SLUG" ]; then
-    echo "Usage: ./scripts/convert.sh <input-file> <book-slug>"
-    echo "Example: ./scripts/convert.sh ~/Downloads/deep-work.pdf deep-work"
-    exit 1
-fi
+INPUT_FILE="${1:-}"
+BOOK_SLUG="${2:-}"
 
-if [ ! -f "$INPUT_FILE" ]; then
-    echo "Error: File not found: $INPUT_FILE"
-    exit 1
-fi
+[[ -n "$INPUT_FILE" && -n "$BOOK_SLUG" ]] || usage "[--chapters] <input-file> <book-slug>" \
+    "Example: convert.sh ~/Downloads/deep-work.pdf deep-work"
 
-# Get script directory and project root
-SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-PROJECT_ROOT="$(dirname "$SCRIPT_DIR")"
-BOOK_DIR="$PROJECT_ROOT/books/$BOOK_SLUG"
+require_file "$INPUT_FILE"
+validate_slug "$BOOK_SLUG"
 
-# Create book directory
+BOOK_DIR="$BOOKS_DIR/$BOOK_SLUG"
 mkdir -p "$BOOK_DIR"
 
-# Detect file type
+# Detect and convert
 EXT="${INPUT_FILE##*.}"
-EXT_LOWER=$(echo "$EXT" | tr '[:upper:]' '[:lower:]')
+EXT_LOWER="${EXT,,}"
 
 echo "Processing: $INPUT_FILE"
 echo "Output: $BOOK_DIR/source.md"
@@ -36,11 +36,9 @@ echo "Output: $BOOK_DIR/source.md"
 case "$EXT_LOWER" in
     pdf)
         echo "Detected PDF format"
-        # Try pandoc first (works well for text-based PDFs)
         if pandoc "$INPUT_FILE" -o "$BOOK_DIR/source.md" 2>/dev/null; then
             echo "Converted with pandoc"
         else
-            # Fallback to pdftotext for problematic PDFs
             echo "Pandoc failed, trying pdftotext..."
             pdftotext -layout "$INPUT_FILE" "$BOOK_DIR/source.txt"
             mv "$BOOK_DIR/source.txt" "$BOOK_DIR/source.md"
@@ -53,9 +51,7 @@ case "$EXT_LOWER" in
         echo "Converted with pandoc"
         ;;
     *)
-        echo "Error: Unsupported format: $EXT"
-        echo "Supported formats: PDF, EPUB"
-        exit 1
+        die "Unsupported format: $EXT (supported: PDF, EPUB)"
         ;;
 esac
 
@@ -71,14 +67,54 @@ cat > "$BOOK_DIR/metadata.json" << EOF
 }
 EOF
 
-# Count output
-LINES=$(wc -l < "$BOOK_DIR/source.md")
-WORDS=$(wc -w < "$BOOK_DIR/source.md")
-
+# Report
+WORDS=$(word_count "$BOOK_DIR/source.md")
 echo ""
-echo "Done! Created:"
-echo "  $BOOK_DIR/source.md ($LINES lines, $WORDS words)"
+echo "Created:"
+echo "  $BOOK_DIR/source.md ($WORDS words)"
 echo "  $BOOK_DIR/metadata.json"
+
+# Split into chapters if requested
+if [[ "$SPLIT_CHAPTERS" == true ]]; then
+    echo ""
+    echo "Splitting into chapters..."
+
+    CHAPTERS_DIR="$BOOK_DIR/chapters"
+    mkdir -p "$CHAPTERS_DIR"
+
+    awk '
+    BEGIN { chapter_num = 0; chapter_titles[0] = "Front Matter" }
+    /^#* *(Chapter|CHAPTER) +[0-9IVXivx]+/ ||
+    /^#* *[0-9]+\.? +(Chapter|Introduction|Conclusion)/ ||
+    /^#+ +[0-9]+\.? +[A-Z]/ {
+        chapter_num++
+        current_file = sprintf("'"$CHAPTERS_DIR"'/ch%02d.md", chapter_num)
+        title = $0
+        gsub(/^#+ */, "", title)
+        gsub(/^(Chapter|CHAPTER) +[0-9IVXivx]+:? */, "", title)
+        gsub(/^[0-9]+\.? */, "", title)
+        chapter_titles[chapter_num] = title
+    }
+    {
+        if (chapter_num == 0) print > "'"$CHAPTERS_DIR"'/ch00.md"
+        else print > current_file
+    }
+    END {
+        print chapter_num > "'"$BOOK_DIR"'/.chapter_count"
+        printf "{\"chapters\": [" > "'"$BOOK_DIR"'/toc.json"
+        for (i = 0; i <= chapter_num; i++) {
+            if (i > 0) printf ", " >> "'"$BOOK_DIR"'/toc.json"
+            printf "{\"number\": %d, \"file\": \"ch%02d.md\", \"title\": \"%s\"}", i, i, chapter_titles[i] >> "'"$BOOK_DIR"'/toc.json"
+        }
+        printf "]}\n" >> "'"$BOOK_DIR"'/toc.json"
+    }
+    ' "$BOOK_DIR/source.md"
+
+    CHAPTER_COUNT=0
+    [[ -f "$BOOK_DIR/.chapter_count" ]] && { CHAPTER_COUNT=$(cat "$BOOK_DIR/.chapter_count"); rm "$BOOK_DIR/.chapter_count"; }
+    echo "  $CHAPTERS_DIR/ ($CHAPTER_COUNT chapters)"
+fi
+
 echo ""
 echo "Next steps:"
 echo "  1. Edit metadata.json to add title and author"

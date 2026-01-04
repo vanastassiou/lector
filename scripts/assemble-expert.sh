@@ -1,44 +1,39 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # assemble-expert.sh - Combine book summaries into a domain expert context
-# Usage: ./scripts/assemble-expert.sh <domain>
 
-set -e
+source "$(dirname "${BASH_SOURCE[0]}")/lib/common.sh"
+source "$SCRIPT_DIR/lib/validate.sh"
+source "$SCRIPT_DIR/lib/json.sh"
 
-DOMAIN="$1"
+DOMAIN="${1:-}"
 
-if [ -z "$DOMAIN" ]; then
-    echo "Usage: ./scripts/assemble-expert.sh <domain>"
+if [[ -z "$DOMAIN" ]]; then
+    echo "Usage: assemble-expert.sh <domain>"
     echo ""
     echo "Available domains:"
-    grep -h '"domains"' books/*/metadata.json 2>/dev/null | \
+    grep -h '"domains"' "$BOOKS_DIR"/*/metadata.json 2>/dev/null | \
         sed 's/.*\[//;s/\].*//;s/"//g;s/,/\n/g' | \
         sort -u | sed 's/^/  /'
     exit 1
 fi
 
-SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-PROJECT_ROOT="$(dirname "$SCRIPT_DIR")"
-EXPERT_DIR="$PROJECT_ROOT/experts/$DOMAIN"
-
+EXPERT_DIR="$EXPERTS_DIR/$DOMAIN"
 mkdir -p "$EXPERT_DIR"
 
-# Find all books with this domain
+# Find books with this domain
 BOOKS=()
-for meta in "$PROJECT_ROOT"/books/*/metadata.json; do
+for meta in "$BOOKS_DIR"/*/metadata.json; do
     if grep -q "\"$DOMAIN\"" "$meta" 2>/dev/null; then
         BOOKS+=("$(dirname "$meta")")
     fi
 done
 
-if [ ${#BOOKS[@]} -eq 0 ]; then
-    echo "No books found with domain: $DOMAIN"
-    exit 1
-fi
+[[ ${#BOOKS[@]} -gt 0 ]] || die "No books found with domain: $DOMAIN"
 
 echo "Assembling expert for: $DOMAIN"
 echo "Found ${#BOOKS[@]} books:"
 
-# Build the context file
+# Build context file
 cat > "$EXPERT_DIR/context.md" << EOF
 # $DOMAIN Expert Knowledge Base
 
@@ -57,60 +52,42 @@ for book_dir in "${BOOKS[@]}"; do
     slug=$(basename "$book_dir")
     summary="$book_dir/summary.md"
     meta="$book_dir/metadata.json"
-    
-    if [ ! -f "$summary" ]; then
-        echo "  ⚠ $slug: no summary.md (skipping)"
+
+    if [[ ! -f "$summary" ]]; then
+        warn "$slug: no summary.md (skipping)"
         continue
     fi
-    
-    # Get title from metadata or use slug
-    if command -v jq &> /dev/null; then
-        title=$(jq -r '.title // empty' "$meta")
-        author=$(jq -r '.author // empty' "$meta")
-    else
-        title=$(python3 -c "import json; print(json.load(open('$meta')).get('title', ''))" 2>/dev/null || echo "")
-        author=$(python3 -c "import json; print(json.load(open('$meta')).get('author', ''))" 2>/dev/null || echo "")
-    fi
-    
-    [ -z "$title" ] && title="$slug"
-    
-    echo "  ✓ $slug"
-    
+
+    title=$(json_get "$meta" ".title" "$slug")
+    author=$(json_get "$meta" ".author")
+
+    echo "  + $slug"
+
     # Add to context
-    echo "" >> "$EXPERT_DIR/context.md"
-    echo "## From: $title" >> "$EXPERT_DIR/context.md"
-    [ -n "$author" ] && echo "*by $author*" >> "$EXPERT_DIR/context.md"
-    echo "" >> "$EXPERT_DIR/context.md"
-    cat "$summary" >> "$EXPERT_DIR/context.md"
-    echo "" >> "$EXPERT_DIR/context.md"
-    echo "---" >> "$EXPERT_DIR/context.md"
-    
+    {
+        echo ""
+        echo "## From: $title"
+        [[ -n "$author" ]] && echo "*by $author*"
+        echo ""
+        cat "$summary"
+        echo ""
+        echo "---"
+    } >> "$EXPERT_DIR/context.md"
+
     # Add to sources
-    if [ "$FIRST" = true ]; then
-        FIRST=false
-    else
-        echo "," >> "$EXPERT_DIR/sources.json"
-    fi
+    [[ "$FIRST" == true ]] && FIRST=false || echo "," >> "$EXPERT_DIR/sources.json"
     echo "  {\"slug\": \"$slug\", \"title\": \"$title\", \"author\": \"$author\"}" >> "$EXPERT_DIR/sources.json"
 done
 
 echo "]" >> "$EXPERT_DIR/sources.json"
 
-# Report size
-WORDS=$(wc -w < "$EXPERT_DIR/context.md")
-TOKENS_EST=$((WORDS * 4 / 3))  # Rough token estimate
-
+# Report
 echo ""
 echo "Created: $EXPERT_DIR/context.md"
-echo "Size: ~$WORDS words (~$TOKENS_EST tokens estimated)"
-echo ""
+WORDS=$(word_count "$EXPERT_DIR/context.md")
+echo "Size: ~$WORDS words (~$(estimate_tokens "$EXPERT_DIR/context.md") tokens)"
 
-if [ "$TOKENS_EST" -gt 150000 ]; then
-    echo "⚠ Warning: Context exceeds typical Project limits (~150K tokens)"
-    echo "  Consider splitting into sub-domains or pruning summaries"
-elif [ "$TOKENS_EST" -gt 100000 ]; then
-    echo "ℹ Note: Large context. Will fit in Projects but leaves less room for conversation."
-fi
+check_context_size "$EXPERT_DIR/context.md"
 
 echo ""
 echo "To use:"

@@ -1,51 +1,33 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # tag.sh - Add domain tags to a book
-# Usage: ./scripts/tag.sh <book-slug> "domain1,domain2"
 
-set -e
+source "$(dirname "${BASH_SOURCE[0]}")/lib/common.sh"
+source "$SCRIPT_DIR/lib/validate.sh"
+source "$SCRIPT_DIR/lib/json.sh"
 
-BOOK_SLUG="$1"
-DOMAINS="$2"
+BOOK_SLUG="${1:-}"
+DOMAINS="${2:-}"
 
-if [ -z "$BOOK_SLUG" ] || [ -z "$DOMAINS" ]; then
-    echo "Usage: ./scripts/tag.sh <book-slug> \"domain1,domain2\""
-    echo "Example: ./scripts/tag.sh deep-work \"productivity,focus\""
-    exit 1
-fi
+[[ -n "$BOOK_SLUG" && -n "$DOMAINS" ]] || usage "<book-slug> \"domain1,domain2\"" \
+    "Example: tag.sh deep-work \"productivity,focus\""
 
-SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-PROJECT_ROOT="$(dirname "$SCRIPT_DIR")"
-METADATA="$PROJECT_ROOT/books/$BOOK_SLUG/metadata.json"
+require_book_dir "$BOOK_SLUG"
 
-if [ ! -f "$METADATA" ]; then
-    echo "Error: No metadata.json found for '$BOOK_SLUG'"
-    exit 1
-fi
+METADATA="$BOOKS_DIR/$BOOK_SLUG/metadata.json"
+require_file "$METADATA"
 
 # Convert comma-separated to JSON array
 DOMAINS_JSON=$(echo "$DOMAINS" | tr ',' '\n' | sed 's/^/"/;s/$/"/' | tr '\n' ',' | sed 's/,$//' | sed 's/^/[/;s/$/]/')
 
-# Update metadata using jq if available, otherwise Python
-if command -v jq &> /dev/null; then
-    jq ".domains = $DOMAINS_JSON" "$METADATA" > "$METADATA.tmp" && mv "$METADATA.tmp" "$METADATA"
-else
-    python3 -c "
-import json
-with open('$METADATA', 'r') as f:
-    data = json.load(f)
-data['domains'] = $DOMAINS_JSON
-with open('$METADATA', 'w') as f:
-    json.dump(data, f, indent=2)
-"
-fi
+json_set "$METADATA" ".domains" "$DOMAINS_JSON"
 
 echo "Tagged '$BOOK_SLUG' with domains: $DOMAINS"
 echo ""
 echo "Current books by domain:"
-for domain in $(echo "$DOMAINS" | tr ',' ' '); do
+for domain in ${DOMAINS//,/ }; do
     echo "  $domain:"
-    grep -l "\"$domain\"" "$PROJECT_ROOT/books"/*/metadata.json 2>/dev/null | while read f; do
-        slug=$(dirname "$f" | xargs basename)
+    grep -l "\"$domain\"" "$BOOKS_DIR"/*/metadata.json 2>/dev/null | while read -r f; do
+        slug=$(basename "$(dirname "$f")")
         echo "    - $slug"
     done
 done
