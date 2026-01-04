@@ -1,0 +1,18 @@
+{
+  "slug": "doshi-crisc-study",
+  "source_file": "CRISC Exam Study Guide _ Aligne - Hemang Doshi.pdf",
+  "converted_at": "2026-01-04T11:13:11-08:00",
+  "domains": [
+    "risk-management",
+    "governance",
+    "information-security",
+    "compliance"
+  ],
+  "title": "CRISC Exam Study Guide : Aligned with latest CRISC Review Manual (2021)",
+  "author": "Hemang Doshi",
+  "certifications": {
+    "crisc": {
+      "objectives": "all"
+    }
+  }
+}

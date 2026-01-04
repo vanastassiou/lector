@@ -3,6 +3,10 @@
     {
       "slug": "isaca-crisc",
       "objectives": "all"
+    },
+    {
+      "slug": "doshi-crisc-study",
+      "objectives": "all"
     }
   ]
 }

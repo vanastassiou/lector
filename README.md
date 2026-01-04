@@ -115,14 +115,16 @@ flowchart TD
         F --> G[summary.md]
         G --> H[map-book.sh]
         H --> I[sources.json]
-        I --> J[extract-objective.sh]
-        J --> K[objectives/*.md]
+        I --> J[summarize-cert.sh]
+        J --> K[cert-summaries/*.md]
+        K --> L[extract-objective.sh]
+        L --> M[objectives/*.md]
     end
 
     subgraph Assemble
-        B --> L[assemble-cert.sh]
-        K --> L
-        L --> M[study-guide.md]
+        B --> N[assemble-cert.sh]
+        M --> N
+        N --> O[study-guide.md]
     end
 ```
 
@@ -141,6 +143,11 @@ $EDITOR certs/aws-saa/objectives.yaml
 
 ./scripts/summarize.sh aws-saa-guide
 ./scripts/map-book.sh aws-saa-guide aws-saa
+
+# Generate cert-aligned summary with coverage matrix
+./scripts/summarize-cert.sh aws-saa-guide aws-saa
+
+# Deep dive on specific objectives (optional, for weak areas)
 ./scripts/extract-objective.sh aws-saa-guide aws-saa 1.1
 ```
 
