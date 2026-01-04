@@ -1,0 +1,15 @@
+{
+  "slug": "isaca-crisc",
+  "source_file": "ISACA-CRISC.epub",
+  "converted_at": "2026-01-04T01:41:31-08:00",
+  "domains": [
+    "risk-management"
+  ],
+  "title": "ISACA Certified in Risk and Information Systems Control (CRISC®) Exam Guide",
+  "author": "Shobhit Mehta",
+  "certifications": {
+    "crisc": {
+      "objectives": "all"
+    }
+  }
+}

@@ -1,0 +1,64 @@
+# Certified in Risk and Information Systems Control (CRISC)
+# Updated for November 2025 exam revision
+# Source: ISACA CRISC Exam Content Outline
+
+name: "Certified in Risk and Information Systems Control"
+code: "CRISC"
+domains:
+  - id: "1"
+    name: "Governance"
+    weight: 26
+    objectives:
+      - "1.1 Collect and review information about business and IT environments"
+      - "1.2 Identify potential or realized impacts of IT risk on business objectives"
+      - "1.3 Identify threats and vulnerabilities to people, processes, and technology"
+      - "1.4 Evaluate threats, vulnerabilities, and risk to identify IT risk scenarios"
+      - "1.5 Establish and maintain IT risk register integrated with enterprise risk profile"
+      - "1.6 Facilitate identification of risk appetite and tolerance by key stakeholders"
+      - "1.7 Promote a risk-aware culture aligned with enterprise risk management"
+
+  - id: "2"
+    name: "Risk Assessment"
+    weight: 22
+    objectives:
+      - "2.1 Collect and analyze documentation about internal and external environments"
+      - "2.2 Identify potential risks and vulnerabilities affecting organization"
+      - "2.3 Develop IT risk scenarios based on available data"
+      - "2.4 Identify key stakeholders for IT risk scenarios to establish accountability"
+      - "2.5 Create and maintain IT risk register with recognized risk scenarios"
+      - "2.6 Determine risk appetite and tolerance aligned with business objectives"
+      - "2.7 Collaborate on risk awareness program and training for stakeholders"
+
+  - id: "3"
+    name: "Risk Response and Reporting"
+    weight: 32
+    objectives:
+      - "3.1 Consult with risk owners to align risk responses with organizational objectives"
+      - "3.2 Assist risk owners in developing risk action plans"
+      - "3.3 Advise on design and deployment of mitigating controls"
+      - "3.4 Establish accountability by assigning control ownership"
+      - "3.5 Support control owners in establishing procedures and documentation"
+      - "3.6 Update risk register to reflect changes in risk profile"
+      - "3.7 Verify risk responses executed per approved action plans"
+      - "3.8 Establish Key Risk Indicators (KRIs) and thresholds for monitoring"
+      - "3.9 Monitor and assess KRIs to detect IT risk profile shifts"
+      - "3.10 Report IT risk profile changes and trends to management"
+      - "3.11 Facilitate identification of KPIs for control performance assessment"
+      - "3.12 Monitor and evaluate KPIs to measure control efficiency"
+      - "3.13 Review control assessment findings for effectiveness"
+      - "3.14 Report on risk profile, control performance, and trends to stakeholders"
+
+  - id: "4"
+    name: "Information Technology and Security"
+    weight: 20
+    objectives:
+      - "4.1 Enterprise architecture and IT operations management"
+      - "4.2 Project and program management principles"
+      - "4.3 Disaster recovery and business continuity management"
+      - "4.4 Data lifecycle management and data protection"
+      - "4.5 System development life cycle (SDLC) and change management"
+      - "4.6 Emerging technologies (AI/LLM, quantum computing, Zero Trust)"
+      - "4.7 Information security frameworks and standards"
+      - "4.8 Security awareness training programs"
+      - "4.9 Authentication, encryption, and access control principles"
+      - "4.10 Network security (firewalls, IDS/IPS, VPN, cloud security)"
