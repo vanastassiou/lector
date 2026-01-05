@@ -1,0 +1,13 @@
+{
+  "certification": "iapp-cippc",
+  "books": [
+    {
+      "slug": "iapp-cippc-free-study-guide",
+      "objectives": "all"
+    },
+    {
+      "slug": "iapp-cippc-bok",
+      "objectives": "all"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+# Certified Information Privacy Professional/Canada (CIPP/C)
+# Version 3.0.2, effective 2024-01-22; updated 2025-2026 effective 2025-09-01
+# Source: IAPP CIPP/C Body of Knowledge and Exam Blueprint
+
+name: "Certified Information Privacy Professional/Canada"
+code: "CIPP/C"
+domains:
+  - id: "1"
+    name: "Introduction to Privacy in Canada"
+    weight: 28
+    objectives:
+      - "1.1 Understand the Canadian governmental structure and its relationship to privacy"
+      - "1.2 Apply concepts and development of fair information practices (FIPPs)"
+      - "1.3 Know the OECD Guidelines on the Protection of Privacy and their eight principles"
+      - "1.4 Understand the CSA Model Code for the Protection of Personal Information"
+      - "1.5 Identify differences between privacy and data protection frameworks"
+      - "1.6 Understand Generally Accepted Privacy Principles (GAPP)"
+      - "1.7 Know the role and powers of the Office of the Privacy Commissioner of Canada (OPC)"
+      - "1.8 Understand the complaint and investigation process for privacy breaches"
+      - "1.9 Know recent legal developments and court decisions affecting privacy law"
+      - "1.10 Understand significance of court and commissioner rulings on privacy law interpretation"
+      - "1.11 Understand common governance principles for responsible AI (OECD AI Principles, NIST AI RMF)"
+      - "1.12 Know international privacy standards and when to apply them"
+
+  - id: "2"
+    name: "Canadian Privacy Laws and Practices - Private Sector"
+    weight: 19
+    objectives:
+      - "2.1 Know the privacy principles that are the foundation of PIPEDA"
+      - "2.2 Understand the scope of application of PIPEDA and substantially similar laws"
+      - "2.3 Know which private sector industries fall under federal vs provincial laws"
+      - "2.4 Understand what is and is not a commercial activity"
+      - "2.5 Know that accountability remains with the organization including when using third parties"
+      - "2.6 Identify roles and responsibilities of stakeholders in compliance efforts"
+      - "2.7 Identify the purposes for collecting personal information"
+      - "2.8 Acquire meaningful and valid consent (reasonableness, opt-out mechanisms, new purposes)"
+      - "2.9 Recognize when consent requirements may have exceptions"
+      - "2.10 Adhere to rules for collection, use, disclosure, retention, and deletion"
+      - "2.11 Maintain openness in policies concerning personal information collection"
+      - "2.12 Respond to individuals seeking access to personal information"
+      - "2.13 Understand identity verification protocols for access requests"
+      - "2.14 Safeguard personal information (standards, controls, PETs, cybersecurity)"
+      - "2.15 Understand data breach notification procedures and requirements"
+      - "2.16 Know transborder data flow regulations and requirements"
+      - "2.17 Understand Canada's Anti-Spam Legislation (CASL)"
+      - "2.18 Understand CASL penalties for non-compliance"
+      - "2.19 Know provincial private sector laws (Alberta PIPA, BC PIPA, Quebec Law 25)"
+
+  - id: "3"
+    name: "Canadian Privacy Laws and Practices - Public Sector"
+    weight: 12
+    objectives:
+      - "3.1 Know the privacy principles that are the foundation of the Privacy Act"
+      - "3.2 Understand the scope and application of the Privacy Act"
+      - "3.3 Know how PIPEDA and Privacy Act differ in scope and enforcement"
+      - "3.4 Understand consent expectations for collection, use, and disclosure"
+      - "3.5 Recognize when collection, use, or disclosure is permitted without consent"
+      - "3.6 Understand the individual's right of access to their personal information"
+      - "3.7 Understand the individual's right of correction to their personal information"
+      - "3.8 Follow storage, retention, and destruction requirements"
+      - "3.9 Understand how and when to complete a Privacy Impact Assessment (PIA)"
+      - "3.10 Know required contents of a PIA report"
+      - "3.11 Know provincial and territorial public sector privacy legislation"
+
+  - id: "4"
+    name: "Canadian Privacy Laws and Practices - Health Sector"
+    weight: 11
+    objectives:
+      - "4.1 Know what defines personal health information (PHI)"
+      - "4.2 Understand Ontario's Personal Health Information Protection Act (PHIPA)"
+      - "4.3 Know health privacy laws across provinces and territories"
+      - "4.4 Understand consent requirements specific to health sector"
+      - "4.5 Apply collection, use, and disclosure rules for PHI"
+      - "4.6 Understand electronic health record security requirements"
+      - "4.7 Know the Genetic Non-Discrimination Act and its implications"
+      - "4.8 Apply health-sector-specific breach notification protocols"
+      - "4.9 Identify differences between health sector and general privacy requirements"
